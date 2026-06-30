@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreudGPT - Thinker's Workshop</title>
+    <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon-32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicon-16.png') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" sizes="any">
+    <link rel="apple-touch-icon" href="{{ url_for('static', filename='apple-touch-icon.png') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Crimson+Pro:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=20260618d">
+</head>
+<body>
+    <div class="workshop-container">
+        <header class="workshop-header">
+            <div class="header-brand">
+                <div class="brand-icon">📜</div>
+                <div class="brand-text">
+                    <h1>FreudGPT</h1>
+                    <span class="tagline">The Thinker's Workshop</span>
+                </div>
+            </div>
+            <div class="related-thinkers">
+                <span class="related-label">Related Thinkers</span>
+                <div class="related-avatars">
+                    <button class="avatar-btn related-avatar" data-db="hume" title="David Hume">
+                        <div class="avatar-image hume-avatar">🎩</div>
+                        <span class="avatar-name">Hume</span>
+                        <span class="avatar-count" id="hume-count-header">799</span>
+                    </button>
+                    <button class="avatar-btn related-avatar" data-db="nietzsche" title="Friedrich Nietzsche">
+                        <div class="avatar-image nietzsche-avatar">⚡</div>
+                        <span class="avatar-name">Nietzsche</span>
+                        <span class="avatar-count" id="nietzsche-count-header">1,261</span>
+                    </button>
+                    <button class="avatar-btn related-avatar" data-db="bergler" title="Edmund Bergler">
+                        <div class="avatar-image bergler-avatar">🧠</div>
+                        <span class="avatar-name">Bergler</span>
+                        <span class="avatar-count" id="bergler-count-header">107</span>
+                    </button>
+                </div>
+                <button id="what-to-ask-btn-header" class="what-to-ask-btn related-wta" title="Discover topics and questions">
+                    <span class="wta-icon">💡</span>
+                </button>
+            </div>
+            <div class="header-actions">
+                <button id="diagnostic-btn" class="btn-header btn-diagnostic" title="Run system & functional diagnostic">
+                    <span class="icon">🩺</span>
+                    <span class="btn-label">Diagnostic</span>
+                </button>
+                <button id="longform-btn" class="btn-header" title="Generate Long-form (skeleton-coherent)">
+                    <span class="icon">📚</span>
+                    <span class="btn-label">Longform</span>
+                </button>
+                <button id="download-chat-btn" class="btn-header" title="Download Chat">
+                    <span class="icon">📥</span>
+                    <span class="btn-label">Download</span>
+                </button>
+                <button id="clear-chat-btn" class="btn-header" title="Clear Chat">
+                    <span class="icon">🗑️</span>
+                    <span class="btn-label">Clear</span>
+                </button>
+                <div id="user-status" class="user-status"></div>
+            </div>
+        </header>
+
+        <div id="login-modal" class="modal" style="display: none;">
+            <div class="modal-content scholarly-modal">
+                <div class="modal-header">
+                    <span class="modal-icon">🔑</span>
+                    <h2>Enter the Workshop</h2>
+                </div>
+                <p class="note">Login is optional. It lets you save chat history (coming soon).</p>
+                <a href="/google_login" id="google-login-btn" class="btn-google">
+                    <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path fill="#4285F4" d="M17.64 9.2c0-.64-.06-1.25-.16-1.84H9v3.48h4.84a4.14 4.14 0 0 1-1.8 2.72v2.26h2.92c1.7-1.57 2.68-3.88 2.68-6.62z"/><path fill="#34A853" d="M9 18c2.43 0 4.47-.8 5.96-2.18l-2.92-2.26c-.8.54-1.84.86-3.04.86-2.34 0-4.32-1.58-5.03-3.7H.96v2.33A9 9 0 0 0 9 18z"/><path fill="#FBBC05" d="M3.97 10.72A5.4 5.4 0 0 1 3.68 9c0-.6.1-1.18.29-1.72V4.95H.96A9 9 0 0 0 0 9c0 1.45.35 2.82.96 4.05l3.01-2.33z"/><path fill="#EA4335" d="M9 3.58c1.32 0 2.5.45 3.44 1.35l2.58-2.59C13.46.89 11.43 0 9 0A9 9 0 0 0 .96 4.95l3.01 2.33C4.68 5.16 6.66 3.58 9 3.58z"/></svg>
+                    Continue with Google
+                </a>
+                <div class="login-divider"><span>or</span></div>
+                <input type="text" id="username-input" placeholder="Your name, scholar..." class="scholarly-input">
+                <div class="modal-actions">
+                    <button id="login-submit-btn" class="btn-primary scholarly-btn">Enter</button>
+                    <button id="login-cancel-btn" class="btn-secondary">Perhaps Later</button>
+                </div>
+            </div>
+        </div>
+
+        <main class="workshop-main">
+            <div class="dual-panel-container">
+                <div class="panel-dialogue" id="dialogue-panel">
+                    <div class="panel-header">
+                        <span class="panel-icon">💬</span>
+                        <h2>The Dialogue</h2>
+                    </div>
+                    <div id="messages" class="dialogue-content"></div>
+                </div>
+
+                <div class="panel-resize-handle" id="panel-resize-handle" title="Drag to resize panels"></div>
+
+                <div class="panel-archive" id="archive-panel">
+                    <div class="panel-header">
+                        <span class="panel-icon">📚</span>
+                        <h2>The Archive</h2>
+                        <div class="archive-font-control">
+                            <button id="archive-font-down" class="font-btn" title="Smaller">A-</button>
+                            <span id="archive-font-size">100%</span>
+                            <button id="archive-font-up" class="font-btn" title="Larger">A+</button>
+                        </div>
+                        <button id="toggle-archive-btn" class="btn-collapse-archive" title="Collapse Archive">◀</button>
+                    </div>
+                    <div id="sources-display" class="archive-content">
+                        <div class="archive-placeholder">
+                            <div class="placeholder-icon">📖</div>
+                            <p>Source texts will appear here as the thinker responds...</p>
+                            <p class="placeholder-hint">Watch the original passages that inform each answer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-resize-handle" id="input-resize-handle" title="Drag to resize input area">
+                <span class="resize-grip">⋯</span>
+            </div>
+
+            <div class="input-section" id="input-section">
+                <div class="controls-bar" id="controls-bar">
+                    <div class="thinker-selector">
+                        <div class="thinker-avatars">
+                            <button class="avatar-btn active" data-db="freud" title="Sigmund Freud">
+                                <div class="avatar-image freud-avatar">👴</div>
+                                <span class="avatar-name">Freud</span>
+                                <span class="avatar-count" id="freud-count">9,437</span>
+                            </button>
+                            <button class="avatar-btn" data-db="kuczynski" title="J.-M. Kuczynski (ZHI)">
+                                <div class="avatar-image zhi-avatar">🤓</div>
+                                <span class="avatar-name">ZHI</span>
+                                <span class="avatar-count" id="zhi-count">11,217</span>
+                            </button>
+                            <button class="avatar-btn" data-db="jung" title="Carl Jung">
+                                <div class="avatar-image jung-avatar">🧔</div>
+                                <span class="avatar-name">Jung</span>
+                                <span class="avatar-count" id="jung-count">2,929</span>
+                            </button>
+                        </div>
+                        <button id="what-to-ask-btn" class="what-to-ask-btn" title="Discover topics and questions">
+                            <span class="wta-icon">💡</span>
+                            <span class="wta-text">What to Ask?</span>
+                        </button>
+                    </div>
+
+                    <div class="provider-selector">
+                        <select id="provider-select" class="scholarly-select">
+                            <option value="">Loading...</option>
+                        </select>
+                        <select id="model-select" class="scholarly-select">
+                            <option value="">Default</option>
+                        </select>
+                    </div>
+
+                    <div class="settings-controls">
+                        <div class="scroll-control">
+                            <label>Answer Length</label>
+                            <div class="scroll-slider-container">
+                                <input type="range" id="answer-length" min="100" max="2500" value="100" step="50" class="scroll-slider">
+                                <span id="answer-length-value" class="slider-value">100</span>
+                            </div>
+                        </div>
+                        <div class="quill-control">
+                            <label>Quotes</label>
+                            <div class="quill-container">
+                                <input type="range" id="quote-count" min="1" max="50" value="5" step="1" class="quill-slider">
+                                <span id="quote-count-value" class="slider-value">5</span>
+                            </div>
+                        </div>
+                        <div class="scroll-control" title="How much creative liberty the thinker takes. 1 = conservative, source-faithful book report. 20 = maximum creative force, still aligned with the thinker's mind but taking maximum liberties.">
+                            <label>Creativity</label>
+                            <div class="scroll-slider-container">
+                                <input type="range" id="creativity-level" min="1" max="20" value="10" step="1" class="scroll-slider">
+                                <span id="creativity-level-value" class="slider-value">10</span>
+                            </div>
+                        </div>
+                        <div class="enhanced-toggle">
+                            <label class="spark-toggle">
+                                <input type="checkbox" id="knowledge-panel-toggle" checked>
+                                <span class="spark-switch"></span>
+                                <span class="spark-label">Popups</span>
+                            </label>
+                        </div>
+                        <div class="response-mode-control">
+                            <label>Mode</label>
+                            <select id="response-mode-select" class="scholarly-select compact-select">
+                                <option value="standard">Standard</option>
+                                <option value="dialogue">Dialogue</option>
+                                <option value="conversation">Conversation</option>
+                            </select>
+                        </div>
+                        <div class="enhanced-toggle" id="elevenlabs-toggle-wrap" title="Format the dialogue output for ElevenLabs Studio (Speaker 1 / Speaker 2). Best used with Dialogue or Conversation mode.">
+                            <label class="spark-toggle">
+                                <input type="checkbox" id="elevenlabs-mode-toggle">
+                                <span class="spark-switch"></span>
+                                <span class="spark-label">🎙️ ElevenLabs-Ready Output</span>
+                            </label>
+                        </div>
+                        <div class="data-source-control">
+                            <label>Data</label>
+                            <select id="data-source-select" class="scholarly-select compact-select">
+                                <option value="classic">Classic</option>
+                                <option value="newdb">New DB</option>
+                                <option value="combined">Combined</option>
+                            </select>
+                        </div>
+                        <div class="font-size-control">
+                            <label>🔤 Text Size</label>
+                            <div class="font-slider-container">
+                                <input type="range" id="font-size-slider" min="60" max="250" value="100" step="10" class="font-slider">
+                                <span id="font-size-value" class="slider-value">100%</span>
+                            </div>
+                        </div>
+                        <div class="enhanced-toggle">
+                            <label class="spark-toggle memory-toggle">
+                                <input type="checkbox" id="memory-mode-toggle" checked>
+                                <span class="spark-switch memory-switch"></span>
+                                <span class="spark-label">Memory</span>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="memory-bar" class="memory-bar" style="display:none;">
+                    <div class="memory-bar-inner">
+                        <button id="new-session-btn" class="btn-new-chat" title="Start a brand-new chat (clears the current conversation)">✚ New Chat</button>
+                        <span class="memory-bar-divider">|</span>
+                        <span class="memory-bar-label">🧠 Memory</span>
+                        <select id="memory-project-select" class="scholarly-select compact-select" title="Projects group related chats together and share a memory tree">
+                            <option value="">Project...</option>
+                        </select>
+                        <button id="new-project-btn" class="btn-mini" title="New Project">+</button>
+                        <button id="delete-project-btn" class="btn-mini btn-danger" title="Delete project">×</button>
+                        <span class="memory-bar-divider">|</span>
+                        <select id="memory-session-select" class="scholarly-select compact-select" title="Switch between chats in this project">
+                            <option value="">Chat...</option>
+                        </select>
+                        <button id="rename-session-btn" class="btn-mini" title="Rename this chat">✎</button>
+                        <button id="delete-session-btn" class="btn-mini btn-danger" title="Delete this chat">×</button>
+                        <span class="memory-bar-divider">|</span>
+                        <button id="view-tractatus-btn" class="btn-mini btn-tractatus" title="View Memory Tree">🌳 Tree</button>
+                    </div>
+                </div>
+
+                <div class="compose-area">
+                    <div class="compose-container">
+                        <textarea 
+                            id="user-input" 
+                            placeholder="Pose your question to the thinker..."
+                            rows="4"
+                        ></textarea>
+                        <div class="compose-actions">
+                            <button id="upload-btn" class="btn-compose" title="Upload Document">
+                                <span class="icon">📎</span>
+                            </button>
+                            <button id="submit-btn" class="btn-submit">
+                                <span class="btn-text">Consult</span>
+                                <span class="btn-icon">→</span>
+                            </button>
+                        </div>
+                    </div>
+                    <input type="file" id="file-input" accept=".pdf,.doc,.docx,.txt" hidden>
+                </div>
+                <footer class="workshop-footer">
+                    <div class="footer-content">
+                        <button id="download-dialogue-btn" class="download-dialogue-btn">
+                            <span class="download-icon">📥</span>
+                            <span class="download-text">Download Complete Dialogue</span>
+                        </button>
+                        <span class="footer-icon">⚗️</span>
+                        <p id="footer-stats">Loading philosophical positions...</p>
+                        <span class="footer-sep">•</span>
+                        <a href="mailto:ZHI@ZHISYSTEMS.ORG" class="footer-contact" title="Contact us">✉️ Contact Us</a>
+                    </div>
+                </footer>
+            </div>
+        </main>
+
+        <div id="topics-modal" class="topics-modal" style="display: none;">
+            <div class="topics-modal-content">
+                <div class="topics-modal-header">
+                    <div class="topics-header-info">
+                        <span class="topics-icon">💡</span>
+                        <div class="topics-header-text">
+                            <h2>What to Ask <span id="topics-thinker-name">ZHI</span></h2>
+                            <p class="topics-subtitle">Click a topic or question to start a conversation</p>
+                        </div>
+                    </div>
+                    <button id="close-topics-modal" class="topics-close" title="Close">×</button>
+                </div>
+                <div class="topics-search-bar">
+                    <input type="text" id="topics-search" placeholder="Search topics and questions..." class="topics-search-input">
+                </div>
+                <div id="topics-content" class="topics-content">
+                    <div class="topics-loading">Loading topics...</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="knowledge-panel" class="knowledge-panel" style="display: none;">
+            <div class="knowledge-header">
+                <span class="knowledge-icon">📚</span>
+                <span class="knowledge-title">From the Archives</span>
+                <button id="close-knowledge-panel" class="knowledge-close" title="Close">×</button>
+            </div>
+            <div class="knowledge-content">
+                <div class="quote-carousel">
+                    <div class="quote-card active">
+                        <div class="quote-text"></div>
+                        <div class="quote-domain"></div>
+                    </div>
+                </div>
+                <div class="fact-strip">
+                    <span class="fact-icon">💡</span>
+                    <span class="fact-text"></span>
+                    <span class="fact-year"></span>
+                </div>
+            </div>
+            <div class="knowledge-progress">
+                <div class="progress-dots"></div>
+            </div>
+        </div>
+
+        <div id="upload-modal" class="modal upload-modal" style="display: none;">
+            <div class="modal-content upload-modal-content">
+                <div class="modal-header">
+                    <span class="modal-icon">📄</span>
+                    <h2>Upload Document</h2>
+                    <button id="close-upload-modal" class="modal-close">×</button>
+                </div>
+                <div class="upload-type-selector">
+                    <button class="upload-type-btn active" data-type="arguments">
+                        <span class="type-icon">📋</span>
+                        <span class="type-label">Argument Statements</span>
+                        <span class="type-desc">Structured premises → conclusions</span>
+                    </button>
+                    <button class="upload-type-btn" data-type="book">
+                        <span class="type-icon">📚</span>
+                        <span class="type-label">Book / Document</span>
+                        <span class="type-desc">PDF, DOCX, or TXT for discussion</span>
+                    </button>
+                </div>
+                <div class="upload-author-selector">
+                    <label>Assign to Thinker:</label>
+                    <select id="upload-author-select" class="scholarly-select">
+                        <option value="kuczynski">ZHI / Kuczynski</option>
+                        <option value="freud">Freud</option>
+                        <option value="jung">Jung</option>
+                        <option value="hume">Hume</option>
+                        <option value="nietzsche">Nietzsche</option>
+                        <option value="bergler">Bergler</option>
+                    </select>
+                </div>
+                <div id="upload-dropzone" class="upload-dropzone">
+                    <div class="dropzone-content">
+                        <span class="dropzone-icon">📁</span>
+                        <p class="dropzone-text">Drag & drop files here</p>
+                        <p class="dropzone-subtext">or click to browse</p>
+                        <p class="dropzone-formats">Supports: TXT, PDF, DOCX</p>
+                    </div>
+                    <input type="file" id="upload-file-input" multiple accept=".txt,.pdf,.docx,.doc" hidden>
+                </div>
+                <div id="upload-file-list" class="upload-file-list"></div>
+                <div id="upload-progress" class="upload-progress" style="display: none;">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="upload-progress-fill"></div>
+                    </div>
+                    <p id="upload-status" class="upload-status">Uploading...</p>
+                </div>
+                <div class="upload-actions">
+                    <button id="upload-submit-btn" class="btn-primary" disabled>Upload Files</button>
+                    <button id="upload-cancel-btn" class="btn-secondary">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="text-preview-modal" class="modal text-preview-modal" style="display: none;">
+            <div class="modal-content text-preview-content">
+                <div class="modal-header">
+                    <div class="preview-header-info">
+                        <span class="modal-icon">📄</span>
+                        <h2 id="preview-filename">Uploaded Document</h2>
+                    </div>
+                    <button id="close-preview-modal" class="modal-close">×</button>
+                </div>
+                <div id="preview-stats" class="preview-stats"></div>
+                <div id="text-preview-content" class="text-preview-area"></div>
+                <div class="preview-actions">
+                    <button id="use-for-question-btn" class="btn-primary">Use in Question</button>
+                    <button id="close-preview-btn" class="btn-secondary">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="tractatus-modal" class="modal" style="display:none;">
+        <div class="modal-content tractatus-modal-content">
+            <div class="modal-header">
+                <h2>Memory Tree (Tractatus)</h2>
+                <div class="tractatus-header-actions">
+                    <button id="download-tractatus-btn" class="btn-mini btn-tractatus" title="Download all trees as JSON">📥 Download</button>
+                    <button id="close-tractatus-modal" class="modal-close">&times;</button>
+                </div>
+            </div>
+            <div id="tractatus-tree-content" class="tractatus-tree-content"></div>
+        </div>
+    </div>
+
+    <div id="diagnostic-modal" class="modal" style="display:none;">
+        <div class="modal-content diagnostic-modal-content">
+            <div class="modal-header diagnostic-modal-header">
+                <span class="modal-icon">🩺</span>
+                <h2>System Diagnostic</h2>
+                <button id="close-diagnostic-modal" class="modal-close">&times;</button>
+            </div>
+            <div class="diagnostic-body">
+                <p class="diagnostic-intro">
+                    Verifies system health (database, AI providers, services) and functional mechanics
+                    (search, chat streaming, memory CRUD, longform CRUD, SSE).
+                    This does not evaluate answer content — only that the formal pipelines work.
+                </p>
+                <div class="diagnostic-actions">
+                    <button id="run-diagnostic-btn" class="btn-primary">▶ Run Full Diagnostic</button>
+                    <span id="diagnostic-status" class="diagnostic-status"></span>
+                </div>
+                <div id="diagnostic-summary" class="diagnostic-summary" style="display:none;"></div>
+                <div id="diagnostic-results" class="diagnostic-results"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="longform-modal" class="modal" style="display:none;">
+        <div class="modal-content longform-modal-content">
+            <div class="modal-header longform-modal-header">
+                <span class="modal-icon">📚</span>
+                <h2>Longform Workshop</h2>
+                <div class="lf-header-actions">
+                    <button id="lf-history-btn" class="btn-mini" title="Past jobs">🗂️ History</button>
+                    <button id="close-longform-modal" class="modal-close">&times;</button>
+                </div>
+            </div>
+
+            <div id="lf-setup" class="lf-setup">
+                <p class="lf-tagline">Coherent, non-repetitive long-form generation using a two-tier skeleton + per-section state tracking. Avoids the "pile of mini-essays" failure mode.</p>
+
+                <div class="lf-row">
+                    <label>Thinker</label>
+                    <select id="lf-thinker" class="scholarly-select">
+                        <option value="freud">Freud</option>
+                        <option value="kuczynski">ZHI / Kuczynski</option>
+                        <option value="jung">Jung</option>
+                        <option value="hume">Hume</option>
+                        <option value="nietzsche">Nietzsche</option>
+                        <option value="bergler">Bergler</option>
+                    </select>
+                </div>
+
+                <div class="lf-row">
+                    <label>Mode</label>
+                    <select id="lf-mode" class="scholarly-select">
+                        <option value="essay">Essay (continuous argument)</option>
+                        <option value="dialogue">Dialogue (named interlocutors)</option>
+                        <option value="lecture">Lecture (numbered teaching units)</option>
+                    </select>
+                </div>
+
+                <div class="lf-row">
+                    <label>Target words: <span id="lf-words-value">15000</span></label>
+                    <input type="range" id="lf-target-words" min="3000" max="60000" step="1000" value="15000" class="font-slider">
+                </div>
+
+                <div class="lf-row">
+                    <label>Prompt / Topic</label>
+                    <textarea id="lf-prompt" class="lf-prompt" rows="5" placeholder="What should the work be about? Be specific. e.g. 'Dialogue between Kuczynski and a critic on whether causation reduces to constant conjunction. Begin with the standard Humean view, work through the regularity-theorist's reply, then push to the singularist position.'"></textarea>
+                </div>
+
+                <div class="lf-actions">
+                    <button id="lf-start-btn" class="btn-primary">Generate</button>
+                </div>
+            </div>
+
+            <div id="lf-progress" class="lf-progress" style="display:none;">
+                <div class="lf-status-bar">
+                    <div class="lf-status-line">
+                        <span id="lf-status-text" class="lf-status-text">Initializing…</span>
+                        <span id="lf-word-counter" class="lf-word-counter">0 / 0 words</span>
+                    </div>
+                    <div class="lf-progress-track">
+                        <div id="lf-progress-fill" class="lf-progress-fill"></div>
+                    </div>
+                </div>
+
+                <details class="lf-skeleton-details">
+                    <summary>Skeleton (click to expand)</summary>
+                    <div id="lf-skeleton-view" class="lf-skeleton-view"></div>
+                </details>
+
+                <div id="lf-sections" class="lf-sections"></div>
+
+                <div class="lf-bottom-actions">
+                    <button id="lf-download-btn" class="btn-secondary" style="display:none;">📥 Download .txt</button>
+                    <button id="lf-new-btn" class="btn-secondary">＋ New job</button>
+                </div>
+            </div>
+
+            <div id="lf-history" class="lf-history" style="display:none;">
+                <h3>Past jobs</h3>
+                <div id="lf-history-list" class="lf-history-list"></div>
+                <button id="lf-history-back" class="btn-secondary">← Back</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}?v=20260618d"></script>
+</body>
+</html>

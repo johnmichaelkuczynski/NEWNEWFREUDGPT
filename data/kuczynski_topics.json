@@ -1,0 +1,1587 @@
+{
+  "kuczynski": {
+    "name": "ZHI",
+    "emoji": "\ud83e\udd13",
+    "description": "J.-M. Kuczynski's philosophical positions covering epistemology, philosophy of mind, language, logic, metaphysics, causation, science, and psychoanalysis.",
+    "topics": [
+      {
+        "id": "philosophy-as-category-analysis",
+        "name": "Philosophy as Category Analysis",
+        "description": "Questions about philosophy as category analysis",
+        "questions": [
+          "According to Kuczynski, what is the sole function of philosophy?",
+          "What does it mean to say that philosophy \"delineates the structures of the categories in terms of which we think about the world\"?",
+          "List five of the categories Kuczynski identifies as fundamental to understanding the world.",
+          "Why does Kuczynski say that the categories through which we understand the world are \"seldom the objects of thought\"?",
+          "What is the relationship between using categories adeptly and knowing about them?",
+          "What does Kuczynski mean by \"meta-knowledge\"?",
+          "How does Kuczynski distinguish philosophical knowledge from ordinary knowledge?",
+          "Why does Kuczynski say that \"self-understanding isn't the mind's primary function\"?",
+          "What would be incoherent about a mind that thinks about nothing other than itself?",
+          "How is philosophy \"the analysis of the preconditions of all knowledge\"?",
+          "What example does Kuczynski give about distinguishing linguistic from non-linguistic behavior?",
+          "Why are we unable to make explicit the conditions for knowing a language despite being good at recognizing who knows one?",
+          "What moral example does Kuczynski give about knowing something without knowing what we know?",
+          "Why is it hard to identify the principles that guide our thoughts?",
+          "What does Kuczynski mean by saying any case of self-awareness is \"derivative of\" some more fundamental sort of understanding?",
+          "What does Kuczynski mean by saying \"the philosopher is interested in the laws governing the laws\"?",
+          "How does Kuczynski describe the relationship between philosopher, physicist, engineer, and stranded motorist?",
+          "Why does Kuczynski say the philosopher wants to know \"what it would even make sense to claim to hold\"?",
+          "What does John Stuart Mill mean by calling himself an expert in \"the science of science\"?",
+          "What did Frege mean by saying logic studies \"the laws of the laws of nature\"?"
+        ]
+      },
+      {
+        "id": "frege-and-analytic-philosophy",
+        "name": "Frege and Analytic Philosophy",
+        "description": "Questions about frege and analytic philosophy",
+        "questions": [
+          "Why is Gottlob Frege often described as the first analytic philosopher?",
+          "What did Michael Dummett mean by saying \"analytic philosophy is post-Fregean philosophy\"?",
+          "How did pre-Fregean philosophers think they were studying the world?",
+          "What was Frege's key insight about the relationship between philosophical and scientific interest?",
+          "How does a scientist's interest in what there could be differ from a philosopher's interest?",
+          "What is Frege's key insight about the relationship between logical and grammatical form?",
+          "Why is \"John smokes\" grammatically similar to \"nobody smokes\" but logically different?",
+          "What does \"nobody smokes\" actually mean according to Frege's analysis?",
+          "How does Frege's analysis avoid the absurd conclusion that \"nobody\" refers to some un-person?",
+          "Why is it wrong to think \"nothing is a square circle\" says that some non-entity is a square circle?",
+          "What does \"nobody likes Larry\" actually say according to Fregean analysis?",
+          "How does Kuczynski explain \"nothing is a square circle\" in terms of sets?",
+          "What does it mean to say the set of circles doesn't overlap with the set of squares?",
+          "What are higher-order properties and how do they figure in Frege's analysis?",
+          "Why does Kuczynski say philosophical insight is acquired \"not by positing entities, but by clarifying statements\"?",
+          "State Frege's legacy (FL) as Kuczynski formulates it.",
+          "What do people often do instead of asking whether an absurdity really follows from their beliefs?",
+          "What are \"ad hoc hypotheses\" in the context of FL?",
+          "How does FL relate to the analysis of statements like \"nothing is a square circle\"?",
+          "Why is analytic philosophy \"driven by acceptance of FL\"?",
+          "Why is it misleading that \"John smokes,\" \"Mary smokes,\" and \"Nobody smokes\" have similar grammatical forms?",
+          "What error results from treating \"nobody\" as grammatically parallel to \"John\" or \"Mary\"?",
+          "How does the grammatical similarity between sentences sometimes lead to philosophical confusion?",
+          "What does Kuczynski mean by \"surface structure\" vs. \"deep structure\" of sentences?",
+          "Why did pre-Fregean philosophers fail to see that grammatical form diverges from logical form?"
+        ]
+      },
+      {
+        "id": "empirical-vs-philosophical-analysis",
+        "name": "Empirical vs Philosophical Analysis",
+        "description": "Questions about empirical vs philosophical analysis",
+        "questions": [
+          "What are the two components of scientific breakthroughs according to Kuczynski?",
+          "How do philosophical puzzles differ from scientific puzzles regarding new raw data?",
+          "What does Kuczynski mean by saying philosophical puzzles result \"not from ignorance, but from confusion\"?",
+          "Why couldn't the Special Theory of Relativity have been proposed before 1879?",
+          "What is the difference between data not being available and failing to draw the right inferences?",
+          "Who was the most famous advocate of the view that all philosophical puzzles are linguistic in nature?",
+          "What did Wittgenstein mean by \"philosophical confusion begins when language goes on holiday\"?",
+          "Why does Kuczynski say Wittgenstein's position is incorrect?",
+          "What is the epistemological puzzle about knowing that 1 + 1 = 2?",
+          "Why does Kuczynski regard JK (the causal theory of knowledge for mathematical facts) as \"absurd in the extreme\"?",
+          "What does JK (Jerry Fodor's position) claim about knowing mathematical facts?",
+          "Why does Kuczynski think the fact that 1 + 1 = 2 is not comparable to the fact that there's a book in front of you?",
+          "Why can't the fact that 1 + 1 = 2 bear any causal relation to anything?",
+          "How does the dispute about JK differ from disputes about the semantics of \"nothing\"?",
+          "Why is the puzzle about JK not a linguistic puzzle?",
+          "What do legal positivists claim about the relationship between law and morality?",
+          "What do anti-positivists (like Ronald Dworkin) claim about legal systems?",
+          "Why is the dispute between legal positivists and anti-positivists not a semantic dispute?",
+          "What do both sides agree about regarding how to resolve the dispute?",
+          "Why can't observation tell you whether one statement is inconsistent with another?"
+        ]
+      },
+      {
+        "id": "sentences-propositions-and-meaning",
+        "name": "Sentences, Propositions and Meaning",
+        "description": "Questions about sentences, propositions and meaning",
+        "questions": [
+          "What is the difference between a sentence and a proposition?",
+          "Give an example of different sentences that express the same proposition.",
+          "How does the truth of a sentence relate to the truth of its corresponding proposition?",
+          "What does Wittgenstein's failure to countenance propositions lead to?",
+          "Why is philosophy the analysis of propositions rather than sentences?",
+          "What are propositions according to Kuczynski?",
+          "What does it mean for a proposition to be true?",
+          "How does Kuczynski identify propositions with properties?",
+          "How does Kuczynski identify truth with instantiatedness?",
+          "Why are propositions not human creations?",
+          "What is Wittgenstein's \"picture theory of meaning\"?",
+          "Why is the picture theory trivial if sentences merely \"represent\" facts like pictures do?",
+          "Why is the picture theory false if sentences literally are pictures of facts?",
+          "What is the conventional component of sentential representation?",
+          "How do photographs differ from sentences in representing facts?",
+          "What does Kuczynski mean by saying sentences are \"digital structures\"?",
+          "Why do pictures lack unique decomposition into discrete parts?",
+          "How does the conventional component of language relate to its digital structure?",
+          "What is the relationship between propositions and semantic conventions?",
+          "Why do sentences \"go through\" propositions while pictures go \"straight to the facts\"?",
+          "What is the slogan \"meaning is use\" associated with?",
+          "Why does Kuczynski think meaning cannot be identical with use?",
+          "What is the difference between using a word correctly and knowing what it means?",
+          "Can a competent speaker use a word correctly without being able to define it?",
+          "Why does correct usage presuppose but not constitute meaning?"
+        ]
+      },
+      {
+        "id": "logic-and-formalization",
+        "name": "Logic and Formalization",
+        "description": "Questions about logic and formalization",
+        "questions": [
+          "What was the logical positivist criterion of meaningfulness?",
+          "What is the verification principle?",
+          "Why did the logical positivists think metaphysical statements are meaningless?",
+          "What problem does Kuczynski identify with falsificationism?",
+          "Why can't \"some x's are y's\" statements be falsified?",
+          "What examples of supposedly meaningless statements did logical positivists cite?",
+          "Why is it suspicious that logical positivists only cited sentences nobody uses?",
+          "How does Kuczynski argue that \"the universe is a perfect unity\" could be meaningful?",
+          "What is the difference between a statement and a statement-form?",
+          "Why is \"the universe is a perfect unity\" really a statement-form rather than a statement?",
+          "What is Kuczynski's criterion for a sentence being meaningful?",
+          "Why is a sentence meaningful if it attributes some property to some object?",
+          "Why is it irrelevant whether a property attribution can be perceptually confirmed?",
+          "How does Kuczynski's theory handle statements that seem metaphysical?",
+          "What makes the term \"perfect unity\" problematic?",
+          "What is the difference between a tautology and an analytic truth?",
+          "Why might \"a yard is three feet\" be non-trivial to someone who learned \"yard\" and \"foot\" independently?",
+          "Why does Kuczynski say tautologousness is a property of information, not sentences?",
+          "How does the manner of learning word meanings affect what sentences tell you?",
+          "What does it mean to know the meanings of expressions \"descriptively\"?",
+          "What are Euclid's five axioms of geometry?",
+          "What is the \"parallel postulate\"?",
+          "Why did it turn out that Euclid's axioms are a statement-form rather than a statement?",
+          "What happens to the parallel postulate when \"space\" means the surface of a sphere?",
+          "Why can't one assume that \"space\" doesn't mean the surface of a sphere without begging the question?",
+          "What is the sum of interior angles of a triangle in spherical geometry?",
+          "How does the size of a triangle on a sphere affect the sum of its angles?",
+          "Why are \"line\" and \"space\" functioning as variables in Euclid's axioms?",
+          "What is an \"interpretation\" of an axiom system?",
+          "What does it mean for an open-sentence to be \"true under all its interpretations\"?",
+          "Why is \"2 + 2 = 4\" not formally true?",
+          "What would formalizing arithmetic involve?",
+          "Why can't arithmetic be formalized?",
+          "What does it mean for a formal characterization to be inconsistent?",
+          "What does it mean for a formal characterization to be incomplete?",
+          "What is a counterfactual statement?",
+          "What is David Lewis's possible worlds analysis of counterfactuals?",
+          "Why does Kuczynski find Lewis's analysis \"completely preposterous\"?",
+          "What is Kuczynski's alternative analysis of counterfactuals?",
+          "How does Kuczynski analyze \"JFK would have been reelected if he hadn't been assassinated\"?"
+        ]
+      },
+      {
+        "id": "analytic-philosophy-broad-scope",
+        "name": "Analytic Philosophy: Broad Scope",
+        "description": "Questions about analytic philosophy: broad scope",
+        "questions": [
+          "What does \"analytic philosophy\" mean in the narrow sense?",
+          "What does \"analytic philosophy\" mean in the broad sense?",
+          "What topics was Frege interested in?",
+          "How did Frege's work influence philosophers working in areas unrelated to language or logic?",
+          "What makes analytic philosophers of law, ethicists, etc., \"analytic\" philosophers?",
+          "What are Wittgenstein's two best-known works?",
+          "What position about philosophical problems does Wittgenstein maintain in both works?",
+          "In the Tractatus, what does Wittgenstein claim about supposedly philosophical sentences?",
+          "How does Wittgenstein's position in the Philosophical Investigations differ from the Tractatus?",
+          "What does Wittgenstein claim in the Investigations about how philosophical problems are solved?"
+        ]
+      },
+      {
+        "id": "properties-and-non-spatiotemporal-existence",
+        "name": "Properties and Non-Spatiotemporal Existence",
+        "description": "Questions about properties and non-spatiotemporal existence",
+        "questions": [
+          "What is Kuczynski's central claim about what exists?",
+          "Why does Kuczynski say properties are not in space-time?",
+          "What will you find if you search the universe for the property of liking tennis?",
+          "What is the relationship between properties and their instances?",
+          "Why can't properties be identical with spatiotemporal entities?",
+          "Why can't the property of intelligence be an aggregate of its instances?",
+          "What happens to the property of perfect triangularity if properties are identified with aggregates?",
+          "Why would identifying properties with aggregates lead to identifying distinct properties?",
+          "What is the Max/harpsichord player example meant to show?",
+          "Why is it absurd to say there cannot be distinct uninstantiated properties?",
+          "What is a higher-order property?",
+          "What is a first-order property?",
+          "What property does the property of being a square circle have?",
+          "Where are the instances of higher-order properties located?",
+          "Where are the instances of first-order properties located?",
+          "What is Platonism (the theory of universals)?",
+          "Why is this doctrine called \"Platonism\"?",
+          "What is nominalism (anti-Platonism)?",
+          "Why is nominalism called \"nominalism\"?",
+          "Why is nominalism incoherent according to Kuczynski?",
+          "What is the distinction between word-types and word-tokens?",
+          "Why are word-types properties?",
+          "Why does the claim that word-types are properties undermine nominalism?",
+          "How does the word-type/token distinction relate to the property/instance distinction?",
+          "Why can't universals be identical with words if words are themselves universals?",
+          "Why does Kuczynski say propositions turn out to be properties?",
+          "Why does Kuczynski say sets turn out to be properties?",
+          "Why is the property of being a bird NOT identical with the set of all birds?",
+          "What set is the property of being a bird identical with?",
+          "How does Kuczynski's view of propositions relate to his Platonism?",
+          "What follows from \"Sally and Fred are both intelligent\"?",
+          "Why can't intelligence itself be in space-time even though intelligent people are?",
+          "What is the form of Kuczynski's argument for non-spatiotemporal entities?",
+          "How does the uninstantiated property argument strengthen the case?",
+          "Why is the property of being a perfect husband distinct from being a perfect soldier?",
+          "Why does \"squareness is a form of rectangularity\" seem to talk about properties?",
+          "What alternative analysis do some philosophers propose for this statement?",
+          "Why does Kuczynski reject the analysis that reduces property-talk to instance-talk?",
+          "What is the difference between \"everything square is green\" and \"squareness is a form of greenness\"?",
+          "What does \"a thing's being a square is responsible for its being a rectangle\" mean?",
+          "What does it mean for two properties to be coextensive?",
+          "Why doesn't coextensiveness imply identity of properties?",
+          "How does the square/green example illustrate this point?",
+          "What is the difference between accidental and essential coextensiveness?",
+          "Why is \"for that very reason\" crucial in distinguishing property relations?",
+          "How does Kuczynski analyze relations?",
+          "What are ordered n-tuples?",
+          "How is \"Bob loves Sally\" analyzed in terms of properties and ordered pairs?",
+          "How would \"Bob is standing between Sally and Larry\" be analyzed?",
+          "Why does treating relations as properties of ordered tuples preserve Platonism?"
+        ]
+      },
+      {
+        "id": "empiricism-and-psychology",
+        "name": "Empiricism and Psychology",
+        "description": "Questions about empiricism and psychology",
+        "questions": [
+          "What is empiricism?",
+          "What is Kuczynski's central critique of empiricism?",
+          "How does empiricism relate to scientism?",
+          "What does empiricism claim about the sources of knowledge?",
+          "Why does Kuczynski think empiricism is fundamentally mistaken?",
+          "Why is empiricism blind to non-spatiotemporal entities?",
+          "How does this blindness affect empiricist epistemology?",
+          "What can empiricism not account for regarding knowledge of logic and mathematics?",
+          "How does Kuczynski's Platonism conflict with empiricism?",
+          "What are the consequences of empiricism for the philosophy of mind?",
+          "How does Wittgenstein's early picture theory relate to empiricism?",
+          "What is the relationship between the picture theory and logical atomism?",
+          "Why did the picture theory fail?",
+          "What did Wittgenstein's later philosophy share with his earlier view?",
+          "How does Kuczynski evaluate Wittgenstein's overall contribution?",
+          "What is wrong with identifying meaning with use?",
+          "How does the meaning-use identification relate to empiricism?",
+          "What does the identification fail to account for?",
+          "How does the private language argument relate to this issue?",
+          "What is Kuczynski's alternative account of meaning?",
+          "What is the difference between analytic and introspective knowledge?",
+          "How does empiricism conflate these two types of knowledge?",
+          "What are the consequences of this conflation?",
+          "What examples illustrate the difference?",
+          "Why is the distinction important for psychology?",
+          "What is subpersonal thought?",
+          "How does subpersonal thought differ from conscious thought?",
+          "Why is the concept of subpersonal thought \"empiricism-unfriendly\"?",
+          "What cognitive operations are subpersonal?",
+          "What is the relationship between subpersonal thought and the self?",
+          "Why would it be viciously regressive to say you figured out how to convert sensory input into perceptions?",
+          "What is the distinction between your mind and your self?",
+          "What is the nucleus of one's self according to Kuczynski?",
+          "How does the self relate to consciousness?",
+          "What does Searle's argument contribute to this discussion?",
+          "What did Berkeley conflate according to Kuczynski?",
+          "What did Berkeley use the word \"idea\" to refer to?",
+          "In what sense was Berkeley right about grasping universals?",
+          "In what sense was Berkeley wrong?",
+          "Why can our minds grasp universals non-linguistically even if we can't?",
+          "What is the difference between images and concepts?",
+          "Why did Berkeley fail to distinguish images from concepts?",
+          "How does empiricism's identification of knowledge with observation lead to identifying concepts with images?",
+          "What is access-consciousness vs. consciousness-constitutive?",
+          "Why are concepts not constituents of consciousness?",
+          "What is the relationship between language and thought according to Kuczynski?",
+          "Can one think discursively without being linguistically competent?",
+          "Could a creature grasp the arguments in The Wealth of Nations without language?",
+          "What is the difference between causal and constitutive relations between linguistic and cognitive competence?",
+          "Why do complex cogitations need linguistic vehicles?"
+        ]
+      },
+      {
+        "id": "knowledge-and-epistemology",
+        "name": "Knowledge and Epistemology",
+        "description": "Questions about knowledge and epistemology",
+        "questions": [
+          "What is a priori knowledge?",
+          "How is a priori knowledge possible?",
+          "What examples of a priori knowledge does Kuczynski recognize?",
+          "How does a priori knowledge relate to empirical knowledge?",
+          "Why can't empiricism account for a priori knowledge?",
+          "What role does sense perception play in knowledge?",
+          "What are the limits of perceptual knowledge?",
+          "How does perception give access to the external world?",
+          "What is the \"veil of perception\" and how does it limit knowledge?",
+          "How does Kuczynski avoid perceptual skepticism?",
+          "What is epistemic justification?",
+          "What role does causation play in justification?",
+          "How do a priori and empirical justification differ?",
+          "What is the relationship between justification and truth?",
+          "How does Kuczynski's view differ from foundationalism?",
+          "What are the limits of self-knowledge?",
+          "Why can't we have complete knowledge of the future?",
+          "What is the epistemological significance of the observer effect?",
+          "What is knowable in principle vs. knowable in practice?",
+          "How does Kuczynski balance fallibilism with the possibility of knowledge?"
+        ]
+      },
+      {
+        "id": "true/false-questions",
+        "name": "True/False Questions",
+        "description": "Questions about true/false questions",
+        "questions": [
+          "Which statement(s) express a rationalist epistemology?",
+          "Which statement(s) about Platonism are correct?",
+          "Which property/properties are never had by ordinary objects but may be had by scattered objects?",
+          "Which statement(s) partially explain why conventionalism in logic failed?",
+          "Which statement(s) provide partial justification for Platonism?"
+        ]
+      },
+      {
+        "id": "definition-and-analysis",
+        "name": "Definition and Analysis",
+        "description": "Questions about definition and analysis",
+        "questions": [
+          "Define: property",
+          "Define: property-instance",
+          "Define: higher-order property",
+          "Define: first-order property",
+          "Define: Platonism (theory of universals)",
+          "Define: nominalism/anti-Platonism",
+          "Define: proposition",
+          "Define: analytic truth",
+          "Define: formal truth",
+          "Define: tautology",
+          "Define: open-sentence",
+          "Define: interpretation (of a formal system)",
+          "Define: model (in logic)",
+          "Define: coextensive properties",
+          "Define: instantiation",
+          "Define: subpersonal thought",
+          "Define: access-consciousness",
+          "Define: consciousness-constitutive",
+          "Define: readiness potential (RP)",
+          "Define: W (Libet)",
+          "Define: determinism",
+          "Define: indeterminism",
+          "Define: compatibilism (about free will)",
+          "Define: empiricism",
+          "Define: logical positivism",
+          "Explain the difference between grammatical form and logical form.",
+          "Explain the difference between a sentence and a proposition.",
+          "Explain the difference between a tautology and an analytic truth.",
+          "Explain the difference between formal truth and material truth.",
+          "Explain the difference between properties and sets of their instances.",
+          "Explain the difference between word-types and word-tokens.",
+          "Explain the difference between knowledge and meta-knowledge.",
+          "Explain the difference between scientific and philosophical puzzles.",
+          "Explain the difference between linguistic and propositional analysis.",
+          "Explain the difference between conscious and subpersonal thought.",
+          "Explain the difference between determinism and predictability.",
+          "Explain the difference between perception and reality.",
+          "Explain the difference between images and concepts.",
+          "Explain the difference between causal and constitutive relations.",
+          "Explain the difference between meaning and use."
+        ]
+      },
+      {
+        "id": "argument-reconstruction",
+        "name": "Argument Reconstruction",
+        "description": "Questions about argument reconstruction",
+        "questions": [
+          "Reconstruct Kuczynski's argument that properties are not in space-time.",
+          "Reconstruct Kuczynski's argument that uninstantiated properties exist.",
+          "Reconstruct Kuczynski's argument against identifying properties with aggregates of instances.",
+          "Reconstruct Kuczynski's argument that words are universals.",
+          "Reconstruct Kuczynski's argument that nominalism is incoherent.",
+          "Reconstruct Kuczynski's argument that not all philosophical analysis is linguistic analysis.",
+          "Reconstruct Kuczynski's argument against the picture theory of meaning.",
+          "Reconstruct Kuczynski's argument that meaning is not use.",
+          "Reconstruct Kuczynski's argument against the logical positivist criterion of meaningfulness.",
+          "Reconstruct Kuczynski's argument that propositions are properties.",
+          "Reconstruct Kuczynski's argument that Euclid's axioms are statement-forms.",
+          "Reconstruct Kuczynski's argument that arithmetic cannot be formalized.",
+          "Reconstruct Kuczynski's argument against Lewis's possible worlds analysis of counterfactuals.",
+          "Reconstruct Kuczynski's argument against the causal theory of knowledge for mathematical facts.",
+          "Reconstruct Kuczynski's critique of philosophers' responses to Libet.",
+          "Reconstruct Kuczynski's argument that Laplace's demon is logically impossible.",
+          "Reconstruct Kuczynski's argument that a deterministic universe is not completely predictable.",
+          "Reconstruct Kuczynski's argument against the \"infallible self-predictor.\"",
+          "Reconstruct Kuczynski's argument that knowledge requires causal connection.",
+          "Reconstruct Kuczynski's argument against Berkeley's conflation of images and concepts."
+        ]
+      },
+      {
+        "id": "application-and-extension",
+        "name": "Application and Extension",
+        "description": "Questions about application and extension",
+        "questions": [
+          "Apply Frege's analysis to: \"Something is rotten in the state of Denmark.\"",
+          "Apply Frege's analysis to: \"Nobody knows the trouble I've seen.\"",
+          "Apply Kuczynski's property analysis to: \"Courage is a virtue.\"",
+          "Apply Kuczynski's analysis to: \"The property of being red is a color property.\"",
+          "Apply Kuczynski's counterfactual analysis to: \"If I had studied harder, I would have passed.\"",
+          "Apply the proposition-as-property thesis to: \"Snow is white.\"",
+          "Apply the instantiation-as-truth thesis to: \"Some dogs bark.\"",
+          "Apply the open-sentence analysis to: \"x is greater than y.\"",
+          "Apply the formal truth criterion to: \"All bachelors are unmarried.\"",
+          "Apply Kuczynski's analysis of determinism to weather prediction.",
+          "Apply Kuczynski's analysis of perception to scientific observation.",
+          "Apply the subpersonal thought concept to language comprehension.",
+          "Apply Kuczynski's critique of empiricism to psychology.",
+          "Apply Kuczynski's free will analysis to criminal responsibility.",
+          "Apply the self-prediction paradox to economic forecasting.",
+          "How would Kuczynski analyze: \"The average American has 2.3 children\"?",
+          "How would Kuczynski analyze fictional entities?",
+          "How would Kuczynski analyze negative existential claims?",
+          "How would Kuczynski analyze claims about infinity?",
+          "How would Kuczynski analyze color predicates?",
+          "How would Kuczynski's view handle the Liar Paradox?",
+          "How would Kuczynski's view handle Zeno's paradoxes?",
+          "How would Kuczynski's view handle the Ship of Theseus?",
+          "How would Kuczynski's view handle personal identity?",
+          "How would Kuczynski's view handle abstract art?"
+        ]
+      },
+      {
+        "id": "comparison-questions",
+        "name": "Comparison Questions",
+        "description": "Questions about comparison questions",
+        "questions": [
+          "Compare Kuczynski's Platonism with Plato's original theory.",
+          "Compare Kuczynski's view of propositions with the structured propositions view.",
+          "Compare Kuczynski's view with Armstrong's immanent realism.",
+          "Compare Kuczynski's epistemology with classical empiricism.",
+          "Compare Kuczynski's view of language with Wittgenstein's early view.",
+          "Compare Kuczynski's view of language with Wittgenstein's later view.",
+          "Compare Kuczynski's view of free will with libertarianism.",
+          "Compare Kuczynski's view of free will with hard determinism.",
+          "Compare Kuczynski's view of causation with Hume's view.",
+          "Compare Kuczynski's view of logical truth with conventionalism.",
+          "Compare Kuczynski's analysis of counterfactuals with Lewis's.",
+          "Compare Kuczynski's view of perception with naive realism.",
+          "Compare Kuczynski's view of perception with sense-data theory.",
+          "Compare Kuczynski's critique of empiricism with Chomsky's.",
+          "Compare Kuczynski's view of the unconscious with Freud's.",
+          "Would Kuczynski agree that \"existence is not a predicate\"?",
+          "Would Kuczynski agree that mathematics is reducible to logic?",
+          "Would Kuczynski agree that all truths are either analytic or empirical?",
+          "Would Kuczynski agree that mental states are brain states?",
+          "Would Kuczynski agree that free will is an illusion?",
+          "Would Kuczynski agree that meaning is determined by truth conditions?",
+          "Would Kuczynski agree that there are synthetic a priori truths?",
+          "Would Kuczynski agree that perception is theory-laden?",
+          "Would Kuczynski agree that self-knowledge is infallible?",
+          "Would Kuczynski agree that scientific progress is cumulative?"
+        ]
+      },
+      {
+        "id": "critical-evaluation",
+        "name": "Critical Evaluation",
+        "description": "Questions about critical evaluation",
+        "questions": [
+          "What is the main objection to Platonism and how might Kuczynski respond?",
+          "What is the epistemological objection to abstract objects and how might Kuczynski respond?",
+          "What is the parsimony objection to Platonism and how might Kuczynski respond?",
+          "How might a nominalist respond to Kuczynski's arguments?",
+          "How might an empiricist respond to Kuczynski's critique?",
+          "How might a Wittgensteinian respond to Kuczynski's critique of \"meaning is use\"?",
+          "How might a possible worlds theorist respond to Kuczynski's critique?",
+          "How might a compatibilist respond to Kuczynski's analysis of Libet?",
+          "How might a libertarian about free will respond to Kuczynski?",
+          "How might a physicalist respond to Kuczynski's view of mental causation?",
+          "Evaluate Kuczynski's argument that properties are not identical with aggregates.",
+          "Evaluate Kuczynski's argument that propositions are properties.",
+          "Evaluate Kuczynski's argument against the picture theory.",
+          "Evaluate Kuczynski's argument against logical positivism.",
+          "Evaluate Kuczynski's argument that arithmetic cannot be formalized.",
+          "Evaluate Kuczynski's critique of Lewis's possible worlds analysis.",
+          "Evaluate Kuczynski's argument about the limits of predictability.",
+          "Evaluate Kuczynski's interpretation of Libet's experiment.",
+          "Evaluate Kuczynski's critique of empiricism.",
+          "Evaluate Kuczynski's distinction between philosophical and scientific puzzles."
+        ]
+      },
+      {
+        "id": "exercises-from-texts",
+        "name": "Exercises from Texts",
+        "description": "Questions about exercises from texts",
+        "questions": [
+          "Produce a sentence whose logical form diverges from its grammatical form.",
+          "Identify a philosophical puzzle that has nothing to do with language.",
+          "Identify a puzzle that should be solved through statement-analysis but that a non-Fregean would solve by ontologizing.",
+          "Identify four properties of which no human being is an instance.",
+          "Identify four properties of properties of which no human being is an instance.",
+          "Give an example of a false existence-claim.",
+          "Identify five properties that do not have themselves.",
+          "Identify two second-order properties that do have themselves.",
+          "Identify three statements entailed by \"Bill has four cars, none operational.\"",
+          "Identify three statements whose negations are entailed by \"Bill has four cars, two operational.\"",
+          "Give five examples of uninstantiated relations.",
+          "Give five examples of relations that aren't instantiated but could be.",
+          "Identify two properties had by Kermit the Frog that have themselves.",
+          "Give an example of an accidentally coextensive pair of properties.",
+          "Give an example of a necessarily coextensive pair of distinct properties.",
+          "Say why Platonism is, or is not, compatible with evolution (two sentences).",
+          "Explain why word-types being properties undermines nominalism.",
+          "Is the property of being identical with Kuczynski in space or time?",
+          "What does the Third Man Argument successfully refute?",
+          "Briefly defend whether identifying properties with sets concedes Platonism."
+        ]
+      },
+      {
+        "id": "advanced-topics",
+        "name": "Advanced Topics",
+        "description": "Questions about advanced topics",
+        "questions": [
+          "How does Kuczynski's view of properties affect the interpretation of predicate logic?",
+          "What is the relationship between Kuczynski's view and second-order logic?",
+          "How does the property/set distinction affect set-theoretic foundations?",
+          "What are the implications of incompleteness for Kuczynski's philosophy?",
+          "How does Kuczynski understand the logical constants?",
+          "What is Kuczynski's view on the scope of logic?",
+          "How does Kuczynski understand modal logic?",
+          "What is Kuczynski's view on the logic of counterfactuals?",
+          "How does Kuczynski understand quantification over properties?",
+          "What is Kuczynski's view on higher-order quantification?",
+          "Is Kuczynski a Platonist about mathematical objects?",
+          "How does Kuczynski understand mathematical truth?",
+          "What is Kuczynski's view on the applicability of mathematics?",
+          "How does Kuczynski understand mathematical proof?",
+          "What is Kuczynski's view on mathematical intuition?",
+          "What is Kuczynski's view on the nature of scientific laws?",
+          "How does Kuczynski understand the role of mathematics in science?",
+          "What is Kuczynski's view on scientific realism?",
+          "How does Kuczynski understand theoretical terms?",
+          "What is Kuczynski's view on scientific explanation?",
+          "How does Kuczynski's view relate to contemporary cognitive science?",
+          "What is Kuczynski's view on the computational theory of mind?",
+          "How does Kuczynski understand mental representation?",
+          "What is Kuczynski's view on connectionism?",
+          "How does Kuczynski understand the architecture of cognition?"
+        ]
+      },
+      {
+        "id": "connections-and-implications",
+        "name": "Connections and Implications",
+        "description": "Questions about connections and implications",
+        "questions": [
+          "How does Kuczynski's Platonism connect to his epistemology?",
+          "How does Kuczynski's view of propositions connect to his philosophy of mind?",
+          "How does Kuczynski's critique of empiricism connect to his view of logic?",
+          "How does Kuczynski's analysis of Libet connect to his view of causation?",
+          "How does Kuczynski's view of language connect to his Platonism?",
+          "How does Kuczynski's view of determinism connect to his view of knowledge?",
+          "How does Kuczynski's view of perception connect to his critique of empiricism?",
+          "How does Kuczynski's view of the self connect to his view of agency?",
+          "How does Kuczynski's view of meaning connect to his view of truth?",
+          "How does Kuczynski's view of properties connect to his view of sets?",
+          "What are the implications of Kuczynski's Platonism for philosophy of mathematics?",
+          "What are the implications of Kuczynski's view for philosophy of language?",
+          "What are the implications of Kuczynski's critique of empiricism for psychology?",
+          "What are the implications of Kuczynski's analysis for the free will debate?",
+          "What are the implications of Kuczynski's view for the philosophy of science?",
+          "What are the implications of Kuczynski's view for ethics?",
+          "What are the implications of Kuczynski's view for philosophy of law?",
+          "What are the implications of Kuczynski's view for philosophy of religion?",
+          "What are the implications of Kuczynski's view for metaphysics?",
+          "What are the implications of Kuczynski's view for logic?"
+        ]
+      },
+      {
+        "id": "methodology-and-approach",
+        "name": "Methodology and Approach",
+        "description": "Questions about methodology and approach",
+        "questions": [
+          "What is Kuczynski's philosophical method?",
+          "How does Kuczynski use examples in his arguments?",
+          "What role do thought experiments play in Kuczynski's work?",
+          "How does Kuczynski use formal analysis?",
+          "What is Kuczynski's attitude toward common sense?",
+          "How does Kuczynski handle apparent paradoxes?",
+          "What is Kuczynski's attitude toward contemporary academic philosophy?",
+          "How does Kuczynski use the history of philosophy?",
+          "What is Kuczynski's attitude toward empirical science?",
+          "How does Kuczynski balance rigor with accessibility?",
+          "What makes Kuczynski's approach to Platonism distinctive?",
+          "What makes Kuczynski's critique of empiricism distinctive?",
+          "What makes Kuczynski's approach to free will distinctive?",
+          "What makes Kuczynski's philosophy of language distinctive?",
+          "What makes Kuczynski's approach to formal methods distinctive?"
+        ]
+      },
+      {
+        "id": "specific-textual-questions",
+        "name": "Specific Textual Questions",
+        "description": "Questions about specific textual questions",
+        "questions": [
+          "What categories does Kuczynski list in section 1.0?",
+          "What is the metaphor of the motorist, engineer, physicist, and philosopher meant to illustrate?",
+          "How does Kuczynski interpret Dummett's claim about analytic philosophy?",
+          "What is the significance of the SC/SC* analysis?",
+          "Why does Kuczynski distinguish JK disputes from \"nobody\" disputes?",
+          "What is Kuczynski's critique of Wittgenstein's Tractatus?",
+          "What is Kuczynski's critique of Wittgenstein's Philosophical Investigations?",
+          "How does Kuczynski analyze the yard/foot example?",
+          "What is Kuczynski's alternative to the logical positivist criterion?",
+          "How does Kuczynski critique the picture theory of meaning?",
+          "What is the Max/harpsichord player example meant to show?",
+          "Why does Kuczynski say logic is property-based, not set-based?",
+          "How does Kuczynski analyze \"squareness is a form of rectangularity\"?",
+          "What is the significance of the \"for that very reason\" locution?",
+          "How does Kuczynski respond to the Third Man Argument?",
+          "What is Kuczynski's interpretation of the RP-W gap?",
+          "Why does Kuczynski criticize Mele's response to Libet?",
+          "Why does Kuczynski criticize Roskies's response?",
+          "What is Kuczynski's \"tentative model\" of conscious agency?",
+          "Why does Kuczynski say Libet was a \"missed opportunity\" for philosophy?",
+          "What is the structure of Kuczynski's critique of empiricism?",
+          "How does Kuczynski understand subpersonal thought?",
+          "What is Kuczynski's critique of Berkeley?",
+          "How does Kuczynski relate language and thought?",
+          "What does the Mach example illustrate?"
+        ]
+      },
+      {
+        "id": "integrative-questions",
+        "name": "Integrative Questions",
+        "description": "Questions about integrative questions",
+        "questions": [
+          "How does Kuczynski's philosophy form a coherent system?",
+          "What are the central commitments that unify Kuczynski's work?",
+          "How does Kuczynski's rationalist epistemology support his Platonism?",
+          "How does Kuczynski's philosophy of language support his metaphysics?",
+          "How does Kuczynski's critique of empiricism support his psychology?",
+          "What would Kuczynski say to a thoroughgoing naturalist?",
+          "What would Kuczynski say to a linguistic conventionalist?",
+          "What would Kuczynski say to a possible worlds theorist?",
+          "What would Kuczynski say to a computational theory of mind advocate?",
+          "What would Kuczynski say to a scientific reductionist?",
+          "How does Kuczynski balance respect for science with critique of scientism?",
+          "How does Kuczynski balance formal rigor with substantive philosophy?",
+          "How does Kuczynski balance historical awareness with original thinking?",
+          "How does Kuczynski balance technical philosophy with accessibility?",
+          "How does Kuczynski balance systematic ambition with attention to detail?"
+        ]
+      },
+      {
+        "id": "pedagogical-questions",
+        "name": "Pedagogical Questions",
+        "description": "Questions about pedagogical questions",
+        "questions": [
+          "Explain to a student why \"nothing\" isn't a referring expression.",
+          "Explain to a student why properties aren't in space-time.",
+          "Explain to a student why propositions are properties.",
+          "Explain to a student why the picture theory fails.",
+          "Explain to a student why Euclid's axioms are statement-forms.",
+          "Explain to a student why arithmetic can't be formalized.",
+          "Explain to a student why Laplace's demon is impossible.",
+          "Explain to a student why meaning isn't use.",
+          "Explain to a student why the logical positivist criterion fails.",
+          "Explain to a student what Libet's experiment shows.",
+          "Why does the logical/grammatical form distinction matter?",
+          "Why does the existence of abstract objects matter?",
+          "Why does the sentence/proposition distinction matter?",
+          "Why does the critique of empiricism matter?",
+          "Why does the Libet interpretation matter?",
+          "Why does the limits of predictability matter?",
+          "Why does the subpersonal/conscious distinction matter?",
+          "Why does the property/set distinction matter?",
+          "Why does the failure of formalization matter?",
+          "Why does the critique of the picture theory matter?"
+        ]
+      },
+      {
+        "id": "final-comprehensive-questions",
+        "name": "Final Comprehensive Questions",
+        "description": "Questions about final comprehensive questions",
+        "questions": [
+          "What is the most important insight in Kuczynski's philosophy of language?",
+          "What is the most important insight in Kuczynski's metaphysics?",
+          "What is the most important insight in Kuczynski's epistemology?",
+          "What is the most important insight in Kuczynski's philosophy of mind?",
+          "What is the most important insight in Kuczynski's philosophy of logic?",
+          "What is the weakest point in Kuczynski's philosophy of language?",
+          "What is the weakest point in Kuczynski's metaphysics?",
+          "What is the weakest point in Kuczynski's epistemology?",
+          "What is the weakest point in Kuczynski's philosophy of mind?",
+          "What is the weakest point in Kuczynski's philosophy of logic?",
+          "What future developments would strengthen Kuczynski's system?",
+          "What empirical discoveries could affect Kuczynski's views?",
+          "What formal developments could affect Kuczynski's views?",
+          "How might Kuczynski's views develop or change?",
+          "What are the most promising directions for extending Kuczynski's work?"
+        ]
+      },
+      {
+        "id": "skepticism-and-perception",
+        "name": "SKEPTICISM AND PERCEPTION",
+        "description": "Questions about skepticism and perception",
+        "questions": [
+          "What is skepticism about perception?",
+          "What is skepticism about induction?",
+          "How does empiricism lead to these forms of skepticism?",
+          "What is Kuczynski's response to perceptual skepticism?",
+          "What is Kuczynski's response to inductive skepticism?"
+        ]
+      },
+      {
+        "id": "mach-and-molecules",
+        "name": "MACH AND MOLECULES",
+        "description": "Questions about mach and molecules",
+        "questions": [
+          "What was Ernst Mach's position on molecules?",
+          "Why did Mach consider molecules \"useful fictions\"?",
+          "How was Mach's position typically empiricist?",
+          "How did Einstein prove Mach wrong?",
+          "What does this episode show about empiricism?"
+        ]
+      },
+      {
+        "id": "propositional-attitudes",
+        "name": "PROPOSITIONAL ATTITUDES",
+        "description": "Questions about propositional attitudes",
+        "questions": [
+          "What are propositional attitudes?",
+          "How do propositional attitudes figure in psychological explanation?",
+          "What problems does empiricism have with propositional attitudes?",
+          "How does Kuczynski's view of propositions affect the theory of propositional attitudes?",
+          "What is the relationship between propositional attitudes and behavior?"
+        ]
+      },
+      {
+        "id": "libet's-experiment-basics",
+        "name": "LIBET'S EXPERIMENT: BASICS",
+        "description": "Questions about libet's experiment: basics",
+        "questions": [
+          "What did Libet's experiment involve subjects doing?",
+          "What is the \"readiness potential\" (RP)?",
+          "What is W in the context of Libet's experiment?",
+          "What was the striking finding of Libet's experiment?",
+          "What is the temporal relationship between RP initiation and W?"
+        ]
+      },
+      {
+        "id": "the-experimental-setup",
+        "name": "THE EXPERIMENTAL SETUP",
+        "description": "Questions about the experimental setup",
+        "questions": [
+          "How did subjects indicate when they decided to press the button?",
+          "What was measured on the subjects' scalps?",
+          "Why was the clock with a rapidly moving hand important?",
+          "Were subjects required to press the button in response to any external stimulus?",
+          "How many subjects were tested with similar results?"
+        ]
+      },
+      {
+        "id": "implications-for-free-will",
+        "name": "IMPLICATIONS FOR FREE WILL",
+        "description": "Questions about implications for free will",
+        "questions": [
+          "Why do subjects feel their decision was \"free\"?",
+          "What does the experiment suggest about the relationship between conscious decisions and brain activity?",
+          "Why does Kuczynski think W is \"clearly not the cause of the finger-movement\"?",
+          "What does the experiment show about our so-called \"conscious decisions\"?",
+          "How does Kuczynski think RLE should affect our understanding of agency?"
+        ]
+      },
+      {
+        "id": "philosophers'-responses-to-libet",
+        "name": "PHILOSOPHERS' RESPONSES TO LIBET",
+        "description": "Questions about philosophers' responses to libet",
+        "questions": [
+          "What has been the general pattern of philosophers' responses to Libet?",
+          "What position does Adina Roskies take?",
+          "What position does Alfred Mele take?",
+          "What position does Nicholas Rescher take?",
+          "What position do Radder and Meynen take?"
+        ]
+      },
+      {
+        "id": "critiques-of-philosophers'-responses",
+        "name": "CRITIQUES OF PHILOSOPHERS' RESPONSES",
+        "description": "Questions about critiques of philosophers' responses",
+        "questions": [
+          "Why does Kuczynski criticize philosophers for attempting to \"trivialize\" Libet's results?",
+          "What is wrong with claiming Libet's data is \"spurious\"?",
+          "What is wrong with claiming the brain activity preceding W is not causative of W?",
+          "Why can't we dismiss the experiment because it concerns \"simple\" actions?",
+          "What standards of proof are philosophers using that Kuczynski finds problematic?"
+        ]
+      },
+      {
+        "id": "the-compatibilist-response",
+        "name": "THE COMPATIBILIST RESPONSE",
+        "description": "Questions about the compatibilist response",
+        "questions": [
+          "What is compatibilism about free will?",
+          "How do some philosophers claim Libet supports compatibilism?",
+          "What is wrong with this response according to Kuczynski?",
+          "Does Kuczynski think Libet's results are relevant only if compatibilism is true?",
+          "What is the relationship between Libet's results and the free will debate?"
+        ]
+      },
+      {
+        "id": "common-philosophical-objections",
+        "name": "COMMON PHILOSOPHICAL OBJECTIONS",
+        "description": "Questions about common philosophical objections",
+        "questions": [
+          "What is the objection that Libet confuses urges with intentions?",
+          "How does Kuczynski respond to this objection?",
+          "What is the objection that Libet's results don't generalize?",
+          "Why do philosophers claim the actions studied fail to engage rationality?",
+          "What is the appeal to the \"phenomenological datum\" that we have free will?"
+        ]
+      },
+      {
+        "id": "kuczynski's-constructive-response",
+        "name": "KUCZYNSKI'S CONSTRUCTIVE RESPONSE",
+        "description": "Questions about kuczynski's constructive response",
+        "questions": [
+          "What does Kuczynski think Libet's experiment actually shows?",
+          "What is the tentative model Kuczynski proposes?",
+          "What is the agentive function of conscious mental events according to this model?",
+          "How does this model differ from traditional views of conscious decision-making?",
+          "Why does Kuczynski consider Libet's experiment a \"missed opportunity\" for philosophy?"
+        ]
+      },
+      {
+        "id": "determinism-and-indeterminism",
+        "name": "DETERMINISM AND INDETERMINISM",
+        "description": "Questions about determinism and indeterminism",
+        "questions": [
+          "What is the defining claim of determinism according to Kuczynski?",
+          "What is indeterminism?",
+          "Why does indeterminism require only one instance of non-determination?",
+          "How does most of the macro-scale world operate regarding determinism?",
+          "What is the principle \"same cause, same effect\"?"
+        ]
+      },
+      {
+        "id": "determinism-vs.-predictability",
+        "name": "DETERMINISM VS. PREDICTABILITY",
+        "description": "Questions about determinism vs. predictability",
+        "questions": [
+          "Why is predictability a practical, epistemic concept while determinism is metaphysical?",
+          "What are the logical limits of predictability?",
+          "Can a deterministic universe be completely predictable?",
+          "Why is Laplace's demon logically impossible?",
+          "What is Kuczynski's \"compatibilism\" between determinism and unpredictability?"
+        ]
+      },
+      {
+        "id": "perception-and-reality",
+        "name": "PERCEPTION AND REALITY",
+        "description": "Questions about perception and reality",
+        "questions": [
+          "What does Kuczynski mean by saying sense-perception is \"invasive\"?",
+          "What transformative stages occur in the chain of perception?",
+          "Why is information carried by light a \"snapshot of the past\"?",
+          "How does observation alter the object observed?",
+          "Why is there an inescapable \"margin of error\" between reality and perception?"
+        ]
+      },
+      {
+        "id": "epistemological-consequences",
+        "name": "EPISTEMOLOGICAL CONSEQUENCES",
+        "description": "Questions about epistemological consequences",
+        "questions": [
+          "Why does trying to correct perceptual error introduce more perturbation?",
+          "Does the perceptual dilemma apply to a deity?",
+          "Why does Kuczynski reject non-causal, direct knowledge?",
+          "What is required for knowledge according to Kuczynski?",
+          "Why is a \"correct hallucination\" not knowledge?"
+        ]
+      },
+      {
+        "id": "prediction-and-self-prediction",
+        "name": "PREDICTION AND SELF-PREDICTION",
+        "description": "Questions about prediction and self-prediction",
+        "questions": [
+          "What is prediction an application of?",
+          "Why does inaccurate knowledge of initial conditions guarantee inaccurate predictions?",
+          "Why is our own mental state part of the causal fabric of the world?",
+          "What paradox arises from knowing your future knowledge now?",
+          "Why is the \"infallible self-predictor\" logically incoherent?"
+        ]
+      },
+      {
+        "id": "self-fulfilling-prophecies",
+        "name": "SELF-FULFILLING PROPHECIES",
+        "description": "Questions about self-fulfilling prophecies",
+        "questions": [
+          "How can psychological attitudes be causal factors in outcomes?",
+          "What do self-fulfilling prophecies demonstrate about predictions?",
+          "How does this complicate prediction?",
+          "What role does confidence play in bringing about outcomes?",
+          "What does Kuczynski claim about his personal experience with self-fulfilling prophecy?"
+        ]
+      },
+      {
+        "id": "randomness",
+        "name": "RANDOMNESS",
+        "description": "Questions about randomness",
+        "questions": [
+          "What does \"random\" mean in common parlance vs. philosophically?",
+          "Can an event be fully determined yet perfectly random epistemically?",
+          "Where does randomness reside according to Kuczynski?",
+          "Can two observers disagree on whether an event is random?",
+          "Can indeterminism exist without events seeming random?"
+        ]
+      },
+      {
+        "id": "induction",
+        "name": "INDUCTION",
+        "description": "Questions about induction",
+        "questions": [
+          "What does verifying universal claims require?",
+          "What is Hume's problem of induction?",
+          "Why does everyone accept inductive reasoning in practice?",
+          "What is the difference between justified and unjustified beliefs about future events?",
+          "Why are the shortcomings of induction a general problem for empirical knowledge?"
+        ]
+      },
+      {
+        "id": "evidence-for-determinism",
+        "name": "EVIDENCE FOR DETERMINISM",
+        "description": "Questions about evidence for determinism",
+        "questions": [
+          "Why do arguments against determinism based on \"identical\" clones fail?",
+          "What does determinism actually require about identical initial conditions?",
+          "How does causal discovery in science work?",
+          "Why is perfect correlation not necessary to infer a deterministic law?",
+          "How certain can we be about deterministic laws?"
+        ]
+      },
+      {
+        "id": "information-theory-and-perception",
+        "name": "INFORMATION THEORY AND PERCEPTION",
+        "description": "Questions about information theory and perception",
+        "questions": [
+          "How is information physically embodied?",
+          "Why does transmission of information take time?",
+          "What is the \"veil of perception\"?",
+          "What does \"transperceptual\" refer to?",
+          "What are scientific laws about according to Kuczynski?"
+        ]
+      },
+      {
+        "id": "metaphysical-positions",
+        "name": "METAPHYSICAL POSITIONS",
+        "description": "Questions about metaphysical positions",
+        "questions": [
+          "Is Kuczynski a realist about the external world?",
+          "Is Kuczynski a fallibilist about knowledge?",
+          "What does Kuczynski's naturalism involve?",
+          "Does Kuczynski accept Cartesian dualism?",
+          "What is the \"gulf\" between perception and reality not an argument for?"
+        ]
+      },
+      {
+        "id": "ethics",
+        "name": "ETHICS",
+        "description": "Questions about ethics",
+        "questions": [
+          "What is Kuczynski's view on the relationship between ethics and metaethics?",
+          "How does Kuczynski respond to G.E. Moore's open question argument?",
+          "What is Kuczynski's position on utilitarianism?",
+          "How does Kuczynski analyze moral concepts?",
+          "What is the relationship between logic and ethics?"
+        ]
+      },
+      {
+        "id": "free-will-positions",
+        "name": "FREE WILL POSITIONS",
+        "description": "Questions about free will positions",
+        "questions": [
+          "What is Kuczynski's analysis of Frankfurt cases?",
+          "How does Kuczynski understand the relationship between free will and determinism?",
+          "What is Kuczynski's view on the mind-body problem as it relates to free will?",
+          "How does Kuczynski analyze the concept of moral responsibility?",
+          "What role does consciousness play in free will according to Kuczynski?"
+        ]
+      },
+      {
+        "id": "causation-positions",
+        "name": "CAUSATION POSITIONS",
+        "description": "Questions about causation positions",
+        "questions": [
+          "What is Kuczynski's view on the nature of causal connections?",
+          "How does Kuczynski distinguish causation from correlation?",
+          "What is the relationship between causation and explanation?",
+          "How does Kuczynski's view differ from Humean regularity theories?",
+          "What role do counterfactuals play in Kuczynski's account of causation?"
+        ]
+      },
+      {
+        "id": "knowledge-positions",
+        "name": "KNOWLEDGE POSITIONS",
+        "description": "Questions about knowledge positions",
+        "questions": [
+          "What is the relationship between knowledge and justification?",
+          "How does Kuczynski respond to Gettier problems?",
+          "What is Kuczynski's view on the relationship between knowledge and belief?",
+          "How does Kuczynski analyze the concept of evidence?",
+          "What is the relationship between perception and knowledge?"
+        ]
+      },
+      {
+        "id": "philosophy-of-science-positions",
+        "name": "PHILOSOPHY OF SCIENCE POSITIONS",
+        "description": "Questions about philosophy of science positions",
+        "questions": [
+          "What is Kuczynski's view on the nature of scientific theories?",
+          "How does Kuczynski understand scientific explanation?",
+          "What is the relationship between theory and observation?",
+          "What is Kuczynski's view on theoretical entities?",
+          "How does Kuczynski understand the progress of science?"
+        ]
+      },
+      {
+        "id": "formalization",
+        "name": "FORMALIZATION",
+        "description": "Questions about formalization",
+        "questions": [
+          "What does it mean to formalize a body of truths?",
+          "Why is formal truth different from material truth?",
+          "What is an open-sentence?",
+          "What does it mean for an open-sentence to be true under an interpretation?",
+          "What would it take to formalize arithmetic?"
+        ]
+      },
+      {
+        "id": "models-and-interpretations",
+        "name": "MODELS AND INTERPRETATIONS",
+        "description": "Questions about models and interpretations",
+        "questions": [
+          "What is a model in mathematical logic?",
+          "What is an interpretation of an axiom system?",
+          "How do models relate to formal truth?",
+          "Why is it significant when an open-sentence has both true and false instances?",
+          "What is the relationship between variables and constants in formal systems?"
+        ]
+      },
+      {
+        "id": "g\u00f6del's-incompleteness",
+        "name": "G\u00d6DEL'S INCOMPLETENESS",
+        "description": "Questions about g\u00f6del's incompleteness",
+        "questions": [
+          "What does it mean for a formal system to be inconsistent?",
+          "What does it mean for a formal system to be incomplete?",
+          "Why can't arithmetic be formalized?",
+          "What philosophical implications does incompleteness have?",
+          "How does incompleteness relate to the limits of formal methods?"
+        ]
+      },
+      {
+        "id": "axiom-systems",
+        "name": "AXIOM SYSTEMS",
+        "description": "Questions about axiom systems",
+        "questions": [
+          "What is the purpose of an axiom system?",
+          "How did the re-examination of Euclid's axioms change our understanding of geometry?",
+          "Why are Euclid's axioms really open-sentences?",
+          "What happens when we give non-standard interpretations to geometric terms?",
+          "What is the relationship between axioms and the truths they are supposed to ground?"
+        ]
+      },
+      {
+        "id": "analytic-truth",
+        "name": "ANALYTIC TRUTH",
+        "description": "Questions about analytic truth",
+        "questions": [
+          "What is an analytic truth?",
+          "How does analytic truth differ from formal truth?",
+          "Can an analytic truth fail to be formally true?",
+          "What is the relationship between analyticity and meaning?",
+          "How does Kuczynski's view of analyticity differ from Quine's?"
+        ]
+      },
+      {
+        "id": "logical-truth",
+        "name": "LOGICAL TRUTH",
+        "description": "Questions about logical truth",
+        "questions": [
+          "What is a logical truth?",
+          "How do logical truths relate to linguistic conventions?",
+          "Why aren't logical truths merely conventional?",
+          "What is the scope of logical truth?",
+          "How do we know logical truths?"
+        ]
+      },
+      {
+        "id": "quantification",
+        "name": "QUANTIFICATION",
+        "description": "Questions about quantification",
+        "questions": [
+          "What are quantified generalizations?",
+          "How does \"some person smokes\" analyze in terms of classes?",
+          "How does \"no giraffes fly\" analyze in terms of classes?",
+          "How does \"all mice read Tolstoy\" analyze in terms of classes?",
+          "Why is quantification important for understanding logical form?"
+        ]
+      },
+      {
+        "id": "reference-and-meaning",
+        "name": "REFERENCE AND MEANING",
+        "description": "Questions about reference and meaning",
+        "questions": [
+          "What is the relationship between reference and meaning?",
+          "Can two expressions have the same reference but different meanings?",
+          "How does Frege's analysis of \"nobody\" relate to questions about reference?",
+          "What is the difference between referring expressions and quantifier expressions?",
+          "How does the concept of reference relate to Platonism?"
+        ]
+      },
+      {
+        "id": "sentence-structure",
+        "name": "SENTENCE STRUCTURE",
+        "description": "Questions about sentence structure",
+        "questions": [
+          "What is grammatical form?",
+          "What is logical form?",
+          "Why do grammatical and logical form sometimes diverge?",
+          "How does Frege's insight about form relate to the analysis of \"nobody\"?",
+          "What philosophical errors result from conflating grammatical and logical form?"
+        ]
+      },
+      {
+        "id": "syntax-and-semantics",
+        "name": "SYNTAX AND SEMANTICS",
+        "description": "Questions about syntax and semantics",
+        "questions": [
+          "What is syntax?",
+          "What is semantics?",
+          "How do syntactic rules differ from semantic rules?",
+          "Why did Wittgenstein's early view focus on syntax?",
+          "Why is the focus on syntax inadequate for solving philosophical problems?"
+        ]
+      },
+      {
+        "id": "meaning-and-convention",
+        "name": "MEANING AND CONVENTION",
+        "description": "Questions about meaning and convention",
+        "questions": [
+          "What is the conventional component of linguistic meaning?",
+          "What is the non-conventional component?",
+          "How do semantic conventions determine sentence meaning?",
+          "Why isn't meaning entirely conventional?",
+          "What is the relationship between conventions and the truths expressed?"
+        ]
+      },
+      {
+        "id": "propositions-and-sentences",
+        "name": "PROPOSITIONS AND SENTENCES",
+        "description": "Questions about propositions and sentences",
+        "questions": [
+          "How does a sentence \"encode\" a proposition?",
+          "Why are propositions not human creations though sentences are?",
+          "What is the difference between sentence-truth and proposition-truth?",
+          "How does analyzing a sentence differ from analyzing a proposition?",
+          "Why does analyzing propositions not require knowledge of any particular language?"
+        ]
+      },
+      {
+        "id": "ambiguity-of-\"statement\"",
+        "name": "AMBIGUITY OF \"STATEMENT\"",
+        "description": "Questions about ambiguity of \"statement\"",
+        "questions": [
+          "What are the three meanings of \"statement\"?",
+          "How does this ambiguity affect philosophical discussion?",
+          "Why did Wittgenstein's rejection of propositions lead to error?",
+          "What is the importance of distinguishing sentences, propositions, and speech acts?",
+          "How does the ambiguity relate to the sentence/proposition distinction?"
+        ]
+      },
+      {
+        "id": "digital-vs.-analog-representation",
+        "name": "DIGITAL VS. ANALOG REPRESENTATION",
+        "description": "Questions about digital vs. analog representation",
+        "questions": [
+          "What makes sentences \"digital structures\"?",
+          "Why do sentences have unique decomposition into discrete parts?",
+          "How do pictures differ from sentences in their structure?",
+          "Why is the digital nature of language related to its conventional component?",
+          "What does this structural difference show about the picture theory?"
+        ]
+      },
+      {
+        "id": "complex-expressions",
+        "name": "COMPLEX EXPRESSIONS",
+        "description": "Questions about complex expressions",
+        "questions": [
+          "How is the meaning of a complex expression determined?",
+          "Why must one \"figure out\" what complex expressions mean?",
+          "What is the relationship between convention and composition in meaning?",
+          "How do the meanings of parts combine to form the meaning of the whole?",
+          "Why can't there be a convention directly assigning meaning to every complex expression?"
+        ]
+      },
+      {
+        "id": "descriptive-access-to-meaning",
+        "name": "DESCRIPTIVE ACCESS TO MEANING",
+        "description": "Questions about descriptive access to meaning",
+        "questions": [
+          "What does it mean to know meanings \"descriptively\"?",
+          "How do different descriptions pick out the same referent?",
+          "Why can the same sentence convey different propositions to different people?",
+          "How does the manner of learning word meanings affect comprehension?",
+          "What does this show about the information conveyed by utterances?"
+        ]
+      },
+      {
+        "id": "the-ontological-divide",
+        "name": "THE ONTOLOGICAL DIVIDE",
+        "description": "Questions about the ontological divide",
+        "questions": [
+          "What two categories does Kuczynski recognize in his ontology?",
+          "Why does everything that exists fall into one of these categories?",
+          "What apparently non-property entities turn out to be properties?",
+          "How do propositions fit into this ontology?",
+          "How do sets fit into this ontology?"
+        ]
+      },
+      {
+        "id": "instantiation",
+        "name": "INSTANTIATION",
+        "description": "Questions about instantiation",
+        "questions": [
+          "What is instantiation?",
+          "What is the relationship between a property and its instances?",
+          "Can a property exist without instances?",
+          "How does Kuczynski argue for uninstantiated properties?",
+          "What is the difference between instantiation and identity?"
+        ]
+      },
+      {
+        "id": "property-identity",
+        "name": "PROPERTY IDENTITY",
+        "description": "Questions about property identity",
+        "questions": [
+          "When are two properties identical?",
+          "Why doesn't coextensiveness imply property identity?",
+          "What distinguishes identical properties from merely coextensive ones?",
+          "How do uninstantiated properties bear on questions of identity?",
+          "What role does necessity play in property identity?"
+        ]
+      },
+      {
+        "id": "abstract-objects",
+        "name": "ABSTRACT OBJECTS",
+        "description": "Questions about abstract objects",
+        "questions": [
+          "What makes an object abstract?",
+          "Are properties abstract objects?",
+          "How do abstract objects differ from concrete objects?",
+          "What is the epistemological problem for abstract objects?",
+          "How does Kuczynski respond to this problem?"
+        ]
+      },
+      {
+        "id": "universals-and-particulars",
+        "name": "UNIVERSALS AND PARTICULARS",
+        "description": "Questions about universals and particulars",
+        "questions": [
+          "What is a universal?",
+          "What is a particular?",
+          "How do universals relate to particulars?",
+          "Why are universals not reducible to particulars?",
+          "What is the relationship between the universal/particular and property/instance distinctions?"
+        ]
+      },
+      {
+        "id": "the-reality-of-properties",
+        "name": "THE REALITY OF PROPERTIES",
+        "description": "Questions about the reality of properties",
+        "questions": [
+          "In what sense are properties \"real\"?",
+          "Do properties exist independently of minds?",
+          "Do properties exist independently of language?",
+          "How does Kuczynski's view differ from nominalism?",
+          "How does Kuczynski's view differ from conceptualism?"
+        ]
+      },
+      {
+        "id": "mathematical-objects",
+        "name": "MATHEMATICAL OBJECTS",
+        "description": "Questions about mathematical objects",
+        "questions": [
+          "What are mathematical objects according to Kuczynski?",
+          "How do mathematical objects relate to properties?",
+          "Why are mathematical truths not about the spatiotemporal world?",
+          "How do we have knowledge of mathematical objects?",
+          "What is the relationship between mathematics and logic?"
+        ]
+      },
+      {
+        "id": "possible-worlds",
+        "name": "POSSIBLE WORLDS",
+        "description": "Questions about possible worlds",
+        "questions": [
+          "Does Kuczynski accept possible worlds?",
+          "How does Kuczynski's view of counterfactuals avoid commitment to possible worlds?",
+          "What is wrong with Lewis's modal realism according to Kuczynski?",
+          "How does Kuczynski analyze modal claims?",
+          "What is the relationship between properties and possibility?"
+        ]
+      },
+      {
+        "id": "consciousness-and-the-self",
+        "name": "CONSCIOUSNESS AND THE SELF",
+        "description": "Questions about consciousness and the self",
+        "questions": [
+          "What is the relationship between consciousness and the self?",
+          "Is consciousness the nucleus of the self?",
+          "How does consciousness relate to subpersonal processes?",
+          "What cognitive processes are not conscious?",
+          "What role does consciousness play in agency?"
+        ]
+      },
+      {
+        "id": "mental-causation",
+        "name": "MENTAL CAUSATION",
+        "description": "Questions about mental causation",
+        "questions": [
+          "How do mental states cause behavior?",
+          "Is mental causation compatible with physical causation?",
+          "What is the relationship between mental and physical descriptions?",
+          "How does Kuczynski's view avoid epiphenomenalism?",
+          "What role does consciousness play in mental causation?"
+        ]
+      },
+      {
+        "id": "perception-and-cognition",
+        "name": "PERCEPTION AND COGNITION",
+        "description": "Questions about perception and cognition",
+        "questions": [
+          "What is the relationship between perception and cognition?",
+          "How does perception involve cognition?",
+          "What is the role of concepts in perception?",
+          "How does Kuczynski's view differ from pure sense-data theories?",
+          "What is the cognitive component of perceptual experience?"
+        ]
+      },
+      {
+        "id": "thought-and-language",
+        "name": "THOUGHT AND LANGUAGE",
+        "description": "Questions about thought and language",
+        "questions": [
+          "Can there be thought without language?",
+          "What kind of thought requires language?",
+          "How does linguistic competence enhance cognitive ability?",
+          "What is the relationship between symbolic and non-symbolic thought?",
+          "How does Kuczynski's view differ from the language of thought hypothesis?"
+        ]
+      },
+      {
+        "id": "rationality",
+        "name": "RATIONALITY",
+        "description": "Questions about rationality",
+        "questions": [
+          "What is rationality according to Kuczynski?",
+          "How does rationality relate to pattern recognition?",
+          "Is rationality reducible to computation?",
+          "What is the relationship between rationality and consciousness?",
+          "How do rational and non-rational mental processes interact?"
+        ]
+      },
+      {
+        "id": "intentionality",
+        "name": "INTENTIONALITY",
+        "description": "Questions about intentionality",
+        "questions": [
+          "What is intentionality?",
+          "How do mental states have content?",
+          "What is the relationship between intentionality and propositions?",
+          "How does Kuczynski's Platonism affect his view of intentionality?",
+          "What is the relationship between intentionality and consciousness?"
+        ]
+      },
+      {
+        "id": "the-unconscious",
+        "name": "THE UNCONSCIOUS",
+        "description": "Questions about the unconscious",
+        "questions": [
+          "What is the unconscious according to Kuczynski?",
+          "How does subpersonal thought differ from the Freudian unconscious?",
+          "What cognitive processes are unconscious?",
+          "How do unconscious processes affect conscious experience?",
+          "What is the relationship between unconscious and conscious thought?"
+        ]
+      },
+      {
+        "id": "agency",
+        "name": "AGENCY",
+        "description": "Questions about agency",
+        "questions": [
+          "What is the nature of agency?",
+          "How does Libet's experiment affect our understanding of agency?",
+          "What role does consciousness play in agency?",
+          "What is the relationship between agency and causation?",
+          "How does Kuczynski's view of agency differ from libertarian views?"
+        ]
+      },
+      {
+        "id": "true/false-questions",
+        "name": "TRUE/FALSE QUESTIONS",
+        "description": "Questions about true/false questions",
+        "questions": [
+          "T/F: A logical positivist would be sympathetic to Lewis's possible worlds view of counterfactuals.",
+          "T/F: A logical positivist would regard \"anything half the height of something six feet tall is three feet tall\" as holding in virtue of linguistic conventions.",
+          "T/F: A logical positivist would regard the statement about height as a tautology.",
+          "T/F: A logical positivist would regard Lewis's analysis of counterfactuals as meaningful.",
+          "T/F: A logical positivist would regard the possible worlds analysis as meaningless.",
+          "T/F: A logical positivist would regard the height statement as meaningful but trivial.",
+          "T/F: One problem with falsificationism is that some \"some x's are y's\" statements are meaningful but unfalsifiable.",
+          "T/F: One problem with falsificationism is that some \"some x's are y's\" statements are meaningful but verifiable.",
+          "T/F: \"Smith is a penguin\" entails \"Smith is not a person.\"",
+          "T/F: \"Smith is a person\" entails \"Smith is literate.\"",
+          "T/F: \"Smith is a monarch\" entails \"Smith is literate.\"",
+          "T/F: \"Smith is a supreme court justice\" entails \"Smith is not a complete moron.\"",
+          "T/F: Our knowledge that \"anything with beliefs has mental states\" is analytic knowledge.",
+          "T/F: The fact that zero equals zero is easily verified through experimentation.",
+          "T/F: Platonism is compatible with the theory of evolution.",
+          "T/F: Word-types are properties.",
+          "T/F: Scattered objects are non-spatiotemporal.",
+          "T/F: Identifying properties with sets concedes Platonism.",
+          "T/F: The Third Man Argument successfully refutes the claim that properties must resemble their instances.",
+          "T/F: There are uninstantiated but existent properties."
+        ]
+      },
+      {
+        "id": "state-kuczynski's-position-on",
+        "name": "STATE KUCZYNSKI'S POSITION ON:",
+        "description": "Questions about state kuczynski's position on:",
+        "questions": [
+          "The nature of philosophy",
+          "The relationship between philosophy and science",
+          "The relationship between logic and language",
+          "The nature of meaning",
+          "The nature of truth",
+          "The nature of properties",
+          "The existence of abstract objects",
+          "The nature of propositions",
+          "The relationship between language and thought",
+          "The nature of consciousness",
+          "The nature of the self",
+          "The relationship between mind and body",
+          "The nature of causation",
+          "The nature of perception",
+          "The limits of knowledge",
+          "The relationship between determinism and free will",
+          "The nature of agency",
+          "The significance of Libet's experiment",
+          "The failure of empiricism",
+          "The failure of logical positivism"
+        ]
+      },
+      {
+        "id": "kuczynski-would-say-that",
+        "name": "KUCZYNSKI WOULD SAY THAT:",
+        "description": "Questions about kuczynski would say that:",
+        "questions": [
+          "Philosophy is fundamentally different from science because...",
+          "Frege's key insight was...",
+          "Wittgenstein was wrong because...",
+          "Empiricism fails because...",
+          "Properties must be non-spatiotemporal because...",
+          "Propositions are properties because...",
+          "The picture theory fails because...",
+          "Meaning cannot be use because...",
+          "Logical positivism fails because...",
+          "Euclid's axioms are statement-forms because...",
+          "Arithmetic cannot be formalized because...",
+          "Counterfactuals don't require possible worlds because...",
+          "Mathematical knowledge is not causal because...",
+          "Libet's experiment is significant because...",
+          "Determinism doesn't imply predictability because...",
+          "Subpersonal thought exists because...",
+          "The self is not the same as the mind because...",
+          "Perception has limits because...",
+          "Self-prediction is impossible because...",
+          "Berkeley confused images with concepts because..."
+        ]
+      },
+      {
+        "id": "explain-these-kuczynski-claims",
+        "name": "EXPLAIN THESE KUCZYNSKI CLAIMS",
+        "description": "Questions about explain these kuczynski claims",
+        "questions": [
+          "\"Philosophy is the discipline that delineates the structures of the categories in terms of which we think about the world.\"",
+          "\"Philosophical knowledge is metaknowledge\u2014knowledge about knowledge.\"",
+          "\"The philosopher is interested in the laws governing the laws.\"",
+          "\"Not everything that exists is in space-time.\"",
+          "\"Properties themselves have properties.\"",
+          "\"Nominalism is incoherent because words are themselves universals.\"",
+          "\"Propositions are properties and truth is instantiatedness.\"",
+          "\"Philosophical puzzles result not from ignorance but from confusion.\"",
+          "\"Not all philosophical analysis is linguistic analysis.\"",
+          "\"The picture theory is false if taken literally and empty if taken non-literally.\"",
+          "\"Sentences are digital structures.\"",
+          "\"Tautologousness is a property of information, not of sentences.\"",
+          "\"Euclid's axioms are statement-forms, not statements.\"",
+          "\"Arithmetical truth cannot be formalized.\"",
+          "\"A deterministic universe is not knowable in its entirety by any internal observer.\"",
+          "\"Laplace's demon is logically impossible, not just physically impossible.\"",
+          "\"Self-understanding isn't the mind's primary function.\"",
+          "\"W is clearly not the cause of the finger-movement.\"",
+          "\"Randomness is in the relationship between the event and an information set, not in the event.\"",
+          "\"The infallible self-predictor is a logically incoherent concept.\""
+        ]
+      },
+      {
+        "id": "synthesis-questions",
+        "name": "SYNTHESIS QUESTIONS",
+        "description": "Questions about synthesis questions",
+        "questions": [
+          "Synthesize Kuczynski's views on language, logic, and metaphysics.",
+          "Synthesize Kuczynski's views on knowledge, perception, and reality.",
+          "Synthesize Kuczynski's views on mind, consciousness, and agency.",
+          "Synthesize Kuczynski's views on determinism, prediction, and freedom.",
+          "Synthesize Kuczynski's critiques of empiricism, positivism, and Wittgenstein.",
+          "How do Kuczynski's negative critiques support his positive views?",
+          "How does Kuczynski's metaphysics support his epistemology?",
+          "How does Kuczynski's philosophy of language support his philosophy of mind?",
+          "How does Kuczynski's analysis of formal systems support his view of knowledge?",
+          "How does Kuczynski's Platonism support his critique of empiricism?"
+        ]
+      },
+      {
+        "id": "original-thinking-questions",
+        "name": "ORIGINAL THINKING QUESTIONS",
+        "description": "Questions about original thinking questions",
+        "questions": [
+          "What question would you most want to ask Kuczynski?",
+          "What is the most controversial claim in Kuczynski's system?",
+          "What claim of Kuczynski's do you find most compelling?",
+          "What claim of Kuczynski's do you find least compelling?",
+          "How would you extend or develop Kuczynski's system?",
+          "What objection to Kuczynski's Platonism do you find most serious?",
+          "What objection to Kuczynski's critique of empiricism do you find most serious?",
+          "What objection to Kuczynski's analysis of Libet do you find most serious?",
+          "What objection to Kuczynski's philosophy of language do you find most serious?",
+          "What aspect of Kuczynski's system needs most development?"
+        ]
+      },
+      {
+        "id": "final-ten",
+        "name": "FINAL TEN",
+        "description": "Questions about final ten",
+        "questions": [
+          "In one sentence, what is Kuczynski's fundamental philosophical commitment?",
+          "In one paragraph, summarize Kuczynski's philosophy.",
+          "What distinguishes Kuczynski's approach from mainstream analytic philosophy?",
+          "What distinguishes Kuczynski's approach from continental philosophy?",
+          "What is Kuczynski's most original contribution to philosophy?",
+          "What problem is Kuczynski's philosophy best suited to solve?",
+          "What limitation is most significant in Kuczynski's system?",
+          "What would convince Kuczynski to revise his views?",
+          "How would you characterize Kuczynski's philosophical temperament?",
+          "What is the lasting significance of Kuczynski's work?"
+        ]
+      }
+    ]
+  }
+}

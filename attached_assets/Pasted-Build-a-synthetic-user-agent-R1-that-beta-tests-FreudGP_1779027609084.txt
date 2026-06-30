@@ -1,0 +1,370 @@
+Build a synthetic user agent ("R1") that beta-tests FreudGPT — The Thinker's Workshop end-to-end. R1 must produce raw, reviewable evidence of every interaction — not pass/fail summaries.
+NON-NEGOTIABLE REQUIREMENTS (read first)
+These are the parts a previous synthetic-user build for a different app failed on. If any are missing, the deliverable is rejected.
+
+No green-checkmark theater. R1 produces raw evidence, not "PASS." Exact text typed, exact text returned, exact network responses, exact screenshots. Judge produces prose critique, not booleans. PASS/FAIL exists only as a filter for failures.md — never as a substitute for evidence.
+The HTML report must be reviewable in under 30 minutes. Every interaction shows step + R1's input verbatim + app's response body + screenshots + judge critique. No collapsed sections, no "Click to expand."
+The live view must show R1's actual inputs and the app's actual outputs as they happen — not "Step 4 of N in progress." Spec below.
+Network traffic captured raw. Every /api/* request and response body in network.log as JSONL.
+Three screenshots per interactive step (before / after typing / after app responds). Navigation-only steps get one. The sanity check distinguishes the two cases.
+If R1 cannot complete a step, the failure is logged with the actual error, page HTML at moment of failure, and a screenshot. No skipping and marking green.
+Per-step API-call expectations are route-specific. "Ask a thinker" expects POST /api/ask specifically. Boolean checks forbidden.
+Critical button clicks wrapped in Promise.all([page.waitForResponse(predicate), click]) so R1 doesn't silently advance when a click fails to fire.
+
+What's different about this app — FreudGPT's defining feature
+FreudGPT is a database-grounded philosophical consultation app. Its entire premise is that responses are traceable to actual retrieved positions from a corpus — not freely generated. The Archive panel on the right shows exactly which positions were retrieved for each query. The whole product collapses if grounding fails.
+R1's heaviest job is enforcing grounding. The five invariants that elevate to CRITICAL VIOLATION status:
+Invariant A — Every response is grounded in actually-retrieved positions. For every /api/ask call, the SSE stream emits a retrieval event before any tokens, containing the position IDs retrieved. R1 captures these IDs. Then R1 sends the full streamed response + the retrieved position texts to the judge with: "Does every major claim in the response trace to one of these positions? List any claim that doesn't have a clear basis." If the judge identifies ungrounded claims (i.e., the LLM invented content the corpus doesn't support), that's a CRITICAL VIOLATION. The blueprint says the prompt forces grounding — if grounding fails, the central feature is broken.
+Invariant B — The low-relevance warning fires when it should. Per blueprint, when max_similarity < 0.25 the LLM must explicitly acknowledge the retrieved positions don't address the question. R1 deliberately asks an off-topic question (e.g., ask Freud about cryptocurrency mining) and verifies: (a) the retrieval event shows low similarity scores, (b) the response explicitly acknowledges the mismatch rather than pretending to answer with hallucinated material. If the response barrels ahead and invents Freud-on-Bitcoin content without acknowledging the gap, CRITICAL VIOLATION.
+Invariant C — Database integrity per the diagnostic. The 20-check diagnostic verifies per-thinker counts and schema. R1 runs it first and last. Any count drift (e.g., Freud was 19,077 before R1's run and is 19,072 after) means R1's testing accidentally mutated the corpus. CRITICAL VIOLATION.
+Invariant D — Memory Mode tree growth is bounded and tagged. Per blueprint, after each Memory Mode exchange Claude updates a Wittgenstein-numbered tree with nodes tagged ASSERTS/REJECTS/ASSUMES/OPEN/RESOLVED. R1 sends a Memory Mode exchange and verifies: tree grew by ≥ 1 node, every new node value starts with one of the five tags, every new node ID follows Wittgenstein decimal format (1.0, 1.1.2, etc.). If a node lacks a valid tag or has malformed numbering, CRITICAL VIOLATION.
+Invariant E — Longform doesn't duplicate sections. The blueprint emphasizes that the coherence skeleton specifically prevents the "many small essays cobbled together" failure mode via must_not_repeat lists and per-section unique roles. R1 generates a small longform document and verifies: (a) no two sections have identical or near-identical opening sentences, (b) the state's claims_made array grows across sections (deduplication works), (c) section roles in the skeleton are distinct (no two sections with role="intro" etc.). If sections repeat content, CRITICAL VIOLATION — the central NeuroText-style claim of this app is false.
+Architecture
+
+Browser automation: Playwright (Node, single-file tools/r1/run.mjs). Standalone Node project, not in any workspace.
+R1's brain: Anthropic API. Model: claude-opus-4-7. Key in ANTHROPIC_API_KEY.
+Judge: Separate Claude API call per interaction. Prose critique. For grounding checks (Invariants A and B), the judge gets both the response and the actual retrieved position texts.
+Live view: node:http server on port 7777. Zero extra deps.
+Target app: FreudGPT running locally. Flask on port 5000, longform TS service on port 3001. Default APP_URL=http://localhost:5000. Auth deferred per blueprint — diagnostic is unauthenticated.
+
+Live view
+Top panel: current step + R1's approach/reasoning + URL + live keystroke mirror + latest screenshot.
+Middle panel: streamed app response (FreudGPT is heavily SSE — show tokens streaming, show the retrieval event when it lands, show position IDs being collected), recent /api/* calls, judge critique, plus a dedicated "Grounding State" panel unique to FreudGPT showing:
+Active thinker:     freud
+Positions scanned:  19077
+Top-K retrieved:    12
+Max similarity:     0.71
+Mean similarity:    0.53
+Domains covered:    [unconscious, repression, dream-work]
+Position IDs:       [freud-04023, freud-09182, ...]
+Low-relevance warning: NO
+Grounding verdict:  pending judge review
+For Memory Mode interactions, an additional "Tree Delta" sub-panel shows:
+Nodes before:  47
+Nodes after:   52
+Delta:         +5
+New tags:      [ASSERTS, OPEN, RESOLVED, ASSERTS, ASSUMES]
+All tags valid: YES
+For Longform interactions, an additional "Longform Progress" sub-panel shows skeleton, current section, claims_made count, last paragraph.
+Bottom panel: reverse-chronological completed-interaction log.
+After exit: "RUN COMPLETE" with link to report.html. Kept open 60s.
+What R1 is testing — the functions
+Function 1 — System Diagnostic (FIRST, MANDATORY)
+
+Capture baseline: query the diagnostic endpoint for current per-thinker counts.
+Click 🩺 DIAGNOSTIC button or navigate to the diagnostic modal.
+Click "Run Full Diagnostic." Expected route: POST /api/diagnostic/run.
+Capture full JSON response with all 20 check results.
+Save as diagnostic-before.json.
+Per-thinker counts must match blueprint (freud 19,077 / kuczynski 17,499 / jung 2,910 / nietzsche 2,838 / bergler 1,924 / hume 1,114). Any deviation → judge concern with the exact diff.
+If any AI provider check fails, log; if DATABASE_URL or embedding service fails, R1 aborts dependent tests.
+If longform service health check fails, R1 skips Function 7 (longform).
+
+Function 2 — Thinker selection + Knowledge panel
+
+Verify all 6 thinkers visible (Freud, ZHI/Kuczynski, Jung in primary row; Hume, Nietzsche, Bergler in Related header).
+Click each thinker avatar.
+Expected route: GET /api/topics/<thinker> (per blueprint).
+Verify count badges match blueprint counts.
+Verify knowledge panel popup opens with starter questions.
+Verify active-thinker pill updates.
+
+Function 3 — Single consultation (happy path, Invariant A)
+For each primary thinker (Freud, Kuczynski, Jung):
+
+Select thinker. Default provider ZHI 4 (DeepSeek). Standard mode.
+Type a question well within the thinker's wheelhouse (Freud: "What is the role of repression in neurosis?"; Kuczynski: a question matching his published work; Jung: "How does the collective unconscious differ from the personal unconscious?").
+Click Consult. Expected route: POST /api/ask (SSE).
+Capture all SSE events: retrieval, token (many), sources, done.
+From retrieval event: capture positions_scanned, positions_above_threshold, max_similarity, mean_similarity, top_k, retrieved_position_ids, domains_covered.
+Capture full assembled response text.
+Verify Archive panel displays the actually retrieved positions.
+Verify Invariant A: judge receives the full response + the retrieved position texts (fetched via GET /api/positions/search?thinker=...&q=... if needed, or extracted from the sources event) and reports per-major-claim grounding. Any unsupported invention → CRITICAL VIOLATION.
+
+Function 4 — Invariant B: low-relevance warning
+
+Select Freud.
+Ask: "What are the optimal asset allocations for a 2030 retirement portfolio in a high-inflation environment?"
+Capture retrieval event — max_similarity should be very low (< 0.25).
+Capture response.
+Verify Invariant B: response must explicitly acknowledge the corpus doesn't address this question. Specific phrases to look for (judge decides): "I don't have positions on that," "my work doesn't address," "the retrieved material is tangential," etc.
+If response invents Freudian commentary on retirement investing as if it were grounded, CRITICAL VIOLATION.
+
+Function 5 — Provider switching
+For each of the 5 providers (ZHI 1 Anthropic, ZHI 2 OpenAI, ZHI 3 Grok, ZHI 4 DeepSeek, ZHI 5 Perplexity — skip any not configured per the /api/providers response):
+
+Ask the same question (e.g., "What is the unconscious?") with Freud selected.
+Verify response streams.
+Verify retrieval event content is structurally similar across providers (same retrieval logic; providers should retrieve the same positions for the same query).
+Judge concern (not violation): if two providers produce byte-identical responses, one fell back to the other.
+
+Function 6 — Memory Mode (Invariant D)
+
+Create a project "R1 Test Project" via POST /api/memory/projects.
+Capture project_id.
+Create a session via POST /api/memory/projects/:id/sessions.
+Toggle Memory Mode ON.
+Send first message: a substantive question that should generate ASSERTS-type nodes.
+Expected route: POST /api/memory/ask.
+After response, fetch GET /api/memory/projects/:id/tractatus. Capture tree node count.
+Send second message that should generate REJECTS or RESOLVED nodes (e.g., contradict something the thinker said earlier in the conversation).
+Re-fetch tractatus. Verify Invariant D: new nodes have valid tags and Wittgenstein decimal IDs. Tree grew. If not, CRITICAL VIOLATION.
+Send third message introducing a distinctive fact ("the test code is XQ-77-blue, remember this").
+Verify tree includes a node for this fact.
+Test cross-session persistence: create a new session in the same project, ask "what was the test code?" — response must contain XQ-77-blue. If it doesn't, CRITICAL VIOLATION (memory injection broken).
+Click 🌳 Tree button. Verify viewer opens. Verify download-as-JSON works (capture downloaded file).
+Test compression edge: if there's a way to seed a project past 500 nodes without burning massive tokens, do it; otherwise skip with a logged reason.
+
+Function 7 — Longform (Invariant E)
+
+Click 📚 LONGFORM button.
+Configure: thinker = Freud, mode = essay, word target = 2000 (small for smoke), prompt = "The role of the death drive in late Freudian theory."
+Click start. Expected route: POST /api/longform/coherent/start. Capture documentId.
+Open SSE on GET /api/longform/coherent/:id/stream.
+Capture every event: snapshot, status, skeleton, section_start, section_complete, state, complete, error.
+Verify the skeleton has ≥ 3 sections with distinct roles.
+For each section: capture full text and state-after snapshot.
+After completion:
+
+Invariant E checks:
+
+Hash the first 100 characters of each section. No two hashes identical. If any are, CRITICAL VIOLATION (duplicate sections).
+Compute pairwise text similarity between sections using simple shingle-overlap. If any pair > 70% similarity, CRITICAL VIOLATION.
+Verify the claims_made array in state-after snapshots grows monotonically across sections (no shrinking, no resets).
+Verify section roles in skeleton are distinct (no duplicate role values).
+
+
+
+
+Save full document to outputs/longform-doc.txt.
+Test resume: re-open the same job via POST /api/longform/coherent/:id/resume and verify it does NOT regenerate (job is complete; resume should no-op or return the existing job).
+Test list: GET /api/longform/coherent/list?thinker=freud — R1's job appears.
+
+Function 8 — RAG data mode
+
+Switch data mode dropdown to "RAG."
+Ask a query that should pull from full source texts rather than just positions (e.g., a question about a specific obscure passage in a Freud work).
+Verify retrieval surfaces text_chunks rather than just positions (Archive panel content differs from Classic mode).
+Verify response cites verbatim passages.
+
+Function 9 — Inference engine
+
+Ask a query that should trigger Freud's forward-chaining engine (e.g., a query matching a known rule's premise).
+Expected: deduction chain appears in response or in a debug view.
+Test POST /api/inference/deduce directly: send a payload matching a known rule, verify chain returns with premises → intermediate steps → conclusion.
+If deduction is silently skipped when it should fire, judge concern.
+
+Function 10 — File ingestion
+
+Drop a tiny test file in ingest/ (R1 needs filesystem write access — if not available, use the manual upload via 📎 button).
+Expected route: POST /api/upload/document.
+Verify response indicates successful extraction + embedding + insertion.
+Run GET /api/positions/search for content from the test file. Verify it returns rows.
+Important cleanup: R1 must remove or mark its test positions so they don't pollute the corpus. The README documents this — R1 logs the inserted position_ids and prints instructions for manual cleanup if no DELETE endpoint exists. If cleanup is impossible, R1 logs a CRITICAL VIOLATION (corpus pollution).
+
+Function 11 — Work reader
+
+Navigate to Knowledge panel for a thinker.
+Click "Read full work" on one work.
+Expected route: GET /api/works, then GET /api/work/<work_id>.
+Verify reader renders full text.
+
+Function 12 — Download / export
+
+After a consultation, click 📥 DOWNLOAD button.
+Verify a .txt file downloads with the session content.
+For Memory Mode, download the tree JSON; verify it contains current tree + archives + meta-trees.
+
+Function 13 — Audit trail
+
+After R1's earlier consultations, fetch GET /api/answer-logs.
+Verify R1's queries appear in the log with retrieval metadata (positions_scanned, max_similarity, retrieved_position_ids, etc.).
+If logs are missing R1's queries, judge concern (audit transparency broken).
+
+Function 14 — System Diagnostic (FINAL CHECK)
+
+Run POST /api/diagnostic/run again.
+Save as diagnostic-after.json.
+Compare against diagnostic-before.json:
+
+Invariant C: per-thinker counts must match (unless Function 10 ingested test data that R1 hasn't cleaned up — log explicitly).
+Any check that passed before but fails now → CRITICAL VIOLATION.
+
+
+Cleanup: delete the test Memory Mode project (DELETE /api/memory/projects/:id). Verify it's gone.
+
+R1's behavior
+For each interaction R1 picks one approach and logs the choice:
+
+Substantive in-wheelhouse question (Invariant A territory)
+Out-of-wheelhouse question (Invariant B territory)
+Question that should produce specific tag types in Memory Mode (Invariant D territory)
+Provider switch to test parity
+Edge cases (empty, oversized, special characters)
+
+Typing constraint: No clipboard paste. .type() with TYPE_DELAY_MS=15 for the live view. Longer fixture content (longform prompts) uses .type() since they're typically short.
+Per-interaction flow
+
+Navigate / open UI.
+Capture page state including which thinker is active.
+R1 brain picks approach + composes input.
+"Before" screenshot.
+Type input. Set parameters (provider, mode, sliders).
+"After typing" screenshot.
+Wrap submit click in Promise.all([page.waitForResponse(predicate), click]).
+Stream consumption: subscribe to SSE response. Capture retrieval event metadata. Accumulate token events. Detect done. Timeout: 5 min per consultation.
+"After" screenshot.
+Capture full response, all events, console errors, network calls.
+Run invariant-specific verification:
+
+Consultations → Invariant A (grounding) via judge with retrieved positions
+Off-topic consultations → Invariant B (low-relevance warning)
+Memory Mode → Invariant D (tree growth, valid tags, decimal numbering)
+Longform → Invariant E (no section duplication, claims_made monotonic)
+
+
+Send full interaction to judge with grounding-aware prompt: "Was the response grounded in the retrieved positions? Were major claims traceable to specific positions? Did the response acknowledge gaps when retrieval was weak? Anything broken or off?"
+Append to transcript, update live view.
+
+Artifacts (written to tools/r1/runs/<ISO-timestamp>/)
+transcript.jsonl
+One JSON per interaction:
+json{
+  "timestamp": "...",
+  "function_number": 3,
+  "function_name": "Single consultation — Invariant A test",
+  "step_description": "Ask Freud about repression",
+  "url": "http://localhost:5000/",
+  "is_interactive": true,
+  "expected_routes": ["POST /api/ask"],
+  "r1_approach": "in-wheelhouse substantive",
+  "r1_reasoning": "...",
+  "r1_input": "<verbatim>",
+  "r1_parameters": {
+    "thinker": "freud",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "mode": "standard",
+    "answer_length": 5,
+    "quotes": 3,
+    "data_mode": "Classic"
+  },
+  "app_response": {
+    "assembled_text": "<full streamed response>",
+    "retrieval_event": {
+      "positions_scanned": 19077,
+      "positions_above_threshold": 47,
+      "max_similarity": 0.78,
+      "mean_similarity": 0.51,
+      "top_k": 12,
+      "retrieved_position_ids": [...],
+      "domains_covered": [...]
+    },
+    "retrieved_position_texts": [...],
+    "errors_in_console": [],
+    "network_calls": [...],
+    "sse_events_observed": ["retrieval", "token", "...", "sources", "done"]
+  },
+  "grounding_verification": {
+    "claims_in_response": [...],
+    "claims_grounded": [...],
+    "claims_unsupported": [],
+    "invariant_a_passed": true,
+    "low_relevance_warning_expected": false,
+    "low_relevance_warning_present": false,
+    "invariant_b_applicable": false
+  },
+  "screenshots": ["screenshots/0003-before.png","screenshots/0003-typed.png","screenshots/0003-after.png"],
+  "judge_critique": "<2-5 sentence prose>",
+  "judge_concerns": [...],
+  "invariant_violations": []
+}
+For Memory Mode interactions, add a tractatus_delta block (nodes before/after, new node IDs, new tags, validity checks). For Longform interactions, add a longform_structure block (section count, role list, claims_made trajectory, section similarity matrix).
+report.html
+Self-contained, grouped by function. Sticky TOC. Every section shows step + approach + reasoning + R1's input + parameters + retrieval metadata + retrieved position texts (collapsed by default — this is the one exception, retrieved positions can be very long) + full assembled response + network calls + console errors + all screenshots inline + grounding verification block + judge critique + concerns + violations. Memory Mode sections show the tractatus delta visually. Longform sections show the skeleton + per-section content.
+failures.md
+Opens with CRITICAL INVARIANT VIOLATIONS:
+
+Invariant A: ungrounded claim in response (cite the claim + the retrieved positions)
+Invariant B: low-similarity query produced confident invented response (cite max_similarity + the response)
+Invariant C: per-thinker counts drifted (cite the diff)
+Invariant D: malformed tractatus node (cite the node)
+Invariant E: duplicate longform sections (cite the sections + similarity score)
+Any 5xx response
+Diagnostic regression (pre-run pass → post-run fail)
+Memory Mode cross-session recall failure
+Corpus pollution from Function 10 if cleanup impossible
+Any uncaught exception in R1's harness
+
+Below: judge concerns linking to report anchors, screenshots inline.
+network.log
+JSONL of every /api/* call + response body. SSE streams captured as: assembled final body + array of {t, type, data} event triples.
+sse-streams/
+Full SSE event sequence for every streaming interaction saved as sse-streams/NNNN.jsonl — one event per line. Lets you replay the stream.
+outputs/
+
+diagnostic-before.json and diagnostic-after.json
+longform-doc.txt — full text of Function 7's generated essay
+tractatus-snapshots/ — JSON snapshots of the Memory Mode tree at each step
+retrieved-positions/ — for every consultation, the full text of each retrieved position
+answer-logs.json — fetched audit trail
+
+console.log
+Full stdout.
+screenshots/
+Numbered PNGs.
+run-summary.txt
+INTERACTIONS: N
+JUDGE CONCERNS RAISED: M
+CRITICAL INVARIANT VIOLATIONS: K
+  Invariant A (grounding): A
+  Invariant B (low-relevance warning): B
+  Invariant C (corpus count drift): C
+  Invariant D (tree validity): D
+  Invariant E (longform duplication): E
+DIAGNOSTIC REGRESSIONS: R
+HARNESS SANITY FAILURES: J
+Anti-theater sanity checks
+For each interaction:
+
+Every route in expected_routes appears in network_calls. Route-specific.
+r1_input ≥ 10 chars for interactive steps.
+Interactive: 3 screenshots, not byte-identical. Navigation-only: 1.
+judge_critique ≥ 30 words.
+For consultations: retrieval_event is captured AND retrieved_position_texts is populated; grounding_verification is non-stub; sse_events_observed includes both retrieval and done.
+For Memory Mode: tractatus_delta is present and populated.
+For Longform: longform_structure is present with section similarity matrix computed.
+
+If any fail: HARNESS SANITY FAILURES: X, exit code 3.
+Configuration
+jsconst APP_URL = process.env.APP_URL || 'http://localhost:5000';
+const OUTPUT_DIR = `./runs/${new Date().toISOString().replace(/[:.]/g,'-')}`;
+const HEADLESS = process.env.HEADLESS === 'true' || false;
+const TYPE_DELAY_MS = parseInt(process.env.TYPE_DELAY_MS || '15', 10);
+const LIVE_VIEW_PORT = parseInt(process.env.LIVE_VIEW_PORT || '7777', 10);
+const SKIP_FUNCTIONS = (process.env.SKIP_FUNCTIONS || '').split(',').filter(Boolean);
+const CONSULTATION_TIMEOUT_MS = parseInt(process.env.CONSULTATION_TIMEOUT_MS || '300000', 10);
+const LONGFORM_TARGET_WORDS = parseInt(process.env.LONGFORM_TARGET_WORDS || '2000', 10);
+const ABORT_ON_DIAGNOSTIC_DB_FAIL = process.env.ABORT_ON_DIAGNOSTIC_DB_FAIL !== 'false';
+const ANTHROPIC_MODEL = process.env.ANTHROPIC_MODEL || 'claude-opus-4-7';
+Deliverable
+tools/r1/run.mjs + tools/r1/package.json + tools/r1/README.md. Standalone Node project.
+npm start runs full plan. Smoke test: SKIP_FUNCTIONS=5,7,10 npm start (skip provider parity loop, longform, file ingestion — the expensive/intrusive ones).
+Startup banner:
+R1 is running.
+Live view:    http://localhost:7777
+Output dir:   ./runs/<timestamp>/
+Watch the live view — especially the Grounding State panel.
+Do not trust summary output alone.
+Finish banner:
+R1 finished.
+Open the report:        ./runs/<...>/report.html
+Open the failures:      ./runs/<...>/failures.md
+Diagnostic before/after: ./runs/<...>/outputs/diagnostic-*.json
+SSE streams:            ./runs/<...>/sse-streams/
+Tractatus snapshots:    ./runs/<...>/outputs/tractatus-snapshots/
+Generated longform:     ./runs/<...>/outputs/longform-doc.txt
+Raw transcript:         ./runs/<...>/transcript.jsonl
+Raw network log:        ./runs/<...>/network.log
+Exit codes: 0 clean, 1 judge concerns raised, 2 critical invariant violations, 3 harness sanity failed.
+UI selectors identified by inspecting the actual rendered FreudGPT app. The blueprint describes buttons (🩺 DIAGNOSTIC, 📚 LONGFORM, 📥 DOWNLOAD, 🌳 Tree) but does not specify testids — find them in templates/index.html. Confirm endpoint paths against app.py (Flask routes) and longform/server.ts (TS service routes) if blueprint and code disagree; the code is authoritative.

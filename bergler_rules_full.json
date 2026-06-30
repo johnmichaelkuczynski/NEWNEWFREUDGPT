@@ -1,0 +1,162 @@
+[
+  {
+    "id": "BERG-ORAL-001",
+    "year": 1949,
+    "premise": "oral|masochism|psychic masochism|self-damage",
+    "conclusion": "Psychic masochism is the basic neurosis underlying all other neuroses. The infant's rage at the refusing mother is turned inward, creating an unconscious pleasure in psychic pain and self-defeat.",
+    "strength": 0.95,
+    "domain": "psychoanalysis"
+  },
+  {
+    "id": "BERG-ORAL-002",
+    "year": 1949,
+    "premise": "mother|breast|refusal|frustration",
+    "conclusion": "The pre-oedipal conflict with the refusing mother is the deepest layer of neurosis. The infant experiences the mother's necessary refusals as cruel rejection, generating unconscious rage and guilt.",
+    "strength": 0.95,
+    "domain": "psychoanalysis"
+  },
+  {
+    "id": "BERG-INJUST-001",
+    "year": 1949,
+    "premise": "injustice collector|victim|grievance|unfair",
+    "conclusion": "The injustice collector unconsciously provokes or misinterprets situations to feel mistreated. This provides masochistic satisfaction while maintaining conscious innocence. They collect injustices as others collect stamps.",
+    "strength": 0.95,
+    "domain": "psychoanalysis"
+  },
+  {
+    "id": "BERG-GAMBL-001",
+    "year": 1957,
+    "premise": "gambl|betting|casino|risk|chance",
+    "conclusion": "The gambler is not seeking to win but unconsciously seeking to lose. Gambling is a form of psychic masochism—the gambler provokes fate as the mother surrogate, unconsciously courting punishment.",
+    "strength": 0.95,
+    "domain": "gambling"
+  },
+  {
+    "id": "BERG-GAMBL-002",
+    "year": 1957,
+    "premise": "losing|loss|defeat|ruin",
+    "conclusion": "The gambler's inevitable losses provide unconscious masochistic gratification. The conscious desire to win masks the deeper unconscious wish to be punished by the omnipotent mother figure (fate).",
+    "strength": 0.90,
+    "domain": "gambling"
+  },
+  {
+    "id": "BERG-WRITER-001",
+    "year": 1950,
+    "premise": "writer|block|creative|inhibition|blank page",
+    "conclusion": "Writer's block is an expression of oral masochism. The writer unconsciously refuses to produce, identifying with the refusing mother, while simultaneously punishing himself for his infantile oral aggression.",
+    "strength": 0.90,
+    "domain": "creativity"
+  },
+  {
+    "id": "BERG-WRITER-002",
+    "year": 1950,
+    "premise": "creativity|create|produce|artistic",
+    "conclusion": "Creative work represents giving—the opposite of the oral wish to receive. The neurotic writer is unconsciously conflicted about giving, feeling that production depletes him like the breast depleted the mother.",
+    "strength": 0.85,
+    "domain": "creativity"
+  },
+  {
+    "id": "BERG-SUPER-001",
+    "year": 1949,
+    "premise": "superego|guilt|conscience|punishment|self-attack",
+    "conclusion": "The superego of the oral masochist is extraordinarily cruel, far exceeding the severity of actual parental prohibitions. It attacks the ego with accusations based on the infant's own projected aggression.",
+    "strength": 0.90,
+    "domain": "psychoanalysis"
+  },
+  {
+    "id": "BERG-TRIAD-001",
+    "year": 1949,
+    "premise": "defense|mechanism|triad|unconscious",
+    "conclusion": "The basic triad of the oral masochist: (1) unconscious provocation, (2) unconscious enjoyment of the resulting pain, (3) conscious indignation and claim of innocence. This pattern underlies all neurotic suffering.",
+    "strength": 0.95,
+    "domain": "psychoanalysis"
+  },
+  {
+    "id": "BERG-SEPTET-001",
+    "year": 1949,
+    "premise": "defense|septet|mechanism|seven",
+    "conclusion": "The neurotic deploys a 'septet' of defenses: (1) pseudo-aggression, (2) self-damaging actions, (3) defensive self-righteousness, (4) projection, (5) identification with the aggressor, (6) turning passive into active, (7) rationalization.",
+    "strength": 0.85,
+    "domain": "psychoanalysis"
+  },
+  {
+    "id": "BERG-PSEUDO-001",
+    "year": 1949,
+    "premise": "aggression|pseudo-aggression|anger|hostile",
+    "conclusion": "Much apparent aggression is pseudo-aggression—a defense against underlying masochism. The oral masochist unconsciously provokes attack to justify feeling victimized, then shows 'righteous' anger.",
+    "strength": 0.85,
+    "domain": "psychoanalysis"
+  },
+  {
+    "id": "BERG-MONEY-001",
+    "year": 1951,
+    "premise": "money|financial|spending|debt",
+    "conclusion": "Neurotic money troubles reflect oral conflicts. The spendthrift unconsciously repeats the infantile fantasy of unlimited supply from the mother, while the miser hoards as defense against oral deprivation.",
+    "strength": 0.80,
+    "domain": "psychoanalysis"
+  },
+  {
+    "id": "BERG-LOVE-001",
+    "year": 1946,
+    "premise": "love|relationship|marriage|partner",
+    "conclusion": "Neurotic love choices are unconsciously designed to fail. The oral masochist selects partners who will inevitably disappoint, recreating the original drama with the refusing mother.",
+    "strength": 0.85,
+    "domain": "relationships"
+  },
+  {
+    "id": "BERG-WORK-001",
+    "year": 1949,
+    "premise": "work|career|success|failure|self-sabotage",
+    "conclusion": "Professional self-sabotage serves masochistic needs. The neurotic unconsciously arranges failure to confirm his inner conviction of worthlessness and to provoke punishment from authority figures.",
+    "strength": 0.85,
+    "domain": "psychoanalysis"
+  },
+  {
+    "id": "BERG-BORE-001",
+    "year": 1945,
+    "premise": "boredom|bore|ennui|apathy",
+    "conclusion": "Boredom is not absence of stimulation but aggressive refusal of it—a form of oral spite. The bored person unconsciously refuses to be interested, punishing the world as he felt punished by the refusing mother.",
+    "strength": 0.80,
+    "domain": "psychoanalysis"
+  },
+  {
+    "id": "BERG-TALK-001",
+    "year": 1949,
+    "premise": "talk|speech|verbose|silent",
+    "conclusion": "Both excessive talking and pathological silence are oral symptoms. The compulsive talker orally floods others (reversed oral aggression), while the silent person refuses to give (oral spite).",
+    "strength": 0.80,
+    "domain": "psychoanalysis"
+  },
+  {
+    "id": "BERG-CURE-001",
+    "year": 1949,
+    "premise": "cure|treatment|therapy|analysis",
+    "conclusion": "Cure requires working through the oral masochistic layer. The patient must recognize his unconscious pleasure in suffering and his identification with the refusing mother before genuine change is possible.",
+    "strength": 0.85,
+    "domain": "technique"
+  },
+  {
+    "id": "BERG-RESIST-001",
+    "year": 1949,
+    "premise": "resistance|negative therapeutic|sabotage|treatment",
+    "conclusion": "Negative therapeutic reaction stems from masochism. The patient clings to illness because suffering provides unconscious pleasure; getting well means giving up this secret gratification.",
+    "strength": 0.85,
+    "domain": "technique"
+  },
+  {
+    "id": "BERG-CHILD-001",
+    "year": 1949,
+    "premise": "child|infant|early|development",
+    "conclusion": "The first eighteen months of life are decisive. The infant's inevitable frustrations at the breast create the template for all later neurotic suffering. The oral phase is the nuclear complex of neurosis.",
+    "strength": 0.90,
+    "domain": "development"
+  },
+  {
+    "id": "BERG-BASIC-001",
+    "year": 1949,
+    "premise": "basic neurosis|foundation|underlying|root",
+    "conclusion": "There is one basic neurosis—oral masochism—of which all clinical neuroses are elaborations. Whether the symptom is gambling, writer's block, or failed relationships, the underlying structure is the same.",
+    "strength": 0.95,
+    "domain": "psychoanalysis"
+  }
+]

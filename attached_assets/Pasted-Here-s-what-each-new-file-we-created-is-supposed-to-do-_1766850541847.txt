@@ -1,0 +1,33 @@
+Here’s what each new file we created is supposed to do in FreudGPT. These form the complete long-form pipeline (ported directly from your working large-document apps) to fix short outputs, short input processing, and document tasks:
+
+- **generateLongFormOutline.ts**  
+  Generates a massive, hierarchical outline (100–500+ sections/subsections with descriptions, key points, and word estimates) for a given topic. This forces deep planning for ~15,000-word essays. Output is strict JSON. It’s the backbone that ensures coherence over book-length generation.
+
+- **generateSection.ts**  
+  Generates one single section (or subsection) of content in the exact voice/style of the specified philosopher (e.g., Freud, Kuczynski). Takes the outline data, previous accumulated content (for continuity), and next-section hint. Outputs only the raw section text — no headings or meta.
+
+- **generateLongFormEssay.ts**  
+  The main orchestrator for creating full book-length essays (~15k words).  
+  1. Calls generateLongFormOutline.  
+  2. Flattens the hierarchy into a sequential list.  
+  3. Loops through each section, calling generateSection sequentially while passing accumulating previous content as context.  
+  4. Returns the complete, coherent essay. Includes progress logging and context trimming to avoid overflow.
+
+- **freudLongForm.ts**  
+  Simple wrapper specifically for the Freud bot. Takes a topic, locks the voice to Freud, and calls generateLongFormEssay. Easy entry point for routing long-form requests to Freud.
+
+- **kuczynskiLongForm.ts**  
+  Identical wrapper but for Kuczynski. Locks voice to Kuczynski and calls the same orchestrator. (You can copy-paste this pattern for Hume, Nietzsche, Jung, Bergler.)
+
+- **processDocumentTask.ts**  
+  Handles uploaded documents / long inputs (the part that was still failing).  
+  1. Forces full comprehension by running generateStrictOutline on the entire uploaded text.  
+  2. For any task (e.g., “summarize to half length”, “rewrite as dialogue”, “analyze”), map-reduce over the outline sections: transforms each section individually (in philosopher voice if specified), chaining context.  
+  3. Final synthesis pass stitches everything into one coherent output.  
+  This fixes summaries, rewrites, dialogues, etc., on full papers/books without truncation or incoherence.
+
+Together, these files give FreudGPT:
+- Book-length coherent outputs in perfect philosopher voice.
+- Proper handling of book-length inputs/uploads for any task.
+
+Just wire the wrappers into your bot router (long-form → *LongForm.ts, document tasks → processDocumentTask) and it matches your other apps exactly.

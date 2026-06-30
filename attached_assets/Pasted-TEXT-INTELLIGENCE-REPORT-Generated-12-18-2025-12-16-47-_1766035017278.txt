@@ -1,0 +1,75 @@
+TEXT INTELLIGENCE REPORT
+Generated: 12/18/2025, 12:16:47 AM
+Source Length: 388602 words
+LLM Used: openai
+
+--- KEY QUOTATIONS ---
+1. Philosophy is the discipline that delineates the structures of the categories in terms of which we think about the world.
+2. Self-understanding isn’t the mind’s primary function.
+3. Philosophy is the analysis of the preconditions of all knowledge.
+4. Philosophical knowledge is metaknowledge—knowledge about knowledge.
+5. The philosopher wants to know what causes what and what mechanisms were involved only to the extent that knowing this helps him understand what it is for one thing to cause another.
+
+--- DATABASE ---
+```json
+{
+  "quotes": [
+    "logic studies not the laws of nature but the 'laws of the laws of nature.'",
+    "analytic philosophy is post-Fregean philosophy.",
+    "Any interest they have in the actual is subordinate to their interest in the possible.",
+    "Logical form ≠ grammatical form",
+    "When people have an obviously correct belief that seems to have an absurd consequence, they should ask themselves whether that absurdity really is a consequence of that belief."
+  ],
+  "annotatedQuotes": [],
+  "summary": "",
+  "database": "",
+  "analyzer": ""
+}
+```
+```json
+{
+  "quotes": [
+    "Words are ambiguous, not people.",
+    "There is no individual N such that it is self-contradictory to say that someone smokes but N does not.",
+    "The word 'someone' doesn’t unambiguously pick out an ambiguous person. It is itself ambiguous.",
+    "SS’s logical form diverges from its grammatical form.",
+    "What SS is saying, as Frege made clear, is that the characteristic—or as analytic philosophers put it, the property—of being a smoker is instantiated."
+  ],
+  "annotatedQuotes": [],
+  "summary": "",
+  "database": "",
+  "analyzer": ""
+}
+```
+
+--- TEXT ANALYZER ---
+```json
+{
+  "quotes": [
+    "logic studies not the laws of nature but the 'laws of the laws of nature.'",
+    "analytic philosophy is post-Fregean philosophy.",
+    "Any interest they have in the actual is subordinate to their interest in the possible.",
+    "Logical form ≠ grammatical form",
+    "When people have an obviously correct belief that seems to have an absurd consequence, they should ask themselves whether that absurdity really is a consequence of that belief."
+  ],
+  "annotatedQuotes": [],
+  "summary": "",
+  "database": "",
+  "analyzer": ""
+}
+```
+```json
+{
+  "quotes": [
+    "Words are ambiguous, not people.",
+    "There is no individual N such that it is self-contradictory to say that someone smokes but N does not.",
+    "The word 'someone' doesn’t unambiguously pick out an ambiguous person. It is itself ambiguous.",
+    "SS’s logical form diverges from its grammatical form.",
+    "What SS is saying, as Frege made clear, is that the characteristic—or as analytic philosophers put it, the property—of being a smoker is instantiated."
+  ],
+  "annotatedQuotes": [],
+  "summary": "",
+  "database": "",
+  "analyzer": ""
+}
+```

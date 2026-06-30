@@ -1,0 +1,391 @@
+# Hume's Positions by Topic
+
+---
+
+## Theoretical Knowledge
+
+1. All objects of human reason divide into two kinds: relations of ideas and matters of fact. Only the former admit of demonstrative certainty.
+
+2. Knowledge of matters of fact never achieves the certainty of demonstration; it rests entirely on experience and carries only probable, not certain, warrant.
+
+3. The mind never has access to external objects themselves, only to perceptions (impressions and ideas). We cannot step outside our perceptions to compare them with an independent reality.
+
+4. Belief in the external world is not rationally grounded but arises from natural propensities of the imagination—specifically, the mind's tendency to feign continued and distinct existence for coherent and constant impressions.
+
+5. The supposition that our perceptions resemble external objects is groundless; we have no means of verifying any such correspondence.
+
+6. Theoretical knowledge about matters of fact reduces to vivid ideas associated with present impressions through custom and habit; it is not the product of rational insight into necessary connections.
+
+7. Skeptical arguments against the senses and reason are unanswerable by reason, but nature renders them impotent in practice—we believe despite lacking rational justification.
+
+---
+
+## Causal Knowledge
+
+1. We never perceive any necessary connection between cause and effect; we perceive only constant conjunction—one event regularly followed by another.
+
+2. The idea of necessary connection arises not from any impression of the objects themselves but from an internal impression: the felt determination of the mind to pass from cause to effect after repeated experience.
+
+3. Causal knowledge is entirely founded on experience; there is no a priori insight into what causes what. Any effect is conceivably separable from any cause.
+
+4. Custom or habit is the great guide of human life; it is what produces the inference from observed conjunction to expected conjunction, not reason.
+
+5. A single observation of conjunction provides no basis for causal inference; only repeated observation instills the habit that generates expectation.
+
+6. The "power" or "force" we attribute to causes is a projection onto objects of what is actually a subjective determination of the mind.
+
+7. Causal reasoning is a species of instinct, implanted by nature to serve practical life, not a faculty for discerning real powers in objects.
+
+8. We can never perceive *why* a cause produces its effect; we can only observe *that* it does so regularly.
+
+---
+
+## Inferential Knowledge
+
+1. All reasoning concerning matters of fact is founded on the relation of cause and effect; this is the only relation that takes us beyond the present testimony of the senses and memory.
+
+2. The inference from observed to unobserved cases is not founded on any argument or reasoning process; it is founded on custom operating on the imagination.
+
+3. The uniformity of nature—the principle that the future will resemble the past—cannot itself be established by argument without circularity; all arguments for it presuppose it.
+
+4. Probable reasoning differs from demonstrative reasoning in that its conclusions can be conceived to be false without contradiction.
+
+5. The degree of belief produced by probable reasoning is proportioned to the constancy of the observed conjunction and the similarity of the present case to past cases.
+
+6. Inference from experience is not a product of the understanding operating by discernment of logical relations but of the imagination operating by association.
+
+7. We have no rational assurance that our inferences about unobserved matters will prove true; we proceed on instinct and habit, not insight.
+
+---
+
+## Analytic Knowledge
+
+1. Relations of ideas—the proper domain of mathematics and logic—can be known with certainty because their denial implies a contradiction.
+
+2. Knowledge of relations of ideas is discovered by the mere operation of thought without dependence on what exists anywhere in the universe.
+
+3. Propositions concerning relations of ideas are intuitively or demonstratively certain; their truth is established by comparing ideas and perceiving their relations.
+
+4. Mathematical truths concern the relations among our ideas of quantity and number; they do not depend on matters of fact.
+
+5. The certainty of mathematics arises from the fact that we can define our terms precisely and trace relations among precisely defined ideas.
+
+6. Geometry is less certain than algebra and arithmetic because it involves ideas of extension that admit of insensible gradations, making exact comparison difficult.
+
+7. Even in mathematics, complex demonstrations can produce less than perfect certainty because each step introduces a possibility of error that accumulates.
+
+---
+
+## Non-Analytic Knowledge
+
+1. All knowledge concerning matters of fact is founded entirely on experience; there is no other source.
+
+2. Knowledge of matters of fact is always probable, never demonstratively certain; the contrary of any matter of fact is always conceivable and therefore possible.
+
+3. We can never know a priori that one event will follow another; only experience teaches us what effects follow from what causes.
+
+4. The evidence of memory and the senses provides the foundation for all factual knowledge, but even this evidence is not self-certifying.
+
+5. Our confidence in synthetic knowledge rests on the vivacity of ideas and their association with present impressions, not on rational insight into the nature of things.
+
+6. Knowledge of unobserved matters of fact always involves an inference from what is observed; such inferences are governed by custom, not reason.
+
+7. We cannot justify our factual beliefs by appeal to first principles; the justification bottoms out in natural instinct.
+
+---
+
+## Knowledge of Self
+
+1. When I enter most intimately into what I call myself, I always stumble on some particular perception or other—of heat or cold, light or shade, love or hatred, pain or pleasure. I never catch myself without a perception and never observe anything but the perception.
+
+2. There is no impression of a self from which the idea of self could be derived; if we have any idea of self, it must be an idea of something that remains invariably the same through time, but no impression has this constancy.
+
+3. What we call the self is nothing but a bundle or collection of different perceptions, which succeed each other with inconceivable rapidity and are in perpetual flux and movement.
+
+4. The identity we ascribe to the mind is a fictitious one, produced by the imagination as it surveys a succession of related perceptions and feigns a perfect identity among them.
+
+5. Self-knowledge is limited to knowledge of present perceptions; I have no privileged access to a substantial self underlying my perceptions.
+
+6. Memory is the chief source of the notion of personal identity; it reveals the chain of past perceptions and introduces the relations of resemblance and causation that prompt the imagination to feign identity.
+
+7. The question of personal identity is in some sense insoluble; we can give no satisfying account of what binds perceptions into a single self.
+
+---
+
+## The Nature of the Self
+
+1. The self is not a substance or substratum in which perceptions inhere; it is nothing over and above the perceptions themselves.
+
+2. Personal identity is not a real tie or connection among perceptions but a quality we attribute to them because of the smooth transition the imagination makes in surveying them.
+
+3. The mind is a kind of theatre where several perceptions successively make their appearance, pass, repass, glide away, and mingle in infinite variety—but there is no simplicity in it at one time, nor identity across different times.
+
+4. The comparison of the mind to a theatre must not mislead; we have no notion of the place where these scenes are represented, nor of the material of which the theatre is composed.
+
+5. Resemblance among perceptions causes the imagination to move smoothly from one to another, feigning identity where there is only similarity.
+
+6. Causation among perceptions—one perception producing or influencing another—further strengthens the fiction of personal identity.
+
+7. The dispute about personal identity is more verbal than real; it concerns what we *call* the same person, not some deep metaphysical fact.
+
+8. The self is a useful fiction, necessary for practical life, but not a discovery about the nature of mind.
+
+---
+
+## The Nature of Emotion
+
+1. Passions are original existences, not representations of anything; they contain no reference to other objects and cannot be true or false, reasonable or unreasonable.
+
+2. Reason alone can never be a motive to any action of the will; it can never oppose passion in the direction of the will. The role of reason is to discover truth or falsehood; the role of passion is to move to action.
+
+3. Reason is, and ought only to be, the slave of the passions, and can never pretend to any other office than to serve and obey them.
+
+4. Passions are impressions of reflection, arising from previous impressions either immediately or through the interposition of ideas.
+
+5. The direct passions (desire, aversion, hope, fear, grief, joy) arise immediately from pleasure and pain; the indirect passions (pride, humility, love, hatred) require additional structure involving a double relation of impressions and ideas.
+
+6. Pride and humility are directed toward the self as their object; love and hatred are directed toward other persons.
+
+7. Sympathy is the mechanism by which we enter into the sentiments of others; it converts the idea of another's passion into an impression in ourselves.
+
+8. Passions can be calm or violent; the calm passions (such as benevolence or moral sentiment) may be mistaken for reason because they produce no sensible agitation, but they remain passions nonetheless.
+
+9. We do not first judge and then feel; the feeling is primary, and what we call moral or aesthetic judgment is the registering of a felt response.
+
+---
+
+## Unconscious Mental Activity
+
+1. Custom operates on the mind below the threshold of explicit awareness; we find ourselves inferring effects from causes without any conscious process of reasoning.
+
+2. The imagination performs its operations—feigning continued existence, bridging gaps in perception, constructing personal identity—without our direction or even our awareness.
+
+3. Many associations of ideas occur instantaneously and without reflection; the transition from impression to idea happens too quickly for introspection to observe.
+
+4. The felt determination to pass from cause to effect is often registered only obscurely; we may be aware of expecting an effect without being aware of the mental operation that produces the expectation.
+
+5. Habit and custom establish patterns of inference that function automatically; they do not require conscious rehearsal of past observations.
+
+6. The mind's propensity to spread itself on external objects—projecting internal impressions onto the world—operates without explicit awareness of the projection.
+
+7. We may be moved by calm passions without recognizing them as passions; their influence is real but their operation is not conspicuous to introspection.
+
+---
+
+## Psychological Projection
+
+1. The mind has a great propensity to spread itself on external objects and to conjoin with them any internal impressions they occasion.
+
+2. Necessary connection, power, and force are projected onto causes; these ideas arise from internal impressions (the determination of the mind) and are then ascribed to external objects.
+
+3. We gild and stain natural objects with colors borrowed from internal sentiment; beauty and deformity, virtue and vice, are not qualities in objects but projections of feeling.
+
+4. The projection of internal impressions onto objects is not a deliberate act but a natural operation of the imagination, occurring spontaneously and without awareness.
+
+5. We mistake the propensity of the mind to pass from cause to effect for a perceived connection in the objects themselves; we take a subjective determination for an objective necessity.
+
+6. Secondary qualities—colors, tastes, sounds—are projections of internal impressions onto external objects; we attribute to bodies what exists only in the mind.
+
+7. The vulgar naturally reify their projections; philosophy discovers the projection but cannot eradicate the propensity to project.
+
+8. Failure to recognize projection is a source of metaphysical error; we populate the world with powers, necessities, and qualities that originate in the operations of the mind.
+
+---
+
+## Rationalization
+
+1. Men are more governed by their passions than by their reason; they frequently adopt beliefs and perform actions from passion and then seek reasons to justify them.
+
+2. Reason is often enlisted after the fact to defend conclusions reached on other grounds; it serves to rationalize rather than to guide.
+
+3. Our causal reasonings are often distorted by passion; we attend selectively to evidence that supports our prior beliefs and desires.
+
+4. The influence of passion on judgment is pervasive but often invisible; we may sincerely believe we are reasoning impartially when we are in fact rationalizing.
+
+5. Self-love biases our judgments about our own conduct; we are prone to explain our actions in flattering terms.
+
+6. The love of system can lead philosophers to force facts into preferred frameworks rather than adjusting frameworks to facts.
+
+7. Religious belief and moral conviction are particularly susceptible to rationalization; strong feeling prompts elaborate intellectual justification.
+
+8. We are generally poor judges of our own motives; introspection delivers the motive that flatters rather than the motive that actually moves.
+
+---
+
+## Man's Inborn Instinctual Endowment
+
+1. Custom and habit are the great guides of human life, but certain fundamental principles operate prior to all custom: the propensity to believe in continued existence, to form causal expectations, to feel sympathy.
+
+2. The inference from cause to effect is a species of natural instinct, which no reasoning or process of the thought is able to produce or to prevent.
+
+3. Sympathy is a fundamental principle of human nature; it is the mechanism by which we naturally enter into the feelings of others.
+
+4. Self-love and benevolence are both original principles; neither can be reduced to the other.
+
+5. Curiosity or the love of truth is a natural passion that motivates inquiry for its own sake.
+
+6. The moral sense is natural to man; we are constituted to feel approbation and disapprobation in response to certain qualities of character and action.
+
+7. The aesthetic sense is similarly natural; we are constituted to feel pleasure in response to certain forms and arrangements.
+
+8. These instincts and natural propensities are the foundation of all human thought and action; reason cannot operate without them, and skepticism cannot extinguish them.
+
+9. Nature has not left it to our choice whether to believe, infer, and feel; these operations are implanted as part of our constitution.
+
+---
+
+## Human Freedom
+
+1. By liberty we can only mean a power of acting or not acting according to the determinations of the will; if we choose to remain at rest, we may; if we choose to move, we also may.
+
+2. This hypothetical liberty—the liberty to do what we will—is universally allowed to belong to everyone who is not a prisoner or in chains.
+
+3. A liberty of indifference—a power to act without any motive or cause—is not only impossible but unintelligible; it would make action entirely random.
+
+4. The feeling of freedom in deliberation is not evidence of an undetermined will; it is merely ignorance of the causes that determine choice.
+
+5. When we act, we act from motives; motives arise from character and circumstance. This causal chain does not eliminate freedom but constitutes it.
+
+6. Freedom is compatible with—indeed requires—regular connection between motive and action; without such regularity, action would be capricious and character meaningless.
+
+7. The dispute about liberty and necessity has been merely verbal; all parties, when they understand their terms, agree that human actions follow regularly from motives.
+
+---
+
+## Determinism
+
+1. There is a uniform and regular conjunction between motives and actions; the same motives always produce the same actions, the same events follow from the same causes.
+
+2. The necessity we attribute to causes is nothing but the mind's determination to pass from cause to effect; this same determination operates in our reasonings about human action.
+
+3. If we judge actions to be necessitated in the same sense that physical events are necessitated, we mean only that they follow regularly from their causes—not that they are compelled by some external power.
+
+4. Human nature is uniform across times and cultures in its fundamental operations; history would be unintelligible if actions did not follow regularly from character and circumstance.
+
+5. We constantly draw inferences about human behavior based on known motives and characters; these inferences presuppose causal regularity.
+
+6. If actions did not proceed necessarily from motives, moral praise and blame, reward and punishment, would lose their point; they are designed to influence action through the mechanism of motive.
+
+7. The doctrine of necessity, properly understood, does not degrade human nature or eliminate moral responsibility; it simply acknowledges what all men tacitly assume in practice.
+
+---
+
+## Determinism in Relation to Freedom
+
+1. Liberty and necessity are compatible; indeed, liberty without necessity would be liberty without character, motive, or meaning.
+
+2. We hold men responsible for actions that flow from their characters precisely because the actions reveal the character; a random action, unconnected to motive, would merit neither praise nor blame.
+
+3. A man who acts from a bad motive displays a bad character; it is this connection that grounds moral judgment, and the connection presupposes necessity.
+
+4. Punishment aims to influence future conduct through the mechanism of motive; this aim presupposes that motives determine action.
+
+5. The sense of freedom men feel in acting is not falsified by determinism; it is the experience of acting according to one's will without external constraint.
+
+6. What we fear in determinism is external compulsion—being forced to act against our will. But when our will itself determines our action, we are free in the only sense that matters.
+
+7. A universe in which character did not determine action would be a universe in which persons were not intelligible agents but sites of random occurrence.
+
+---
+
+## Historiography
+
+1. History is the great teacher of human nature; it shows us the same motives producing the same actions across diverse times and places.
+
+2. The uniformity of human nature makes history possible and valuable; if men were infinitely variable, history would teach nothing.
+
+3. Historical knowledge is based on testimony; the credibility of testimony must be weighed against prior probability and the character of witnesses.
+
+4. The historian must exercise judgment about credibility; not all reports deserve equal weight, and extraordinary claims require extraordinary evidence.
+
+5. History reveals the operation of general causes—climate, culture, government—on human action, but these causes work through the universal principles of human nature.
+
+6. The superstitious and marvelous elements in ancient history should be discounted; they violate uniform experience and likely arise from the love of wonder.
+
+7. A philosophical historian attends not only to events but to the causes of events, tracing effects to their sources in passion and interest.
+
+8. The study of history corrects the parochialism of the present; it reveals that our customs and opinions are not universal but products of circumstance.
+
+---
+
+## Religion
+
+1. The argument from design is the only argument for God's existence that carries any weight; but it establishes at most a cause proportioned to the effect, not an infinite, perfect, or morally good deity.
+
+2. From a mixed world containing both good and evil, order and disorder, we can infer at most a cause of mixed or limited nature—not the God of traditional theology.
+
+3. A priori arguments for God's existence are fallacious; whatever can be conceived to exist can also be conceived not to exist, so no being's existence is demonstrable.
+
+4. The analogy between human artifacts and natural objects is weak; we have experience of minds producing artifacts, but no experience of minds producing universes.
+
+5. Miracles cannot be established by testimony; uniform experience against miracles is as complete a proof as can be imagined, and no testimony can outweigh it.
+
+6. The wise man proportions his belief to the evidence; in matters of religion, the evidence falls far short of what would warrant confident belief.
+
+7. Popular religion arises not from rational reflection but from fear, hope, and ignorance; it is sustained by passion, not argument.
+
+8. Religious enthusiasm and superstition are diseases of the mind, arising from corruption of the religious impulse.
+
+---
+
+## The History of Religion
+
+1. Polytheism, not monotheism, was the original religion of mankind; primitive peoples personified the forces of nature and assigned each a governing deity.
+
+2. Religion arose from the passions—particularly fear of unknown causes and hope for future goods—not from rational contemplation of the order of nature.
+
+3. The transition from polytheism to monotheism was driven not by increasing rationality but by the dynamics of praise and flattery; worshippers exalt their favored deity above all others.
+
+4. Monotheism tends toward intolerance because it admits no rival gods; polytheism is naturally more tolerant.
+
+5. Religions oscillate between anthropomorphism and abstract theology; the vulgar require gods with human passions, while theologians purify the concept beyond human comprehension.
+
+6. The history of religion shows no linear progress; there is flux between polytheism and monotheism, enthusiasm and superstition, tolerance and persecution.
+
+7. Popular religion in all ages and nations is corrupt; it represents the deity by the lowest rather than the highest human qualities.
+
+8. True religion, if there is such a thing, would consist in rational belief proportioned to evidence and in a morality grounded in human nature, not in superstition or enthusiasm.
+
+---
+
+## Morality
+
+1. Moral distinctions are not derived from reason; reason discovers truth and falsehood, but virtue and vice are not relations of ideas or matters of fact discoverable by reason.
+
+2. Morality is more properly felt than judged of; we feel approbation toward virtue and disapprobation toward vice.
+
+3. The sentiment of approbation is a calm passion that we experience when contemplating a character from a general point of view, setting aside our private interests.
+
+4. Virtues are qualities useful or agreeable to the person who possesses them or to others; these four categories exhaust the sources of moral approbation.
+
+5. The artificial virtues—justice, fidelity, allegiance—arise from convention and social arrangement; they are necessary for social life but not immediately instinctive.
+
+6. The natural virtues—benevolence, gratitude, clemency—are immediately approved by the moral sense without reference to social utility.
+
+7. Sympathy is the foundation of moral judgment; we enter into the sentiments of those affected by a character and share their pleasure or pain.
+
+8. The general point of view—the perspective from which we judge character—corrects for the variations of sympathy due to distance and personal connection.
+
+9. There is no moral obligation derived from pure reason; all obligation derives from sentiment, whether natural or reinforced by convention.
+
+---
+
+## Aesthetics
+
+1. Beauty is not a quality in objects themselves but a sentiment in the mind that contemplates them; beauty exists in the mind which contemplates it, not in the object.
+
+2. Nevertheless, there is a standard of taste; some objects are fitted by nature to produce the sentiment of beauty, and judges who perceive them correctly form the standard.
+
+3. The delicacy of taste—the ability to perceive all the ingredients in a composition—can be cultivated by practice and comparison.
+
+4. Good taste requires: delicacy of perception, practice in a particular art, comparison among works, freedom from prejudice, and good sense.
+
+5. Critics who meet these conditions will tend to agree in their judgments, and their consensus constitutes the standard of taste.
+
+6. Certain forms and proportions are universally fitted to please; cultural variation overlays but does not eliminate natural aesthetic responses.
+
+7. The pleasure of beauty, like moral approbation, is a calm passion; we may mistake it for a judgment of reason because it lacks violent agitation.
+
+8. Beauty in art depends on the fitness of means to ends, the order of parts, and the expression of sentiment; these qualities please universally when properly perceived.
+
+9. Disputes about taste are not merely verbal; one judgment may be correct and another mistaken, though the correctness lies in the perceiver's faculties rather than in the object alone.

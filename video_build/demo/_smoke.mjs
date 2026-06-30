@@ -1,0 +1,12 @@
+import { chromium } from 'playwright-core';
+const EXEC = '/nix/store/qa9cnw4v5xkxyip6mb9kxqfq1z4x2dx1-chromium-138.0.7204.100/bin/chromium';
+const b = await chromium.launch({ executablePath: EXEC, headless: true, args: ['--no-sandbox','--disable-dev-shm-usage','--disable-gpu'] });
+const ctx = await b.newContext({ viewport: { width: 1280, height: 720 }, deviceScaleFactor: 2 });
+const p = await ctx.newPage();
+const resp = await p.goto('http://localhost:5000/', { waitUntil: 'domcontentloaded', timeout: 30000 });
+console.log('STATUS', resp.status());
+console.log('TITLE', await p.title());
+await p.waitForTimeout(1500);
+await p.screenshot({ path: 'video_build/demo/_smoke.png', fullPage: false });
+console.log('SHOT OK');
+await b.close();

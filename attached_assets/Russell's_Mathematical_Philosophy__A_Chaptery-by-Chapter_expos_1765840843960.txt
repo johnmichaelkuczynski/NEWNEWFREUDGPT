@@ -1,0 +1,956 @@
+
+
+Critique of Russell's Introduction to Mathematical Philosophy
+ 
+Preface
+ 
+Chapter 1 The incompleteness of Dedekind's Axiom-set
+ 
+Chapter 2 The nature of natural numbers             
+ 
+Chapter 3 "0" and "+1" defined
+ 
+Chapter 4 Serial Order
+ 
+Chapters 5 and 6 Higher-order relations and similarity among relations
+ 
+Chapter 7 Rational and Real Numbers
+ 
+Chapter 8 Infinite Cardinal Numbers
+ 
+Chapter 9 Ordinal Numbers and Infinite Series 
+ 
+Chapters 10 and 11 Limits and Continuity
+ 
+Chapter 12 The Axiom of Choice the Law of Excluded Middle
+ 
+Chapter 13 The Axiom of Infinity and the Theory of Types
+ 
+Chapter 14 Incompatibility and the Consequence-relation
+ 
+Chapter 15 Propositional Functions
+ 
+Chapter 16 Classes
+ 
+Chapter 17 Descriptions
+ 
+Chapter 18 Mathematics and Logic
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Preface
+ 
+     What follows is a critical, chapter-by-chapter, exposition of Bertrand Russell's Introduction to Mathematical Philosophy.  I have changed some of the chapter-titles, and my discussion of Chapters 5 and 6 are fused together into one chapter, as is my discussion of Chapters 10 and 11. But each chapter of the present work is a discussion of the contents of the same-numbered chapter of Russell's book.
+     Each chapter of the present work contains
+ 
+(i) a summary, with no omission of relevant technicalities, of the contents ofthe corresponding chapter of Russell's book,
+ 
+(ii) illustrations of principles that Russell does not himself illustrate or inadequately illustrates,
+ 
+(iii) brief assessments of Russell's points, and
+ 
+(iv) original, sometimes speculative, suggestions as to how to adjudicate technical and philosophical problems that come to light.
+ 
+     In this otherwise perfect work of his, Russell makes only a few mistakes. Two deserve immediate mention. First he asserts that mathematics is logic, by which means that truths of mathematics are identical, or equivalent, with statements that are true entirely in virtue of their syntactic forms.      This is false. Formal methods of proof are ipso facto undefined with respect to informal truths and are therefore incapable of establishing their own equivalence with informal methods of proof. A variant of this argument is stated in Chapter 18.
+      Second, Russell asserts that, for any cardinal number n, n is the class of all n-tuples. (For reasons that Russell makes very clear, this contention is not guilty of vicious circularity.)
+     Though true, this assertion isn't the whole truth. One way of perspicuously representing the content of statements of the form "…n…" is by mapping them onto statements of the form "…the class of all n-tuples…" But that isn't the only way. John Von Neumann put forth a different analysis (n is the class of all of its predecessors), which is superior to Russell's in many ways.       For example, a consequence of Russell's analysis is that the identity of the number three is contingent on the identities of the objects that happen to exist. If three is the class of all triples, then, given that there could have been triples that do not in fact exist, the class of all triples is distinct from the class of all triples in other possible worlds, and, if Russell's analysis is correct, the same is therefore true of the number three. But the structure, let alone the very identity, of the number three surely isn't contingent on whether or not some sock that might be manufactured has in fact been manufactured.      Von Neumann's analysis doesn't have this problem, since Von Neumann identifies 0 with the empty set and each n>0 with the class that contains each m<n.
+      Russell knew that, by taking 0 to be the empty set and the containment relation to be the successor-relation, the natural numbers can be generated. But knowing that such a construction of the naturals would be inconsistent with his own Theory of Types, discussed at length in the present work, he opted for Frege's identification of n with the class of all n-tuples.        But there is a problem with each of the various extent analyses of cardinal number. Even though each of them identifies some entity with which n can be identified, none of them identifies an entity with which n must be identified. A consequence of this plethora of equally viable analyses is that any given cardinal n is identical with non-identicals. For example, 7 is identical with the class of all seven-tuples and also with the set of 7's predecessors.
+    The solution to this problem is to identify n with the class K of all ordered pairs (k, R), where k is an arbitrary class, not necessarily an n-tuple, and R is any relation such that a class k* is an n-tuple exactly if k* bears R to k.      K is the smallest class containing every n-isomorph. Therefore, membership in K is necessary and sufficient for possession of the structure individuative of n, and identity with K is necessary and sufficient for identity with n.
+     In his book, Russell advocates the Theory of Types. In Chapter 13, it is said what the Theory of Types is and why it is false. Some anticipatory points are in order.
+     According to the Theory of Types, statements cannot fall within their own scope. Thus, to borrow Quine's example, the expression
+ 
+(a) yields a falsehood when appended to its own quotation,
+ 
+cannot be predicated of itself, that being why, according to proponents of the Theory of Types,
+ 
+(b) "yields a falsehood when appended to its own quotation" yields afalsehood when appended to its own quotation,
+ 
+is neither true nor false, as opposed to both true and false.
+    The Theory of Types was Russell's attempt to deal with that Russell himself discovered, which is therefore known as "Russell's Paradox:
+ 
+(c) If there exists a class K such that k is a member of K just in case k is not amember of itself, then 'K is a member of itself' is equivalent with 'K is not a member of itself.'
+ 
+     Russell believed this paradox to show the falsity of the Axiom of Comprehension: Given any property, there is a class whose members have that property. Given (c), there seems to be no class whose members have the property of not being self-members.
+    Russell's Paradox involves an elementary fallacy. "John can take care of himself" means "John can take of John." Reflexive pronouns, e.g. "himself" and "itself", always[1] function as stand-ins for other expressions that do not in their turn need to be defined in terms of them; and whey do not so function, they refer to nothing. In (c), the second two occurrences of "itself' are not so functioning, a consequence being that (c) contains occurrences of free variables and for that reason, and that reason alone, expresses no proposition.
+     Quine's paradox involves the same blunder. (a) and (b) are short form, respectively:
+ 
+(d) x yields a falsehood when appended to its own quotation
+ 
+and
+ 
+(e) "x is yields a falsehood when appended to its own quotation" yields afalsehood when appended to its own quotation.
+ 
+(e) contains a free variable and is therefore neither true nor false.
+ 
+     In Chapter 13, the argument just outlined is stated in full. But it is also shown that some paradoxical statements, for example
+ 
+(f) This statement is false
+ 
+and
+ 
+(g) If Smith has all the properties of a typical Frenchman, then, since he is theonly Frenchman who has the property of having all of the properties of a typical Frenchman, he does not have all the properties of a typical Frenchman
+ 
+are simply false, as opposed to either meaningless or both true and false.      In his defense of the Theory of Types, Russell mentions each of (f) and (g) specifically, claiming---falsely, as we will see---that his theory, and his theory alone, explains why neither (f) nor (g) is both true and false.      There are paradoxes not addressed in Chapter 13 that, as Russell clearly states, in the introduction to the Principles of Mathematics, provide prima facie support for the Theory of Types. Two examples are of special importance, since all of the remaining paradoxes, setting aside those dealt with in Chapter 13, are to be dealt with in the same way as these two.       The first is due to Burali-Forti. The ordinal corresponding to any given cardinal n is n+1. (Since 0 is the first number, 1 is the second, and the ordinal corresponding to 1 is therefore 1+1, the same being true of n>2.) Thus, if K is the class of all ordinals, then the ordinal corresponding to K exceeds that of any given one of K's own members, in which case K is not the class of all ordinals. Russell took this to mean that some sort of impropriety was embodied in the expression "the class of all ordinals," in virtue of which that expression had no referent, and he took this, in its turn, to support the Theory of Types.
+    The second paradox is due to Cantor. Let U be the class of all things. Nothing could possibly have a greater cardinal number than U. But, by the power-set theorem (stated and proved in Chapter 8), a given class K can always be put into a one-one correspondence with a proper subset of the class PK of all K's subsets; from which Russell concluded, understandably, that K's cardinality, for all K, is less than that of PK. If this is right, then 2U>U, in which case U is not, contrary to our supposition, the universal class. For reasons analogous to those referred to in the previous paragraph, Russell took this to support the Theory of Types.
+      The solution to the second paradox is to take "the universal class" to refer to the posterity of the class of all non-classes with respect to the relation that PK bears to K, for any K; and the solution to the first paradox is to take "the class of all ordinals" to refer to posterity of the empty set with respect to the first iterate of the relation that {{x}} bears to {x}. Any subset of either class absorbs its own successor into that class.
+        But however these paradoxes are to be solved, the Theory of Types cannot possibly be correct, since, if it is correct, then, given that itself concerns all statements and therefore falls within its own scope, it is incorrect.
+            
+Chapter 1 The incompleteness of Dedekind's Axiom-set[2]
+ 
+The Dedekind Axioms:              
+ 
+1. 0 is a number.
+2. The successor of a number is a number.
+3. No two numbers have the same successor.
+4. 0 is not the successor any number.
+5. If 0 has a property, and n+1 has that property whenever n has it, then every(finite number) has that property.
+ 
+The inadequacy of this axiom-set as a characterization of the wholenumber system: 1-5 are intended to be a complete characterization of the whole number system---that is, of the class K of whole numbers, along with the class K* of arithmetical truths.
+ 
+K: The smallest set containing 0 and the successor anything it contains. K*: The class of truths expressing relations among whole numbers that can be expressed in terms of the following concepts: 0, successor, +, ×, for some, and it is not the case that.
+ 
+1-5 are an accurate but also---what is more important in this context--an incomplete characterization of the whole number system. The reason: There are models of that axiom-set that are not identical with the whole number system. Here are three such models:
+ 
+Model 1 (M1): Take "0" to refer to 100; and take the "successor" of n to refer to 2n.
+The resulting model validates 1-5.
+ 
+M2: Take "0" to refer to 1; and take "successor of n" to refer to "the smallest prime>n." The resulting model validates 1-5.
+ 
+M3. Take "0" to refer to 1. Take "success of n" to refer to the set whose only member is n.
+ 
+Why these unintended models are proof of the inadequacy of the Dedekind Axiom-set: "But '0' doesn't refer to 100," it will be said, "and 'successor' doesn't mean '2'. Each of the deviant models you've cited involves a misinterpretation of these terms."
+       Yes, but this response assumes knowledge of truths that are supposed to be deducible from 1-5 but that are not thus deducible. Given the fact that 1-5 are consistent with "0" and "+1" referring to 100 and twice as large as, respectively, it follows that 1-5 are an incomplete characterization of the whole number system.
+ 
+Chapter 2 The nature of natural numbers
+ 
+Numbers as properties of classes: The statement
+ 
+1. "Jim has two cars"
+ 
+doesn't attribute a property to a car that belongs to Jim; there is no car x such that x has the property expressed by the word "two." 
+ 
+2. Jim has zero cars
+ 
+obviously doesn't attribute a property to a car; there is no car x such that x has the property denoted by "zero."
+ 
+1 says of the class of Jim's cars that it has two members, and 2 says of the class of Jim's cars that it is empty.
+   In general, statements about number are statements about classes.    Statements about properties are equivalent with statements about sets. "x has the property of being a man" is equivalent with "x is a member of the class of men."[3] Therefore, quantified-statements---statements that answer the question "what is the population of K?", for some class K----can be interpreted as statements about properties. Thus 1 can be taken to mean that the property of being a car owned by Jim has exactly two instances, and 2 can be taken to mean that it has no instances.
+   Words that denote numbers---"0", "2"---are quantifiers. So are more generic expressions, such as "some" and "all." Any sentence whose main connective is a quantified generalization. A quantified generalization is a statement that answers the question "how many members does K have?," where K is some class. Thus,
+ 
+3. "Some man is tall,"
+ 
+answers the question: "How many things are members of the class of tall men?" And the answer it gives is: "At least one." 
+    Equivalently, 3 answers the question: "How many true statements are members of instances of the statement-form x is a man and x is tall?" And the answer it gives is: "At least one." Thus, quantified generalizations can be interpreted either as statements about classes of individuals or as statements about classes of statements.
+      1 and 2 are quantified generalizations, since their meanings, when stated perspicuously, are given by, respectively:
+ 
+1*: For some cars x and y, x?y, Jim has x and Jim has y and, for any car z such that Jim owns z, z=x or z=y,
+ 
+and
+2. For no car x, Jim owns x.
+ 
+Just as there is no car x such that either 1 or 2 attributes a property to x, so there is no whale x such x such that
+ 
+4. "All whales are mammals"
+ 
+says of x that it is a mammal. Given any whale A,
+ 
+5. "A is not a whale"
+ 
+is compatible with 4. But if 4 attributed the property of being a whale to A, 4 would not be compatible with 5.
+     5 is a statement about a class of statements; it says that the class of true statements of the form x is a whale and x is not a mammal is empty. All quantified generalizations are statements about statements, not about individuals.     
+ 
+Numbers as properties of properties: A consequence of these points is that numbers are properties of properties. The number 0 is a property of the property of being a square circle. A property has the number 0 iff there are no instances of that property. The 1 is the property of the property of being a U.S. President in 2014. A property has the number 1 iff there is exactly one instance of that property.  
+       Given that numbers are properties of properties, it follows that they are also sets of sets. A set has the number 0 if there are no members of that set. A set has the number 1 if it has one member; the number two, if it has two members; the number n, if it has n members. In the section following the next one, we will describe the exact nature of the sets of sets with which cardinal numbers are identical.
+    
+What it is for a class to have n members? (Frege's answer):
+      A class k has 0 members iff it is empty. k has 1 member iff, for some x, x is a member of k and, for any y, y is a member if k iff x=y. k has 2 members iff, for some x and y, such that x?y, each of x and y is a  member of k and, for any z, z is a member of k iff either z=x or z=y. k has 3 members iff, for some x and y and z, such that x?y and y?z and x?z, each of x and y and z is a member of k and, for any w, w is a member of k iff w=x or x=y or x=z. Given any finite number n thus defined, it is obvious what it is for a class to have n members.
+ 
+Numbers as classes of equinumerous classes: We have said what it is for a class to have n members, for any finite n. But we have not said what n is, for any finite n. We will now do this, but we must proceed indirectly.          Let k be a class that has n members and let k* be some other class. k and k* have the same number of members exactly if they can be put into a one-one (read: one to one) correspondence. Thus, classes are equinumerous
+(equally well populated) just in case it is possible to pair off each member of the one with exactly one member of the other. This suggests an analysis of what n is, for any finite number n.
+      Let Kn be the class of all n-membered classes, Kn is the class of all classes that are equinumerous with a given n-numbered class. Thus, 'k has n
+members' is equivalent with 'k is a member of Kn.' We may thus identify n with Kn and the property of having n members with membership in n. It will be found that this analysis validates the truths of arithmetic.
+ 
+Addition, multiplication, and exponentiation of cardinals: Given a 2membered class K and a non-overlapping 3-membered class K*, K or K* is a five-membered class. In general, m+n=o means that, given an m-membered class and a non-overlapping n-membered class, the union of those two classes is an o-membered class.
+      Given a 2 membered class K and a 3 membered class K*---it doesn't matter whether they overlap---the Cartesian product K# of K and K* is a sixmembered class. (K: {A,B}. K*:{a,b,c}. K#: {<A,a>, <A,b>, <A,c>, <B,a>,
+<B,b>,<B,c>}
+In general, m×n=o means that the Cartesian product of an m-membered class and an n-membered class is an o-membered class.
+     AB is the number of selectors from B A-membered classes (i.e. from B classes such that each of those classes has A members). S is a selector of a class K of classes iff, for each member k of K, S contains exactly one member of k. Consider a 3-membered class of pairs: <A,B>,<C,D>,<E,F>.
+There are 23=8 selectors of that class, namely:
+ 
+1. A,C,E
+2. A,C,F
+3. A,D,E
+4. A,D,F
+5. B,C,E
+6. B,C,F
+7. B,D,E
+8. B,D,F
+ 
+n=the property of being an n-membered class: Instead of taking n to be the class of all n-membered classes, it is better to take n to be the property of being an n-membered class.[4] This analysis has all the merits of the one just given. But, unlike the one just given,
+ 
+(a) It doesn't require that there be infinitely many objects in existence,
+ 
+and
+ 
+(b) It doesn't have the false consequence that, if the constituency of theuniverse had been different, the number n (for any n) would have been different.
+ 
+      Explanation of (a): If it turns out that there are only 1,234,745 objects in existence, then there is a number that does not have a successor. If attempts are made to remedy this problem, by regarding classes of objects---and classes of classes of objects, and so on---logical contradictions result.       Explanation of (b): Classes are individuated by their memberships: Different members, different classes. That means that if your right sock hadn't come into existence, the pair consisting of your socks wouldn't exist. This in turn means that, if K is the actual class of all two membered classes and K* is the class of all two membered classes in a world where your right sock had never been made, K?K*. I.e. the number two would have been a different entity if your right sock hadn't been made; which is absurd. To avoid this result, we must either (i) identify the number 2 with the class of actual and possible pairs, since that class's membership cannot possibly be variable, or (ii) we can identify the number two with the property of being a pair. That property clearly exists. Those alternate universes either don't exist or, if they do, are to be defined in terms of inter alia the just-mentioned property.
+     Russell's solution is to adopt the Axiom of Infinity, which is the stipulation that there are infinitely many objects. Depending on how this axiom is interpreted, it is either an empirical assumption, which is potentially false, or it presupposes the legitimacy of the very constructive operations prohibited by the Theory of Types, in which case it derives no support from its only possible source of support.
+ 
+The Axiom of Extensionality: Classes are identical that have the same members. More precisely, K and K* are distinct classes exactly if, for some x, x belongs to the one class but not the other. Equivalently, K and K* are identical exactly if, for no x, x belongs to the one class but not the other.
+ 
+Only one empty set: Let Ø be the empty class. Since nothing belongs to Ø, nothing belongs to Ø that doesn't also belong to any other class or, in particular, to any other empty class. And since nothing belongs to any given empty class, nothing belongs to such a class that doesn't also belong to Ø.
+Therefore, by the Axiom of Extensionality, there is only one empty class.
+ 
+Chapter 3 "0" and "+1" defined
+ 
+Hereditary (inductive) relations: Ordinarily, the class of whole numbers is identified by saying that it contains 0, 1, 2, "and so on." This is obviously unsatisfactory, since the whole point of such a definition is to give the meaning of the cryptic expression "and so on."      The correct definition is this:
+ 
+(N) The class of natural numbers is the smallest class containing 0 that is closed under the successor relation.
+ 
+      The meaning of N is this: Suppose (i) that a class K contains 0; (ii) that, if K contains n, it also contains n+1; and (iii) that K includes nothing not covered by either (i) or (ii). In that case, K is the class of natural numbers.      The italicized part of N corresponds to (i); the boldfaced part corresponds to (ii); and the underlined part corresponds to (iii).
+      Recall what we earlier said about Dedekind's axioms: they are an accurate, but incomplete, characterization of the whole number system, the reason being that "0" and "successor" were undefined, thereby opening the door to unintended models of that axiom-set.
+       We now have a definition of 0. 0 is the class of all empty classes. There is only one such class. Thus, according to Frege's analysis, 0 is identical with the class whose sole member is the empty class. (According to Von Neumann's analysis, 0 is identical with the empty set itself. But in this context we are discussing Frege's analysis.)
+     "+1" is defined as follows. m is the successor of n, i.e. m=n+1, exactly if, given any member s of m and any member x of s, the set s* that does not include x but otherwise has the same membership as s is a member of n.       Explanation: m is a class of classes: it is the class of all m-membered classes. And n is the class of all n-membered classes. Any given mmembered class s has exactly one more member than any given n-membered class s*. Thus, if x is an arbitrary member of s, then any class whose membership does not include x but is otherwise identical with s's membership will have m-1 members and, therefore, n members.
+      Given these analyses of "0" and "+1," it is easily proven that
+ 
+1. 0 is a number.
+2. The successor of a number is a number.
+3. No two numbers have the same successor.
+4. 0 is not the successor any number.
+ 
+Proof of 1: "n is a number" means "n is a class of equinumerous sets." 0 is the class of all empty sets; any two empty sets are equinumerous.
+ 
+Proof of 2: A number n is a class of n-membered classes. Let s be an arbitrary n-membered class;  let x be an arbitrary non-member of s; and let s* be a class that includes x but is otherwise like s. s* is an n+1-membered class. The class of all n+1 membered classes is a number, since a number is a maximal class of equinumerous classes.
+     A maximal class of equinumerous classes is one such that no class that is equinumerous with any given member of that class is not a member of that class.
+ 
+Proof of 3: Let n and m, n?m, be two numbers; let s be an arbitrary nmembered class; and let s* be an arbitrary m-membered class. Since n is the class of all n-membered classes, s belongs to n; and s* belongs to m for the same reason mutatis mutandis. Since n is the class of all classes any given one of which can be put into a one-one correspondence with an arbitrary nmembered class, and since m is the class of all classes any given one of which can be put into a one-one correspondence with an arbitrary mmembered class, it follows that s cannot be put into a one-one correspondence with s*. Suppose that x belongs neither s nor to s*; let sx be a class that includes x but otherwise coincides with s; finally, let s*x be a class that includes x and is otherwise just like s*. sx is a member of n+1, and s*x is a member of m+1. n+1=m+1 only if sx and s*x can be put into a one-one correspondence. Since they cannot be put into a one-one correspondence, n+1?m+1.
+ 
+Proof of 4: n+1 is the successor n only if there is some member s of n+1 such that, for some member x of s, a class s* that does not include x but is otherwise like s is a member of n. There are no non-empty subsets of 0, since 0 is the empty set. This means that, given any subset s of 0, there is no member x of s and a fortiori no member x of s such that, for some set s*, x is not a member of s*. Therefore, there is no subset of 0 that is better populated than any set, and 0 therefore isn't the successor of any number.
+ 
+Axiom 5 (If 0 has a property, and n+1 has that property whenever n has it, then every (finite number) has that property) ensures consistency with the supposition that, if K is the class natural numbers, K is the smallest class containing 0 and the successor of anything it contains. Let phi be a property such that (i) 0 has phi and (ii) n+1 has phi if n has phi. And let m be a number that does not have phi. Supposing that one's starting point is 0, no finite number of repetitions of the operation of adding 1 will generate m. Therefore, m is not a natural number, since what it is to be a natural number is to be one that can be so generated.
+ 
+Definition by Abstraction: In defining cardinals as classes of equinumerous classes, Frege and Russell were, for the first time in history, using a powerful analytical instrument known as definition by abstraction.
+          A definition by abstraction is one that has the following, three-part form:
+ 
+(i) x and y have phi to same degree iff x bears R to y, for some symmetrical relation R, such that R is understood independently of the concept of phi; (ii) x has phi to a greater degree than y iff x bears R* to y, for some asymmetrical relation R*, such that R* is understood independently of the concept of phi or a fortiori the concept of one thing's having phi to a greater degree than some other thing;
+ 
+and
+ 
+(iii) if x bears R to y (and, therefore, vice versa), then the class K of all entities z such that z bears R to x (and, therefore, vice versa) is identical with the property of having phi to a given degree; and, moreover, the property having phi to that degree is identical with the property of being a member of K.
+ 
+     Here are three examples of definition by abstraction.
+    First example---Definition of 'having length to degree n,' for arbitrary n: It can be said what it is for x and y to have phi to the same degree without knowing to what degree either has phi. (It can be said what it is for x and y to be equally tall without knowing the length of either. Suppose that, when laid side by side, each endpoint of the one coincides with exactly one endpoint of the other. Further suppose that, when thus juxtaposed, the distance between them was constant (so that, for example, one wasn't straight while the other was curved). In that case, they are the same length.
+      For any z, it can be established, by this same method, that z's length identical with either x or y without (otherwise) knowing z's length. We may therefore define the length of x as the class C of all objects w such that w is congruent (in the sense just defined) with x; and we may therefore define the property of having that length with the property of belonging to C.       We can say what it is for an object q to be longer than x without (otherwise) knowing what q's length is: if, when juxtaposed with x, x is length-identical with a proper-segment of q, then q is longer than x. We may identify the class C* of all objects z that are congruent with q as the length of q, and we may be identify the property of having that length with membership in C*.
+      We have thus defined a particular length in terms of sameness of length, in such a way our criterion of length-sameness did not presuppose the truth of any given answer to the question 'what is a degree of length, and what is it to have length to a given degree?'; and we have defined different degrees of length in terms of operations that are comparably non-prejudicial.
+      Second example---Definition of point in time: Given two events, e and e*, it can be said, without knowing the date at which either occurs, whether or not they are simultaneous. They are simultaneous if there is no (possible) causal process beginning with the one and ending with the other; otherwise, they are non-simultaneous.
+       Given an event e, let E be the class of events e* such that (i) no (possible) causal process begins with any member of E and ends with any other member of E and such that (ii) any event e# is a member of E so long as no (possible) causal process begins with it and ends with any member of E (or, therefore, vice versa).
+       Given any two members of E, they occur simultaneously. Given any member of E and any non-member of E, they occur non-simultaneously. Thus, for an event to occur at the same instant as a member of E is for it to be a member of E. We may therefore identify the instant at which each Emember occurs with E itself and we may identify the property of occurring at that instant with the property of being a member of E.
+        It can be said what it is for a given event e$ to precede any given member of E, and thus to occur prior to the instant with which E is identical, without knowing the date at which e$ occurs. If there is a (possible) causal process beginning with e$ and ending with some member of E, then e$ precedes that member and therefore occurs at a moment in time earlier than that with which E is identical. If E$ is the class of all events e% such that no possible causal process begins with e$ and ends with e% (or, therefore, vice versa), then E$ is identical with an instant in time that precedes E.         We have constructed moments in time out of entities that we know to exist, and we have thus given a precise meaning to the otherwise obscure concept of 'occupying' a given instant in time. Moreover, our analysis is consistent with the presumption that time is a compact series, i.e. that there is a moment in time between any two such moments; and, in addition, it has given a clear meaning to that presumption.
+         In addition, our analysis validates our pre-theoretic intuitions about time without positing any useless metaphysical baggage, such as is posited by the position that time is a 'container' that 'houses' events.    
+          Third example---Definition of point in space: Given two objects of events, x and y, we can obviously know that they overlap without knowing the location of either event. If x1 and x2 overlap, then there is some part x1* of x1 and some part x2* of x2 such that x1* and x2* are spatiotemporally coincident. A given event can overlap both x1 and x2 without overlapping the area occupied by x1*/x2*. But let us disregard such events. Let us instead consider an event x3 such that there is a part x3* of x3 that falls within the area of overlap x1 and x2, that is, that coincides with a proper part of the area occupied by x1*/x2*. Given an event x4*, such that x*4 is to x*1-x*3 what x*3 is to x*1-x*2, the area common to x*1-x*4 is smaller, and therefore more point-like, than the area common to x*1-x*3.
+       Let K be the smallest class such that (i) x*1 belongs to K and (ii) such that, if x*n belongs to K, then x*n+1 belongs to K if and only if x*n+1 is space-coincident with a proper part of x*n. Let us take this a step further. Instead of defining K as the class containing x*1 and every actual object/event x*n+1 that is spatially coincident with a proper part of x*n, let us define K as the class containing x*1 and every physically possible object/event x*n+1---every such object/event permitted by the laws of physics---that is spatially coincident with a proper part of x*n. In that case, the class of events belonging to K determine a maximally small area of space: an area of space so small that the laws of physics prohibit the existence of anything smaller than that area. In other words, that class determines a spatial point.
+      We may identify that class with that point, and we may identify the property of consisting of a part that occupies that point with being a member of K.
+       Thus, the concept of a spatial point is given a clear meaning, and so is the concept of occupying (or having a part that occupies) a spatial point.        Commentary on these three examples: Each of these analyses identifies an otherwise obscure and metaphysical entity (a point, an instant) with an entity that is constructed out of known entities in accordance with rules of combination that are known to be permissible.
+      Thus,
+ 
+(i) each analysis clearly identifies the structure of the otherwise structureindeterminate target-entity, and
+ 
+(ii) each analysis establishes the existence of the otherwise existenceindeterminate target-entity.
+ 
+No alternative analyses of point/instant/length are at all intelligible, let alone as intelligible as the just-stated analyses—hence (i). A fortiori no alternative analysis succeeds in proving that the target entities exist---hence (ii). Finally, each such analysis resembles the above-stated analyses of cardinal number, as well as the forthcoming analyses of other kinds of number, in that each assumes the existence of nothing that isn't known, or of operations that are not known to be capable of being performed on those known entities, and constructs the target entity out of those known entities in accordance with those operations.
+ 
+Degree properties admit of no definitions that are not definitions by abstraction: Length is relative. To say of a given object x that it has a certain length is to say that it is longer than some other object or that it is lengthidentical with some third object.
+     Position in time is relative. To say of a given event that it occurs at a given time is to say that it occurs later than some other event or simultaneously with some third event.
+     Position in space is relative. To ascribe a position to an object in space is to say that it has a position different from that of some second object and that it's position-identical with some third.
+     Given that length, temporal position, and spatial position are relative, it follows that there is no viable definition that isn't a definition by abstraction of either (i) any given length/spatiotemporal position or (ii) length/spatiotemporal position itself. Some alternative definition of (a particular) spatiotemporal position/length would be available only if spatiotemporal position were absolute}. But it isn't.
+      Degree properties are relative: to have a thing to a given degree is to have it to a greater degree than some other thing, while having it to the same degree as some third thing. Degrees themselves are relative or, more precisely, they are relations. Consequently, there is no definition that isn't a definition by abstraction of the property of either
+ 
+(i) what it is to have a given property phi to a given degree N
+ 
+or
+ 
+(ii) the property of being phi to degree N or, finally, (iii) the property of being phi to any degree. 
+ 
+Von Neumann's Analysis (VNA) of Cardinal Number: Let Ø be the empty set. According to Von Neumann, 0=Ø, 1={Ø}, 2={{Ø},Ø}; 3={{{Ø},Ø}, {Ø}, Ø}; and so on. In general, n=the set whose member is every cardinal m<n.
+      A simpler version of VNA is as follows: 0=Ø. 1={Ø}. 2={{Ø}}; and so on. In general, any given number is the set whose sole member is preceding number.
+ 
+VNA validates the Dedekind Axioms: For each n (1?n?5), VNA validates the nth Dedekind Axiom.
+ 
+1. 0 is a number.
+Ø is the smallest set that contains all its predecessors.
+ 
+2. The successor of a number is a number.
+If n is a number, {n} is a number.
+ 
+3. No two numbers have the same successor.
+If n and m are numbers, {n}={m} iff n=m.
+ 
+4. 0 is not the successor any number.
+Ø has no members.
+ 
+5. If 0 has phi and, for any n, n+1 has phi if n has phi, every cardinal has phi.If phi is the property of being a natural number, then the class W of natural numbers is the smallest class containing Ø and {n} whenever it contains n.
+ 
+VNA-characterizations of arithmetical operations:
+ 
+The basic truths of arithmetic are VNA-expressible.
+ 
+Let m+1 be the first iterate of the operation of adding 1, for starting-point m. m+n=o means:  the nth iterate of the operation of adding 1, for staring point m, is 0.
+m×n=o means: the nth iterate of the operation adding m, for starting point 0, is o.
+mn=o means: the nth iterate of the operation of multiplying by m by 1 is o.
+ 
+Since these truths are VNA-expressible, it follows---though the requisite derivations will be omitted---that more exotic truths of arithmetic, e.g. truths concerning rationals and irrationals, are also VNA-expressible. Suffice it to say that the derivations parallel those by which the Frege-Russell paraphrases of such exotica follow from the Frege-Russell characterizations of cardinals and operations thereupon.
+ 
+Chapter 4 Serial Order
+ 
+A series is an ordered pair <K, R>, such that K is a class of objects and R is an ordering-relation. An ordering relation, with respect to K, is any relation such that, for any x, y, and z that belong to K,
+ 
+(i) if x bears R to y, y does not bear R to x;
+ 
+(ii) if x bears R to y, and y bears R to z, then x bears R to z; and
+ 
+(iii) if x?y, then either x bears R to y or y bears R to z.
+ 
+Given (i), R is an asymmetrical relation, at least with respect to the members of K. Given (ii), R is a transitive relation, with respect to the members of K.
+Given three, the members of K are connected under R.
+    If the members of a class K are connected with respect to a relation R, and if, in addition, that relation is asymmetrical and transitive with respect to K's members, then R establishes a strict ordering among K's members.    The most obvious example of a strict ordering is <K, R>, where K are the natural numbers and R is the relation <.
+   A relation R establishes a partial ordering among K's members if R is asymmetrical and transitive with respect to K's members but K's members are not connected under R. Thus, if K is the class of human beings and R is the relation is taller than, R is asymmetrical and transitive, but K isn't connected under R, since two people can have the same height.
+ 
+Chapters 5 and 6 (consolidated) Higher-order relations and similarity among relations
+ 
+     Let K be the class of whole numbers, from 1 (inclusive) to 100 (inclusive), and let R be the relation of being one less than. Let K* be the class of even numbers, from 200 (inclusive) to 400 (inclusive), and let R* be the relation of being two less than. Finally, let RK be the ordering of K's members generated by R, and let R*K* be the ordering of K*'s members generated by R*.     RK consists of 50 links. The first link starts with 1 and ends with 2; the second starts with 2 and ends with 3; and so on. RK* consists of 50 links. The first starts with 200 and ends with 202; the second starts with 202 and ends with 204; and so on.
+     It follows that RK and R*K* are isomorphic orderings, i.e. they have the same structure. This means that there is some rule R# such that, for any n (1?n?50), if x and y belong to K and x* and y* belong to K, R will pair off <x,y> with <x*,y*> iff the nth link of RK begins with x and ending with y and the nth link of R*K* begins with x* and ends with y*.
+    Thus, even though K and K* are disjoint classes, and even though RK and RK* are distinct series, RK and R*K* are ordinally similar. ("Ordinal" is the adjective-form of "order.") This means that they are both instances
+(members) of the same ordinal number. An ordinal number is the class of all orderings isomorphic with a given ordering.
+      An ordering is an ordered pair <K,R>, such that K is a class of objects and R is a relation that orders K's members. An ordering is therefore identical with a series.
+       Given any two orderings <K,R> and <K*,R*>, as long as K and K* are finite, then, if they are equinumerous, <K,R> and <K*,R*> are both elements of the same ordinal number.
+        If K and K* are infinite, <K,R> and <K*,R*> are not necessarily instances of the same ordinal number. The reasons for this will be discussed later.
+ 
+Chapter 7 Rational and Real Numbers
+ 
+     1-4 are correct analyses of signed integer, rational number, and real number.
+ 
+1. +n is the relation that m+n bears to n.
+2. -n is the relation that n  bears to m-n.
+3. p/q is identical with relation that x bears to y when xq=yp.
+4. The real number corresponding to n is the class of all fractions lessthan n.
+ 
+A consequence of 1-4 is that, given any cardinal number n, n is distinct from the corresponding rational and real numbers, and also from the corresponding signed integer (+n).
+    
+1-2 explained: There are many reasons to grant the existence of negative numbers. It is a datum that that the relation borne by 4 to 7 is -3; so we may identify -3 with that relation, thus eliminating any aura of mystery attaching to the concept of a negative number. +3 is the converse of -3.
+     The cardinal number 3 is not identical with +3. +3 is a relation between cardinals.  "3=+3" is meaningless, since cardinal numbers obviously aren't size-comparable to relations between cardinal numbers. It follows that, in the equation "8-5=3", the "-" doesn't have the same meaning that it has in "58=-3." In the first case, the it denotes a relation between cardinal numbers; in the second, a relation between a relation between cardinal numbers. And the "+" in "5+3=8" doesn't have the same meaning that it has in "-3+8=5." In the first case, it denotes a relation between cardinals; in the second, a relation between a relation between cardinals.
+       Let us refer to the relation denoted by the  "+" in "-3+8=5" as "+RC." (The "RC" stands for "relation among cardinals.") We will refer to the corresponding relation in "5+3=8" as, simply, "+." "×RC" and "×" are to be interpreted in the same way mutatis mutandis.  
+     +RC's behavior with respect to pairs of signed, positive integers is strictly analogous to +'s behavior with respect to cardinals, and ×RC's behavior with respect to pairs of signed, positive integers is strictly analogous to ×'s behavior with respect to pairs of cardinals. Also, like each of + and  ×, and each of +RC and ×RC is commutative and associative.
+     Given a pair of signed integers, at least one of which is negative, there is nothing perfectly analogous to +RC's behavior with respect to that pair in the behavior of + with respect to any pair of cardinals, and there is nothing perfectly analogous to ×RC's behavior with respect to that pair in the behavior of × with respect to any pair of cardinals.
+     However, +RC's behavior with respect to that pair can be understood in terms of at least one of the more obvious interpretations of +'s behavior with respect to that pair, and ×RC's behavior with respect to that pair can be understood in terms of the corresponding interpretation of ×'s behavior with respect to that pair. Given two cardinals, m and n, m+n can be interpreted as taking m steps forward and then taking another n steps forward, and this is precisely how (+m)+(+n), is to be interpreted; and m×n can be regarded as taking m steps forward n times, and this is precisely how (+m) × (+n) is to be interpreted.
+    Notice that the signed integers aren't being posited: they are being constructed out of entities whose existence has already been established.
+ 
+3 explained: The relationship that 5 bears to 6 is identical with the relationship that 10 bears to 12 and also with the relation that 20 bears to 24. For any x and y, x bears that same relationship to y exactly if 6x=5y. Since, by definition, the relationship that 5 bears to 6 is that of being (5/6)6, it follows that 5/6 is the relationship that x bears to y if 6x=y5.
+ 
+Operating with fractions: 5/6<7/8; 5×8<6×7. 2/3<3/4; 2×4<3×3.  In general, p/q<m/n iff pn<mq. We may therefore identify p/q's being less than m/n with its being the case pn<mp. By the same reasoning mutatis mutandis, since p/q=m/n iff pn=mq, we may identify p/q's being equal to mn with its being the case  p/q=m/n. To validate these identifications, we must hold that (p/q)+ (m/n)=(mq+pn)/qn, and we must also hold that (p/q) × (m/n)=(pm/qn).
+ 
+The density of the rational number-series: Given two fractions, p/q and mn, p/q<m/n, p/q<(p+m)/(q+n)<m/n. Therefore, there is a rational between any two rationals, and the rational-number series is therefore dense.
+ 
+4 explained: First of all, it is easily shown that, if every cardinal has a square root, then there are irrationals and, consequently, numbers that are not cardinals, signed integers, or rationals. A square whose sides are one inch has a diagonal of root-2. There are no p/q=root-2, as the following indirect argument shows. Let p/q=root-2, where p/q is root-2 expressed in lowest possible terms. In that case (p/q)2=2 and p2=2q2. p2 is therefore even, and so is p, since the square of an odd number is odd. Since p is even, there is some m such that p=2m. It follows that p2=4m2 and, therefore, that p2 is divisible by 4.
+Thus, p2=4m2=2q2. Thus 2m2=q2.   Thus, (q2/m2)=2. Thus, q/m=root-2. Given that q/m=root-2, it follows that, contrary to our hypothesis, p/q is not root-2 expressed in lowest possible terms.
+   One response is to say that 2 has no square-root, much as it was said, before the discovery (or construction) of complex numbers, that no negative number has a square-root. But there are many reasons---many of them of a pragmatic, as opposed to logical nature----to hold that lengths are always quantifiable, and there are many reasons to hold that there are irrational numbers. In any case, let us show that irrational numbers and real numbers generally do in fact exist.
+      Given any fraction p/q such that, p/q<root-2; and given any fraction m/n such that 2<(m/n)2, p/q is greater than root-2. Root-2 is supposed to be in between these two classes of fractions. But there isn't anything in between these two classes. The first class of fractions has no greatest lower bound; the second has no least upper bound.
+      Dedekind's solution was to stipulate that there was a number in between these two classes. But, if there is such a number, it must be demonstrated, not stipulated; it must be shown that root-2 can be constructed out of entities that we know to exist.
+     Russell (1903) put forth just such a construction. Identify root-2 with the class K of fractions p/q such that (p/q)2<root-2. In general, a real number r is identical with a segment of the class of all fractions, a segment being a class that includes every fraction that is less than a given quantity. The real number 1 is the class of all proper fractions. Root-2 is the class of fractions whose square is less than 2. 
+ 
+An alternative to 4---reals as convergent series of rationals: Though adequate, Russell's answer to the question "what is root-2" is not the only viable such answer. Another viable answer is to say that root-2 is an equivalence class of convergent sequences of rational numbers. A convergent sequence S is usually defined as a series of real numbers whose limit is a given number. Thus, the series defined by (3/2, 4/3, 5/4…) converges on 1, since, for any epsilon, there is a number n such that the difference between epsilon and the nth series of this series is less than epsilon. Similarly, the sequence S* 1, 1.4, 1.41, 1.414…converges on root-2.
+    If we regard the members of each of S and S* as rationals, as opposed to reals, we can see them as determining, respectively, the real number 1 and root-2; and we therefore regard the equivalence-classes to which S and S* belong as being identical with, respectively, the real number 1 and root-2.       An equivalence-class of convergent series is a class of series equivalent to a given series. S is an equivalence-class of convergent series if S is the smallest class of convergent series such that (i) each member has the same limit as any given member and (ii) such that no convergent series having that limit is not a member of that class.[5]
+      Notice that, although it can be said that S converges on 1, S isn't defined as a series that converges one 1; nor is S* defined as one converges on root-2. So there is no vicious circularity in regarding S and S* as determining the real number and root-2, respectively; and there is no vicious circularity in regarding the corresponding equivalence-classes as being identical with 1 and root-2.
+                  
+Addition and multiplication of reals: The arithmetical sum of two real numbers is the smallest class K such that, given any member of the first real and given any member of the second, K contains the arithmetical sum of those two members. The arithmetical product of two reals is the smallest class K such that, given any member of the first real and given any member of the second, K contains the arithmetical product of the first
+ 
+Reals not limits of rationals: Root-2 is not the limit of the series of rationals whose square is less than 2. Reals are classes of rationals, and reals therefore cannot be size-compared with rationals in the way. The limit of a series must be greater than/equal to, and therefore size-comparable to, any given member of that series; therefore, reals, not being size-comparable to rationals, are not the limits of series of rationals.
+       Root-2 is the limit, not of the series of rationals whose square is less than two, but of the series of real numbers corresponding to those rationals.
+(3/4)2<2. 3/4 is a rational. The corresponding real is the class of all fractions that are less than 3/4. Root-2 is the limit of the series consisting of every class K such that K is the smallest class containing every fraction whose square is less than two.
+ 
+Chapter 8 Infinite Cardinal Numbers
+ 
+Reflexive classes: Let C be the class of cardinal numbers and let Aleph-null be the number of elements of C. There is a one-one correspondence between C and each of many different proper subsets of itself: the set of even numbers, the set of squares, and the set of primes. Given that two classes are equinumerous iff there is one-one correspondence between them, it follows that there are exactly as many whole numbers as there primes, evens, and squares.
+     If a class can be put into one-one correspondence with a proper part of itself, that class is reflexive. If a class is reflexive, it is infinitely large. It is an open question, for reasons to be discussed later, whether a class that is infinitely large is reflexive.
+ 
+The power-set theorem and the hierarchy of transfinite numbers: Alephnull is the smallest infinite (or 'transfinite') number. There are infinitely many such numbers. This is a consequence of the fact, now to be proved, that, for any n, finite or infinite, n<2n, taken in conjunction with the fact that an nmembered set has 2n subsets.
+       Proof: Given some class K, let F be a function that establishes a one-one correspondence between the members of K and the subsets of K. Given any member x of K and given any subset S of F, x either does or does not belong to S. Let S* be a subset of K such that, for each member x of K, x is a member of S* exactly if F does not assign S* to x. If S* is non-empty, then, given any member y of S*, there is no subset of S that F assigns to y, contrary to our supposition that F assigned each subset to exactly one such member. If S* is empty, then, since the empty set is a member of any given set, F fails to assign one of the subsets of K to any member of F, contrary to our supposition that F assigned each subset to exactly one such member. S* either is or is not empty, and K therefore has more subclasses than members. Any given class has more sub-classes than members. Since an n-membered class has 2n subclasses, n<2n, even if n is infinite.
+       This means that Aleph-null is smaller than the number N of subclasses of W, and that, given an N-membered class, N is smaller than the number of subclasses of that class, and so on ad infinitum.
+       Let Aleph-one=2Aleph-null, this being the number of subsets of W. According to George Cantor, Aleph-one is the smallest infinite number greater than Aleph-one. This position is known as the Continuum Hypothesis. The Generalized Continuum Hypothesis is the position that, for any infinite number N, 2N is the smallest infinite greater than N. We will see in the section after the next one that there are other reasons to hold that there is more than infinite number.
+ 
+Exactly as many rationals as cardinals: Consider the following sequence: 1,
+1/2, 2/2, 1/3, 2/3, 3/3, 1/4, 2/4, 3/4, 4/4, 1/5, 2/5, etc. Strike out the redundancies; so get rid of 2/2, 2/4, 3/3, etc. Let S be the resulting series, namely, 1, 1/2, 1/3, 2/3, 1/4, etc. There is no fraction that doesn't occur somewhere in S. Assign 1 to 1, 2 to 1/2, 3 to 1/3, etc. This assignment establishes a one-one correspondence between the class of cardinals and the class of rationals. Thus, there are exactly as many cardinals as there are rationals: the number of the class of rationals is Aleph-null.
+  
+More reals than rationals: Any given real number has a decimal-expansion.
+(The decimal expansion of 1 is .9999; the decimal expansion of pi is 3.14159.) Suppose arguendo that the reals can be put into a one-one correspondence with the cardinals. (Given that the class of cardinals has exactly as many members as the class of rationals, this is the same as assuming that the reals can be put into one-one correspondence with the rationals.) In that case, the reals can be put into a list L, such that the first entry on L is paired off with 1, the second with 2, the nth with n.      Let F be a function such that, if the digit in the nth position in the nth number on L is 8, then F replaces that , number with a 9 and, if that number is already a 9, then F replaces that number with a 1.
+     Let x1 be first digit in the first decimal place of the first number on L; let x2 be the second digit in the second number on L; in general, let xn be the nth digit in the nth number on L. Let FR be a number whose ith digit, for every admissible value of i, is xi.
+      FR is not identical with the first number on L, since the first digit of that number differs from the first digit of FR; for any n, the FR is different from the nth number on L, since the nth digit of FR differs from the nth digit of the nth number on L. Thus, FR is a real number that is not on L, contradicting our supposition that the reals could be enumerated and, therefore, listed. Thus, there are more reals than rationals and, therefore, more reals than cardinals.
+ 
+The Concept of a Diagonal Argument: The argument just put forth is an example of a diagonal proof. The earlier given proof that a class always has more subsets than members was also a diagonal proof. Each such proof has the following structure: There are classes K1 and K2 such that, if it is assumed that some function F1 bijects those classes, then it follows that, for some function F2, defined for F1, F2 pairs F1 off with some member y of K2 and such that there is no member x of K1 such that F1(x)=y.       Hence the following definition of "Diagonal Argument":
+ 
+D1: DA is a diagonal argument iff, for some class K1 and some class K2, DA is to the effect that, if it is assumed that some function F1 bijects K1 and K2, it follows that, for some function F2, defined for F1, F2 associates F1 with some member y of K2 such that, given any member x of K1, F1(x)?y.
+ 
+Another definition of "Diagonal Argument" is as follows:
+ 
+D2: DA is a diagonal  argument iff, for some class K1 and some class K2, the assumption that some function F1 bijects K1 and K2 entails that, for some function F2, defined for F1, F2 associates F1 with some member y of K2 such that F(1) assigns y to some member of x exactly if F(1) assigns y to no member of x.
+ 
+     There are a number of important incompleteness theorems in logic, mathematics, and formal linguistics. Each such theorem is established by a diagonal argument; no such theorem can be established in any other way.
+ 
+Continuity vs. compactness: The class of rationals forms a compact series,
+i.e. a series such that there is a member between any two members. The class of reals forms a continuous series, i.e. a series such each of its members is a limiting point and such that the limit of any segment of that series is contained in that series.
+     Unless reals exist, the Intermediate Value Theorem is false.  Let segment LS longer than root-2 inches. Let LS* be some other line segment. Suppose that LS intersects with LS*, the point of intersection being the end-point of an initial, root-2 length segment of LS. In that case, unless root-2 exists, there is no point that LS and LS* have in common. Given any real number, a similar argument shows that, unless that real exists, one or more mainstay of mathematics is simply false.
+ 
+The Arithmetic of Transfinite Numbers---Addition and Multiplication: Let us now turn to transfinite addition and multiplication. Let W1 be the class of natural numbers; let W2 be the W plus 2.5; and let W# be the union of W and W2. Obviously W# has the same cardinality as W, since the members of W can be coordinated with the members of W*. (1:1, 2:2, 3:2.5, 4:3, 5:4….) Thus, Aleph-null+1=Aleph-null.
+       For any finite n, Aleph-null+n=Aleph-null. Let W28 be W1 plus 1/2, 1/8, and 23 other proper fractions; and let W$ be the union of W and W28. W can be bijected with W28. Thus, Aleph-null+28=Aleph-null.
+      Aleph-null×2=Aleph-null. Let WT be the following class: {A,B}. The
+Cartesian product of W and WT is the class {<A,1>,<B,1>,<A,2>,<B,2>,…}.
+Let K be this class. K has Aleph-null×2 members. W and K can obviously be bijected. Therefore, Aleph-null×2=Aleph-null. It obviously follows that, for any finite n, Aleph-null×n=Aleph-null.
+     Moreover, Aleph-null×Aleph-null=Aleph-null. I.e. Aleph-null2=Alephnull. Given that W has Aleph-null members, the Cartesian product of W and W is the set of all pairs of cardinals. Each pair of cardinals determines a rational, and each rational determines a pair of ordered numbers. The class of rationals is equinumerous with the class of cardinals.  (See above.) Therefore,
+Aleph-null×Aleph-null=Aleph-null. Therefore, Aleph-null2=Aleph-Null.        Given any transfinite number N, all of the points just made about Alephnull hold of N.
+ 
+The Arithmetic of Transfinite Numbers---Subtraction and Division: Given two transfinite numbers, N and N*, each of N+N and N×N yields a determinate result: There is one number M such that N+N=M and one number M^ such that N×N=M^.
+      But each of N-N and N/N is infinitely ambiguous. 5-3=2 means that, if K is a five-membered class and K* is three-membered class, then if, for each member x of K*, some member y of K is removed from K, the resulting class has two-members. In general, m-n=o means that, given an m-membered class and an n-membered class, if, for each member of n, some member of m is removed, the resulting set has o members.
+     In light of this, consider a class W-2 that is just like W except that 2 is not a member of W-2. Each of W and W-2 has Aleph-null members. If, for each member x of W-2, some member y of W is removed, the resulting class has one member, not zero members. So Aleph-null-Aleph-null doesn't necessarily equal 0.
+     Aleph-null-Aleph-null can equal 0. Let RN be the class of rationals. RN has Aleph-null members, as does W. If, for each member x of RN, some member y of W is removed from W, the resulting class is empty. But if K# is just like RN, except that 3/4 and 9/8 are not members of K#, then the  justdescribed operation yields a class that has two members. Given any finite n, including 0, subtracting Aleph-null from Aleph-null can yield n.
+     Moreover, subtracting Aleph-null from Aleph-null can yield Aleph-null. Let WP be a class that is just like W, except that there are no prime numbers in WP. If, for each member x of WP, some member y of W is removed, the resulting class has Aleph-null members.
+     Division of infinite quantities is easily understood in terms of division of finite quantities. 6/2=3 means that, if K is a six-membered group, then, if K* is a group that results when K is divided into two equinumerous groups, exactly one of which does not belong to K*, K* is a three-membered group. In general, m/n=o means that if K is an m-membered group, then, if K* is the resulting of dividing K up into n equinumerous groups, exactly one of which does not belong to K*, K* is an o-membered group.
+    Let us now turn to transfinite division. Aleph-null/2=Aleph-null. Let W1 be the class of all odds and let W2 be the class of all evens. These classes result when W's membership is divided into two equinumerous classes. The population of each of W1 and W2 is Aleph-null. Q.E.D.
+      It obviously follows that, for any finite n, Aleph-null/n=Aleph-null.      Aleph-null/Aleph-null is infinitely ambiguous. It can equal n, for any finite n; and it can also equal Aleph-null. Suppose that W is divided into Alpha-null many equinumerous class, the first containing 1-9, the second containing 10-19, and so on. In that case, Aleph-null/Aleph-null=10.    Now suppose that W is divided into Alpha-null many classes, the first containing 1-99, the second containing 100-199, and so on. In that case, Aleph-null/Aleph-null=100.
+     Now suppose that W is divided into Alpha-null many classes, the first containing every multiple of 1, the second containing every multiple of 2, and so on. In that case, Alpha-null/Alpha-null=Alpha-null.
+ 
+Chapter 9 Ordinal Numbers and Infinite Series
+ 
+The concept of an Ordinal Number:  A series is an instance of an ordinal number, just as a particular pair of apples is an instance of the number two and therefore isn't the number two. And just as the number two is the class of all pairs, so a given ordinal number is the class of all ordinals equal to it.
+Since series are ordered pairs, as we will see, the meaning of "=" in "O1=O2," where O1 and O2 are two ordinals, doesn't have the same meaning that it has in "2+1+1." The first "=" is merely a homophone of the second. We will presently define the former.
+     A series is, as previously stated, given by an ordered pair, <K,R>, such that K is a class and R is a relation such that, given any members x, y, and z of K, each non-identical with the others, xRy or yRx, but not both; not(xRx); and, if xRy and yRz, then xRz.
+   Example: Let K be the class whose members are 1-10. <K,< > generates a sequence beginning with 1 and ending with 10. If K is a finite class, then, for any two ordering relations, R and R*, <K,R>=<K,R*>. In other words, finite ordinals cannot be changed by re-ordering them. Let R% be the relation that, when given 1-10, generates the sequence 1,3,2,4,5,7,8,10,9. In that case,
+<K,R%>=<K,< >.
+       What this means is that <K,R%> and <K,< > are isomorphic. And what this means is that there is a function F such that, if x1 and x2 are any members of K such that x1R%x2, then F pairs off with members xa and xb of
+K such that xa<xb. F thereby establishes perfect structural similarity between <K,R%> and <K,< >: The truth that 10R%9 encodes, and is itself encoded in, the truth that 9<10.
+      Given some 10-membered class K*?K, <K*,R>, for any viable ordering relation R, is isomorphic with each of <K,R%> and <K,< >.
+     An ordinal is the class of all series isomorphic with a given series. Thus, the ordinal number 10 is the class of all series isomorphic with <K,R%>.       Given any n-membered class K#, for n?10, <K#,R>, for any viable relation R, is distinct from <K,R>, for any 10-membered class K and any viable ordering relation R.  
+ 
+Cardinals vs. Ordinals; Scalars vs. Vectors: the Concept of Dimensionality: Cardinal numbers are the values ranged over by variables whose substituends denote scalar quantities. Ordinal numbers are the values ranged by variables whose substituends denote vector quantities. Let us now make it clear what these two statements mean.
+      An "n-dimensional manifold" is a space of n-dimensions. A scalar quantity defines a one-dimensional space. A vector quantity defines an ndimensional space, n>1.
+      Given a straight-line, or any other one-dimensional manifold, there is only one respect in which one point can differ from another, and each point is therefore fixed by a single number. Given a plane, or any other twodimensional manifold, there are two respects in which one point can differ from another, and each point is therefore fixed by an ordered pair. For any n, there are n-respects in which one point in an n-dimensional manifold can differ from another such point, and each point is therefore fixed by an ordered 10-tuple.
+     A continuous series of one-tuples describes a one-dimensional manifold.
+A continuous series of ordered pairs describes a two-dimensional manifold. A continuous series
+     Given[6] some physical object---a region of empty space, the surface of an orange, the interior of a sphere----the assertion that it is inherently ndimensional, for some n, is meaningless. A straight-line is not inherently onedimensional. A surface is not inherently two-dimensional. And the interior of a circle (of non-null volume) is not necessarily three-dimensional.      Given some object M, M is n-dimensional only with respect to a specification of what constitutes a minimal unit of that manifold. To use Cassius Jackson's examples[7]: A point-pair has two degrees of freedom on a line; 4 on a plane; and six in a region of space. A point-triad has three degrees of freedom on a line; 6 on a plane; and 9 in a region of space.
+      Given any manifold M, and given any finite number n, there is some class K of entities such that the members of K are appropriately taken as the minimal units of M and such that, if they are thus taken, M has n dimensions.       Finally, the first two sentences of this section can be inverted. If v is a quantity denoted by a variable whose substituends denote scalar quantities, then v is a cardinal number; and if v is a quantity denoted by a variable whose substituends denote vector quantities, v is an ordinal number.
+ 
+A difference between Finite Ordinals and Transfinite Ordinals: <W,< > generates the series 1,2,3…That series is obviously infinitely long. The class of all series isomorphic with <W, < > is therefore an infinite ordinal. It is the smallest such ordinal. It is referred to as "Omega."  
+       Given a class K that is equinumerous with W, i.e. whose cardinality is
+Aleph-null, and given any suitable ordering relation R, the ordinal number of <K, R>---i.e. the class of ordinals of which that series is a member----is capable of having infinitely many values: it may be equal to omega; for any finite n, it may be n greater than omega; it may be omega greater than omega; for any finite n, it may be n×Omega greater than omega.
+      Let R be an arbitrary relation that orders W. Let R, when given W, generate the series 1,2,3…… In that case, as previously stated, the ordinal number of <W,R>'s  is omega. Let R, when given W, generate the series 1, 3, 4….n….2. In that case, the ordinal number of <W,R> is one greater than omega. Let R, when given W, generate the series 1, 4, 5….n….2, 3. In that case, the ordinal number of <W,R> cardinality is two greater than omega. It obviously follows that, for any finite n, there is a value of R such that the ordinal number of <W,R> is n greater than omega.
+    But the ordinal number of <W,R> can exceed omega by omega itself or by n×Omega, for any finite n.  Let R, when given W, generate the series 1,3,5….2,4,6…In that case, the ordinal number of <W,R> is twice omega. Let R, when given W, generate the series 1,10, 20….2,11,21…3,12,22…In that case, the ordinal number of <W,R> is 10 times larger than omega.     In fact, the ordinal number of <W,R> can exceed omega by omega many multiples of omega. Let R, when given W, generate the series 1,3,5,7…; 2,6,10,14…; 4,12,20,28…; 8,24, 40, 56,…, In that case, the ordinal number of <W,R> is omega2. Given obvious generalizations of this argument, it follows that, for any n, the ordinal number of <W,R> can be Omegan and also that it can equal OmegaOmega.
+ 
+Well-ordered series: Classes are not series. The class of rationals is not a series. In particular, it isn't the series s of rationals such that any given member of s is smaller than any later member of s.
+       s is an example of a series that is not well-ordered. A series S is wellordered iff every non-null sub-class of S—every segment---has a first member. The rationals can be well-ordered, since the obviously well-ordered series 1,1/2, 1/3, 2/3…contains every rational.
+      If any given class can be well-ordered, a number of deeply important mathematical principles and techniques are available that wouldn't otherwise be available. A consequence of the Axiom of Choice is that any given class can in fact be well-ordered. The Axiom of Choice is the proposition that, given any class K whose members are classes, there is a class RK, such that RK contains exactly one member of each of the members of K.
+      The Axiom of Choice is actually equivalent with the proposition that any given class can be well-ordered, and it is equivalent with each of a number of other deeply important principles, for reasons that to be stated.
+ 
+Chapters 10-11 Limits and Continuity
+ 
+Convergent series and Cauchy sequences: Let S be the sequence generated by generated by F(x)=x+1/x (2/1, 3/2, 4/3, 5/4, 6/5…)  In addition to being a convergent series, S is also a Cauchy sequence. A Cauchy sequence is a series of numbers a1,a2,…ai…such that, given any epsilon, no matter how small, there is some number N such that, for any m,n>N, the difference between am and an is less than epsilon.
+     Any convergent series is obviously Cauchy. If S=a1,a2…is convergent, then, if L is the limit of S, the differences between an and an+1 become smaller and smaller, without limit; for if those differences do not diminish without limit, then the series has no limit and isn't convergent.
+       But a non-convergent series can be Cauchy. Let S be the series: root1, root2, root-3….That series has no limit, and it therefore isn't convergent; but the differences between successive members diminish without limit, and it is therefore Cauchy.
+ 
+Limits of functions: The statement
+ 
+(1) The limit of F(x), as x approaches a, is L
+ 
+means
+ 
+(1^) for any epsilon, there is some delta such that, if the difference between a and x is less than delta, then the difference between F(x) and L is less than epsilon.
+ 
+The statement
+ 
+(2) F is continuous at x=a
+ 
+means
+ 
+(2^) The limit of F(x), as x approaches a, is L; and F(a)=L.
+ 
+ 
+   The statement:
+(3) Function F is continuous
+ 
+means
+ 
+(3^) If the limit of F(x), as approaches a, is L, then F(a)=L,
+ 
+so long as L is a non-terminal, meaning that, F(x)<L<F(x2), for some x1 and x2. (Thus, the function F(x)=x, where x is defined for all the real numbers x, 0<x<1, is continuous, since it contains all its non-terminal limiting points, it being irrelevant that it doesn't contain 1.)
+     The statement
+ 
+(4) S is a continuous series
+ 
+means
+ 
+(4^) S is generated by a continuous function.
+ 
+The series of numbers generated by F(x)=x, for all x, 0<x<1, is not a function. It follows that the word "continuous" in (3) doesn't have the same meaning as its homonym in (4).
+       It also follows that the word "limit" in
+ 
+(5) The limit of F(x), as x approaches a, is L
+ 
+is doesn't have the same meaning as its homonym in:
+ 
+(6) The limit of S is L.
+ 
+So, if F(x)=x, for all x, 0<x<1, and S is the series generated by that function, then the word limit in
+(5^) The limit of F(x), as x approaches 1, is 1
+ 
+doesn't have the same meaning as its homonym in
+ 
+(6) The limit of S is 1.
+ 
+Laws of physics formulated in terms of limits: Physicists often make statements about frictionless planes, point-masses, instantaneous velocities, and other such impossibilia. These statements are abbreviations for statements that don't presuppose the existence of such surds. For example,
+ 
+(i) x's velocity at instant t is v
+ 
+means
+ 
+(ii) If I1, I2…Ii…, is a series of non-null t-inclusive intervals, each internal toits predecessor, then, for any epsilon, there is some number n such that x's average velocity during In differs from v by less than epsilon.
+ 
+Are space and time continuous? The question "is space continuous?" is without meaning until it is said what the minimal units of space are. If it is said that those units are "points," nothing has been said, since
+"point"=DF"minimal spatial unit."  That said, there are interpretations of the term "point" that validate the presumption that space is continuous.[8]     The question "is time continuous?" is to be given a similar answer. That question is meaningless, until it is said what the minimal units of time are. If those units are said to be "instants," nothing has been said, since "unit"=DF"minimal temporal unit."
+ 
+Chapter 12 The Axiom of Choice and the Law of Excluded Middle
+ 
+    If K is a finitely large class of classes, each of which is itself finitely large, there is obviously a class SK such that, given any class k belonging to K, exactly one member of k is a member of K. SK is a selection from K.
+      If K is a finitely large class of classes, each of which is infinitely large, there is, quite clearly, a selection SK from K. 
+      But what if K is an infinitely large class of classes, each of which is itself infinitely large? In that case, it is impossible to identify a selection SK of K, and for that reason many mathematicians doubt the existence of such a selection.
+      What about if K is an infinitely large class of classes, each of which is finitely large? In that case, it might—or might not—be possible to identify a function that generations a selection of K.
+      The Axiom of Choice (AC) is the proposition that, given any class K whose members are classes, there is a selection SK from K.[9]
+       AC is used in many a non-constructive proof. (Any proof that uses it is ipso facto non-constructive; but not all non-constructive proofs use it.) A proof is non-constructive if, instead of directly demonstrating the truth of the relevant proposition, it establishes that the negation of that proposition entails a contradiction (a proposition of the form P and not-P) . The classic example is the proof that, for some a and b, each irrational, ab is rational. To wit: Root-
+2 is irrational. Root-2root-2 is either rational or irrational. If it's rational, then we have established that, for some irrational a (=root-2) and some irrational b (also =root-2), ab is rational. So suppose that Root-2root-2 is irrational. In that case, take a to be root-2root-2, and take b to be root-2. In that case, ab is (Root-
+2root-2) root-2=root-22=2. Q.E.D.
+     This proof has, or can be represented as having, the form:
+ 
+1. If each of a and b is irrational, then ab is irrational.  Assumption, indirect proof.
+2. Either (Root-2root-2) is rational or it isn't.  Law of Excluded Middle (also known as the principle/law of Bivalence)
+3. If (Root-2root-2) is irrational, then (Root-2root-2) root-2 is rational.
+4. At least one of those two numbers is rational, contrary to 1, showing that aconsequence of 1 is a contradiction (namely, the conjunction of 1 itself and the negation of 1).
+   This proof does not actually identify a single pair of numbers, a and b, each irrational, such that ab is rational. Therefore, this proof is non-constructive.      An example of a non-constructive argument is the earlier-stated diagonal argument, by which it was shown that there are more reals than rationals. That proof did not identify any specific one-one correspondence between the cardinals and a subclass of the reals. Therefore, it did not identify a single real number r such that, given some such correspondence, r is not thereby assigned to any cardinal. That proof had the form: The assumption that there is such a correspondence is either true or false. The assumption that it's false entails that there are more reals than rationals, given that there are obviously at least as many reals as there are rationals. The assumption that it's true entails that, relative to the (hypothetical) bijection in question, to there is some real number r such that that isn't paired off with any cardinal number.
+ 
+The basis for constructivist antipathy towards LEM: Some mathematicians, and many philosophers, reject LEM. They believe
+ 
+(i) that LEM holds with respect to truths that concern entities that existindependently of us
+ 
+and
+ 
+(ii) mathematical truths, and mathematical entities (numbers, sets, functions,etc.), are creations of ours.
+ 
+(i) and (ii) jointly entail
+ 
+(iii) Given a mathematical statement S, if the mathematical fact alleged to exist by S can be identified----unless it is shown of some specific numberpair, a and b, each irrational, that ab is rational---then it isn't true that root-2root-
+2 is either rational  or it isn't: it is no more true than the assertion that, at the end of the last episode of the Sopranos, Tony Soprano was killed by someone hired by Paulie Walnuts.
+ 
+     There are movies in which person X is murdered and in which it is simply left open who the murderer is. The question "did person Y kill X?" is obviously misconceived. Unless the script-writer writes a sequel in which that question answered, there is no answer; and the reason there's no answer is that there is no more to a work of fiction than what the author puts in it.       If LEM is correct, then, assuming (plausibly) that mathematical objects are not fictions, AC is correct. Given a class K of non-empty classes, k1, k2…., for any i and for any individual x, the statement "x is an element of ki" is either true or false: it is irrelevant (to the reality of the situation, not to our knowledge thereof) whether we can prove as much and even whether we can identify a single one of the classes in question; and, supposing that we could identify such a class, it is irrelevant whether we could identify a single individual y that belonged to that class. For those who reject LEM, the gap between mathematical reality and our knowledge thereof is either nonexistent of, if existent, much narrower than it would be if AC is true.
+ 
+LEM defended: LEM is true, and so is the assertion that
+ 
+(*) any given mathematical assertion is true.
+ 
+Be it noted that LEM does not by itself entail (*). According to constructivists, there is no more to the mathematical realm than what mathematicians put there, supposition: mathematicians construct mathematics. And, in addition to being man-made, constructivists hold, mathematics consists of fictions: the totality of mathematical truths isn't like a boat or a watch that, although man-made, exists quite independently of thought after it has been made. No—in the constructivist's view, numbers are as fictitious as the Greek Gods and number-theoretic, and otherwise mathematical, truths (so-called) are not true at all, except in the sense in which it's true that Zeus is the son of Athena: He was the son of Athena----in the story. And 4 is the square of 2---in a different story, but a story no less.      But supposing that numbers, functions, etc. do exist, and aren't in the same category as Zeus and Athena, LEM does entail that that any given mathematical assertion is either true or false. And numbers, etc. do exist: we ourselves have constructed the cardinals out of ingredients whose existence is indisputable.
+ 
+Is LEM categorically correct? Is any given mathematical proposition either true or false? 'Yes' to both questions. Consider the proposition:
+ 
+NBV: There are some propositions that are neither true nor false.
+ 
+NBV presupposes that:
+ 
+NBV2: NBV is not among the propositions that are neither true nor false.
+ 
+Explanation: NBV isn't true if it's neither true nor false.  
+NBV also presupposes that
+ 
+NBV3: There is some proposition P that can be/has been identified such that P has been shown to be neither true nor false.
+ 
+Explanation: If no such proposition has been identified, then the only reason for believing there to be such a proposition is that the contrary supposition is inconsistent with what we know and, when conjoined with the propositions in which our knowledge is embodied, entails Q and not-Q, for some Q.     But that reason for accepting LEM is non-constructive and itself presupposes the truth of LEM.
+    With regard to NBV3: Given only that, for some proposition P, no constructive proof of P has yet been put forth, it cannot be said that no such proof is forthcoming, unless it is assumed that, P being what it is, the supposition that such a proof exists (or could be constructed) entails a contradiction.
+      But that reason for accepting NBV3 obviously presupposes LEM and is decidedly non-constructive.
+ 
+A deeper reason to accept LEM: Propositions are individuated by their entailment-relations. If, for some proposition S3, S1 entails S3 but S2 does not, then S1?S2. To that extent, a proposition's identity is determined by what follows from it.
+      There is more to proposition-individuation than that, admittedly. Distinct propositions, e.g. triangles have three sides and squares have four sides, can have the same consequences. But, given two such propositions and given some proposition S3 that each entails, the way in which the one entails S3--the proof that establishes that S3 is a consequence of the one---is different form the way in which the other entails S3. The way in which squares have four sides establishes for some even n, square have n sides is very different from the way in which triangles have three sides entails that same proposition.
+    Thus, it can be said that propositions are individuated by their entailmentrelations, so long as the precise meaning assigned to the contention is as follows: If, given any proposition S3, each of S1 and S2 entails S3 and, moreover, the proof-theoretic relation between S1 and S3 coincides with the corresponding relation between S2 and S3, then S1 and S2 are ipso facto the same proposition.
+     But if LEM is false, then for many a pair of propositions, P and Q,  it is indeterminate---not in the sense that it's unknown, but in the sense that there is no fact of the matter---  whether Q is a consequence of P. But given that the identity of a proposition is a function of what it entails, the supposition that it could be objectively indeterminate whether P entails Q collapses into the absurdity that a given proposition's entailment-relations are not constitutive of its structure and determinative of its identify.
+ 
+A not-so-deep reason to accept LEM:  Finally, there is the fact that virtually nothing can be proved unless LEM is assumed true, along with the fact that, if LEM is false, then it is necessary to reject, as defunct and incoherent, any branch of mathematics, e.g. the differential calculus, that studies continuously changing quantities or otherwise examines infinitely large totalities. 
+ 
+Is any given mathematical proposition either true or false?  Those (e.g. Brouwer) who answer this question with a 'no' believe the following argument to demonstrate the truth of their position:
+ 
+BVF: Numbers, if they exist, are non-spatiotemporal entities. The same is true of all mathematical entities---functions, classes, operations, etc. Obviously spatiotemporal entities, along with the realities in which they are embedded, exist mind-independently. But surely the same isn't true of nonspatiotemporal entities. If such entities exist, we create them, in much the way that we created Kermit, Big Bird, and other such 'virtual' entities. And the denizens of the mathematical realm---the number two, the set of all subsets of the class of whole numbers, etc.---are no more mind-independent than the cast-members of The Muppets.
+ 
+The Well-Ordering Theorem (WOT): If AC is correct, then
+ 
+WOT: Any given series can be well-ordered.
+ 
+A series is 'well-ordered' if each segment has a first member.  So, if WOT is correct, then the continuum can be well-ordered. (The continuum is the ordered pair <R,< >, where R is the class of real numbers.)
+      The idea behind the proof is quite simple. If AC is correct, then, given any class K, let S1 be a segment of the real numbers. Remove one element x1 from S1; let S2 be the resulting class. Remove one element x2 from S2; let
+S3 be the resulting class. Continue until x ? is reached. Let x ? be the representative of the remainder S ?1 of S1. Remove one element x ?1 from S ?1 ; let S ?2 be the resulting set. Remove one element x ?2 from S ?2; let S ? 3 be the resulting class. Continue until x ? ?  is reached. Let x ? ? be the representative of the remainder S ? ? 1 of S ? 1. And so on.
+      Each of the individual progressions thus generated----x1…. x ?, x ?1… x ? ?, x1 ? ? ?... x ? ? ? ?----can obviously be well-ordered. Those progressions can be consolidated into a single progression, which, obviously, can be wellordered. And, importantly, there is no member of R that doesn't occur somewhere in this progress. Q.E.D.
+ 
+Transfinite induction made possible by the Well-Ordering Theorem (WOT): One of the many significances of WOT is that it is if, and only if, a set is well-ordered that, for any property phi, it can be proved by some form induction (there are different forms) that, one member of that set (namely, the first one) has phi, then, since phi is hereditary, every member has it.
+ 
+AC needed to prove that all infinite classes are reflexive: If a class can be put into a one-one correspondence with a proper subset of itself, then it is infinitely large. But the converse doesn't follow unless AC is true. Let K1 be an infinitely large class, and let K2 be a subset of K1. Suppose arguendo that F bijects K1 with K2. F is a class of ordered pairs, <x1,x2>, such that x1 belongs to K1 and x2 belongs to K2. There is some relation R such that <a1,a2> is in the extension of F if, and only if, a1 bears to a2; and whether a1 bears R to a2 is a function of what a1's properties are and of what a2's properties are. Supposing that K1 has been well-ordered---that a relation r has been identified that well-orders K's members---the properties in question can be defined in terms of the respective positions of a1 and a2: whether or not pairs off two numbers is a function of their ordinal properties, which, if K1 is well-ordered, are always determinate. Supposing that no such well-ordering relation has been discovered, there is no way---other than a purely fortuitous one, which reflects some idiosyncrasy about K1's membership---to pair off K1's members with K2's members; i.e. there is no such pairing-method that identifies some property had by all and only the ordered pairs in question. If the inference from "K1 is infinite" to "K1 is reflexive" is to maintained, the following assumption must be made: If K4 is the class of all classes k of ordered pairs, <x1,x2>, such that x1 and x2 belong to K1 and K2, respectively, and such that k contains exactly one ordered pair <a1,a2> that is in the extension of F, there exists, for all k, a selection-class S that contains <a1,a2> and no other members of k. But the supposition that there exist such a selection, in spite of the fact that it cannot be identified, obviously presupposes the truth of the Axiom of Choice.
+ 
+AC needed to prove that, given any two distinct transfinite numbers, one is greater than the other: It seems self-evident that if X and Y are distinct numbers, one of them is larger than the other. X is larger than Y iff y can be bijected with a proper subset of x but x cannot be bijected with a proper subset of y. Suppose that X andY are infinite. Assume arguendo that some function F (i) bijects the members of X with the members of a proper subset of Y but (ii) does not biject the members of Y with the members of a proper subset of X.
+     Given that Y and Y are infinite, there isn't necessarily a way of specifying the relationship that x1 bears to x2 if <x1, x2> is in the extension of F. F's existence is therefore contingent on the following supposition: Given a class K each of whose members is a class k such that exactly one member of k is an ordered pair <a1,a2> that falls in F's extensions, there exists---though it cannot be identified---a selection class S that contains <a1,a2> and does not contain any other member of k.
+     This supposition is obviously false unless AC is true. So AC is needed to establish the seemingly trivial proposition that, given any two distinct infinite numbers, one is bigger than the other.
+ 
+Chapter 13 The Axiom of Infinity and the Theory of Types[10]
+ 
+       According to Russell, the cardinal number n is the class of all nmembered classes. As stated earlier, this analysis has the drawback that, if there are only 15 objects in existence, then number 16 doesn't exist; more generally, that in order for a given number n to exist, there must be at least n objects in existence.
+    Were that so, you could alter the real-number system by incinerating your shirt. Since you can't, it isn't.
+      One response is to identify n, for each cardinal n, with the property of being an n-membered set. That property exists whether or not it is instantiated. (The property of being a Libertarian U.S. President exists, even though it may well never be instantiated.) Russell rejects this analysis without cause.
+       He, since he had no other choice, he said that if there is some class K whose existence is a logical, as opposed to empirical, certainty, then, for any number n, it is possible to construct an n-membered class out of K.[11]      The empty set Ø  exists. There presumably exists a set S1 whose sole member is Ø; and a set S2 whose sole members are S1 and Ø; and so on.[12] W[13] is the smallest class that contains the empty set and contains Sn+1 whenever it contains Sn.
+     After putting forth this view, Russell rejected it, claiming that it entailed, for many a proposition P, both P and not-P. After investigating the matter, Russell concluded that this analysis violated the type-theoretic strictures with which, he believed, any viable axiomatization of any class of truths must comply.
+    He then simply stipulated that there are infinitely many entities x. This stipulation is the so-called Axiom of Infinity.
+    If there is only one (non-composite) particle in the universe, then either (i) there is only one individual in the universe or (ii) if there are n>1 objects in the universe, those objects will have to be defined in terms of set-theoretic operations, e.g. the object x such that x is the set of all halves of x or such that x is the nth iterate of the operation of the operation of forming the set whose sole member is x. If there is only one object, then, relative to Russell's analysis, there is no number n>1. If n>1 is a set-theoretic construct, then the Axiom of Infinite is unnecessary. For any finite n, if there are finite particles in existence, then either (i) there is no number larger than n or (ii) the Axiom of Infinity is unnecessary. Since there probably are not non-denumerably particles in existence, the Axiom of Infinity, in the form in which Russell needs it, is probably false, in which case it cannot serve as an axiom.      As for the position that there are necessarily non-denumerably points in any universe, and therefore non-denumerably many objects: That view is false, at least relative to any reasonable definition of "spatiotemporal point." Space-time points are constructed out of events, and the number of such events therefore limits the number of objects.
+ 
+The Theory of Types: Consider the statement[14]:
+ 
+1. Smith has all of the properties of a typical Frenchman.
+ 
+Suppose that Smith is the only Frenchman who has all of the properties of a typical Frenchman. Let phi be the property of having all of the properties of a typical Frenchman. Since possession of non-phi is typical of Frenchman, and since possession of phi is decidedly atypical, 1 seems to entail
+ 
+N1. Smith does not have all the properties of a typical Frenchman.
+ 
+Now consider the statement:
+ 
+2. Every assertion (past, present, future) is false.
+2. seems to entail that:
+ 
+N2: Given that 2 is true, not every assertion ever made is false.               
+ 
+       According to Russell, the problem with each of 1 and 2 is that they require the existence of predicates that fall within their own scope, and he said that such predicates cannot occur in a meaningful statement. Some more examples will help us understand, and evaluate, Russell's reasoning.         Let us say that a predicate Px is 'impredicative' iff Px is not true of Px. Thus, "long" is impredicative, since "long" is a short word. ("Short", on the other hand, is predicate.) "Is an expression of German" is impredicative, since it is not itself a German expression.  
+       Next example: The class of men is not a man and thus doesn't belong to itself.  The class of abstract objects is an abstract object and thus, presumably, belongs to itself.  Let K be the class of classes are not members of themselves. Consider the statement:
+ 
+3. K is a member of K.
+ 
+3. seems to entail that
+ 
+N3. K is not a member of K.
+ 
+Consider:
+ 
+4. "Impredicative" is impredicative.
+ 
+4 seems to entail that
+ 
+N4: "Impredicative" is not impredicative.
+ 
+The Theory of Types (continued): Russell's solution to this problem is as follows:
+ 
+Argument for Type-Theory (ATT): No significant assertion entails a contradiction. So each of 1-5, though seemingly significant, isn't. In each case, the existence is being assumed of a higher-order set S such that (i) sets of a lower order than S are among S's members and (ii) S itself is such a member.
+     Let S1 be the class of all first-order properties typical of a Frenchman. Let S2 be identical with S1, except that one of the members of S2 is the property of not having all of the properties of a typical Frenchman. Consider:
+ 
+1#: Smith has all the first-order properties of a typical Frenchman---all the properties that are members of S1 1# does not entail a contradiction.
+     Let S1 be the class of all first-order assertions, and let S2 be identical with S1, except that S2 contains 2. Consider:
+ 
+2#. Every first-order assertion ever made---i.e. every member of S1---is false.
+ 
+2# does not entail a contradiction.
+ 
+   Let K* be the class of first-order classes are not members of themselves. Because 4 posits the existence of a class that is of the same order as its members, 4 entails a contradiction, and is therefore to be presumed meaningless. By contrast,
+ 
+3.* K* is a member of K.
+ 
+is simply true, not both true and false, since K* is not a self-member; and
+ 
+3. K* is a member of K*
+ 
+is simply false, not both true and false.
+  Finally, "impredicative" is a second-order predicate---a predicate of predicates. Let S1 be the class of all first-order predicates P such that P does not have the property it itself expresses. Being a second-order predicate, "impredicative" isn't a member of S1. Unless "impredicative" is redefined, so as to exclude the possibility that it falls in its own extension, 3 entails a contradiction and is therefore meaningless. If "impredicative" is so redefined, then 3 is false, not both true and false, and there is no contradiction.
+    
+The Theory of Types (TT) stated and evaluated: Here, then, is the theory Russell's Theory of Types.
+ 
+(TT) Given any s is a significant statement, either open or closed, of order n, s attributes a property to a given entity x only if x is of order m<n.
+ 
+Let M1 be the class of all meaningful statements. If TT is true, it's meaningful. If it's meaningful, it's a member of M1. If it's a member of M1, it's a counterexample to itself, since, according to TT, a statement of order n cannot concern any entity of order m?n.
+    If it's said that (as it has been, by Russell himself, among others):
+ 
+(TT#) There are infinitely many Theories of Type, one for order 1 (TT1), one for order 2 (TT2), etc. For each n, if Sn-1 is the class of all meaningful statements of order n-1 or lower, then TTn correctly decribes Sn-1. Thus, TTn concerns the class of significant statements of order n-1 (and lower); and
+TTn+1 concerns the class of all significant statements of order Sn, of which TTn is a member. For any given m, TTm+1 is concerned only with the class of meaningful statements of order m or lower.
+ 
+But TT# itself violates TT#.
+ 
+More problems with TT: If TT is right,
+ 
+(i) There is no one law of excluded middle (LEM): There is LEM1, LEM2,etc,
+ 
+the same being true of each other law of logic.
+    A consequence is
+ 
+(ii) There is no such thing as truth: there is truth1, truth2, etc., where truth is aproperty of statements of order m<n.
+ 
+But (ii) self-contradicts, since. For, supposing (ii) true, it is true simpliciter, as opposed to true1 or true2…
+ 
+TT also entails:
+ 
+(iii) There is no one number 3. Rather, there is 31, 32….3i…
+ 
+where 31 is the class of all triples of individuals, 32 is the class of triples of first-order classes; and so on. Thus, the statement "I have 31 shirts" is meaningful (true or false), because shirts are individuals, not classes. But "I have 31 pairs of shoes" is meaningless, because pairs are classes.[15]
+   In addition to being unacceptably revisionist, (iii) self-contradicts. For, supposing (iii) correct, it says of the number 3---as opposed to 32, 33 …--that, for any n, 33 is class of all third-order triples and, in general, that n3 is the class of third-order n-tuples. Given that TT has false consequences and, in addition, is excessively revisionist, an alternative to it must be found.
+ 
+No need for TT: Judicious parsing of 1-4 makes it clear that TT is unnecessary.
+ 
+The problem with 1 ("Smith has all of the properties of a typical
+Frenchman"). Let p1 (speaks French), p2 (appreciates fine art),…pn are the properties of a typical Frenchman. Let S1 be the set that includes each of p1.p2…pn. Let S2 be the set of all properties had by Smith. The meaning of 1 is:
+ 
+1$: S1 is a subset of S2.
+ 
+     So 1 doesn't attribute a property (that of having all the properties of a typical Frenchman) to Smith. 1 attributes a property to a set. It attributes the property of belonging to S2 to S1.
+    Linguistic surface structure often falsely suggests that what are in fact statements about classes are statements about individuals. Consider:
+ 
+JF1: "Jones plays tennis well."
+ 
+JF1 attributes a property---that of being good--to Smith's tennis-playing. But:
+ 
+JF2: "Smith plays tennis often"
+ 
+does not attribute a property to Smith's tennis-playing. There is no x such that x=an instance of Smith's playing tennis such that x can be described as "often." Rather, JF2 says that, if K is the class of Smith's tennis-playing episodes, K is well-populated. So JF2 is not, except indirectly, about Smith, and 1 is not, except indirectly, about Smith. Given this fact, there is no need to impose limits on what it is that can fall into the class of properties of a typical Frenchman.
+ 
+Identify a statement that appears to concern a person but instead concerns a class.
+ 
+The problem with 2 ("Every assertion is false"):We must distinguish between propositions and the speech-acts by which they are affirmed. If I say nothing, the proposition P1: I am saying nothing
+ 
+is true.
+      So P1 isn't self-refuting; its truth doesn't entail its falsity. There are many occasions on which I am indeed saying and on which, therefore, the proposition I am saying nothing is true.
+     Suppose I say "I am saying nothing." In that case, the following proposition is true:
+ 
+P2: I am saying that I am saying nothing.
+ 
+P2 doesn't self-refute. It can be the case that a person says that he isn't saying anything. (I can do it right now, by uttering the words: "I am saying nothing.") There is many a possible situation in which P2 is true.
+      Even though each of P1 and P2 is coherent (capable of being true), they cannot jointly be true, i.e. the following proposition is false:
+ 
+P3: I am saying nothing; moreover, I am saying that I am saying nothing,
+ 
+The one conjunct is incompatible with the other. There is no world in which it is true; so there is no world in which it is false because it's true; nor any world in which it's true because it's false.
+      These points are easily mapped onto 2 ("every assertion is false"). Let W be a world in which the one thing that is asserted is that the Earth is flat. In W, the following proposition is true:
+(*) No true proposition is affirmed.
+ 
+So the proposition meant by "every assertion is false" doesn't self-refute.     Suppose that in a world W2, otherwise identical with W1, somebody affirms (*). In that case, in W2, the following proposition is true:
+ 
+(**) It is affirmed that no true proposition is affirmed.
+ 
+(**) isn't self-refuting If I say "no true proposition is affirmed," then (**) is simply true, not true and false; and if nobody says "no true proposition is true," then (**) is simply false, not false and true. So (*) is neither selfrefuting nor otherwise incapable of being true. What is incapable of being true is:
+ 
+(***) No true proposition is affirmed; moreover, it is affirmed that no true proposition is affirmed.
+ 
+since each conjunct (***) is incompatible with the other.
+     If I say
+ 
+(2) "Every assertion is false",
+ 
+the proposition that I am affirming---the proposition P that is the meaning of my words---is (**). (**) is perfectly capable of being true. In virtue of the fact that I am affirming P, a further proposition---namely, (***)---is true. But (***) is not being affirmed. What I am affirming is (*), not (**); and (*) is capable of being true. The proposition that I am affirming is inconsistent, not with itself, but with the fact that somebody is saying it. More explicitly: (*) is inconsistent, not with itself, but with (**). But (*) doesn't entail (**), and (**) doesn't entail (*). So we don't have any self-refuting proposition on our hands. All we have is a proposition whose truth is dependent on its not being stated.[16]
+    There are infinitely many numbers n such that, for some true proposition P, 
+ 
+P: it is true that 2<n, and it is never said that 2<n.
+ 
+      Obviously, for any such P, P can never be affirmed. But P doesn't entail that it is affirmed. Nor does P otherwise self-refute. So there is nothing paradoxical about P. For much the same reason, there is nothing paradoxical about 2; and there is therefore nothing about 2 that makes it necessary to impose limits on the scope of the occurrence therein of "every."  
+ 
+The problem with 3 ('K is a member of K'): Any pronoun of the form "__self"---e.g. "himself," "ourselves," "itself"---is a so-called anaphoric pronoun. An anaphoric pronoun is one that serves as a surrogate for an antecedent referring term. Thus, "the cat likes itself" means "the cat likes the cat," the occurrence in the former of "itself" being a stand-in for "the cat." And "the class of spoons is not a member of itself" means "the class of spoons is not a member of the class of spoons," the occurrence of "itself" in the former being a stand-in for "the class of spoons."
+      If a given occurrence of "itself" doesn't refer to anything if it isn't functioning as a stand-in for an antecedent referring term. Therefore, an occurrence of "itself" doesn't refer to anything if it is a stand-in for an expression that does not itself have a referring term. "It doesn't belong to itself" is synonymous with "it doesn't belong to it," and the occurrence of "itself" in the former therefore has no referent unless the antecedent occurrence of "it" has a reference.
+ 
+1. "The class of classes that are not members of themselves"
+ 
+means:
+ 
+2. "The class K of classes k such that k doesn't have p, for some property psuch that x has p iff x is a member of K."
+ 
+And:
+ 
+A. "The class K of classes that do not belong to themselves does not belongto itself"
+ 
+means:
+ 
+B. "If K is the class of classes k such that k does not have p, for someproperty p such that x belongs to k iff x has p, then K does not have p."
+ 
+      The occurrence of "p" at the very end of B is the fourth occurrence of "p" in that sentence. But none of the preceding occurrences of "p" refers to anything. Two of those occurrences are internal to the quantifier "for some property p such that x belongs to k iff x has p": those occurrences of "p" obviously don't refer to anything. The remaining occurrence of "p" is bound by the aforementioned quantifier, and it therefore doesn't refer to anything. The fourth and final occurrence of "p" is a free variable. Therefore, that occurrence doesn't refer to anything and B---containing as it does a freevariable---is an open-sentence and thus not a true sentence at all. Since B is synonymous with:
+ 
+C: K is not a member of K.
+ 
+C is simply a sentence with a free-variable in it, and thus an open-sentence as opposed to a bona fide sentence, that being why there is no proposition that it affirms. Being a consequence of the fact that it contains a free variable, C's failure to affirm a meaningful proposition has nothing to do with the fact that some class's membership is insufficiently restricted.
+ 
+The problem with 4 (" 'impredicative' is impredicative "):
+ 
+1. "Impredicative" is impredicative
+ 
+means
+ 
+2. "Does not fall within its own extension" does not fall within its ownextension.
+ 
+2 means:
+ 
+3. "is a thing x such that x isn't true of x" isn't true of x.
+ 
+The final occurrence of "x" in 3 is free. Thus, the reason 3 is neither true nor false is that it contains a free variable. 3 is a perspicuous rendering of 1. So 1 contains a free variable; and that's why it's false. Its falsity has nothing to do with some predicate's being allowed to have too large an extension.
+ 
+Conclusion: According to Russell, each of 1-4 is both true and false, if it's either true or false. And the reason for this, says Russell, is that, in each of 14, some class S is allowed to have members to have members that are of the same order as S. We have seen that, for each 1-4, this is false. Each of those sentences, when duly parsed, is either true or false (cf. 1); false (cf.2); or, because it contains a free variable, neither true nor false (cf. 3 and 4). None of 1-4 warrants the position that predicates (both open and closed, open predicates corresponding to classes, closed predicates being sentences and thus corresponding to propositions) may range only over entities that belong to orders lower than do those predicates themselves. Also, such a restriction on predicate-ranges makes it impossible to express obvious truths, e.g. the class of spatiotemporal entities is not itself spatiotemporal.
+    1-4 are but some of the many paradoxes that Russell put forth in support of TT. It would be desirable to have a proof to the effect that each such paradox involves a solecism similar to each of those thus far considered.
+ 
+Chapters 14 Incompatibility and the consequence-relation
+ 
+     A true sentence has the truth-value true; a false one, the truth-value false.
+An n-place sentential connective * is truth-functional if, given a sentence S consisting of an n-tuple <s1…sn> of sentences governed by *, S's truth-value is fixed by the truth-values of s1…sn.
+        Consider the sentence: "snow is white and grass is transparent." This consists of a sentence-pair---namely, <"snow is white," "grass is transparent">---that is governed by a two-place connective—namely, "and." The resulting sentence is "snow is white and "grass is transparent." (Even though the sentence "And<'snow is white,' 'grass is transparent'>" appears not to be the same sentence as "snow is white and grass is transparent," the differences between the former and the latter are strictly orthographic, and they are therefore the same sentence.) A conjunction is true exactly if both of the subsentences composing it are true. "Grass is transparent" is false.
+Therefore, "snow is white and grass is transparent" is false.
+       "Or" is truth-functional. Consider the sentence "snow is white or grass is transparent." This is an orthographic variant of: "Or <'snow is white,' 'grass is transparent'>". A disjunction is true exactly if at least one of the subsentences composing it is true. "Snow is white" is true. Therefore, "snow is white or grass is transparent" is true.
+       "Not" is a one-place truth-functional connective. "Grass is not transparent" is an orthographic variant of "not <'grass is transparent''>". A negative sentence is true exactly if the subsentence composing it is false.
+Therefore, "grass is not transparent" is false.
+       "Because" is a non-truth-functional connective. Given only that "Tim is a happy adult" and "Tim had a good childhood" are both true, it cannot be inferred that "Tim is a happy adult because Tim had a good childhood" is true. Whether that sentence is true is a function of the nature of the relationship holding between the meanings of the subsentences composing it.        Modal connectives, e.g. "necessarily," "probably", are non-truthfunctional. So are epistemic connectives, e.g. "John knows that," and prooftheoretic connectives, e.g. "is an analytic consequence of." Each such connective predicates the truth-value of any sentence of which it is the main connective on specific facts about the meanings, as opposed to the truthvalues, of the sentences composing that sentence.
+       "And," "or" and "not" are not the only truth-functional connectives, but they are the only ones that occur non-redundantly in contexts falling within the scope of mathematical logic.
+        All three of these connectives can be expressed by "/", the Scheffer Stroke, defined thus: p/q is true iff not both p and q are true. Thus, not-p is p/p; p and q is (p/q)/(p/q); and p or q is (p/p)/(q/q).     
+       Says Russell: Within mathematics, there is no need for the relation of socalled strict implication. p strictly implies q if, given p, q is necessarily the case. Within mathematics, according to Russell, there is no distinction between p/(q/q) (p is incompatible with not-q), on the one hand, and given p, q is necessarily the case, on the other.
+       Russell's reasoning: Any given mathematical truth is necessarily true. So if p/q is a mathematical proposition---if p and q are, respectively Jim has 3 apples and Jim has an even number of apples---then there is no difference between it is not the case that, given p, q is false and it is impossible for it to be the case that, given p, q is false.
+      Such a distinction, pace Russell, exists outside of mathematics (though this doesn't undermine Russell's analysis of mathematics). And pace Russell, such a distinction exists within mathematics. Russell's belief otherwise reflects his failure to appreciate the significance of the distinction between formal entailment and model-theoretic entailment. p model-theoretically entails q if there is no possible world where p is true and q is false. p formally entails q if, relative to the available axiom-set, q can be derived from p. (p can formally entail q relative to one axiom-set but not relative to some other.)        p formally entails q is a much stronger statement than p modeltheoretically entails q, and, relative to any axiom-set that generates any significant class of truths, the extension of the relation of formal entailment (the class of ordered pairs <p,q> such that p formally entails q) is a small subset of the extension of the relation of model-theoretic entailment.         Russell believed there to be an axiom set S such that, relative to S, those two extensions coincided. That belief turned out to be false. We will see why later in the course.
+ 
+Chapter 15 Propositional Functions
+ 
+     A propositional function is what is meant by an open sentence. Thus, the meaning of 'x is tall' is the propositional function x is tall. That function pairs off individuals with truth-values. It assigns truth to Smith (who is tall), falsity to Jones (who is short), and so on.
+    Quantified generalizations are formed by binding the free variables in propositional functions with quantifiers. Five men are tall means for five men x, x is tall. 
+     Quantified generalizations concern classes, not individuals. (That is, they attribute properties to class, not individuals.) Suppose that Smith is tall. In that case, for some x, x is tall. But for some x, x is tall is not about Smith. For Smith is not tall but for some x, x is tall is not self-contradictory, as it would be if for some x, x is tall concerned Smith. Also, for some x, x is tall does not have the same modal properties as Smith is tall. There are possible worlds where Smith is short but where, for some x, x is tall.
+          For some x, x is tall concerns the class of statements of the form x is tall; and it says of that class it overlaps with the class of true statements.          "Always," "sometimes," and "never" express properties of propositional functions. "Jim always smokes" means: For any time t, Jim smokes at t. Thus, the "always" in "Jim always smokes" expresses a property of classes of propositions. It says of the class of propositions of the form Jim smokes at t that it is subset of the set of true propositions.
+         A is always B means: The class of propositions of the form not both x is an A and x is not a B is a subset of the set of true propositions. That being the meaning of A is always B, it is clear why, for example, all ravens are black is no more about ravens than it is about frogs. All ravens are black attributes the property of being a subset of the set of true propositions to the set of propositions of the form it is not the case the x is both a raven and x isn't black. Given some object O, what is relevant to whether it is not the case that O is both a raven and O isn't black is not whether it is a raven, but whether it is a thing x such that x is not both a raven and not black, which is a property that non-ravens can have.
+        These points make it clear that x has tall  may be identified with the class of all propositions of the form x has tall, the same thing mutatis mutandis being true of any other propositional function. 
+        Statements about existence are statements about propositional functions. "A solution exists" means: the class of propositions of the form x is a solution intersects with the class of true propositions. "No solution exists" says that those classes are disjoint.
+      Existence and non-existence are therefore properties of propositional functions. Existence is the property of intersecting with the class of truths. Non-existence is the property of not thus intersecting. Statements that appear to attribute existence to individuals ("root-2 exists") are statements about classes ("the class of statements of the form x is a least upper bound of the class of rationals (p/q)2<2 intersects with the class of true statements").
+Statements that appear to attribute non-existence to individuals ("the company Peter works for doesn't exist") are also about classes ("the class of statements of the form x is a company that Peter works for doesn't intersect with the class of true statements").
+       Without propositional functions, there would be no such thing as reasoning. Any case of reasoning involves one of four operations: positing existence; denying existence; attributing truth; attributing falsity. We've already seen that propositional functions are the operands of the first two operations. The same is true of the second two, since, as we'll now see, to attribute truth is to posit existence and to attribute falsehood is to posit nonexistence.
+     Consider the proposition
+ 
+P1: A is on top of B.
+ 
+Whether or not A is on top of B, P1 can be affirmed, and so can
+ 
+P2: if A is on top of B, then A isn’t underneath B,
+ 
+and each of many other propositions concerning P1.
+ 
+So supposing that A is on top of B, P1 is not identical with that assemblage of objects.
+     To affirm P1 is to affirm the existence of such an object-assemblage; it is to attribute the property of intersecting with the class of true propositions to the class of propositions of the form x consists of A being on top of B. To deny P1, i.e. to affirm its negation, is to attribute to the first class the property of being disjoint from the second class.
+ 
+Chapter 16 Classes
+ 
+  This chapter is not important.
+   In this chapter, Russell says that classes don't exist, being merely convenient fictions. His reasoning: A class of three objects is not a conglomerate of those objects. Therefore, it isn't anything spatiotemporal.
+Therefore, it isn't anything.
+This argument evaluated: Russell is right that classes are not objectconglomerations. The smallest class K whose members are my computer and my desk doesn't change when I remove my desk from my computer, and it doesn't cease to exist----it merely becomes empty---when my computer and desk are destroyed.
+     But that doesn't mean that K doesn't exist. It means that K is nonspatiotemporal. Many entities are non-spatiotemporal. Consider the relation R that x bears to y by virtue of being taller than y. R obviously isn't a rock or a tree. R therefore isn't anything that has spatiotemporal boundaries, since no such thing would be better qualified than a rock or a tree to relate x to y in the requisite way.
+     Also, things other than x can bear R to things other than y. There are thus different instances of that relationship---different ordered-pairs <X,Y> such that X bears R to Y. Anything of which there are instances is ipso facto a property and any property, as opposed to property-instance, is ipso facto nonspatiotemporal.
+    Classes are therefore non-spatiotemporal entities of some kind. Just what kind they are is stated in Chapter 3 of Analytic Philosophy.
+ 
+Chapter 17 Descriptions
+ 
+     In this chapter, Russell puts forth his famous Theory of Descriptions. This theory concerns definite descriptions. A definite description is an expression of the form "the phi." Thus, "the square of 2" is a definite description; so are "the square root of two," "the rational square root of two," "the square circle on JM's desk," "the pen on JM's desk."
+     The essence of this theory is given by three propositions:
+ 
+(i) "The phi is psi" means: Exactly one thing has phi, and anything that hasphi also has psi.
+(ii) "The phi exists" means: For some  x, x is a phi
+(iii) "The phi doesn't exist" means: For no x, x is phi.
+ 
+The motivation for (i): Supposing that Smith is the man over there in the white hat, "the man over there in the white hat is tall" doesn't mean the same thing as "Smith is tall," since neither entails the other. For any object O and any property phi, an analogous argument proves that "the phi has psi" doesn't mean the same thing as "O has psi."
+   This means that, for any phi, "the phi" is not a referring term and, consequently, that there is no object O such that "the phi has psi" attributes psi to O. So, for example, there is no object O such that "the man over there in the white hat is tall" attributes tallness to O.
+       This is consistent with the fact that "the man over there in the white hat" is true exactly if there is exactly one man over there in a white hat, and any such man is tall. In general, "the phi is psi" is true exactly if there is exactly one phi, and any given phi is a psi. Russell concludes (erroneously: see footnote 29) that "the phi is psi" means: there is exactly one phi, and any given phi is a psi.
+ 
+The motivation for (ii): "the gnome on the desk exists" is false if there is no gnome on the desk, and true otherwise. Therefore, "the gnome on the desk exists" is true exactly if—and (according to Russell) therefore means that--the class of sentences of the form x is a gnome on the desk intersects with the class of true sentences.
+ 
+The motivation for (iii): "The gnome on the desk doesn't exist" is true exactly if---and (according to Russell) therefore means that---the class of sentences of the form x is a gnome on the desk doesn't intersect with the class of true sentences.
+ 
+Commentary: The Theory of Descriptions is false, but the reasons for this are complex and lie outside the scope of this course. Those reasons are fully discussed in Chapter 3 of (the still unreturned) Conceptual Atomism and adumbrated in footnote 29 of the present document.
+ 
+Chapter 18 Mathematics and Logic
+ 
+    In this chapter, it is asserted, on the basis of the contents of the preceding chapters, that there is no distinction between logic and mathematics.
+Mathematics is logic.
+      This position is false. Technicalities aside, the problem with can be summarized thus. Logical truths are formal truths. Formal truths are statements that hold wholly in virtue of their structures. A statement's structure is determined by the relative positions of its constituents. Statements about relative position can be expressed as statements about relations among numbers. Therefore, a statement is logically true exactly if it is equivalent to some number-theoretic truth. Thus, if number-theoretic statements are formal truths, then any such statement both affirms a number-theoretic truth while also being equivalent to some number-theoretic truth.      Bearing these points in mind, consider the proposition:
+ 
+1. S is true iff unprovable,
+ 
+where S is a number-theoretic proposition.
+    1 is itself a number-theoretic proposition. (If P is a number-theoretic proposition, then there is no proof of P if P is true is a number-theoretic proposition.) 
+    For the reason given earlier, if statements of number-theory are statements of logic, then any statement that affirms some number-theoretic proposition P1is equivalent with some number-theoretic proposition P2.
+   If 1 is true, the number-theoretic statement P* with which 1 is equivalent is true.
+    If 1 is true, there is a true number-theoretic statement that is not provable.     If 1 is false, there is a false number-theoretic statement that is provable, i.e. that can be shown to be true. Since no false statement is true, 1 is not false.
+     Therefore, 1 is true.
+     Therefore, P* is true.
+     Therefore, P* is both true and also equivalent with the proposition that S is unprovable.
+     If there were a formal characterization of number-theoretic truth, there would ipso facto be some structural property SP such that
+ 
+(a) s has SP,
+ 
+where s is an arbitrary number-theoretic statement,
+ 
+proves that
+ 
+(b) s is true.
+ 
+     Therefore, the supposition that all number-theoretic truths are truths of formal logic has the consequence that there are true statements that are not provable, and it therefore has the consequence that all number-theoretic truths are not logical truths. In other words, the supposition that all numbertheoretic truths are logical truths self-refutes.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[1] Except when they occur in intensional contexts. For example, "John believes himself to be tall" isnot equivalent with "John believes John to be tall," since John might have amnesia and not know that he is John. But that is not relevant in this context, since, in Russell's paradox, the relevant pronouns all occur extensionally.
+[2] I have sometimes changed the Chapter-titles.
+[3] This statement is subject to qualifications that, although heavy, falloutside the scope of the present work.
+[4] Arthur Pap put forth this idea in his Elements of Analytic Philosophy. [5] Earlier we identified reals with segments of the series, arranged from low to high, of rationals. Now we are putting forth a different analysis; and those analyses are incompatible with each other.
+       We have already seen another example of a given class of mathematical entities being capable of being analyzed in distinct, but equally viable ways: n=the class of all n-tuples (Frege); n=the class containing m<n.
+      I submit (without proof) that, given any mathematical entity X1---any number, any class of numbers, any operation---there are entities X2 and X3, X1?X2, such that each has all of the properties than entity must have to be identical with X1 and neither has any property that disqualifies from being identical with X1.
+      But this doesn't warrant any sort of mathematical relativism or nihilism. When an analysis of, say, real numbers is put forth, that constrains how other entities---other kinds of  number, other operations----can be analyzed. Bearing this in mind, let A be an answer to the question: "What is a real number?" (So A is an analysis of the concept real number.) Suppose that, when considered on its own, i.e. in isolation of other analyses of other mathematical entities, A is adequate. Further, suppose that, given each mathematical entity X, an analysis of X is put forth that (i) is adequate, if considered on its own, (ii) is consistent with A, and (iii) is consistent with the analysis A# put forth of X#, where X# is any mathematical entity other than X. Relative to that analysis, I propose, the structure of the class of mathematical truths will be isomorphic to the structure, relative to any other complete, consistent, and otherwise adequate such analysis. For this reason, the differences in respect of internal structure between, say, reals as Russell analyzes them (the real number 1 is the class of all proper fractions) and reals as we have just analyzed them (the real number 1 is the class of all sequences of rationals that converge on 1  that are isomorphic to a given sequence that converges on 1) cease to matter, since, in each case, the sole function of the internal structure of that analysis is to guarantee that it embeds appropriately into the relevant totality of analyses.
+      Thus, supposing that ST is the structure formed by an analysis of every mathematical concept, such that any two of the concepts composing ST are compatible with each other, the structure stf of which Frege's numberanalysis (fna) is a constituent is a member of ST, and so is the structure stv of which Von Neumann's analysis (vna) is a member. Moreover, fna's relation to any other given other constituent cf of stf   is identical with vna's relation to the structural counterpart cv of cf within stv. The internal differences between fna and vna are needed to ensure that fna's structural role within stf coincides with vna's structural role within stv. Suppose that structural role to be R, we may define an adequate analysis AA of whole numbers to be one satisfying the following condition. Let STC be the class of all analyses isomorphic with each of stf and stv. In other words, let STC be the class of all bodies of mathematical analyses jointly having structure ST. Let x be an arbitrary member of STC; i.e. let x be a body of analyses of mathematical concepts that, taken jointly, have structure ST. Finally, let aa be one of the analyses constituting x (i.e. one of the concepts that, taken jointly, constitute x). If aa bears R to x, then aa is an adequate analysis of the concept of cardinal number.
+      This argument assumes that viable totality of mathematical analyses is structure-identical with any other such totality.
+[6] See pages 327-330 of Cassius Keyser Jackson's Mathematical Philosophy for a clear exposition of the about-to-be-stated facts about dimensionality.
+[7] See pages 327-330 of the work mentioned in the last footnote.
+[8] See Russell (1914): Our Knowledge of the External World.
+[9] The need for this axiom was first recognized by E. Zermelo, who, as weare about to see, put it to good use.
+[10] I am the first to come up with much of the material in the presentsection. The material I am responsible for includes (what I believe to be) cogent proofs that the so-called 'paradoxes of set-theory' are non-problems. [11] Dedekind (1888) advocated this very view and defended it on the grounds now-to-be-stated. 
+[12] A variant of this viewpoint, which both Russell and Dedekindadvocated, came to the orthodoxy in set-theory.
+[13] The class of whole numbers.
+[14] I am borrowing Russell's own example.
+[15] [I am not sure about the following point, that being why I am putting itin a footnote.] Another consequence of TT, and of (iii) in particular, is that it cannot meaningfully be said that the cardinality of the continuum is greater than that of the cardinals.
+    Cardinal numbers are classes of classes.
+    Rationals are ordered pairs (two-membered classes) of cardinals, and therefore classes of classes of classes.     
+    Reals are classes of rationals, and therefore classes of classes of classes of classes.
+    Let P be the property of having the cardinality of the class of real numbers or, equivalently, the classes of all classes having the same cardinality as the class of real numbers. Being a property/class of classes of classes of classes of classes, P is a fifth-level property/class. Therefore, if "n" is any numberexpression such that "the class of reals has n members," then "the class of cardinals has n members" is meaningless (neither true nor false), for the same reason that, given TT, "I 31 have pairs of shoes" is meaningless.
+[16] I.e. what we have is a case of a Moore-paradox. If say "nobody ever says anything,"
+ 
+what I am saying---the proposition that I am affirming—is:
+ 
+P: No one ever says anything.
+ 
+P could obviously be true. It was true in our world before language was invented.
+P is obviously inconsistent with the supposition that:
+ 
+P*: Somebody says P.
+ 
+But P doesn't entail P*, and P doesn't otherwise self-refute.
+    If I say "snow is white, but I don't believe that snow is white," what I am saying—the proposition I am affirming---is:
+ 
+Q: snow is white, and I don't believe that snow is white,
+ 
+which could obviously be true. (When I was six weeks old, each conjunct was true.) Q is inconsistent with the supposition that
+ 
+Q*: I sincerely utter (and therefore believe) that snow is white; and snow is white; and I don't believe that snow is white.
+ 
+But Q doesn't entail Q*, and Q doesn't otherwise self-refute.
+     .
+ 

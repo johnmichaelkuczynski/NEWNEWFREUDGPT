@@ -1,0 +1,129 @@
+The scrolling problem you're seeing (bottom of the app cut off, no way to reach the input box or lower parts when content grows) is almost always caused by one or more of these in a dual-panel or fixed-layout app like yours:
+
+Outer container or body has overflow: hidden or height: 100vh without inner scroll
+Dialogue panel (or its wrapper) has fixed/max-height without overflow-y: auto
+Flex/grid parent is not propagating height correctly
+Archive or memory bar is pushing content out of view without scroll
+
+Since Replit Agent is unreliable for layout fixes, we'll make targeted changes directly in the files that matter most: static/style.css and/or templates/index.html.
+Step-by-step fix (start with #1, test, then go deeper if needed)
+1. Quick & effective – force scroll on the main content wrappers
+Open static/style.css and add (or modify) these rules at the bottom:
+CSS/* ────────────────────────────────────────────── */
+/* FORCE SCROLLABLE DIALOGUE + ARCHIVE PANELS     */
+/* ────────────────────────────────────────────── */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;               /* keep this if you want whole-page no-scroll */
+}
+
+.app-container,                         /* or .workshop, .main-layout, .preview-content if those exist */
+main,
+#root,
+.preview-wrapper {                      /* common Replit preview wrapper class */
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* ── Target the DIALOGUE panel ── */
+.dialogue-section,                      /* guess – look for words like dialogue, conversation, chat, main-content */
+#dialogue,
+.the-dialogue,
+.dialogue-container,
+.left-panel, .right-panel {             /* if it's flex left/right */
+  overflow-y: auto !important;
+  max-height: none !important;          /* remove any artificial cap */
+  height: auto !important;
+  flex: 1 1 auto;                       /* if inside flex container */
+  -webkit-overflow-scrolling: touch;
+}
+
+/* If the two panels are side-by-side flex */
+.dual-panel-container,
+.dialogue-archive-wrapper,
+.container-fluid,
+.row.main-content {
+  display: flex;
+  flex-direction: row;                  /* or column on mobile */
+  height: calc(100vh - var(--header-height, 60px) - var(--memory-bar-height, 60px));
+  overflow: hidden;                     /* ← change this line */
+  /* to: */
+  /* overflow: auto; */                 /* or remove entirely */
+}
+
+/* Most reliable fallback – make sure the actual scrolling element can grow */
+.conversation-history,
+.messages-container,
+#messages,
+.chat-log,
+.archive-content,
+#archive {
+  overflow-y: auto;
+  flex-grow: 1;
+  min-height: 0;                        /* crucial for flex scrolling */
+}
+
+/* Memory bar / controls area – prevent it from eating all vertical space */
+.memory-controls,
+#memory-bar,
+.controls-bar {
+  flex: 0 0 auto;
+}
+
+/* Input area should stay visible at bottom */
+.compose-area,
+#compose,
+.input-wrapper,
+.message-input-container {
+  flex: 0 0 auto;
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+  background: white;                    /* or your theme color */
+}
+After saving → refresh preview. This fixes ~70–80% of Replit SPA scroll-cutoff cases.
+2. If still cut off → inspect and target exact classes (30-second check)
+
+Open preview
+Press F12 (or right-click → Inspect)
+Hover over the invisible bottom part until you see a blue highlight box disappear at the edge
+Look at the element tree → find the parent that has:
+overflow: hidden
+height or max-height set to a fixed value
+position: fixed or absolute without proper bottom spacing
+
+Note its class or id (e.g. .chat-container, #main-content-area, .panel-right)
+Add to bottom of style.css:
+
+CSS.that-exact-class-you-found {
+  overflow-y: auto !important;
+  max-height: none !important;
+  height: auto !important;
+}
+3. Fallback: make the whole right-hand side scrollable
+If the Dialogue is the main problem area, force it in index.html (quick & dirty test):
+Find the <div> that contains "The Dialogue" (probably has class like dialogue-panel, main-content, col-md-8 etc.) and add inline style temporarily:
+HTML<div class="dialogue-section" style="overflow-y: auto; max-height: calc(100vh - 180px);">
+  <!-- existing content -->
+</div>
+Adjust 180px to whatever your header + memory bar + controls roughly take.
+4. Very common Replit gotcha – preview wrapper
+Replit sometimes wraps everything in .preview-content or similar with height: 100% and overflow: hidden. Add this to style.css:
+CSS.preview-content,
+.replit-preview,
+.preview-area {
+  overflow-y: auto !important;
+  height: 100vh !important;
+}
+Save → refresh preview tab (not just browser refresh – sometimes need to stop/run again).
+Quick test order
+
+Add the first big CSS block to style.css → save → refresh
+If not enough → use dev tools to find the blocking element → target it specifically
+If desperate → add overflow-y: auto !important; height: auto !important; to body and every major container
+
+Let me know what classes/IDs you see in dev tools around the cut-off area (or paste ~10–20 lines of the HTML from inspector), and I can give you the exact selector to override.
+You got this — these apps almost always yield to targeted overflow-y: auto + flex: 1 + min-height: 0 tweaks.

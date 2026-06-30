@@ -1,0 +1,217 @@
+GRADING PRO - COMPLETE APPLICATION BLUEPRINT
+
+================================================================================ PART 1: APPLICATION FUNCTIONS The app has 10 core functions:
+
+ASSIGNMENT GRADING Location: Home page → "Grading" tab (default landing tab) Purpose: Grade a single student submission against an assignment prompt and (optional) rubric Inputs: Assignment Prompt (Box A), Grading Instructions (Box B, optional), Student Submission (Box C) Flow: Provider + model + academic level selected → Submit → AI returns grade + structured feedback → results stored Endpoint: POST /api/grade (main path), POST /api/regenerate-feedback (revision with professor notes) Output: Numeric grade, structured feedback, optional charts, persisted to grading_results table
+
+PERFECT ASSIGNMENT GENERATION Location: Home page → "Generate Perfect Answer" panel Purpose: Produce a model A-level answer to the assignment prompt for calibration / comparison Flow: Reads Assignment Prompt → AI generates full exemplar → exemplar stored, displayed beside student work Endpoint: POST /api/generate-perfect-answer, POST /api/generate-perfect-answer-chunked (large prompts), POST /api/regenerate-perfect-answer Output: Exemplar answer (saved to exemplars table) usable as send-target for Compare or Humanizer
+
+ASSIGNMENT COMPARISON Location: Home page → "Compare Assignments" tab Purpose: Side-by-side comparison of a student submission against the perfect answer or any other reference text Flow: Two text inputs → AI scores alignment, identifies gaps, returns comparative feedback Endpoint: POST /api/compare-assignments Output: Per-section delta report, gap analysis, alignment score
+
+AI DETECTION (GPTZero) Location: Inline on Student Submission Box; also surfaced in Humanizer pipeline Purpose: Detect AI-generated content before grading Flow: Text → GPTZero API → returns aiScore (0-100) + classification (HUMAN_ONLY / MIXED / AI_ONLY) Endpoint: POST /api/detect-ai, POST /api/ai-rewriter/analyze-text Output: AI probability + classification badge displayed on submission
+
+AI TEXT REWRITER (HUMANIZER) Location: Dedicated panel — three-box workflow (A=Input, B=Style sample, C=Output) Purpose: Rewrite AI-flagged text to read as human-authored without altering meaning Boxes: A (input text), B (optional style sample for tone match), C (rewritten output) Inter-component sends: C → Student Submission; Chat AI → Box A; Perfect Answer → Box A Endpoint: POST /api/ai-rewriter/upload, POST /api/ai-rewriter/analyze-text, POST /api/ai-rewriter/rewrite, GET /api/ai-rewriter/style-samples, GET /api/ai-rewriter/instruction-presets, POST /api/ai-rewriter/download/:format Output: Rewritten text + before/after GPTZero scores, exportable to TXT/DOCX/PDF
+
+CHAT WITH AI (Assignment Discussion) Location: Home page → Chat panel Purpose: Conversational interface for asking questions about an assignment / submission / grade Providers: All 4 (SHEN 1-6 selectable) Send-targets: Chat response → Student Submission OR Humanizer Box A Endpoint: POST /api/chat-with-ai Output: Conversational response, with one-click send to grading inputs
+
+DOCUMENT / MATH PROCESSING Location: File-upload affordances on all three text boxes Purpose: Accept PDF/DOCX/TXT/image submissions and extract gradable text OCR: Tesseract.js (general), Mathpix (mathematical notation) Endpoint: POST /api/mathpix-ocr, POST /api/format-math, POST /api/assignments/:assignmentId/attachments, GET /api/assignments/:assignmentId/attachments, DELETE /api/attachments/:attachmentId Output: Extracted text inserted into target box, attachments persisted
+
+GRAPH / CHART GENERATION Location: Grading results panel Purpose: Auto-generate performance / breakdown charts from grading output Endpoint: POST /api/generate-graph Output: Inline chart for visual feedback
+
+EMAIL DELIVERY Location: Grading results panel → "Send Email" modal Purpose: Deliver finalized feedback to student via SendGrid Endpoint: POST /api/send-email Output: Status + delivery confirmation, emailSent flag set on grading_results row
+
+SYSTEM DIAGNOSTIC Location: "DIAGNOSTIC" tab (green button in top header, every page) Purpose: Beta-test harness — verify all APIs, DB, and formal CRUD/HTTP flow without grading content judgement Checks (28 total): env vars (8), PostgreSQL connect, users table reach, 6 external API pings (OpenAI / Anthropic / DeepSeek / Perplexity / GPTZero / Mathpix), full CRUD flow (assignment + submission + grading_result, create→read→update→list→delete in FK-safe order), 3 live HTTP route smoke tests (/api/student-grades, /api/detect-ai, /api/grade) Endpoint: POST /api/diagnostic/run Output: Per-check PASS/FAIL/SKIP with latency in ms, overall summary card
+
+================================================================================ PART 2: COMPLETE FILE TREE / ├── GRADING_PRO_COMPLETE_APP_BLUEPRINT.md # This document ├── README.md # Public-facing product overview (NEUROTEXT-style) ├── replit.md # Project overview and user preferences ├── package.json # Dependencies and scripts ├── tsconfig.json # TypeScript configuration ├── vite.config.ts # Vite bundler configuration ├── drizzle.config.ts # Drizzle ORM configuration ├── tailwind.config.ts # Tailwind CSS configuration ├── postcss.config.js # PostCSS configuration ├── components.json # shadcn/ui configuration ├── server/ │ ├── index.ts # Express entry, port 5000 │ ├── routes.ts # All API endpoints (3000+ lines) │ ├── storage.ts # DatabaseStorage class + IStorage interface │ ├── db.ts # Neon Postgres + Drizzle ORM connection │ ├── vite.ts # Vite dev-server integration │ ├── webhook.ts # Stripe / payment webhook handlers │ ├── paypal.ts # PayPal SDK wrapper (lazy ensurePaypal()) │ ├── services/ │ │ ├── aiProviders.ts # Unified rewrite/grade dispatcher across all 4 LLMs │ │ ├── openai.ts # OpenAI (GPT-4o) grading client │ │ ├── anthropic.ts # Anthropic (Claude) grading client │ │ ├── perplexity.ts # Perplexity (sonar) grading client │ │ ├── gptZero.ts # GPTZero AI-detection client │ │ ├── fileProcessor.ts # PDF/DOCX/image → text extraction │ │ ├── documentGenerator.ts # PDF / DOCX export of grading reports │ │ ├── textChunker.ts # Token-aware chunking for 400K+ word docs │ │ ├── sendgrid.ts # SendGrid email delivery │ │ └── diagnostics.ts # 28-check diagnostic harness (this app's self-test) │ └── utils/ │ ├── chunking.ts # needsChunking() + processWithChunking() │ └── cleanFormatting.ts # Markdown stripping for clean output ├── client/ │ └── src/ │ ├── main.tsx # React entry │ ├── App.tsx # Router + Navigation (with green DIAGNOSTIC button) │ ├── index.css # Tailwind + theme tokens │ ├── pages/ │ │ ├── home.tsx # MAIN FRONTEND FILE (1400+ lines) — grading workbench │ │ ├── diagnostic.tsx # Diagnostic dashboard (run + view 28-check report) │ │ ├── login.tsx # (Stubbed — auth deferred) │ │ ├── register.tsx # (Stubbed — auth deferred) │ │ ├── pricing.tsx # Token tier display │ │ ├── credits.tsx # Credit balance view │ │ ├── checkout-success.tsx # Post-payment success │ │ ├── success.tsx # Generic success page │ │ └── not-found.tsx # 404 │ ├── components/ │ │ ├── assignment-prompt-box.tsx # Box A — assignment prompt input │ │ ├── grading-instructions-box.tsx # Box B — optional rubric input │ │ ├── student-submission-box.tsx # Box C — student work input │ │ ├── grading-results-box.tsx # Grade + feedback display │ │ ├── grading-feedback-box.tsx # Professor revision feedback panel │ │ ├── grade-level-selector.tsx # K-12 → PhD academic level dropdown │ │ ├── exemplar-generation-box.tsx # Perfect answer generator UI │ │ ├── exemplar-preview-box.tsx # Perfect answer display │ │ ├── paper-improvement-box.tsx # Improvement suggestions panel │ │ ├── ai-text-rewriter.tsx # Humanizer (3-box workflow) │ │ ├── chat-with-ai.tsx # Conversational AI panel │ │ ├── assignment-comparison.tsx # Side-by-side comparison view │ │ ├── comparison-feedback-box.tsx # Comparison results display │ │ ├── assignment-selector.tsx # Load saved assignment dropdown │ │ ├── assignment-attachments.tsx # File attachments manager │ │ ├── file-upload.tsx # Generic file upload widget │ │ ├── math-view.tsx # KaTeX math renderer │ │ ├── graph-generator.tsx # Auto-chart generator │ │ ├── pdf-export.tsx # PDF download button │ │ ├── email-modal.tsx # SendGrid email modal │ │ ├── student-grades-table.tsx # All-grades history table │ │ ├── service-status.tsx # Legacy 5-service status card │ │ ├── PayPalButton.tsx # PayPal checkout button │ │ └── ui/ # shadcn/ui primitives │ ├── lib/ │ │ ├── llm-service.ts # Provider + model + grade-level prompts │ │ ├── document-processor.ts # Client-side file → text │ │ ├── mathpix-ocr.ts # Mathpix wrapper │ │ ├── ai-detection.ts # GPTZero wrapper │ │ ├── email-service.ts # Email send wrapper │ │ ├── queryClient.ts # TanStack Query setup │ │ └── utils.ts # cn() + helpers │ └── hooks/ │ ├── use-toast.ts │ └── use-mobile.tsx └── shared/ └── schema.ts # Drizzle tables + Zod insert schemas + types
+
+================================================================================ PART 3: FILE DESCRIPTIONS
+
+SERVER FILES
+
+File Purpose ──────────────────────────────────────────────────────────────────────────────── server/index.ts Express server entry. Starts on port 5000. Registers routes, sets large body limit, serves Vite frontend in development.
+
+server/routes.ts MAIN BACKEND FILE (3000+ lines). All API endpoints. Key routes: POST /api/grade POST /api/regenerate-feedback POST /api/generate-perfect-answer POST /api/generate-perfect-answer-chunked POST /api/regenerate-perfect-answer POST /api/compare-assignments POST /api/detect-ai POST /api/chat-with-ai POST /api/format-math POST /api/mathpix-ocr POST /api/generate-graph POST /api/send-email POST /api/exemplar POST /api/diagnostic/run GET /api/check-services CRUD /api/assignments(/[:id]) CRUD /api/assignments/:assignmentId/attachments GET /api/student-grades POST /api/ai-rewriter/{analyze-text,upload,rewrite,download/:format} GET /api/ai-rewriter/{style-samples,instruction-presets} Auth (stubbed): /api/auth/{register,login,logout,me} Payments: /api/{checkout,create-paypal-order,complete-paypal-purchase}, /paypal/{setup,order,order/:orderID/capture}
+
+server/storage.ts DatabaseStorage class implementing IStorage. All DB CRUD via Drizzle ORM. Methods: User: getUser, getUserByUsername, getUserByEmail, createUser Assignment: getAssignment, getAssignmentsByUserId, createAssignment, updateAssignment, deleteAssignment Submission: getSubmission, getSubmissionsByAssignmentId, createSubmission, updateSubmission, deleteSubmission GradingResult: getGradingResult, getGradingResultsBySubmissionId, createGradingResult, updateGradingResult, deleteGradingResult Exemplar / Attachment / RewriteSession / RewriteResult / StyleSample / InstructionPreset CRUD getStudentGrades() — flat join across submissions + grading_results
+
+server/db.ts Drizzle ORM connection to external Neon PostgreSQL. Uses @neondatabase/serverless + ws WebSocket transport. Reads DATABASE_URL from environment. Exports: pool, db
+
+server/paypal.ts PayPal SDK wrapper. Uses lazy ensurePaypal() so missing credentials don't crash module load. Marked "DO NOT MODIFY" — core flow preserved.
+
+server/services/aiProviders.ts AIProviderService class. Unified rewrite + grade dispatcher. Lazy-initialized OpenAI + Anthropic clients (so missing keys don't crash startup). Public methods: rewrite(provider, params) rewriteWithOpenAI / Anthropic / Perplexity / DeepSeek getPresets() — for Humanizer UI
+
+server/services/openai.ts generateOpenAIResponse(params): full grading flow against GPT-4o.
+
+server/services/anthropic.ts generateAnthropicResponse(params): full grading flow against Claude (claude-sonnet-4-5).
+
+server/services/perplexity.ts generatePerplexityResponse(params): full grading flow against Perplexity sonar.
+
+server/services/gptZero.ts GPTZeroService class. analyzeText(text) → { aiScore, isAI, confidence }.
+
+server/services/fileProcessor.ts PDF / DOCX / image → plain text extraction (Tesseract.js for OCR).
+
+server/services/textChunker.ts Token-aware chunking for very large docs (up to ~400K words). Preserves assignment context across chunks.
+
+server/services/documentGenerator.ts PDF / DOCX export of finalized grading reports.
+
+server/services/sendgrid.ts sendEmail(to, subject, html). Skips silently if SENDGRID_API_KEY not set.
+
+server/services/diagnostics.ts runDiagnostics() — 28-check self-test harness. Categories: system (env vars, DB, AI pings, Mathpix), functional (CRUD round-trip, live HTTP route smoke tests). Returns: { startedAt, finishedAt, totalMs, summary, checks[] }
+
+server/utils/chunking.ts needsChunking(provider, ...texts) + processWithChunking(): orchestrates large-doc grading across multiple model calls.
+
+server/utils/cleanFormatting.ts Strips markdown noise from LLM output.
+
+CLIENT FILES
+
+File Purpose ──────────────────────────────────────────────────────────────────────────────── client/src/App.tsx Router + Navigation. Top header has the green DIAGNOSTIC button (visible on every page) plus Sign In / Sign Up (stubbed). Routes: /, /diagnostic, /login, /register, /pricing, /credits, /success.
+
+client/src/pages/home.tsx MAIN FRONTEND FILE (1400+ lines). Grading workbench. State: gradingText, studentText, assignmentText, selectedProvider, selectedModel, gradeLevel, gradeDepth, temperature, currentAssignmentId, perfectAnswer, ... Three primary tabs: Grading, Compare Assignments, Student Grades.
+
+client/src/pages/diagnostic.tsx Diagnostic dashboard. One big "Run Diagnostic" button. Renders summary card (All Systems Go / N Failing) plus two sections: System Checks, Functional Checks. Each row: status icon, name, message, detail, latency ms.
+
+client/src/components/grade-level-selector.tsx Academic level dropdown. Options: K-12, Community College, College Freshman / Sophomore / Junior / Senior, Undergraduate - Standard, Undergraduate - Advanced, Graduate, PhD. Tooltip per option.
+
+client/src/components/ai-text-rewriter.tsx Humanizer (3-box workflow). Box A input, Box B optional style sample, Box C output. Send buttons: C → Student Submission, Chat → A, Perfect Answer → A. Copy + trash-can on every box.
+
+client/src/lib/llm-service.ts GradeLevel union type, generateGradingPrompt() with per-level calibration text. Provider + model registry. LLMGradingRequest type.
+
+client/src/lib/queryClient.ts TanStack Query setup with default fetcher pointed at same-origin API.
+
+SHARED FILES
+
+File Purpose ──────────────────────────────────────────────────────────────────────────────── shared/schema.ts Drizzle schema definitions + Zod insert schemas + types. Tables: users, assignments, submissions, grading_results, exemplars, assignment_attachments, purchases, token_usage, rewrite_sessions, rewrite_results, style_samples, instruction_presets. All insert schemas use createInsertSchema from drizzle-zod.
+
+================================================================================ PART 4: DATABASE SCHEMA
+
+Table: users id integer PK generated by default as identity username text NOT NULL UNIQUE email text NOT NULL UNIQUE password text (nullable — special test accounts like jmkuczynski may have null) credits integer default 0 stripe_customer_id text created_at timestamp default now()
+
+Table: assignments id integer PK identity user_id integer FK → users.id title text NOT NULL prompt text NOT NULL grading_instructions text NOT NULL (UI marks Optional — falls back to standard academic criteria) max_score integer created_at timestamp default now()
+
+Table: submissions id integer PK identity assignment_id integer FK → assignments.id student_name text student_email text content text NOT NULL ai_probability double precision (GPTZero 0.0-1.0) is_ai_generated boolean created_at timestamp default now()
+
+Table: grading_results id integer PK identity submission_id integer FK → submissions.id llm_provider text NOT NULL (openai | anthropic | deepseek | perplexity) llm_model text NOT NULL temperature double precision grade text (extracted letter/numeric grade) results text NOT NULL (full feedback payload) email_sent boolean default false created_at timestamp default now()
+
+Table: exemplars id integer PK identity assignment_id integer FK → assignments.id llm_provider text NOT NULL llm_model text NOT NULL temperature double precision reference_text text instructions_text text include_annotations boolean content text NOT NULL (the perfect answer) created_at timestamp default now()
+
+Table: assignment_attachments id integer PK identity assignment_id integer FK → assignments.id filename text NOT NULL original_name text NOT NULL mime_type text NOT NULL file_size integer NOT NULL content text (extracted text for text-based files) file_path text (optional filesystem path) uploaded_at timestamp default now()
+
+Table: purchases id integer PK identity user_id integer FK → users.id paypal_order_id text stripe_payment_intent_id text amount integer NOT NULL (cents) tokens_added integer NOT NULL status text NOT NULL (pending | completed | failed) created_at timestamp default now() UNIQUE (paypal_order_id) UNIQUE (stripe_payment_intent_id)
+
+Table: token_usage id integer PK identity user_id integer FK → users.id action text NOT NULL (grading | perfect_essay | chat | storage | text_rewrite) tokens_used integer NOT NULL description text created_at timestamp default now()
+
+Table: rewrite_sessions id integer PK identity user_id integer FK → users.id input_text text NOT NULL style_sample text (nullable — Box B optional) context_reference text custom_instructions text llm_provider text NOT NULL llm_model text NOT NULL temperature double precision default 0.3 created_at timestamp default now()
+
+Table: rewrite_results id integer PK identity session_id integer FK → rewrite_sessions.id chunk_index integer default 0 original_chunk text NOT NULL rewritten_chunk text NOT NULL input_gptzero_score double precision output_gptzero_score double precision created_at timestamp default now()
+
+Table: style_samples id integer PK identity name text NOT NULL content text NOT NULL description text category text default "general" is_default boolean default false created_at timestamp default now()
+
+Table: instruction_presets id integer PK identity name text NOT NULL instructions text NOT NULL category text default "general" description text is_default boolean default false created_at timestamp default now()
+
+================================================================================ PART 5: AI PROVIDER CONFIGURATION
+
+Provider Label Model Use Cases ────────────────────────────────────────────────────────────────────────────── OpenAI SHEN 1 gpt-4o Grading (DEFAULT) Perfect answer generation Comparison Chat Humanizer Diagnostic ping
+
+Anthropic SHEN 3 claude-sonnet-4-5 Grading Perfect answer generation Comparison Chat Humanizer Diagnostic ping
+
+DeepSeek SHEN 5 deepseek-chat Grading (cost-efficient large docs) Perfect answer generation Humanizer Diagnostic ping Smoke-test target for /api/grade
+
+Perplexity SHEN 6 sonar Research-enhanced grading Chat Humanizer Diagnostic ping
+
+All providers:
+
+Are user-selectable per session via the AI Provider + Model dropdowns
+Support token-aware chunking through textChunker.ts for documents > model window
+Are clean-formatted (cleanFormatting.ts strips markdown noise)
+Are pinged live on every /api/diagnostic/run
+Specialized services (non-LLM):
+
+GPTZero: AI-content detection (POST /api/detect-ai, POST /api/ai-rewriter/analyze-text)
+Mathpix: mathematical OCR (POST /api/mathpix-ocr, POST /api/format-math)
+Tesseract.js: general OCR (client-side, via document-processor.ts)
+SendGrid: optional transactional email (skipped silently if unconfigured)
+================================================================================ PART 6: GRADING SYSTEM
+
+GRADE WEIGHTING (cross-provider system prompt baseline) Correctness 90% (primary — content accuracy, reasoning, factual claims) Style 10% (capped — clarity, organization, tone) Rule: do NOT deduct for stylistic preference unless clarity is compromised.
+
+ACADEMIC LEVEL CALIBRATION (per generateGradingPrompt() in client/src/lib/llm-service.ts) k_12 Generous, encouraging tone; basic conventions community_college Foundational expectations; tolerant of mechanics college_freshman Intro college standards; cite & structure college_sophomore Building disciplinary terminology; stronger argument college_junior Major-specific conventions expected college_senior Capstone-level rigor; thesis + evidence + critique undergraduate_regular Standard undergraduate calibration (DEFAULT) undergraduate_advanced Honors / advanced section calibration graduate Specialist vocabulary; theoretical grounding phd Research-grade rigor; novel contribution expected
+
+FALLBACK BEHAVIOR (grading instructions optional) Layer 1 (client, home.tsx:478): finalGradingText = gradingText || "Please grade this submission using standard academic criteria. Provide a numeric grade and detailed feedback." Layer 2 (server, routes.ts:1940): ${gradingText || 'Standard academic evaluation criteria'} → Submissions with an empty Grading Instructions box always get a deterministic standard-academic rubric.
+
+CHUNKING (very large submissions) needsChunking(provider, assignmentText, gradingText, studentText) decides per provider's context window. processWithChunking() splits at word boundaries, preserves assignment context in every chunk, and reassembles per-chunk feedback into a single coherent grade.
+
+REGENERATION (professor revision loop) POST /api/regenerate-feedback accepts the original grading payload PLUS a professor instructions string, and re-grades with those revisions injected into the prompt. Updates the existing grading_results row.
+
+AI-DETECTION GATING Unregistered users: GPTZero disabled entirely (no UI, no backend calls) Registered users: GPTZero runs on Student Submission text → aiProbability + isAIGenerated stored on submissions row; surfaced as a badge in the UI.
+
+================================================================================ PART 7: TEST FLOW LOGIC
+
+ASSIGNMENT GRADING FLOW
+
+User fills Assignment Prompt (A), optional Grading Instructions (B), Student Submission (C)
+Selects provider + model + academic level + grade depth (short/medium/long) + temperature
+Hits "Grade Submission" (Ctrl+Enter shortcut from Box C, min 50 chars)
+Client substitutes fallback rubric if B is empty
+POST /api/grade → server routes to needsChunking() decision
+Single-shot: direct call to chosen provider
+Chunked: processWithChunking() splits → per-chunk grade → merge
+Grade + feedback parsed, persisted (submission + grading_result rows)
+UI renders Grading Results panel with chart, PDF export, Send Email
+PERFECT ANSWER → COMPARE FLOW
+
+User clicks "Generate Perfect Answer" on the current Assignment Prompt
+POST /api/generate-perfect-answer (or -chunked for huge prompts) → exemplar stored
+User opens "Compare Assignments" tab
+POST /api/compare-assignments with student submission + exemplar
+Returns delta report, alignment score, gap analysis
+HUMANIZER FLOW (3-box workflow)
+
+Paste/upload AI-detected text into Box A
+(Optional) Paste a style sample into Box B for tone matching
+POST /api/ai-rewriter/analyze-text → input GPTZero score displayed
+POST /api/ai-rewriter/rewrite → Box C populated with rewritten text + output GPTZero score
+Inter-component sends:
+Box C → Student Submission (one-click button above Box C)
+Chat AI response → Box A
+Perfect Answer → Box A
+POST /api/ai-rewriter/download/:format for TXT / DOCX / PDF export
+DIAGNOSTIC FLOW
+
+User clicks the green DIAGNOSTIC button in the top header
+/diagnostic page renders. User clicks "Run Diagnostic"
+POST /api/diagnostic/run executes 28 checks: a. 8 env-var presence checks (DATABASE_URL + 7 API keys) b. PostgreSQL select 1 ping c. select count(*) from users reachability check d. OpenAI live ping (real grade call with "ping" payload) e. Anthropic live ping (claude-sonnet-4-5) f. DeepSeek live ping (direct chat.completions call) g. Perplexity live ping (sonar) h. GPTZero live analyzeText() call i. Mathpix credentials handshake j. Functional CRUD round-trip on a diagnostic-prefixed assignment: create assignment → read → update → create submission → list submissions → create grading_result → delete grading_result → delete submission → delete assignment (FK-safe order — all rows cleaned up) k. Live HTTP smoke tests against own server: GET /api/student-grades, POST /api/detect-ai, POST /api/grade
+Returns JSON: { startedAt, finishedAt, totalMs, summary, checks[] }
+UI renders summary card (All Systems Go / N Failing) + two sections (System Checks, Functional Checks) with per-row icon, name, message, detail, latency ms.
+================================================================================ PART 8: API REFERENCE
+
+Endpoint Method Description ────────────────────────────────────────────────────────────────────────────── /api/grade POST Grade submission /api/regenerate-feedback POST Re-grade with professor revisions /api/compare-assignments POST Side-by-side comparison /api/exemplar POST Save an exemplar /api/generate-perfect-answer POST Generate model A-level answer /api/generate-perfect-answer-chunked POST Same, large-doc path /api/regenerate-perfect-answer POST Re-generate exemplar /api/chat-with-ai POST Conversational AI /api/detect-ai POST GPTZero AI-detection /api/mathpix-ocr POST Math OCR (image → LaTeX) /api/format-math POST Math formatting helper /api/generate-graph POST Auto-chart from results /api/send-email POST SendGrid delivery /api/assignments GET List user assignments /api/assignments POST Create assignment /api/assignments/:id GET Get assignment /api/assignments/:id PUT Replace assignment /api/assignments/:id PATCH Update assignment /api/assignments/:assignmentId PATCH Update assignment (legacy alias) /api/assignments/:id DELETE Delete assignment /api/assignments/:assignmentId/attachments GET List attachments /api/assignments/:assignmentId/attachments POST Upload attachment /api/attachments/:attachmentId DELETE Delete attachment /api/student-grades GET Flat grade history /api/ai-rewriter/analyze-text POST GPTZero score on text /api/ai-rewriter/upload POST Upload doc for rewrite /api/ai-rewriter/rewrite POST Run humanizer /api/ai-rewriter/style-samples GET List style samples /api/ai-rewriter/instruction-presets GET List instruction presets /api/ai-rewriter/download/:format POST Export rewrite (txt/docx/pdf) /api/diagnostic/run POST Run 28-check self-test /api/check-services GET Legacy 5-service status /api/auth/register POST Register (stubbed) /api/auth/login POST Login (stubbed) /api/auth/logout POST Logout (stubbed) /api/auth/me GET Current user (stubbed) /api/whoami GET Current user (Stripe flow) /api/checkout POST Stripe checkout session /api/create-paypal-order POST Create PayPal order /api/complete-paypal-purchase POST Capture PayPal order /paypal/setup GET PayPal client token /paypal/order POST PayPal order (SDK route) /paypal/order/:orderID/capture POST PayPal capture (SDK route)
+
+================================================================================ PART 9: ENVIRONMENT SECRETS
+
+Secret Required Purpose ────────────────────────────────────────────────────────────────────────────── DATABASE_URL YES External Neon PostgreSQL connection string SESSION_SECRET YES Express session signing secret OPENAI_API_KEY YES GPT-4o for grading / perfect answer / chat / humanizer ANTHROPIC_API_KEY YES Claude for grading / perfect answer / chat / humanizer DEEPSEEK_API_KEY YES DeepSeek for grading / humanizer PERPLEXITY_API_KEY YES Sonar for chat / humanizer / research grading GPTZERO_API_KEY YES AI-content detection MATHPIX_APP_ID YES Math OCR app ID MATHPIX_APP_KEY YES Math OCR app key SENDGRID_API_KEY NO Optional — email delivery (silent skip if unset) SENDGRID_VERIFIED_SENDER NO Optional — From: address (silent skip if unset) STRIPE_SECRET_KEY NO Optional — Stripe payments (auth deferred) PAYPAL_CLIENT_ID NO Optional — PayPal payments (auth deferred) PAYPAL_CLIENT_SECRET NO Optional — PayPal payments (auth deferred)
+
+================================================================================ PART 10: KEY ARCHITECTURAL DECISIONS
+
+LAZY-INITIALIZED SDK CLIENTS OpenAI, Anthropic, and PayPal clients are wrapped in lazy getters (getOpenAI(), getAnthropic(), ensurePaypal()). Missing env vars no longer crash the server at module load; they throw a clear error only when the feature is actually invoked.
+
+OPTIONAL GRADING INSTRUCTIONS WITH TWO-LAYER FALLBACK The Grading Instructions box (Box B) is UI-labeled "(Optional)". When empty, the client substitutes a standard-academic rubric before POSTing, and the server independently substitutes one in the prompt builder. The app always grades against deterministic criteria even with zero user input.
+
+ACADEMIC LEVEL CALIBRATION ACROSS 10 LEVELS generateGradingPrompt() switches on GradeLevel union: K-12, Community College, College Freshman/Sophomore/Junior/Senior, Undergraduate Standard, Undergraduate Advanced, Graduate, PhD. Each branch injects distinct calibration text into every provider's system prompt — same model, different rigor.
+
+MULTI-PROVIDER UNIFIED INTERFACE All four providers (SHEN 1 OpenAI, SHEN 3 Anthropic, SHEN 5 DeepSeek, SHEN 6 Perplexity) implement the same LLMGradingRequest shape: assignmentText, gradingText, studentText, model, temperature. Switching providers requires zero downstream changes.
+
+TOKEN-AWARE CHUNKING FOR 400K+ WORD DOCS needsChunking() decides per-provider; processWithChunking() splits on word boundaries, preserves assignment context in every chunk, then reassembles per-chunk feedback. Single grade output regardless of input size.
+
+SELF-DIAGNOSING APP (BETA TEST HARNESS) The /api/diagnostic/run endpoint is the canonical health-check. It exercises every external dependency live AND the app's own HTTP surface, AND runs a complete CRUD round-trip in FK-safe order with full cleanup. 28 checks, typically ~5 seconds, surfaces real bugs (stale model IDs, missing tables, auth misconfigurations) before users do.
+
+DATABASE: EXTERNAL NEON SERVERLESS POSTGRES Uses @neondatabase/serverless with WebSocket transport (ws). All connections go through DATABASE_URL. Schema managed with Drizzle ORM + drizzle-kit push --force for migrations. Tables persist across app restarts.
+
+PERMANENT STORAGE FROM DAY 1 storage.ts uses DatabaseStorage (not MemStorage). All assignments, submissions, grading results, exemplars, attachments, and rewrite sessions survive restarts. User isolation via user_id FK.
+
+INTER-COMPONENT SEND BUTTONS Workflow handoff is one-click throughout: Chat AI → Student Submission Chat AI → Humanizer Box A Perfect Answer → Humanizer Box A Perfect Answer → Student Submission Humanizer Box C → Student Submission No copy/paste required between modules.
+
+KEYBOARD SHORTCUTS ON EVERY INPUT Ctrl+Enter on Student Submission → Grade (min 50 chars) Ctrl+Enter on Assignment Prompt → Move to next field Ctrl+Enter on Grading Instructions → Move to next field Ctrl+Enter on Perfect Generator → Generate Enter on Login / Register forms → Submit Enter in Chat → Send (Shift+Enter for newline)
+
+AI-DETECTION FOR REGISTERED USERS ONLY GPTZero is completely disabled for unregistered users (no UI elements, no backend calls). Eliminates surprise costs and gates an upsell surface.
+
+AUTH DEFERRED — DIAGNOSTIC FIRST Auth (login/register/PayPal/Stripe) is intentionally stubbed for the beta phase. The DIAGNOSTIC tab is unauthenticated so the app can be exercised end-to-end without any user account. Auth + payment hardening is a post-beta task.

@@ -1,0 +1,56 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "69PuRwusLr6twSuzIcW9k"
+uri = "file://BLUEPRINT.md"
+type = "text"
+title = "FreudGPT Application Blueprint"
+
+[[outputs]]
+id = "SbEnOpQSsTISiOzvIEYLI"
+uri = "file://exports/genius101-promo-20s.mp4"
+type = "video"
+title = "Genius 101 — 20s YouTube Promo"
+
+[[outputs]]
+id = "u6X1m-82BpsLlY6PFKyia"
+uri = "file://exports/freudgpt-promo-20s.mp4"
+type = "video"
+title = "FreudGPT — 20s Promo (real app)"
+
+[[outputs]]
+id = "4l8PyXUA1-EXUfNeTJrcZ"
+uri = "file://exports/freudgpt-youtube-description.txt"
+type = "text"
+title = "YouTube Description & Upload Kit"
+
+[[outputs]]
+id = "pMxEDO_9tQi-3cNymKsvc"
+uri = "file://exports/psychology-and-philosophy-promo-20s.mp4"
+type = "video"
+title = "Psychology and Philosophy — 20s Promo"
+
+[[outputs]]
+id = "bBki1aER0MuvYLwYNUnKk"
+uri = "file://exports/psychology-and-philosophy-youtube-description.txt"
+type = "text"
+title = "YouTube Description & Upload Kit"
+
+[[outputs]]
+id = "eCKbj35qN4rkRvyW2bosK"
+uri = "file://exports/Psychology_and_Philosophy_Demo.mp4"
+type = "video"
+title = "Psychology and Philosophy — Demo Recording"
+
+[[outputs]]
+id = "lyLFPemtKESPVXasaeizI"
+uri = "file://exports/youtube_description.txt"
+type = "text"
+title = "YouTube Description (FreudGPT)"
+
+[[outputs]]
+id = "cvCiy_FvGZPn7knbXsFea"
+uri = "file://exports/FreudGPT_Demo.mp4"
+type = "video"
+title = "FreudGPT — Demo Recording"

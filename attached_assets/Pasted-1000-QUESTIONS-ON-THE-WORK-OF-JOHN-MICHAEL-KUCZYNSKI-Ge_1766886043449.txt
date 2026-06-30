@@ -1,0 +1,1615 @@
+1000 QUESTIONS ON THE WORK OF JOHN-MICHAEL KUCZYNSKI
+Generated from primary source texts
+
+================================================================================
+PART I: ANALYTIC PHILOSOPHY AS LOGICAL ANALYSIS (Ch. 1)
+================================================================================
+
+=== PHILOSOPHY AS CATEGORY ANALYSIS ===
+
+1. According to Kuczynski, what is the sole function of philosophy?
+2. What does it mean to say that philosophy "delineates the structures of the categories in terms of which we think about the world"?
+3. List five of the categories Kuczynski identifies as fundamental to understanding the world.
+4. Why does Kuczynski say that the categories through which we understand the world are "seldom the objects of thought"?
+5. What is the relationship between using categories adeptly and knowing about them?
+6. What does Kuczynski mean by "meta-knowledge"?
+7. How does Kuczynski distinguish philosophical knowledge from ordinary knowledge?
+8. Why does Kuczynski say that "self-understanding isn't the mind's primary function"?
+9. What would be incoherent about a mind that thinks about nothing other than itself?
+10. How is philosophy "the analysis of the preconditions of all knowledge"?
+
+=== KNOWLEDGE VS. META-KNOWLEDGE ===
+
+11. What example does Kuczynski give about distinguishing linguistic from non-linguistic behavior?
+12. Why are we unable to make explicit the conditions for knowing a language despite being good at recognizing who knows one?
+13. What moral example does Kuczynski give about knowing something without knowing what we know?
+14. Why is it hard to identify the principles that guide our thoughts?
+15. What does Kuczynski mean by saying any case of self-awareness is "derivative of" some more fundamental sort of understanding?
+
+=== PHILOSOPHY'S RELATIONSHIP TO OTHER DISCIPLINES ===
+
+16. What does Kuczynski mean by saying "the philosopher is interested in the laws governing the laws"?
+17. How does Kuczynski describe the relationship between philosopher, physicist, engineer, and stranded motorist?
+18. Why does Kuczynski say the philosopher wants to know "what it would even make sense to claim to hold"?
+19. What does John Stuart Mill mean by calling himself an expert in "the science of science"?
+20. What did Frege mean by saying logic studies "the laws of the laws of nature"?
+
+=== FREGE AND THE ORIGINS OF ANALYTIC PHILOSOPHY ===
+
+21. Why is Gottlob Frege often described as the first analytic philosopher?
+22. What did Michael Dummett mean by saying "analytic philosophy is post-Fregean philosophy"?
+23. How did pre-Fregean philosophers think they were studying the world?
+24. What was Frege's key insight about the relationship between philosophical and scientific interest?
+25. How does a scientist's interest in what there could be differ from a philosopher's interest?
+
+=== FREGE'S KEY INSIGHT: LOGICAL FORM ≠ GRAMMATICAL FORM ===
+
+26. What is Frege's key insight about the relationship between logical and grammatical form?
+27. Why is "John smokes" grammatically similar to "nobody smokes" but logically different?
+28. What does "nobody smokes" actually mean according to Frege's analysis?
+29. How does Frege's analysis avoid the absurd conclusion that "nobody" refers to some un-person?
+30. Why is it wrong to think "nothing is a square circle" says that some non-entity is a square circle?
+
+=== THE ANALYSIS OF "NOTHING" AND "NOBODY" ===
+
+31. What does "nobody likes Larry" actually say according to Fregean analysis?
+32. How does Kuczynski explain "nothing is a square circle" in terms of sets?
+33. What does it mean to say the set of circles doesn't overlap with the set of squares?
+34. What are higher-order properties and how do they figure in Frege's analysis?
+35. Why does Kuczynski say philosophical insight is acquired "not by positing entities, but by clarifying statements"?
+
+=== FREGE'S LEGACY (FL) ===
+
+36. State Frege's legacy (FL) as Kuczynski formulates it.
+37. What do people often do instead of asking whether an absurdity really follows from their beliefs?
+38. What are "ad hoc hypotheses" in the context of FL?
+39. How does FL relate to the analysis of statements like "nothing is a square circle"?
+40. Why is analytic philosophy "driven by acceptance of FL"?
+
+=== GRAMMATICAL SURFACE-STRUCTURE ===
+
+41. Why is it misleading that "John smokes," "Mary smokes," and "Nobody smokes" have similar grammatical forms?
+42. What error results from treating "nobody" as grammatically parallel to "John" or "Mary"?
+43. How does the grammatical similarity between sentences sometimes lead to philosophical confusion?
+44. What does Kuczynski mean by "surface structure" vs. "deep structure" of sentences?
+45. Why did pre-Fregean philosophers fail to see that grammatical form diverges from logical form?
+
+=== EMPIRICAL VS. PHILOSOPHICAL PUZZLES ===
+
+46. What are the two components of scientific breakthroughs according to Kuczynski?
+47. How do philosophical puzzles differ from scientific puzzles regarding new raw data?
+48. What does Kuczynski mean by saying philosophical puzzles result "not from ignorance, but from confusion"?
+49. Why couldn't the Special Theory of Relativity have been proposed before 1879?
+50. What is the difference between data not being available and failing to draw the right inferences?
+
+=== PHILOSOPHICAL VS. LINGUISTIC ANALYSIS ===
+
+51. Who was the most famous advocate of the view that all philosophical puzzles are linguistic in nature?
+52. What did Wittgenstein mean by "philosophical confusion begins when language goes on holiday"?
+53. Why does Kuczynski say Wittgenstein's position is incorrect?
+54. What is the epistemological puzzle about knowing that 1 + 1 = 2?
+55. Why does Kuczynski regard JK (the causal theory of knowledge for mathematical facts) as "absurd in the extreme"?
+
+=== THE CAUSAL THEORY OF KNOWLEDGE DEBATE ===
+
+56. What does JK (Jerry Fodor's position) claim about knowing mathematical facts?
+57. Why does Kuczynski think the fact that 1 + 1 = 2 is not comparable to the fact that there's a book in front of you?
+58. Why can't the fact that 1 + 1 = 2 bear any causal relation to anything?
+59. How does the dispute about JK differ from disputes about the semantics of "nothing"?
+60. Why is the puzzle about JK not a linguistic puzzle?
+
+=== LEGAL POSITIVISM EXAMPLE ===
+
+61. What do legal positivists claim about the relationship between law and morality?
+62. What do anti-positivists (like Ronald Dworkin) claim about legal systems?
+63. Why is the dispute between legal positivists and anti-positivists not a semantic dispute?
+64. What do both sides agree about regarding how to resolve the dispute?
+65. Why can't observation tell you whether one statement is inconsistent with another?
+
+=== SENTENCES VS. PROPOSITIONS ===
+
+66. What is the difference between a sentence and a proposition?
+67. Give an example of different sentences that express the same proposition.
+68. How does the truth of a sentence relate to the truth of its corresponding proposition?
+69. What does Wittgenstein's failure to countenance propositions lead to?
+70. Why is philosophy the analysis of propositions rather than sentences?
+
+=== PROPOSITIONS AS PROPERTIES ===
+
+71. What are propositions according to Kuczynski?
+72. What does it mean for a proposition to be true?
+73. How does Kuczynski identify propositions with properties?
+74. How does Kuczynski identify truth with instantiatedness?
+75. Why are propositions not human creations?
+
+=== ANALYTIC PHILOSOPHY: NARROW AND BROAD SENSES ===
+
+76. What does "analytic philosophy" mean in the narrow sense?
+77. What does "analytic philosophy" mean in the broad sense?
+78. What topics was Frege interested in?
+79. How did Frege's work influence philosophers working in areas unrelated to language or logic?
+80. What makes analytic philosophers of law, ethicists, etc., "analytic" philosophers?
+
+=== WITTGENSTEIN'S TWO POSITIONS ===
+
+81. What are Wittgenstein's two best-known works?
+82. What position about philosophical problems does Wittgenstein maintain in both works?
+83. In the Tractatus, what does Wittgenstein claim about supposedly philosophical sentences?
+84. How does Wittgenstein's position in the Philosophical Investigations differ from the Tractatus?
+85. What does Wittgenstein claim in the Investigations about how philosophical problems are solved?
+
+=== MEANING AND USE ===
+
+86. What is the slogan "meaning is use" associated with?
+87. Why does Kuczynski think meaning cannot be identical with use?
+88. What is the difference between using a word correctly and knowing what it means?
+89. Can a competent speaker use a word correctly without being able to define it?
+90. Why does correct usage presuppose but not constitute meaning?
+
+=== LOGICAL POSITIVISM ===
+
+91. What was the logical positivist criterion of meaningfulness?
+92. What is the verification principle?
+93. Why did the logical positivists think metaphysical statements are meaningless?
+94. What problem does Kuczynski identify with falsificationism?
+95. Why can't "some x's are y's" statements be falsified?
+
+=== PROBLEMS WITH LOGICAL POSITIVISM ===
+
+96. What examples of supposedly meaningless statements did logical positivists cite?
+97. Why is it suspicious that logical positivists only cited sentences nobody uses?
+98. How does Kuczynski argue that "the universe is a perfect unity" could be meaningful?
+99. What is the difference between a statement and a statement-form?
+100. Why is "the universe is a perfect unity" really a statement-form rather than a statement?
+
+=== KUCZYNSKI'S ALTERNATIVE TO LOGICAL POSITIVISM ===
+
+101. What is Kuczynski's criterion for a sentence being meaningful?
+102. Why is a sentence meaningful if it attributes some property to some object?
+103. Why is it irrelevant whether a property attribution can be perceptually confirmed?
+104. How does Kuczynski's theory handle statements that seem metaphysical?
+105. What makes the term "perfect unity" problematic?
+
+=== THE PICTURE THEORY OF MEANING ===
+
+106. What is Wittgenstein's "picture theory of meaning"?
+107. Why is the picture theory trivial if sentences merely "represent" facts like pictures do?
+108. Why is the picture theory false if sentences literally are pictures of facts?
+109. What is the conventional component of sentential representation?
+110. How do photographs differ from sentences in representing facts?
+
+=== SENTENCES VS. PICTURES ===
+
+111. What does Kuczynski mean by saying sentences are "digital structures"?
+112. Why do pictures lack unique decomposition into discrete parts?
+113. How does the conventional component of language relate to its digital structure?
+114. What is the relationship between propositions and semantic conventions?
+115. Why do sentences "go through" propositions while pictures go "straight to the facts"?
+
+=== TAUTOLOGIES AND ANALYTIC TRUTHS ===
+
+116. What is the difference between a tautology and an analytic truth?
+117. Why might "a yard is three feet" be non-trivial to someone who learned "yard" and "foot" independently?
+118. Why does Kuczynski say tautologousness is a property of information, not sentences?
+119. How does the manner of learning word meanings affect what sentences tell you?
+120. What does it mean to know the meanings of expressions "descriptively"?
+
+=== FORMALIZATION AND GEOMETRY ===
+
+121. What are Euclid's five axioms of geometry?
+122. What is the "parallel postulate"?
+123. Why did it turn out that Euclid's axioms are a statement-form rather than a statement?
+124. What happens to the parallel postulate when "space" means the surface of a sphere?
+125. Why can't one assume that "space" doesn't mean the surface of a sphere without begging the question?
+
+=== NON-EUCLIDEAN GEOMETRY ===
+
+126. What is the sum of interior angles of a triangle in spherical geometry?
+127. How does the size of a triangle on a sphere affect the sum of its angles?
+128. Why are "line" and "space" functioning as variables in Euclid's axioms?
+129. What is an "interpretation" of an axiom system?
+130. What does it mean for an open-sentence to be "true under all its interpretations"?
+
+=== FORMAL TRUTH AND ARITHMETIC ===
+
+131. Why is "2 + 2 = 4" not formally true?
+132. What would formalizing arithmetic involve?
+133. Why can't arithmetic be formalized?
+134. What does it mean for a formal characterization to be inconsistent?
+135. What does it mean for a formal characterization to be incomplete?
+
+=== COUNTERFACTUALS ===
+
+136. What is a counterfactual statement?
+137. What is David Lewis's possible worlds analysis of counterfactuals?
+138. Why does Kuczynski find Lewis's analysis "completely preposterous"?
+139. What is Kuczynski's alternative analysis of counterfactuals?
+140. How does Kuczynski analyze "JFK would have been reelected if he hadn't been assassinated"?
+
+================================================================================
+PART II: PROPERTIES AND NON-SPATIOTEMPORAL EXISTENCE (Ch. 2)
+================================================================================
+
+=== THE CASE FOR NON-SPATIOTEMPORAL ENTITIES ===
+
+141. What is Kuczynski's central claim about what exists?
+142. Why does Kuczynski say properties are not in space-time?
+143. What will you find if you search the universe for the property of liking tennis?
+144. What is the relationship between properties and their instances?
+145. Why can't properties be identical with spatiotemporal entities?
+
+=== PROPERTIES VS. AGGREGATES ===
+
+146. Why can't the property of intelligence be an aggregate of its instances?
+147. What happens to the property of perfect triangularity if properties are identified with aggregates?
+148. Why would identifying properties with aggregates lead to identifying distinct properties?
+149. What is the Max/harpsichord player example meant to show?
+150. Why is it absurd to say there cannot be distinct uninstantiated properties?
+
+=== HIGHER-ORDER PROPERTIES ===
+
+151. What is a higher-order property?
+152. What is a first-order property?
+153. What property does the property of being a square circle have?
+154. Where are the instances of higher-order properties located?
+155. Where are the instances of first-order properties located?
+
+=== PLATONISM AND NOMINALISM ===
+
+156. What is Platonism (the theory of universals)?
+157. Why is this doctrine called "Platonism"?
+158. What is nominalism (anti-Platonism)?
+159. Why is nominalism called "nominalism"?
+160. Why is nominalism incoherent according to Kuczynski?
+
+=== WORDS AS UNIVERSALS ===
+
+161. What is the distinction between word-types and word-tokens?
+162. Why are word-types properties?
+163. Why does the claim that word-types are properties undermine nominalism?
+164. How does the word-type/token distinction relate to the property/instance distinction?
+165. Why can't universals be identical with words if words are themselves universals?
+
+=== PROPOSITIONS AND SETS AS PROPERTIES ===
+
+166. Why does Kuczynski say propositions turn out to be properties?
+167. Why does Kuczynski say sets turn out to be properties?
+168. Why is the property of being a bird NOT identical with the set of all birds?
+169. What set is the property of being a bird identical with?
+170. How does Kuczynski's view of propositions relate to his Platonism?
+
+=== THE ARGUMENT FROM COMMON PROPERTIES ===
+
+171. What follows from "Sally and Fred are both intelligent"?
+172. Why can't intelligence itself be in space-time even though intelligent people are?
+173. What is the form of Kuczynski's argument for non-spatiotemporal entities?
+174. How does the uninstantiated property argument strengthen the case?
+175. Why is the property of being a perfect husband distinct from being a perfect soldier?
+
+=== LOGIC AS PROPERTY-BASED ===
+
+176. Why does "squareness is a form of rectangularity" seem to talk about properties?
+177. What alternative analysis do some philosophers propose for this statement?
+178. Why does Kuczynski reject the analysis that reduces property-talk to instance-talk?
+179. What is the difference between "everything square is green" and "squareness is a form of greenness"?
+180. What does "a thing's being a square is responsible for its being a rectangle" mean?
+
+=== COEXTENSIVENESS VS. IDENTITY ===
+
+181. What does it mean for two properties to be coextensive?
+182. Why doesn't coextensiveness imply identity of properties?
+183. How does the square/green example illustrate this point?
+184. What is the difference between accidental and essential coextensiveness?
+185. Why is "for that very reason" crucial in distinguishing property relations?
+
+=== RELATIONS AS PROPERTIES ===
+
+186. How does Kuczynski analyze relations?
+187. What are ordered n-tuples?
+188. How is "Bob loves Sally" analyzed in terms of properties and ordered pairs?
+189. How would "Bob is standing between Sally and Larry" be analyzed?
+190. Why does treating relations as properties of ordered tuples preserve Platonism?
+
+=== SELF-HAVING PROPERTIES ===
+
+191. What is a self-having property?
+192. Give an example of a property that has itself.
+193. Give an example of a property that does not have itself.
+194. Does the property of being a property have itself?
+195. How does the self-having/non-self-having distinction relate to Russell's paradox?
+
+=== THE THIRD MAN ARGUMENT ===
+
+196. What is the Third Man Argument against Platonism?
+197. What assumption does the Third Man Argument attack?
+198. Why does the argument generate an infinite regress?
+199. How does Kuczynski respond to the Third Man Argument?
+200. What is wrong with assuming properties must resemble their instances?
+
+=== SCATTERED OBJECTS ===
+
+201. What is a scattered object?
+202. What properties might scattered objects have that ordinary objects lack?
+203. How do scattered objects relate to the question of what exists?
+204. Are scattered objects spatiotemporal or non-spatiotemporal?
+205. What philosophical significance do scattered objects have?
+
+=== CONVENTIONALISM IN LOGIC ===
+
+206. What is conventionalism about logical truth?
+207. Why did conventionalism in logic fail?
+208. What is the relationship between linguistic conventions and logical truths?
+209. Why can't all logical truths be identified with linguistic conventions?
+210. What example does Kuczynski give of a logical truth that isn't a convention?
+
+=== EXISTENCE CLAIMS ===
+
+211. What is an existence claim?
+212. Give an example of a false existence claim.
+213. Give an example of a true existence claim about properties.
+214. How do existence claims about properties differ from existence claims about spatiotemporal objects?
+215. Why does denying Platonism require denying certain obvious existence claims?
+
+=== PROPERTIES AND SETS ===
+
+216. Is identifying properties with sets compatible with Platonism?
+217. Why are sets themselves non-spatiotemporal entities?
+218. What is the difference between a property and the set of its instances?
+219. How does Kuczynski's view differ from standard set-theoretic accounts?
+220. What is the relationship between properties and their extensions?
+
+================================================================================
+PART III: EMPIRICISM AND THE FOUNDATIONS OF PSYCHOLOGY
+================================================================================
+
+=== EMPIRICISM AND SCIENTISM ===
+
+221. What is empiricism?
+222. What is Kuczynski's central critique of empiricism?
+223. How does empiricism relate to scientism?
+224. What does empiricism claim about the sources of knowledge?
+225. Why does Kuczynski think empiricism is fundamentally mistaken?
+
+=== EMPIRICISM'S BLINDNESS TO THE NON-SPATIOTEMPORAL ===
+
+226. Why is empiricism blind to non-spatiotemporal entities?
+227. How does this blindness affect empiricist epistemology?
+228. What can empiricism not account for regarding knowledge of logic and mathematics?
+229. How does Kuczynski's Platonism conflict with empiricism?
+230. What are the consequences of empiricism for the philosophy of mind?
+
+=== THE PICTURE THEORY CRITIQUE ===
+
+231. How does Wittgenstein's early picture theory relate to empiricism?
+232. What is the relationship between the picture theory and logical atomism?
+233. Why did the picture theory fail?
+234. What did Wittgenstein's later philosophy share with his earlier view?
+235. How does Kuczynski evaluate Wittgenstein's overall contribution?
+
+=== MEANING AS USE CRITIQUE ===
+
+236. What is wrong with identifying meaning with use?
+237. How does the meaning-use identification relate to empiricism?
+238. What does the identification fail to account for?
+239. How does the private language argument relate to this issue?
+240. What is Kuczynski's alternative account of meaning?
+
+=== ANALYTIC VS. INTROSPECTIVE KNOWLEDGE ===
+
+241. What is the difference between analytic and introspective knowledge?
+242. How does empiricism conflate these two types of knowledge?
+243. What are the consequences of this conflation?
+244. What examples illustrate the difference?
+245. Why is the distinction important for psychology?
+
+=== SUBPERSONAL MENTATION ===
+
+246. What is subpersonal thought?
+247. How does subpersonal thought differ from conscious thought?
+248. Why is the concept of subpersonal thought "empiricism-unfriendly"?
+249. What cognitive operations are subpersonal?
+250. What is the relationship between subpersonal thought and the self?
+
+=== THE SELF AND SUBPERSONAL PROCESSES ===
+
+251. Why would it be viciously regressive to say you figured out how to convert sensory input into perceptions?
+252. What is the distinction between your mind and your self?
+253. What is the nucleus of one's self according to Kuczynski?
+254. How does the self relate to consciousness?
+255. What does Searle's argument contribute to this discussion?
+
+=== BERKELEY'S ERROR ===
+
+256. What did Berkeley conflate according to Kuczynski?
+257. What did Berkeley use the word "idea" to refer to?
+258. In what sense was Berkeley right about grasping universals?
+259. In what sense was Berkeley wrong?
+260. Why can our minds grasp universals non-linguistically even if we can't?
+
+=== IMAGES VS. CONCEPTS ===
+
+261. What is the difference between images and concepts?
+262. Why did Berkeley fail to distinguish images from concepts?
+263. How does empiricism's identification of knowledge with observation lead to identifying concepts with images?
+264. What is access-consciousness vs. consciousness-constitutive?
+265. Why are concepts not constituents of consciousness?
+
+=== LANGUAGE AND THOUGHT ===
+
+266. What is the relationship between language and thought according to Kuczynski?
+267. Can one think discursively without being linguistically competent?
+268. Could a creature grasp the arguments in The Wealth of Nations without language?
+269. What is the difference between causal and constitutive relations between linguistic and cognitive competence?
+270. Why do complex cogitations need linguistic vehicles?
+
+=== SYMBOL MANIPULATION AND THOUGHT ===
+
+271. What is the view that symbol manipulations merely facilitate ratiocinative operations?
+272. What is the alternative view about the role of symbols in thought?
+273. Why is it unclear whether we can think everything without symbols that we can think with them?
+274. How does the math example (multiplying large numbers) illustrate this issue?
+275. What is Kuczynski's position on the relationship between symbols and thought?
+
+=== EMPIRICIST CONCEPTIONS OF CAUSATION ===
+
+276. What is the empiricist conception of causation?
+277. What are the problems with Humean accounts of causation?
+278. How does Kuczynski's view of causation differ from empiricist views?
+279. What role does causation play in explanation?
+280. Why is the concept of causation important for psychology?
+
+=== EMPIRICIST CONCEPTIONS OF EXPLANATION ===
+
+281. What is the empiricist conception of scientific explanation?
+282. What are the limitations of this conception?
+283. How do theoretical explanations go beyond observation?
+284. What role do unobserved entities play in explanation?
+285. Why is the concept of explanation important for psychology?
+
+=== SKEPTICISM AND PERCEPTION ===
+
+286. What is skepticism about perception?
+287. What is skepticism about induction?
+288. How does empiricism lead to these forms of skepticism?
+289. What is Kuczynski's response to perceptual skepticism?
+290. What is Kuczynski's response to inductive skepticism?
+
+=== MACH AND MOLECULES ===
+
+291. What was Ernst Mach's position on molecules?
+292. Why did Mach consider molecules "useful fictions"?
+293. How was Mach's position typically empiricist?
+294. How did Einstein prove Mach wrong?
+295. What does this episode show about empiricism?
+
+=== PROPOSITIONAL ATTITUDES ===
+
+296. What are propositional attitudes?
+297. How do propositional attitudes figure in psychological explanation?
+298. What problems does empiricism have with propositional attitudes?
+299. How does Kuczynski's view of propositions affect the theory of propositional attitudes?
+300. What is the relationship between propositional attitudes and behavior?
+
+================================================================================
+PART IV: FREE WILL AND THE LIBET EXPERIMENT
+================================================================================
+
+=== LIBET'S EXPERIMENT: BASICS ===
+
+301. What did Libet's experiment involve subjects doing?
+302. What is the "readiness potential" (RP)?
+303. What is W in the context of Libet's experiment?
+304. What was the striking finding of Libet's experiment?
+305. What is the temporal relationship between RP initiation and W?
+
+=== THE EXPERIMENTAL SETUP ===
+
+306. How did subjects indicate when they decided to press the button?
+307. What was measured on the subjects' scalps?
+308. Why was the clock with a rapidly moving hand important?
+309. Were subjects required to press the button in response to any external stimulus?
+310. How many subjects were tested with similar results?
+
+=== IMPLICATIONS FOR FREE WILL ===
+
+311. Why do subjects feel their decision was "free"?
+312. What does the experiment suggest about the relationship between conscious decisions and brain activity?
+313. Why does Kuczynski think W is "clearly not the cause of the finger-movement"?
+314. What does the experiment show about our so-called "conscious decisions"?
+315. How does Kuczynski think RLE should affect our understanding of agency?
+
+=== PHILOSOPHERS' RESPONSES TO LIBET ===
+
+316. What has been the general pattern of philosophers' responses to Libet?
+317. What position does Adina Roskies take?
+318. What position does Alfred Mele take?
+319. What position does Nicholas Rescher take?
+320. What position do Radder and Meynen take?
+
+=== CRITIQUES OF PHILOSOPHERS' RESPONSES ===
+
+321. Why does Kuczynski criticize philosophers for attempting to "trivialize" Libet's results?
+322. What is wrong with claiming Libet's data is "spurious"?
+323. What is wrong with claiming the brain activity preceding W is not causative of W?
+324. Why can't we dismiss the experiment because it concerns "simple" actions?
+325. What standards of proof are philosophers using that Kuczynski finds problematic?
+
+=== THE COMPATIBILIST RESPONSE ===
+
+326. What is compatibilism about free will?
+327. How do some philosophers claim Libet supports compatibilism?
+328. What is wrong with this response according to Kuczynski?
+329. Does Kuczynski think Libet's results are relevant only if compatibilism is true?
+330. What is the relationship between Libet's results and the free will debate?
+
+=== COMMON PHILOSOPHICAL OBJECTIONS ===
+
+331. What is the objection that Libet confuses urges with intentions?
+332. How does Kuczynski respond to this objection?
+333. What is the objection that Libet's results don't generalize?
+334. Why do philosophers claim the actions studied fail to engage rationality?
+335. What is the appeal to the "phenomenological datum" that we have free will?
+
+=== KUCZYNSKI'S CONSTRUCTIVE RESPONSE ===
+
+336. What does Kuczynski think Libet's experiment actually shows?
+337. What is the tentative model Kuczynski proposes?
+338. What is the agentive function of conscious mental events according to this model?
+339. How does this model differ from traditional views of conscious decision-making?
+340. Why does Kuczynski consider Libet's experiment a "missed opportunity" for philosophy?
+
+=== DETERMINISM AND INDETERMINISM ===
+
+341. What is the defining claim of determinism according to Kuczynski?
+342. What is indeterminism?
+343. Why does indeterminism require only one instance of non-determination?
+344. How does most of the macro-scale world operate regarding determinism?
+345. What is the principle "same cause, same effect"?
+
+=== DETERMINISM VS. PREDICTABILITY ===
+
+346. Why is predictability a practical, epistemic concept while determinism is metaphysical?
+347. What are the logical limits of predictability?
+348. Can a deterministic universe be completely predictable?
+349. Why is Laplace's demon logically impossible?
+350. What is Kuczynski's "compatibilism" between determinism and unpredictability?
+
+=== PERCEPTION AND REALITY ===
+
+351. What does Kuczynski mean by saying sense-perception is "invasive"?
+352. What transformative stages occur in the chain of perception?
+353. Why is information carried by light a "snapshot of the past"?
+354. How does observation alter the object observed?
+355. Why is there an inescapable "margin of error" between reality and perception?
+
+=== EPISTEMOLOGICAL CONSEQUENCES ===
+
+356. Why does trying to correct perceptual error introduce more perturbation?
+357. Does the perceptual dilemma apply to a deity?
+358. Why does Kuczynski reject non-causal, direct knowledge?
+359. What is required for knowledge according to Kuczynski?
+360. Why is a "correct hallucination" not knowledge?
+
+=== PREDICTION AND SELF-PREDICTION ===
+
+361. What is prediction an application of?
+362. Why does inaccurate knowledge of initial conditions guarantee inaccurate predictions?
+363. Why is our own mental state part of the causal fabric of the world?
+364. What paradox arises from knowing your future knowledge now?
+365. Why is the "infallible self-predictor" logically incoherent?
+
+=== SELF-FULFILLING PROPHECIES ===
+
+366. How can psychological attitudes be causal factors in outcomes?
+367. What do self-fulfilling prophecies demonstrate about predictions?
+368. How does this complicate prediction?
+369. What role does confidence play in bringing about outcomes?
+370. What does Kuczynski claim about his personal experience with self-fulfilling prophecy?
+
+=== RANDOMNESS ===
+
+371. What does "random" mean in common parlance vs. philosophically?
+372. Can an event be fully determined yet perfectly random epistemically?
+373. Where does randomness reside according to Kuczynski?
+374. Can two observers disagree on whether an event is random?
+375. Can indeterminism exist without events seeming random?
+
+=== INDUCTION ===
+
+376. What does verifying universal claims require?
+377. What is Hume's problem of induction?
+378. Why does everyone accept inductive reasoning in practice?
+379. What is the difference between justified and unjustified beliefs about future events?
+380. Why are the shortcomings of induction a general problem for empirical knowledge?
+
+=== EVIDENCE FOR DETERMINISM ===
+
+381. Why do arguments against determinism based on "identical" clones fail?
+382. What does determinism actually require about identical initial conditions?
+383. How does causal discovery in science work?
+384. Why is perfect correlation not necessary to infer a deterministic law?
+385. How certain can we be about deterministic laws?
+
+=== INFORMATION THEORY AND PERCEPTION ===
+
+386. How is information physically embodied?
+387. Why does transmission of information take time?
+388. What is the "veil of perception"?
+389. What does "transperceptual" refer to?
+390. What are scientific laws about according to Kuczynski?
+
+=== METAPHYSICAL POSITIONS ===
+
+391. Is Kuczynski a realist about the external world?
+392. Is Kuczynski a fallibilist about knowledge?
+393. What does Kuczynski's naturalism involve?
+394. Does Kuczynski accept Cartesian dualism?
+395. What is the "gulf" between perception and reality not an argument for?
+
+================================================================================
+PART V: EXTRACTED PHILOSOPHICAL POSITIONS (from database)
+================================================================================
+
+=== ETHICS ===
+
+396. What is Kuczynski's view on the relationship between ethics and metaethics?
+397. How does Kuczynski respond to G.E. Moore's open question argument?
+398. What is Kuczynski's position on utilitarianism?
+399. How does Kuczynski analyze moral concepts?
+400. What is the relationship between logic and ethics?
+
+=== FREE WILL POSITIONS ===
+
+401. What is Kuczynski's analysis of Frankfurt cases?
+402. How does Kuczynski understand the relationship between free will and determinism?
+403. What is Kuczynski's view on the mind-body problem as it relates to free will?
+404. How does Kuczynski analyze the concept of moral responsibility?
+405. What role does consciousness play in free will according to Kuczynski?
+
+=== CAUSATION POSITIONS ===
+
+406. What is Kuczynski's view on the nature of causal connections?
+407. How does Kuczynski distinguish causation from correlation?
+408. What is the relationship between causation and explanation?
+409. How does Kuczynski's view differ from Humean regularity theories?
+410. What role do counterfactuals play in Kuczynski's account of causation?
+
+=== KNOWLEDGE POSITIONS ===
+
+411. What is the relationship between knowledge and justification?
+412. How does Kuczynski respond to Gettier problems?
+413. What is Kuczynski's view on the relationship between knowledge and belief?
+414. How does Kuczynski analyze the concept of evidence?
+415. What is the relationship between perception and knowledge?
+
+=== PHILOSOPHY OF SCIENCE POSITIONS ===
+
+416. What is Kuczynski's view on the nature of scientific theories?
+417. How does Kuczynski understand scientific explanation?
+418. What is the relationship between theory and observation?
+419. What is Kuczynski's view on theoretical entities?
+420. How does Kuczynski understand the progress of science?
+
+================================================================================
+PART VI: LOGICAL AND MATHEMATICAL TOPICS
+================================================================================
+
+=== FORMALIZATION ===
+
+421. What does it mean to formalize a body of truths?
+422. Why is formal truth different from material truth?
+423. What is an open-sentence?
+424. What does it mean for an open-sentence to be true under an interpretation?
+425. What would it take to formalize arithmetic?
+
+=== MODELS AND INTERPRETATIONS ===
+
+426. What is a model in mathematical logic?
+427. What is an interpretation of an axiom system?
+428. How do models relate to formal truth?
+429. Why is it significant when an open-sentence has both true and false instances?
+430. What is the relationship between variables and constants in formal systems?
+
+=== GÖDEL'S INCOMPLETENESS ===
+
+431. What does it mean for a formal system to be inconsistent?
+432. What does it mean for a formal system to be incomplete?
+433. Why can't arithmetic be formalized?
+434. What philosophical implications does incompleteness have?
+435. How does incompleteness relate to the limits of formal methods?
+
+=== AXIOM SYSTEMS ===
+
+436. What is the purpose of an axiom system?
+437. How did the re-examination of Euclid's axioms change our understanding of geometry?
+438. Why are Euclid's axioms really open-sentences?
+439. What happens when we give non-standard interpretations to geometric terms?
+440. What is the relationship between axioms and the truths they are supposed to ground?
+
+=== ANALYTIC TRUTH ===
+
+441. What is an analytic truth?
+442. How does analytic truth differ from formal truth?
+443. Can an analytic truth fail to be formally true?
+444. What is the relationship between analyticity and meaning?
+445. How does Kuczynski's view of analyticity differ from Quine's?
+
+=== LOGICAL TRUTH ===
+
+446. What is a logical truth?
+447. How do logical truths relate to linguistic conventions?
+448. Why aren't logical truths merely conventional?
+449. What is the scope of logical truth?
+450. How do we know logical truths?
+
+=== QUANTIFICATION ===
+
+451. What are quantified generalizations?
+452. How does "some person smokes" analyze in terms of classes?
+453. How does "no giraffes fly" analyze in terms of classes?
+454. How does "all mice read Tolstoy" analyze in terms of classes?
+455. Why is quantification important for understanding logical form?
+
+=== REFERENCE AND MEANING ===
+
+456. What is the relationship between reference and meaning?
+457. Can two expressions have the same reference but different meanings?
+458. How does Frege's analysis of "nobody" relate to questions about reference?
+459. What is the difference between referring expressions and quantifier expressions?
+460. How does the concept of reference relate to Platonism?
+
+================================================================================
+PART VII: PHILOSOPHY OF LANGUAGE
+================================================================================
+
+=== SENTENCE STRUCTURE ===
+
+461. What is grammatical form?
+462. What is logical form?
+463. Why do grammatical and logical form sometimes diverge?
+464. How does Frege's insight about form relate to the analysis of "nobody"?
+465. What philosophical errors result from conflating grammatical and logical form?
+
+=== SYNTAX AND SEMANTICS ===
+
+466. What is syntax?
+467. What is semantics?
+468. How do syntactic rules differ from semantic rules?
+469. Why did Wittgenstein's early view focus on syntax?
+470. Why is the focus on syntax inadequate for solving philosophical problems?
+
+=== MEANING AND CONVENTION ===
+
+471. What is the conventional component of linguistic meaning?
+472. What is the non-conventional component?
+473. How do semantic conventions determine sentence meaning?
+474. Why isn't meaning entirely conventional?
+475. What is the relationship between conventions and the truths expressed?
+
+=== PROPOSITIONS AND SENTENCES ===
+
+476. How does a sentence "encode" a proposition?
+477. Why are propositions not human creations though sentences are?
+478. What is the difference between sentence-truth and proposition-truth?
+479. How does analyzing a sentence differ from analyzing a proposition?
+480. Why does analyzing propositions not require knowledge of any particular language?
+
+=== AMBIGUITY OF "STATEMENT" ===
+
+481. What are the three meanings of "statement"?
+482. How does this ambiguity affect philosophical discussion?
+483. Why did Wittgenstein's rejection of propositions lead to error?
+484. What is the importance of distinguishing sentences, propositions, and speech acts?
+485. How does the ambiguity relate to the sentence/proposition distinction?
+
+=== DIGITAL VS. ANALOG REPRESENTATION ===
+
+486. What makes sentences "digital structures"?
+487. Why do sentences have unique decomposition into discrete parts?
+488. How do pictures differ from sentences in their structure?
+489. Why is the digital nature of language related to its conventional component?
+490. What does this structural difference show about the picture theory?
+
+=== COMPLEX EXPRESSIONS ===
+
+491. How is the meaning of a complex expression determined?
+492. Why must one "figure out" what complex expressions mean?
+493. What is the relationship between convention and composition in meaning?
+494. How do the meanings of parts combine to form the meaning of the whole?
+495. Why can't there be a convention directly assigning meaning to every complex expression?
+
+=== DESCRIPTIVE ACCESS TO MEANING ===
+
+496. What does it mean to know meanings "descriptively"?
+497. How do different descriptions pick out the same referent?
+498. Why can the same sentence convey different propositions to different people?
+499. How does the manner of learning word meanings affect comprehension?
+500. What does this show about the information conveyed by utterances?
+
+================================================================================
+PART VIII: METAPHYSICS OF PROPERTIES
+================================================================================
+
+=== THE ONTOLOGICAL DIVIDE ===
+
+501. What two categories does Kuczynski recognize in his ontology?
+502. Why does everything that exists fall into one of these categories?
+503. What apparently non-property entities turn out to be properties?
+504. How do propositions fit into this ontology?
+505. How do sets fit into this ontology?
+
+=== INSTANTIATION ===
+
+506. What is instantiation?
+507. What is the relationship between a property and its instances?
+508. Can a property exist without instances?
+509. How does Kuczynski argue for uninstantiated properties?
+510. What is the difference between instantiation and identity?
+
+=== PROPERTY IDENTITY ===
+
+511. When are two properties identical?
+512. Why doesn't coextensiveness imply property identity?
+513. What distinguishes identical properties from merely coextensive ones?
+514. How do uninstantiated properties bear on questions of identity?
+515. What role does necessity play in property identity?
+
+=== ABSTRACT OBJECTS ===
+
+516. What makes an object abstract?
+517. Are properties abstract objects?
+518. How do abstract objects differ from concrete objects?
+519. What is the epistemological problem for abstract objects?
+520. How does Kuczynski respond to this problem?
+
+=== UNIVERSALS AND PARTICULARS ===
+
+521. What is a universal?
+522. What is a particular?
+523. How do universals relate to particulars?
+524. Why are universals not reducible to particulars?
+525. What is the relationship between the universal/particular and property/instance distinctions?
+
+=== THE REALITY OF PROPERTIES ===
+
+526. In what sense are properties "real"?
+527. Do properties exist independently of minds?
+528. Do properties exist independently of language?
+529. How does Kuczynski's view differ from nominalism?
+530. How does Kuczynski's view differ from conceptualism?
+
+=== MATHEMATICAL OBJECTS ===
+
+531. What are mathematical objects according to Kuczynski?
+532. How do mathematical objects relate to properties?
+533. Why are mathematical truths not about the spatiotemporal world?
+534. How do we have knowledge of mathematical objects?
+535. What is the relationship between mathematics and logic?
+
+=== POSSIBLE WORLDS ===
+
+536. Does Kuczynski accept possible worlds?
+537. How does Kuczynski's view of counterfactuals avoid commitment to possible worlds?
+538. What is wrong with Lewis's modal realism according to Kuczynski?
+539. How does Kuczynski analyze modal claims?
+540. What is the relationship between properties and possibility?
+
+================================================================================
+PART IX: PHILOSOPHY OF MIND TOPICS
+================================================================================
+
+=== CONSCIOUSNESS AND THE SELF ===
+
+541. What is the relationship between consciousness and the self?
+542. Is consciousness the nucleus of the self?
+543. How does consciousness relate to subpersonal processes?
+544. What cognitive processes are not conscious?
+545. What role does consciousness play in agency?
+
+=== MENTAL CAUSATION ===
+
+546. How do mental states cause behavior?
+547. Is mental causation compatible with physical causation?
+548. What is the relationship between mental and physical descriptions?
+549. How does Kuczynski's view avoid epiphenomenalism?
+550. What role does consciousness play in mental causation?
+
+=== PERCEPTION AND COGNITION ===
+
+551. What is the relationship between perception and cognition?
+552. How does perception involve cognition?
+553. What is the role of concepts in perception?
+554. How does Kuczynski's view differ from pure sense-data theories?
+555. What is the cognitive component of perceptual experience?
+
+=== THOUGHT AND LANGUAGE ===
+
+556. Can there be thought without language?
+557. What kind of thought requires language?
+558. How does linguistic competence enhance cognitive ability?
+559. What is the relationship between symbolic and non-symbolic thought?
+560. How does Kuczynski's view differ from the language of thought hypothesis?
+
+=== RATIONALITY ===
+
+561. What is rationality according to Kuczynski?
+562. How does rationality relate to pattern recognition?
+563. Is rationality reducible to computation?
+564. What is the relationship between rationality and consciousness?
+565. How do rational and non-rational mental processes interact?
+
+=== INTENTIONALITY ===
+
+566. What is intentionality?
+567. How do mental states have content?
+568. What is the relationship between intentionality and propositions?
+569. How does Kuczynski's Platonism affect his view of intentionality?
+570. What is the relationship between intentionality and consciousness?
+
+=== THE UNCONSCIOUS ===
+
+571. What is the unconscious according to Kuczynski?
+572. How does subpersonal thought differ from the Freudian unconscious?
+573. What cognitive processes are unconscious?
+574. How do unconscious processes affect conscious experience?
+575. What is the relationship between unconscious and conscious thought?
+
+=== AGENCY ===
+
+576. What is the nature of agency?
+577. How does Libet's experiment affect our understanding of agency?
+578. What role does consciousness play in agency?
+579. What is the relationship between agency and causation?
+580. How does Kuczynski's view of agency differ from libertarian views?
+
+================================================================================
+PART X: EPISTEMOLOGY
+================================================================================
+
+=== A PRIORI KNOWLEDGE ===
+
+581. What is a priori knowledge?
+582. How is a priori knowledge possible?
+583. What examples of a priori knowledge does Kuczynski recognize?
+584. How does a priori knowledge relate to empirical knowledge?
+585. Why can't empiricism account for a priori knowledge?
+
+=== THE ROLE OF SENSE PERCEPTION ===
+
+586. What role does sense perception play in knowledge?
+587. What are the limits of perceptual knowledge?
+588. How does perception give access to the external world?
+589. What is the "veil of perception" and how does it limit knowledge?
+590. How does Kuczynski avoid perceptual skepticism?
+
+=== JUSTIFICATION ===
+
+591. What is epistemic justification?
+592. What role does causation play in justification?
+593. How do a priori and empirical justification differ?
+594. What is the relationship between justification and truth?
+595. How does Kuczynski's view differ from foundationalism?
+
+=== THE LIMITS OF KNOWLEDGE ===
+
+596. What are the limits of self-knowledge?
+597. Why can't we have complete knowledge of the future?
+598. What is the epistemological significance of the observer effect?
+599. What is knowable in principle vs. knowable in practice?
+600. How does Kuczynski balance fallibilism with the possibility of knowledge?
+
+================================================================================
+PART XI: TRUE/FALSE QUESTIONS (from exercises)
+================================================================================
+
+601. T/F: A logical positivist would be sympathetic to Lewis's possible worlds view of counterfactuals.
+602. T/F: A logical positivist would regard "anything half the height of something six feet tall is three feet tall" as holding in virtue of linguistic conventions.
+603. T/F: A logical positivist would regard the statement about height as a tautology.
+604. T/F: A logical positivist would regard Lewis's analysis of counterfactuals as meaningful.
+605. T/F: A logical positivist would regard the possible worlds analysis as meaningless.
+606. T/F: A logical positivist would regard the height statement as meaningful but trivial.
+607. T/F: One problem with falsificationism is that some "some x's are y's" statements are meaningful but unfalsifiable.
+608. T/F: One problem with falsificationism is that some "some x's are y's" statements are meaningful but verifiable.
+609. T/F: "Smith is a penguin" entails "Smith is not a person."
+610. T/F: "Smith is a person" entails "Smith is literate."
+
+611. T/F: "Smith is a monarch" entails "Smith is literate."
+612. T/F: "Smith is a supreme court justice" entails "Smith is not a complete moron."
+613. T/F: Our knowledge that "anything with beliefs has mental states" is analytic knowledge.
+614. T/F: The fact that zero equals zero is easily verified through experimentation.
+615. T/F: Platonism is compatible with the theory of evolution.
+616. T/F: Word-types are properties.
+617. T/F: Scattered objects are non-spatiotemporal.
+618. T/F: Identifying properties with sets concedes Platonism.
+619. T/F: The Third Man Argument successfully refutes the claim that properties must resemble their instances.
+620. T/F: There are uninstantiated but existent properties.
+
+=== WHICH STATEMENT QUESTIONS ===
+
+621. Which statement(s) express a rationalist epistemology?
+622. Which statement(s) about Platonism are correct?
+623. Which property/properties are never had by ordinary objects but may be had by scattered objects?
+624. Which statement(s) partially explain why conventionalism in logic failed?
+625. Which statement(s) provide partial justification for Platonism?
+
+================================================================================
+PART XII: DEFINITION AND ANALYSIS QUESTIONS
+================================================================================
+
+=== DEFINE/EXPLAIN ===
+
+626. Define: property
+627. Define: property-instance
+628. Define: higher-order property
+629. Define: first-order property
+630. Define: Platonism (theory of universals)
+
+631. Define: nominalism/anti-Platonism
+632. Define: proposition
+633. Define: analytic truth
+634. Define: formal truth
+635. Define: tautology
+
+636. Define: open-sentence
+637. Define: interpretation (of a formal system)
+638. Define: model (in logic)
+639. Define: coextensive properties
+640. Define: instantiation
+
+641. Define: subpersonal thought
+642. Define: access-consciousness
+643. Define: consciousness-constitutive
+644. Define: readiness potential (RP)
+645. Define: W (Libet)
+
+646. Define: determinism
+647. Define: indeterminism
+648. Define: compatibilism (about free will)
+649. Define: empiricism
+650. Define: logical positivism
+
+=== EXPLAIN THE DIFFERENCE ===
+
+651. Explain the difference between grammatical form and logical form.
+652. Explain the difference between a sentence and a proposition.
+653. Explain the difference between a tautology and an analytic truth.
+654. Explain the difference between formal truth and material truth.
+655. Explain the difference between properties and sets of their instances.
+
+656. Explain the difference between word-types and word-tokens.
+657. Explain the difference between knowledge and meta-knowledge.
+658. Explain the difference between scientific and philosophical puzzles.
+659. Explain the difference between linguistic and propositional analysis.
+660. Explain the difference between conscious and subpersonal thought.
+
+661. Explain the difference between determinism and predictability.
+662. Explain the difference between perception and reality.
+663. Explain the difference between images and concepts.
+664. Explain the difference between causal and constitutive relations.
+665. Explain the difference between meaning and use.
+
+================================================================================
+PART XIII: ARGUMENT RECONSTRUCTION
+================================================================================
+
+=== RECONSTRUCT THE ARGUMENT ===
+
+666. Reconstruct Kuczynski's argument that properties are not in space-time.
+667. Reconstruct Kuczynski's argument that uninstantiated properties exist.
+668. Reconstruct Kuczynski's argument against identifying properties with aggregates of instances.
+669. Reconstruct Kuczynski's argument that words are universals.
+670. Reconstruct Kuczynski's argument that nominalism is incoherent.
+
+671. Reconstruct Kuczynski's argument that not all philosophical analysis is linguistic analysis.
+672. Reconstruct Kuczynski's argument against the picture theory of meaning.
+673. Reconstruct Kuczynski's argument that meaning is not use.
+674. Reconstruct Kuczynski's argument against the logical positivist criterion of meaningfulness.
+675. Reconstruct Kuczynski's argument that propositions are properties.
+
+676. Reconstruct Kuczynski's argument that Euclid's axioms are statement-forms.
+677. Reconstruct Kuczynski's argument that arithmetic cannot be formalized.
+678. Reconstruct Kuczynski's argument against Lewis's possible worlds analysis of counterfactuals.
+679. Reconstruct Kuczynski's argument against the causal theory of knowledge for mathematical facts.
+680. Reconstruct Kuczynski's critique of philosophers' responses to Libet.
+
+681. Reconstruct Kuczynski's argument that Laplace's demon is logically impossible.
+682. Reconstruct Kuczynski's argument that a deterministic universe is not completely predictable.
+683. Reconstruct Kuczynski's argument against the "infallible self-predictor."
+684. Reconstruct Kuczynski's argument that knowledge requires causal connection.
+685. Reconstruct Kuczynski's argument against Berkeley's conflation of images and concepts.
+
+================================================================================
+PART XIV: APPLICATION AND EXTENSION
+================================================================================
+
+=== APPLY THE CONCEPTS ===
+
+686. Apply Frege's analysis to: "Something is rotten in the state of Denmark."
+687. Apply Frege's analysis to: "Nobody knows the trouble I've seen."
+688. Apply Kuczynski's property analysis to: "Courage is a virtue."
+689. Apply Kuczynski's analysis to: "The property of being red is a color property."
+690. Apply Kuczynski's counterfactual analysis to: "If I had studied harder, I would have passed."
+
+691. Apply the proposition-as-property thesis to: "Snow is white."
+692. Apply the instantiation-as-truth thesis to: "Some dogs bark."
+693. Apply the open-sentence analysis to: "x is greater than y."
+694. Apply the formal truth criterion to: "All bachelors are unmarried."
+695. Apply Kuczynski's analysis of determinism to weather prediction.
+
+696. Apply Kuczynski's analysis of perception to scientific observation.
+697. Apply the subpersonal thought concept to language comprehension.
+698. Apply Kuczynski's critique of empiricism to psychology.
+699. Apply Kuczynski's free will analysis to criminal responsibility.
+700. Apply the self-prediction paradox to economic forecasting.
+
+=== EXTEND THE ANALYSIS ===
+
+701. How would Kuczynski analyze: "The average American has 2.3 children"?
+702. How would Kuczynski analyze fictional entities?
+703. How would Kuczynski analyze negative existential claims?
+704. How would Kuczynski analyze claims about infinity?
+705. How would Kuczynski analyze color predicates?
+
+706. How would Kuczynski's view handle the Liar Paradox?
+707. How would Kuczynski's view handle Zeno's paradoxes?
+708. How would Kuczynski's view handle the Ship of Theseus?
+709. How would Kuczynski's view handle personal identity?
+710. How would Kuczynski's view handle abstract art?
+
+================================================================================
+PART XV: COMPARISON QUESTIONS
+================================================================================
+
+=== COMPARE AND CONTRAST ===
+
+711. Compare Kuczynski's Platonism with Plato's original theory.
+712. Compare Kuczynski's view of propositions with the structured propositions view.
+713. Compare Kuczynski's view with Armstrong's immanent realism.
+714. Compare Kuczynski's epistemology with classical empiricism.
+715. Compare Kuczynski's view of language with Wittgenstein's early view.
+
+716. Compare Kuczynski's view of language with Wittgenstein's later view.
+717. Compare Kuczynski's view of free will with libertarianism.
+718. Compare Kuczynski's view of free will with hard determinism.
+719. Compare Kuczynski's view of causation with Hume's view.
+720. Compare Kuczynski's view of logical truth with conventionalism.
+
+721. Compare Kuczynski's analysis of counterfactuals with Lewis's.
+722. Compare Kuczynski's view of perception with naive realism.
+723. Compare Kuczynski's view of perception with sense-data theory.
+724. Compare Kuczynski's critique of empiricism with Chomsky's.
+725. Compare Kuczynski's view of the unconscious with Freud's.
+
+=== WOULD KUCZYNSKI AGREE? ===
+
+726. Would Kuczynski agree that "existence is not a predicate"?
+727. Would Kuczynski agree that mathematics is reducible to logic?
+728. Would Kuczynski agree that all truths are either analytic or empirical?
+729. Would Kuczynski agree that mental states are brain states?
+730. Would Kuczynski agree that free will is an illusion?
+
+731. Would Kuczynski agree that meaning is determined by truth conditions?
+732. Would Kuczynski agree that there are synthetic a priori truths?
+733. Would Kuczynski agree that perception is theory-laden?
+734. Would Kuczynski agree that self-knowledge is infallible?
+735. Would Kuczynski agree that scientific progress is cumulative?
+
+================================================================================
+PART XVI: CRITICAL EVALUATION
+================================================================================
+
+=== OBJECTIONS AND RESPONSES ===
+
+736. What is the main objection to Platonism and how might Kuczynski respond?
+737. What is the epistemological objection to abstract objects and how might Kuczynski respond?
+738. What is the parsimony objection to Platonism and how might Kuczynski respond?
+739. How might a nominalist respond to Kuczynski's arguments?
+740. How might an empiricist respond to Kuczynski's critique?
+
+741. How might a Wittgensteinian respond to Kuczynski's critique of "meaning is use"?
+742. How might a possible worlds theorist respond to Kuczynski's critique?
+743. How might a compatibilist respond to Kuczynski's analysis of Libet?
+744. How might a libertarian about free will respond to Kuczynski?
+745. How might a physicalist respond to Kuczynski's view of mental causation?
+
+=== EVALUATE THE ARGUMENTS ===
+
+746. Evaluate Kuczynski's argument that properties are not identical with aggregates.
+747. Evaluate Kuczynski's argument that propositions are properties.
+748. Evaluate Kuczynski's argument against the picture theory.
+749. Evaluate Kuczynski's argument against logical positivism.
+750. Evaluate Kuczynski's argument that arithmetic cannot be formalized.
+
+751. Evaluate Kuczynski's critique of Lewis's possible worlds analysis.
+752. Evaluate Kuczynski's argument about the limits of predictability.
+753. Evaluate Kuczynski's interpretation of Libet's experiment.
+754. Evaluate Kuczynski's critique of empiricism.
+755. Evaluate Kuczynski's distinction between philosophical and scientific puzzles.
+
+================================================================================
+PART XVII: EXERCISES FROM THE TEXTS
+================================================================================
+
+=== PRODUCE EXAMPLES ===
+
+756. Produce a sentence whose logical form diverges from its grammatical form.
+757. Identify a philosophical puzzle that has nothing to do with language.
+758. Identify a puzzle that should be solved through statement-analysis but that a non-Fregean would solve by ontologizing.
+759. Identify four properties of which no human being is an instance.
+760. Identify four properties of properties of which no human being is an instance.
+
+761. Give an example of a false existence-claim.
+762. Identify five properties that do not have themselves.
+763. Identify two second-order properties that do have themselves.
+764. Identify three statements entailed by "Bill has four cars, none operational."
+765. Identify three statements whose negations are entailed by "Bill has four cars, two operational."
+
+766. Give five examples of uninstantiated relations.
+767. Give five examples of relations that aren't instantiated but could be.
+768. Identify two properties had by Kermit the Frog that have themselves.
+769. Give an example of an accidentally coextensive pair of properties.
+770. Give an example of a necessarily coextensive pair of distinct properties.
+
+=== SHORT ANSWER ===
+
+771. Say why Platonism is, or is not, compatible with evolution (two sentences).
+772. Explain why word-types being properties undermines nominalism.
+773. Is the property of being identical with Kuczynski in space or time?
+774. What does the Third Man Argument successfully refute?
+775. Briefly defend whether identifying properties with sets concedes Platonism.
+
+================================================================================
+PART XVIII: ADVANCED TOPICS
+================================================================================
+
+=== FORMAL LOGIC APPLICATIONS ===
+
+776. How does Kuczynski's view of properties affect the interpretation of predicate logic?
+777. What is the relationship between Kuczynski's view and second-order logic?
+778. How does the property/set distinction affect set-theoretic foundations?
+779. What are the implications of incompleteness for Kuczynski's philosophy?
+780. How does Kuczynski understand the logical constants?
+
+781. What is Kuczynski's view on the scope of logic?
+782. How does Kuczynski understand modal logic?
+783. What is Kuczynski's view on the logic of counterfactuals?
+784. How does Kuczynski understand quantification over properties?
+785. What is Kuczynski's view on higher-order quantification?
+
+=== PHILOSOPHY OF MATHEMATICS ===
+
+786. Is Kuczynski a Platonist about mathematical objects?
+787. How does Kuczynski understand mathematical truth?
+788. What is Kuczynski's view on the applicability of mathematics?
+789. How does Kuczynski understand mathematical proof?
+790. What is Kuczynski's view on mathematical intuition?
+
+=== PHILOSOPHY OF SCIENCE ===
+
+791. What is Kuczynski's view on the nature of scientific laws?
+792. How does Kuczynski understand the role of mathematics in science?
+793. What is Kuczynski's view on scientific realism?
+794. How does Kuczynski understand theoretical terms?
+795. What is Kuczynski's view on scientific explanation?
+
+=== COGNITIVE SCIENCE ===
+
+796. How does Kuczynski's view relate to contemporary cognitive science?
+797. What is Kuczynski's view on the computational theory of mind?
+798. How does Kuczynski understand mental representation?
+799. What is Kuczynski's view on connectionism?
+800. How does Kuczynski understand the architecture of cognition?
+
+================================================================================
+PART XIX: CONNECTIONS AND IMPLICATIONS
+================================================================================
+
+=== SYSTEMATIC CONNECTIONS ===
+
+801. How does Kuczynski's Platonism connect to his epistemology?
+802. How does Kuczynski's view of propositions connect to his philosophy of mind?
+803. How does Kuczynski's critique of empiricism connect to his view of logic?
+804. How does Kuczynski's analysis of Libet connect to his view of causation?
+805. How does Kuczynski's view of language connect to his Platonism?
+
+806. How does Kuczynski's view of determinism connect to his view of knowledge?
+807. How does Kuczynski's view of perception connect to his critique of empiricism?
+808. How does Kuczynski's view of the self connect to his view of agency?
+809. How does Kuczynski's view of meaning connect to his view of truth?
+810. How does Kuczynski's view of properties connect to his view of sets?
+
+=== IMPLICATIONS ===
+
+811. What are the implications of Kuczynski's Platonism for philosophy of mathematics?
+812. What are the implications of Kuczynski's view for philosophy of language?
+813. What are the implications of Kuczynski's critique of empiricism for psychology?
+814. What are the implications of Kuczynski's analysis for the free will debate?
+815. What are the implications of Kuczynski's view for the philosophy of science?
+
+816. What are the implications of Kuczynski's view for ethics?
+817. What are the implications of Kuczynski's view for philosophy of law?
+818. What are the implications of Kuczynski's view for philosophy of religion?
+819. What are the implications of Kuczynski's view for metaphysics?
+820. What are the implications of Kuczynski's view for logic?
+
+================================================================================
+PART XX: METHODOLOGY AND APPROACH
+================================================================================
+
+=== PHILOSOPHICAL METHOD ===
+
+821. What is Kuczynski's philosophical method?
+822. How does Kuczynski use examples in his arguments?
+823. What role do thought experiments play in Kuczynski's work?
+824. How does Kuczynski use formal analysis?
+825. What is Kuczynski's attitude toward common sense?
+
+826. How does Kuczynski handle apparent paradoxes?
+827. What is Kuczynski's attitude toward contemporary academic philosophy?
+828. How does Kuczynski use the history of philosophy?
+829. What is Kuczynski's attitude toward empirical science?
+830. How does Kuczynski balance rigor with accessibility?
+
+=== DISTINCTIVE FEATURES ===
+
+831. What makes Kuczynski's approach to Platonism distinctive?
+832. What makes Kuczynski's critique of empiricism distinctive?
+833. What makes Kuczynski's approach to free will distinctive?
+834. What makes Kuczynski's philosophy of language distinctive?
+835. What makes Kuczynski's approach to formal methods distinctive?
+
+================================================================================
+PART XXI: SPECIFIC TEXTUAL QUESTIONS
+================================================================================
+
+=== FROM CHAPTER 1 (ANALYTIC PHILOSOPHY) ===
+
+836. What categories does Kuczynski list in section 1.0?
+837. What is the metaphor of the motorist, engineer, physicist, and philosopher meant to illustrate?
+838. How does Kuczynski interpret Dummett's claim about analytic philosophy?
+839. What is the significance of the SC/SC* analysis?
+840. Why does Kuczynski distinguish JK disputes from "nobody" disputes?
+
+841. What is Kuczynski's critique of Wittgenstein's Tractatus?
+842. What is Kuczynski's critique of Wittgenstein's Philosophical Investigations?
+843. How does Kuczynski analyze the yard/foot example?
+844. What is Kuczynski's alternative to the logical positivist criterion?
+845. How does Kuczynski critique the picture theory of meaning?
+
+=== FROM CHAPTER 2 (PROPERTIES) ===
+
+846. What is the Max/harpsichord player example meant to show?
+847. Why does Kuczynski say logic is property-based, not set-based?
+848. How does Kuczynski analyze "squareness is a form of rectangularity"?
+849. What is the significance of the "for that very reason" locution?
+850. How does Kuczynski respond to the Third Man Argument?
+
+=== FROM LIBET PAPER ===
+
+851. What is Kuczynski's interpretation of the RP-W gap?
+852. Why does Kuczynski criticize Mele's response to Libet?
+853. Why does Kuczynski criticize Roskies's response?
+854. What is Kuczynski's "tentative model" of conscious agency?
+855. Why does Kuczynski say Libet was a "missed opportunity" for philosophy?
+
+=== FROM EMPIRICISM BOOK ===
+
+856. What is the structure of Kuczynski's critique of empiricism?
+857. How does Kuczynski understand subpersonal thought?
+858. What is Kuczynski's critique of Berkeley?
+859. How does Kuczynski relate language and thought?
+860. What does the Mach example illustrate?
+
+================================================================================
+PART XXII: INTEGRATIVE QUESTIONS
+================================================================================
+
+861. How does Kuczynski's philosophy form a coherent system?
+862. What are the central commitments that unify Kuczynski's work?
+863. How does Kuczynski's rationalist epistemology support his Platonism?
+864. How does Kuczynski's philosophy of language support his metaphysics?
+865. How does Kuczynski's critique of empiricism support his psychology?
+
+866. What would Kuczynski say to a thoroughgoing naturalist?
+867. What would Kuczynski say to a linguistic conventionalist?
+868. What would Kuczynski say to a possible worlds theorist?
+869. What would Kuczynski say to a computational theory of mind advocate?
+870. What would Kuczynski say to a scientific reductionist?
+
+871. How does Kuczynski balance respect for science with critique of scientism?
+872. How does Kuczynski balance formal rigor with substantive philosophy?
+873. How does Kuczynski balance historical awareness with original thinking?
+874. How does Kuczynski balance technical philosophy with accessibility?
+875. How does Kuczynski balance systematic ambition with attention to detail?
+
+================================================================================
+PART XXIII: PEDAGOGICAL QUESTIONS
+================================================================================
+
+=== EXPLAIN TO A STUDENT ===
+
+876. Explain to a student why "nothing" isn't a referring expression.
+877. Explain to a student why properties aren't in space-time.
+878. Explain to a student why propositions are properties.
+879. Explain to a student why the picture theory fails.
+880. Explain to a student why Euclid's axioms are statement-forms.
+
+881. Explain to a student why arithmetic can't be formalized.
+882. Explain to a student why Laplace's demon is impossible.
+883. Explain to a student why meaning isn't use.
+884. Explain to a student why the logical positivist criterion fails.
+885. Explain to a student what Libet's experiment shows.
+
+=== WHY DOES THIS MATTER? ===
+
+886. Why does the logical/grammatical form distinction matter?
+887. Why does the existence of abstract objects matter?
+888. Why does the sentence/proposition distinction matter?
+889. Why does the critique of empiricism matter?
+890. Why does the Libet interpretation matter?
+
+891. Why does the limits of predictability matter?
+892. Why does the subpersonal/conscious distinction matter?
+893. Why does the property/set distinction matter?
+894. Why does the failure of formalization matter?
+895. Why does the critique of the picture theory matter?
+
+================================================================================
+PART XXIV: FINAL COMPREHENSIVE QUESTIONS
+================================================================================
+
+896. What is the most important insight in Kuczynski's philosophy of language?
+897. What is the most important insight in Kuczynski's metaphysics?
+898. What is the most important insight in Kuczynski's epistemology?
+899. What is the most important insight in Kuczynski's philosophy of mind?
+900. What is the most important insight in Kuczynski's philosophy of logic?
+
+901. What is the weakest point in Kuczynski's philosophy of language?
+902. What is the weakest point in Kuczynski's metaphysics?
+903. What is the weakest point in Kuczynski's epistemology?
+904. What is the weakest point in Kuczynski's philosophy of mind?
+905. What is the weakest point in Kuczynski's philosophy of logic?
+
+906. What future developments would strengthen Kuczynski's system?
+907. What empirical discoveries could affect Kuczynski's views?
+908. What formal developments could affect Kuczynski's views?
+909. How might Kuczynski's views develop or change?
+910. What are the most promising directions for extending Kuczynski's work?
+
+================================================================================
+PART XXV: SPECIFIC DOCTRINES
+================================================================================
+
+=== STATE KUCZYNSKI'S POSITION ON: ===
+
+911. The nature of philosophy
+912. The relationship between philosophy and science
+913. The relationship between logic and language
+914. The nature of meaning
+915. The nature of truth
+
+916. The nature of properties
+917. The existence of abstract objects
+918. The nature of propositions
+919. The relationship between language and thought
+920. The nature of consciousness
+
+921. The nature of the self
+922. The relationship between mind and body
+923. The nature of causation
+924. The nature of perception
+925. The limits of knowledge
+
+926. The relationship between determinism and free will
+927. The nature of agency
+928. The significance of Libet's experiment
+929. The failure of empiricism
+930. The failure of logical positivism
+
+=== KUCZYNSKI WOULD SAY THAT: ===
+
+931. Philosophy is fundamentally different from science because...
+932. Frege's key insight was...
+933. Wittgenstein was wrong because...
+934. Empiricism fails because...
+935. Properties must be non-spatiotemporal because...
+
+936. Propositions are properties because...
+937. The picture theory fails because...
+938. Meaning cannot be use because...
+939. Logical positivism fails because...
+940. Euclid's axioms are statement-forms because...
+
+941. Arithmetic cannot be formalized because...
+942. Counterfactuals don't require possible worlds because...
+943. Mathematical knowledge is not causal because...
+944. Libet's experiment is significant because...
+945. Determinism doesn't imply predictability because...
+
+946. Subpersonal thought exists because...
+947. The self is not the same as the mind because...
+948. Perception has limits because...
+949. Self-prediction is impossible because...
+950. Berkeley confused images with concepts because...
+
+================================================================================
+PART XXVI: QUOTATION ANALYSIS
+================================================================================
+
+=== EXPLAIN THESE KUCZYNSKI CLAIMS ===
+
+951. "Philosophy is the discipline that delineates the structures of the categories in terms of which we think about the world."
+952. "Philosophical knowledge is metaknowledge—knowledge about knowledge."
+953. "The philosopher is interested in the laws governing the laws."
+954. "Not everything that exists is in space-time."
+955. "Properties themselves have properties."
+
+956. "Nominalism is incoherent because words are themselves universals."
+957. "Propositions are properties and truth is instantiatedness."
+958. "Philosophical puzzles result not from ignorance but from confusion."
+959. "Not all philosophical analysis is linguistic analysis."
+960. "The picture theory is false if taken literally and empty if taken non-literally."
+
+961. "Sentences are digital structures."
+962. "Tautologousness is a property of information, not of sentences."
+963. "Euclid's axioms are statement-forms, not statements."
+964. "Arithmetical truth cannot be formalized."
+965. "A deterministic universe is not knowable in its entirety by any internal observer."
+
+966. "Laplace's demon is logically impossible, not just physically impossible."
+967. "Self-understanding isn't the mind's primary function."
+968. "W is clearly not the cause of the finger-movement."
+969. "Randomness is in the relationship between the event and an information set, not in the event."
+970. "The infallible self-predictor is a logically incoherent concept."
+
+================================================================================
+PART XXVII: SYNTHESIS QUESTIONS
+================================================================================
+
+971. Synthesize Kuczynski's views on language, logic, and metaphysics.
+972. Synthesize Kuczynski's views on knowledge, perception, and reality.
+973. Synthesize Kuczynski's views on mind, consciousness, and agency.
+974. Synthesize Kuczynski's views on determinism, prediction, and freedom.
+975. Synthesize Kuczynski's critiques of empiricism, positivism, and Wittgenstein.
+
+976. How do Kuczynski's negative critiques support his positive views?
+977. How does Kuczynski's metaphysics support his epistemology?
+978. How does Kuczynski's philosophy of language support his philosophy of mind?
+979. How does Kuczynski's analysis of formal systems support his view of knowledge?
+980. How does Kuczynski's Platonism support his critique of empiricism?
+
+================================================================================
+PART XXVIII: ORIGINAL THINKING QUESTIONS
+================================================================================
+
+981. What question would you most want to ask Kuczynski?
+982. What is the most controversial claim in Kuczynski's system?
+983. What claim of Kuczynski's do you find most compelling?
+984. What claim of Kuczynski's do you find least compelling?
+985. How would you extend or develop Kuczynski's system?
+
+986. What objection to Kuczynski's Platonism do you find most serious?
+987. What objection to Kuczynski's critique of empiricism do you find most serious?
+988. What objection to Kuczynski's analysis of Libet do you find most serious?
+989. What objection to Kuczynski's philosophy of language do you find most serious?
+990. What aspect of Kuczynski's system needs most development?
+
+================================================================================
+PART XXIX: FINAL TEN
+================================================================================
+
+991. In one sentence, what is Kuczynski's fundamental philosophical commitment?
+992. In one paragraph, summarize Kuczynski's philosophy.
+993. What distinguishes Kuczynski's approach from mainstream analytic philosophy?
+994. What distinguishes Kuczynski's approach from continental philosophy?
+995. What is Kuczynski's most original contribution to philosophy?
+
+996. What problem is Kuczynski's philosophy best suited to solve?
+997. What limitation is most significant in Kuczynski's system?
+998. What would convince Kuczynski to revise his views?
+999. How would you characterize Kuczynski's philosophical temperament?
+1000. What is the lasting significance of Kuczynski's work?
+
+================================================================================
+END OF 1000 QUESTIONS
+================================================================================

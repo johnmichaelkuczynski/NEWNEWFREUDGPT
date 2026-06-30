@@ -1,0 +1,202 @@
+[
+  {
+    "id": "KUC-PROP-001",
+    "year": 2020,
+    "premise": "proposition|propositional|meaning|semantic content",
+    "conclusion": "A proposition is the property of being identical with a given truth-condition. It is not a sentence, not a mental state, but an abstract object that can be expressed by sentences in different languages.",
+    "strength": 0.95,
+    "domain": "philosophy of language"
+  },
+  {
+    "id": "KUC-PROP-002",
+    "year": 2020,
+    "premise": "composition of proposition|decompos|constituents|structure of proposition",
+    "conclusion": "Propositions decompose into properties and relations. The proposition that Socrates is wise decomposes into the property of being Socrates and the property of being wise, combined by property-instantiation.",
+    "strength": 0.95,
+    "domain": "philosophy of language"
+  },
+  {
+    "id": "KUC-TRUTH-001",
+    "year": 2020,
+    "premise": "truth|true|false|truth-condition",
+    "conclusion": "Truth is the instantiation of a truth-condition. A proposition is true if and only if the property that constitutes it is instantiated.",
+    "strength": 0.90,
+    "domain": "philosophy of language"
+  },
+  {
+    "id": "KUC-REF-001",
+    "year": 2020,
+    "premise": "reference|refer|denote|designation",
+    "conclusion": "Reference is a relation between a linguistic expression and an object. But reference alone does not determine meaning; two expressions can refer to the same object while expressing different propositions.",
+    "strength": 0.85,
+    "domain": "philosophy of language"
+  },
+  {
+    "id": "KUC-APRIORI-001",
+    "year": 2020,
+    "premise": "a priori|priori knowledge|necessary|analytic",
+    "conclusion": "A priori knowledge is knowledge whose justification does not depend on sensory experience. Mathematical and logical truths are paradigm cases of a priori knowledge.",
+    "strength": 0.90,
+    "domain": "epistemology"
+  },
+  {
+    "id": "KUC-APRIORI-002",
+    "year": 2020,
+    "premise": "synthetic a priori|kant|transcendental",
+    "conclusion": "Kant's synthetic a priori remains problematic. If a proposition is genuinely informative (synthetic), it is unclear how it could be known independently of experience.",
+    "strength": 0.85,
+    "domain": "epistemology"
+  },
+  {
+    "id": "KUC-MIND-001",
+    "year": 2020,
+    "premise": "consciousness|conscious|mental state|phenomenal",
+    "conclusion": "Consciousness involves first-order and higher-order states. A conscious experience requires not merely a mental state but awareness of that state.",
+    "strength": 0.85,
+    "domain": "philosophy of mind"
+  },
+  {
+    "id": "KUC-MIND-002",
+    "year": 2020,
+    "premise": "intentional|intentionality|aboutness|represent",
+    "conclusion": "Intentionality is the property of mental states being about or directed toward objects. Beliefs, desires, and perceptions are all intentional states.",
+    "strength": 0.85,
+    "domain": "philosophy of mind"
+  },
+  {
+    "id": "KUC-LOT-001",
+    "year": 2020,
+    "premise": "language of thought|mentalese|fodor|computational",
+    "conclusion": "The Language of Thought hypothesis faces serious objections. If thinking requires a mental language, we face a regress: understanding that language would itself require thinking.",
+    "strength": 0.80,
+    "domain": "philosophy of mind"
+  },
+  {
+    "id": "KUC-EXTERN-001",
+    "year": 2020,
+    "premise": "externalism|content externalism|twin earth|putnam",
+    "conclusion": "Content externalism is false. Mental content is determined by internal states, not by external factors. The Twin Earth thought experiment conflates reference with meaning.",
+    "strength": 0.85,
+    "domain": "philosophy of mind"
+  },
+  {
+    "id": "KUC-RUSSELL-001",
+    "year": 2020,
+    "premise": "russell|definite description|theory of descriptions|the present king",
+    "conclusion": "Russell's Theory of Descriptions is fundamentally flawed. It treats definite descriptions as quantificational rather than referential, leading to incorrect semantic analyses.",
+    "strength": 0.90,
+    "domain": "philosophy of language"
+  },
+  {
+    "id": "KUC-MODAL-001",
+    "year": 2020,
+    "premise": "modal|necessity|possibility|possible world|counterfactual",
+    "conclusion": "Possible world semantics faces serious problems. The notion of a 'possible world' is either too metaphysically loaded or too vague to ground modal claims.",
+    "strength": 0.80,
+    "domain": "metaphysics"
+  },
+  {
+    "id": "KUC-CAUSE-001",
+    "year": 2020,
+    "premise": "cause|causal|causation|effect|determination",
+    "conclusion": "Causation involves a necessary connection between cause and effect. Humean constant conjunction analyses fail to capture the modal force of causal claims.",
+    "strength": 0.85,
+    "domain": "metaphysics"
+  },
+  {
+    "id": "KUC-LOGIC-001",
+    "year": 2020,
+    "premise": "logic|logical|valid|inference|deduction",
+    "conclusion": "Logic is the study of valid inference patterns. A valid argument is one where the truth of the premises guarantees the truth of the conclusion.",
+    "strength": 0.95,
+    "domain": "logic"
+  },
+  {
+    "id": "KUC-GODEL-001",
+    "year": 2020,
+    "premise": "godel|incompleteness|undecidable|arithmetic|consistency",
+    "conclusion": "Gödel's incompleteness theorems show that any consistent formal system capable of expressing arithmetic contains truths that cannot be proven within the system.",
+    "strength": 0.95,
+    "domain": "logic"
+  },
+  {
+    "id": "KUC-SET-001",
+    "year": 2020,
+    "premise": "set|set theory|class|membership|element",
+    "conclusion": "Set theory provides the foundation for mathematics, but faces paradoxes (Russell's paradox) that require careful axiomatic treatment.",
+    "strength": 0.85,
+    "domain": "logic"
+  },
+  {
+    "id": "KUC-QUANT-001",
+    "year": 2020,
+    "premise": "quantifier|universal|existential|all|some|every",
+    "conclusion": "Natural language quantifiers are more complex than classical logic suggests. Expressions like 'most' and 'few' require generalized quantifier theory.",
+    "strength": 0.80,
+    "domain": "philosophy of language"
+  },
+  {
+    "id": "KUC-PARADOX-001",
+    "year": 2020,
+    "premise": "paradox|sorites|vague|heap|bald",
+    "conclusion": "Sorites paradoxes arise from vague predicates. The solution requires recognizing that vagueness is a feature of language, not reality.",
+    "strength": 0.85,
+    "domain": "philosophy of language"
+  },
+  {
+    "id": "KUC-KNOW-001",
+    "year": 2020,
+    "premise": "knowledge|know|justified true belief|gettier",
+    "conclusion": "Knowledge cannot be analyzed as justified true belief. Gettier cases show that one can have justified true belief without knowledge.",
+    "strength": 0.90,
+    "domain": "epistemology"
+  },
+  {
+    "id": "KUC-INDUCT-001",
+    "year": 2020,
+    "premise": "induction|inductive|generalization|hume|problem of induction",
+    "conclusion": "Hume's problem of induction remains unsolved by purely empiricist means. Inductive inference requires a priori principles that cannot themselves be inductively justified.",
+    "strength": 0.85,
+    "domain": "epistemology"
+  },
+  {
+    "id": "KUC-OCD-001",
+    "year": 2020,
+    "premise": "ocd|obsessive|compulsive|bureaucracy|ritual",
+    "conclusion": "OCD exhibits deep structural parallels with bureaucratic thinking. Both involve ritualized procedures, anxiety about deviation, and substitution of form for substance.",
+    "strength": 0.80,
+    "domain": "psychology"
+  },
+  {
+    "id": "KUC-ATTACH-001",
+    "year": 2020,
+    "premise": "attachment|bowlby|secure|anxious|avoidant",
+    "conclusion": "Attachment patterns established in infancy profoundly shape adult relational capacities. Insecure attachment creates characteristic cognitive and emotional distortions.",
+    "strength": 0.80,
+    "domain": "psychology"
+  },
+  {
+    "id": "KUC-PSYCH-001",
+    "year": 2020,
+    "premise": "psychopath|sociopath|antisocial|empathy|conscience",
+    "conclusion": "Psychopathy involves a fundamental deficit in affective empathy, not cognitive empathy. Psychopaths understand others' emotions but do not share them.",
+    "strength": 0.80,
+    "domain": "psychology"
+  },
+  {
+    "id": "KUC-ECON-001",
+    "year": 2020,
+    "premise": "university|higher education|degree|credential|dmo",
+    "conclusion": "Modern universities function primarily as credentialing institutions rather than educational ones. The degree market operates on signaling, not skill acquisition.",
+    "strength": 0.75,
+    "domain": "economics"
+  },
+  {
+    "id": "KUC-CHOMSKY-001",
+    "year": 2020,
+    "premise": "chomsky|generative|grammar|syntax|linguistic",
+    "conclusion": "Chomsky's contribution to philosophy lies in demonstrating the inadequacy of behaviorist accounts of language acquisition. The poverty of the stimulus argument remains powerful.",
+    "strength": 0.85,
+    "domain": "philosophy of language"
+  }
+]

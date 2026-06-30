@@ -1,0 +1,162 @@
+[
+  {
+    "id": "HUME-IMP-001",
+    "year": 1739,
+    "premise": "impression|sense|perception|experience",
+    "conclusion": "All our ideas are derived from impressions. Impressions are the vivid perceptions we have when we see, hear, feel, love, hate, desire, or will. Ideas are the faint images of these in thinking and reasoning.",
+    "strength": 0.95,
+    "domain": "epistemology"
+  },
+  {
+    "id": "HUME-IMP-002",
+    "year": 1739,
+    "premise": "idea|concept|thought|notion",
+    "conclusion": "Every simple idea has a corresponding simple impression from which it is derived. Complex ideas may be formed by combining simple ideas, but all ultimately trace back to impressions.",
+    "strength": 0.95,
+    "domain": "epistemology"
+  },
+  {
+    "id": "HUME-CAUSE-001",
+    "year": 1739,
+    "premise": "cause|causation|causal|effect",
+    "conclusion": "We never perceive any necessary connection between cause and effect. What we call causation is merely constant conjunction: we observe that events of type A are regularly followed by events of type B.",
+    "strength": 0.95,
+    "domain": "causation"
+  },
+  {
+    "id": "HUME-CAUSE-002",
+    "year": 1739,
+    "premise": "necessary connection|power|force|efficacy",
+    "conclusion": "The idea of necessary connection arises not from any impression of the external world but from an internal impression: the felt determination of the mind to pass from cause to effect after repeated experience.",
+    "strength": 0.90,
+    "domain": "causation"
+  },
+  {
+    "id": "HUME-INDUCT-001",
+    "year": 1739,
+    "premise": "induction|inductive|generalization|future|past",
+    "conclusion": "There is no rational justification for inductive inference. That the future will resemble the past cannot be demonstrated by reason, nor can it be established by experience without circularity.",
+    "strength": 0.95,
+    "domain": "epistemology"
+  },
+  {
+    "id": "HUME-CUSTOM-001",
+    "year": 1739,
+    "premise": "custom|habit|repetition|expectation",
+    "conclusion": "Custom or habit is the great guide of human life. It is custom alone which determines us to expect, for the future, a similar train of events to those which have appeared in the past.",
+    "strength": 0.90,
+    "domain": "epistemology"
+  },
+  {
+    "id": "HUME-SELF-001",
+    "year": 1739,
+    "premise": "self|personal identity|identity|soul",
+    "conclusion": "There is no impression of a self or soul. When I enter most intimately into what I call myself, I always stumble on some particular perception. The self is nothing but a bundle of perceptions.",
+    "strength": 0.95,
+    "domain": "personal identity"
+  },
+  {
+    "id": "HUME-SELF-002",
+    "year": 1739,
+    "premise": "bundle|perceptions|stream|consciousness",
+    "conclusion": "The mind is a kind of theatre where perceptions successively make their appearance, pass, repass, glide away, and mingle in infinite variety. There is no simplicity in it at one time, nor identity in different times.",
+    "strength": 0.90,
+    "domain": "personal identity"
+  },
+  {
+    "id": "HUME-REASON-001",
+    "year": 1739,
+    "premise": "reason|passion|motivation|action",
+    "conclusion": "Reason is, and ought only to be, the slave of the passions, and can never pretend to any other office than to serve and obey them. Reason alone can never produce any action or volition.",
+    "strength": 0.95,
+    "domain": "moral psychology"
+  },
+  {
+    "id": "HUME-MORAL-001",
+    "year": 1739,
+    "premise": "moral|virtue|vice|good|evil",
+    "conclusion": "Moral distinctions are not derived from reason but from sentiment. Vice and virtue are not discoverable by reason but by a moral sense that produces feelings of approbation or disapprobation.",
+    "strength": 0.95,
+    "domain": "ethics"
+  },
+  {
+    "id": "HUME-MORAL-002",
+    "year": 1739,
+    "premise": "ought|is|fact|value",
+    "conclusion": "One cannot derive an ought from an is. In every system of morality, the author passes imperceptibly from statements of fact to normative claims, a transition that requires explanation.",
+    "strength": 0.90,
+    "domain": "ethics"
+  },
+  {
+    "id": "HUME-SYMPATH-001",
+    "year": 1739,
+    "premise": "sympathy|fellow feeling|communication|emotion",
+    "conclusion": "Sympathy is the chief source of moral distinctions. We naturally sympathize with others, feeling pleasure at their happiness and pain at their misery, which forms the basis of moral judgment.",
+    "strength": 0.85,
+    "domain": "ethics"
+  },
+  {
+    "id": "HUME-BELIEF-001",
+    "year": 1739,
+    "premise": "belief|conviction|assent|reality",
+    "conclusion": "Belief is nothing but a more vivid and intense conception of an idea. It is a sentiment or feeling that distinguishes the ideas of the judgment from the fictions of the imagination.",
+    "strength": 0.85,
+    "domain": "epistemology"
+  },
+  {
+    "id": "HUME-MIRAC-001",
+    "year": 1748,
+    "premise": "miracle|supernatural|testimony|religion",
+    "conclusion": "No testimony is sufficient to establish a miracle unless its falsehood would be more miraculous than the fact it endeavors to establish. Experience is our only guide in reasoning concerning matters of fact.",
+    "strength": 0.90,
+    "domain": "religion"
+  },
+  {
+    "id": "HUME-RELIG-001",
+    "year": 1757,
+    "premise": "religion|god|deity|design",
+    "conclusion": "The argument from design is inconclusive. Even if we grant that the universe exhibits order, we cannot infer an infinite, perfect creator; at most, a cause proportioned to the effect.",
+    "strength": 0.85,
+    "domain": "religion"
+  },
+  {
+    "id": "HUME-ASSOC-001",
+    "year": 1739,
+    "premise": "association|connect|link|relation",
+    "conclusion": "Ideas are connected by three principles of association: resemblance, contiguity in time or place, and cause and effect. These are the only bonds that unite our thoughts.",
+    "strength": 0.90,
+    "domain": "psychology"
+  },
+  {
+    "id": "HUME-EXTERN-001",
+    "year": 1739,
+    "premise": "external world|existence|object|body",
+    "conclusion": "We cannot rationally justify belief in the continued and independent existence of external objects. Such belief arises from imagination and custom, not from reason or the senses.",
+    "strength": 0.85,
+    "domain": "metaphysics"
+  },
+  {
+    "id": "HUME-ABSTRACT-001",
+    "year": 1739,
+    "premise": "abstract|general|universal|particular",
+    "conclusion": "All general ideas are particular ideas attached to a general term. There are no truly abstract ideas; the mind uses particular images as representatives of a class.",
+    "strength": 0.85,
+    "domain": "philosophy of mind"
+  },
+  {
+    "id": "HUME-LIBERTY-001",
+    "year": 1748,
+    "premise": "liberty|free will|freedom|necessity|determinism",
+    "conclusion": "Liberty and necessity are compatible. Liberty is the power of acting according to the determinations of the will; necessity is the constant conjunction of similar actions with similar motives.",
+    "strength": 0.85,
+    "domain": "metaphysics"
+  },
+  {
+    "id": "HUME-JUSTICE-001",
+    "year": 1739,
+    "premise": "justice|property|convention|society",
+    "conclusion": "Justice is an artificial virtue arising from human conventions. Rules of property and promise-keeping are established because they are useful for maintaining social cooperation.",
+    "strength": 0.85,
+    "domain": "political philosophy"
+  }
+]

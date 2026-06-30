@@ -1,0 +1,162 @@
+[
+  {
+    "id": "NIETZ-WTP-001",
+    "year": 1885,
+    "premise": "will to power|power|strength|force",
+    "conclusion": "The world is will to power—and nothing besides. Every living thing seeks not merely to survive but to expand, to dominate, to discharge its strength. This is the fundamental drive underlying all phenomena.",
+    "strength": 0.95,
+    "domain": "metaphysics"
+  },
+  {
+    "id": "NIETZ-WTP-002",
+    "year": 1885,
+    "premise": "life|living|organism|growth",
+    "conclusion": "Life itself is essentially appropriation, injury, overpowering of what is alien and weaker. Exploitation is not a feature of corrupt society but belongs to the essence of the living as a primary organic function.",
+    "strength": 0.90,
+    "domain": "metaphysics"
+  },
+  {
+    "id": "NIETZ-MASTER-001",
+    "year": 1887,
+    "premise": "master|noble|aristocrat|strong",
+    "conclusion": "Master morality originates in the noble, the powerful, the high-stationed. It affirms life, celebrates strength, and creates values. 'Good' originally meant noble, powerful, beautiful, happy.",
+    "strength": 0.95,
+    "domain": "ethics"
+  },
+  {
+    "id": "NIETZ-SLAVE-001",
+    "year": 1887,
+    "premise": "slave|herd|weak|resentment|ressentiment",
+    "conclusion": "Slave morality originates in ressentiment—the reactive hatred of the weak toward the strong. It inverts values: what the master calls good becomes evil, and weakness is rebranded as virtue.",
+    "strength": 0.95,
+    "domain": "ethics"
+  },
+  {
+    "id": "NIETZ-RESSENT-001",
+    "year": 1887,
+    "premise": "ressentiment|revenge|reactive|hatred",
+    "conclusion": "Ressentiment is the creative force of slave morality. Unable to act, the weak imagine revenge and create moral values that condemn strength and glorify their own impotence as meekness and humility.",
+    "strength": 0.90,
+    "domain": "psychology"
+  },
+  {
+    "id": "NIETZ-GOD-001",
+    "year": 1882,
+    "premise": "god|death of god|atheism|belief",
+    "conclusion": "God is dead. We have killed him—you and I. All of us are his murderers. The death of God means the collapse of the metaphysical world that grounded Western values.",
+    "strength": 0.95,
+    "domain": "religion"
+  },
+  {
+    "id": "NIETZ-NIHIL-001",
+    "year": 1885,
+    "premise": "nihil|meaningless|nothing|void|purpose",
+    "conclusion": "Nihilism stands at the door. The highest values devaluate themselves. The aim is lacking; 'why?' finds no answer. We must confront the abyss and create meaning ourselves.",
+    "strength": 0.90,
+    "domain": "metaphysics"
+  },
+  {
+    "id": "NIETZ-UBER-001",
+    "year": 1883,
+    "premise": "übermensch|overman|superman|higher man",
+    "conclusion": "The Übermensch is the meaning of the earth. Man is something that shall be overcome. What is great in man is that he is a bridge and not an end—a transition to something higher.",
+    "strength": 0.95,
+    "domain": "ethics"
+  },
+  {
+    "id": "NIETZ-SELF-001",
+    "year": 1883,
+    "premise": "self-overcoming|overcome|transcend|surpass",
+    "conclusion": "The highest form of will to power is self-overcoming. One must become who one is by continually surpassing oneself. The strong command themselves before commanding others.",
+    "strength": 0.90,
+    "domain": "ethics"
+  },
+  {
+    "id": "NIETZ-ETERNAL-001",
+    "year": 1882,
+    "premise": "eternal recurrence|eternal return|repeat|again",
+    "conclusion": "What if a demon told you: this life as you now live it, you will have to live once more and innumerable times more? The eternal recurrence is the ultimate test of life-affirmation.",
+    "strength": 0.95,
+    "domain": "metaphysics"
+  },
+  {
+    "id": "NIETZ-PERSP-001",
+    "year": 1886,
+    "premise": "perspective|interpret|truth|viewpoint",
+    "conclusion": "There are no facts, only interpretations. Every view is a perspective, conditioned by the drives and interests of the viewer. What we call truth is merely the most useful error.",
+    "strength": 0.90,
+    "domain": "epistemology"
+  },
+  {
+    "id": "NIETZ-TRUTH-001",
+    "year": 1873,
+    "premise": "truth|lie|metaphor|concept",
+    "conclusion": "Truths are illusions we have forgotten are illusions—worn-out metaphors that have lost their force. Concepts are the residue of metaphors, hardened into fixed categories.",
+    "strength": 0.85,
+    "domain": "epistemology"
+  },
+  {
+    "id": "NIETZ-DION-001",
+    "year": 1872,
+    "premise": "dionysus|dionysian|intoxication|chaos",
+    "conclusion": "The Dionysian represents intoxication, dissolution of individuality, ecstatic union with nature. It is the terrible wisdom of Silenus: that the best is not to be born, the second best to die soon.",
+    "strength": 0.85,
+    "domain": "aesthetics"
+  },
+  {
+    "id": "NIETZ-APOLL-001",
+    "year": 1872,
+    "premise": "apollo|apollonian|dream|form|order",
+    "conclusion": "The Apollonian represents dream, beautiful illusion, and the principium individuationis. It provides form and measure, making existence bearable through art's beautiful surface.",
+    "strength": 0.85,
+    "domain": "aesthetics"
+  },
+  {
+    "id": "NIETZ-TRAGIC-001",
+    "year": 1872,
+    "premise": "tragedy|tragic|art|suffering",
+    "conclusion": "Tragedy is born from the union of Dionysian and Apollonian. It affirms life including its suffering, transforming horror into aesthetic experience. The tragic artist says Yes to life.",
+    "strength": 0.90,
+    "domain": "aesthetics"
+  },
+  {
+    "id": "NIETZ-CHRIST-001",
+    "year": 1888,
+    "premise": "christian|christianity|church|pity",
+    "conclusion": "Christianity is the morality of the weak, born from ressentiment. It glorifies suffering, condemns the body, and turns natural instincts into sins. It is Platonism for the people.",
+    "strength": 0.90,
+    "domain": "religion"
+  },
+  {
+    "id": "NIETZ-PITY-001",
+    "year": 1888,
+    "premise": "pity|compassion|sympathy|suffering",
+    "conclusion": "Pity is a depressive and contagious instinct that thwarts the law of selection. It preserves what should perish, multiplies misery, and weakens those who give it.",
+    "strength": 0.85,
+    "domain": "ethics"
+  },
+  {
+    "id": "NIETZ-FREE-001",
+    "year": 1886,
+    "premise": "free spirit|independence|solitude|herd",
+    "conclusion": "The free spirit stands alone, beyond good and evil, beyond the herd. Independence is for the very few—it is a privilege of the strong who can endure solitude.",
+    "strength": 0.85,
+    "domain": "ethics"
+  },
+  {
+    "id": "NIETZ-BODY-001",
+    "year": 1883,
+    "premise": "body|instinct|physiology|health",
+    "conclusion": "The body is the great reason. Behind your thoughts and feelings stands a mighty ruler, an unknown sage—it is the self that lives in your body. Start from the body and use it as a guide.",
+    "strength": 0.85,
+    "domain": "psychology"
+  },
+  {
+    "id": "NIETZ-VALUE-001",
+    "year": 1886,
+    "premise": "value|revaluation|create|transvaluation",
+    "conclusion": "We need a revaluation of all values. The philosopher of the future will be a creator of values, not a discoverer. Values are not found but made by those strong enough to impose them.",
+    "strength": 0.90,
+    "domain": "ethics"
+  }
+]

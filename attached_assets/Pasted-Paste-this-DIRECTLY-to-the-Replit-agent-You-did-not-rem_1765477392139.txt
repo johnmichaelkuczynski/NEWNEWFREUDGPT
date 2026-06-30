@@ -1,0 +1,46 @@
+Paste this DIRECTLY to the Replit agent:
+
+---
+
+You did **not** remove the dead space under the input/footer. There is **still a vertical margin of empty background at the very bottom of the page** beneath the controls (thinker buttons, sliders, “Consult” button). That space must be **completely eliminated** and its height given to **The Dialogue** panel.
+
+Do the following, exactly:
+
+1. Inspect the layout in devtools and identify:
+
+   * The **top/main content container** that holds “The Dialogue” and “The Archive”.
+   * The **bottom controls/footer container** that holds the thinker buttons, sliders, and input box.
+
+2. Make the overall page a full-height flex column:
+
+   * On the outermost app container (e.g. `body`, `#root`, or `.App`), set:
+
+     * `min-height: 100vh;`
+     * `display: flex;`
+     * `flex-direction: column;`
+     * `margin: 0; padding: 0;` (no bottom margin or padding anywhere on the page).
+
+3. Make the middle dialogue area expand and the footer sit flush at the bottom:
+
+   * On the main content wrapper for “The Dialogue” + “The Archive”, set:
+
+     * `flex: 1 1 auto;`
+     * `overflow: auto;`
+   * On the footer/input area container, set:
+
+     * `flex: 0 0 auto;`
+     * **Remove all** `margin-bottom` and unnecessary `padding-bottom`.
+
+4. Explicitly remove any stray bottom spacing:
+
+   * Search the codebase for any CSS applying `margin-bottom` or `padding-bottom` to:
+
+     * `body`, `html`, `#root`, `.app`, `.footer`, `.controls`, or any similar layout containers.
+   * Set those to `0` or delete them.
+
+5. Verify visually:
+
+   * After changes, the **footer/input bar must touch the bottom edge of the browser window** with **zero visible gap**.
+   * The vertical space freed must clearly show up as **additional height in The Dialogue panel** (larger white/green message area).
+
+Do **not** change horizontal layout, colors, or component ordering. Only fix the vertical sizing so there is **no dead space at the bottom** and the dialogue box is less cramped.

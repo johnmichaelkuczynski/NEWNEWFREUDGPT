@@ -1,0 +1,41 @@
+FreudGPT
+
+FreudGPT is The Thinker's Workshop — a conversational research engine that lets you consult the great thinkers of psychoanalysis and philosophy in their own voices, grounded in their actual writings. Every answer is built from a database of 45,362 indexed philosophical positions and the full source texts behind them: Freud (19,077), ZHI/Kuczynski (17,499), Jung (2,910), Nietzsche (2,838), Bergler (1,924), and Hume (1,114). Nothing is a glib paraphrase — responses quote and closely track the sources, and you watch the exact passages surface live as the thinker answers.
+
+This walkthrough shows the app running live against the real databases.
+
+CHAPTERS
+0:00  Overview — The Thinker's Workshop
+0:15  Turn a statement into an essay (each thinker, in their own voice)
+2:13  Evaluate a statement — each thinker weighs in
+4:03  Interview the thinkers from source excerpts
+5:09  Multi-thinker longform dialogue (coherent, non-repeating)
+5:31  Ask for the exact quotes, arguments, and positions (semantic search)
+6:19  Same question, different answers — vary the creativity/intensity dial
+
+EVERYTHING FREUDGPT CAN DO
+
+1. Philosophical Consultation — Pose any question to one of six thinkers and get a streaming, database-grounded answer. Semantic search retrieves the most relevant positions, expands them with adjacent context, assembles a prompt around the verbatim source material, and streams the reply token by token into The Dialogue panel while the source positions appear in The Archive.
+
+2. Thinker Selection & Profiles — Switch the active corpus between Freud, ZHI (Kuczynski), Jung, Nietzsche, Bergler, and Hume. Each thinker has its own database, writing style, position-count badge, and a knowledge panel of domains and starter questions.
+
+3. Memory Mode (Tractatus Trees) — Project-scoped persistent memory. After each exchange the system builds a Wittgenstein-style numbered knowledge tree (ASSERTS / REJECTS / ASSUMES / OPEN / RESOLVED), carries tiered memory across sessions, archives trees at 500 nodes, and synthesizes a meta-tree every 10 archives. View the tree and download all trees as JSON.
+
+4. Longform Generation — Generate coherent, non-self-repetitive long outputs up to ~50K words as an essay, a multi-voice dialogue, or a numbered lecture. A two-tier coherence skeleton (macro plan → per-section micro plans) plus a persistent state store (claims made, positions cited, examples used, open threads) keeps long pieces on-thread and free of repetition. Sections stream live, the job is resumable, and the result downloads as text.
+
+5. Inference Engine (Forward-Chaining Deduction) — Per-thinker rule engines deduce a reasoning chain (premises → intermediate steps → conclusion) before the prose is written, so answers reflect the thinker's actual logic rather than a summary of it.
+
+6. Content Ingestion — Add new works to the corpus by dropping .txt, .json, .pdf, or .docx files into the watch folder or uploading them in chat. Text is extracted, embedded, and inserted as searchable positions automatically.
+
+7. RAG Over Source Texts — Switch the data mode to RAG to search verbatim chunks of the original works (33,533 text chunks, full-text ranked) for evidence the position database may not contain. Matching passages appear in The Archive with their file and chunk location.
+
+8. Work Reader — Read full philosophical works inside the app, with archive-style typography, straight from the source library.
+
+9. Download / Export — Save sessions, longform documents, and memory trees as .txt or .json from the header, the longform modal, and the tree viewer.
+
+10. System Diagnostic — A built-in 20-check harness verifies the database, schema, per-thinker counts, the longform service, all six AI providers, and the live streaming, CRUD, and SSE flows — confirming the whole stack is healthy end to end.
+
+HOW IT WORKS
+Semantic search over OpenAI embeddings retrieves the most relevant positions, those passages are shown live in The Archive, and the model synthesizes a thesis → reasons → conclusion answer that stays traceable to the sources. Responses stream token by token. Tunable controls — answer length, quote count, creativity/intensity, Standard vs. Dialogue mode, Classic vs. RAG data, and provider/model selection — let the same question yield very different depths and angles.
+
+Built on a faithful-representation principle: present each thinker's actual arguments, examples, and rigor — never simplify, soften, or invent.

@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pythonlibs/
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Flask
+instance/
+.webassets-cache
+
+# Embedding archive (not needed - chunk files tracked in git)
+embeddings.tar.gz
+
+# Large unsplit embedding files (use split _part*.pkl files instead)
+data/hume_embeddings.pkl
+data/jung_embeddings.pkl
+hume_embeddings.pkl
+jung_embeddings.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+/tmp/
+
+# Environment variables
+.env
+.env.local
+embeddings.tar.gz
+*.pkl
+
+# embeddings
+*.pkl
+/data/*.pkl
+
+
+# embeddings
+*.pkl
+/data/*.pkl
+

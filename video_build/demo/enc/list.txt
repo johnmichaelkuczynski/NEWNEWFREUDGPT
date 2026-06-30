@@ -1,0 +1,7 @@
+file '/home/runner/workspace/video_build/demo/enc/01_intro.mp4'
+file '/home/runner/workspace/video_build/demo/enc/02_essays.mp4'
+file '/home/runner/workspace/video_build/demo/enc/03_evaluate.mp4'
+file '/home/runner/workspace/video_build/demo/enc/04_interview.mp4'
+file '/home/runner/workspace/video_build/demo/enc/05_dialogue.mp4'
+file '/home/runner/workspace/video_build/demo/enc/06_quotes.mp4'
+file '/home/runner/workspace/video_build/demo/enc/07_intensity.mp4'

@@ -1,0 +1,259 @@
+{
+  "bergler": {
+    "name": "Edmund Bergler",
+    "emoji": "🧠",
+    "description": "Psychoanalyst known for work on neurosis, masochism, writer's block, and self-destructive behavior",
+    "topics": [
+      {
+        "name": "Writer's Block",
+        "description": "The psychology of creative inhibition and its unconscious roots",
+        "questions": [
+          "Why do some writers suddenly find themselves unable to write even when they desperately want to?",
+          "What role does guilt play in creative inhibition?",
+          "Why do successful writers sometimes become blocked after achieving recognition?",
+          "Is there a connection between the act of writing and unconscious exhibitionism?",
+          "Why do blocked writers often experience their paralysis as coming from 'outside' themselves?",
+          "What is the relationship between a writer's relationship with their mother and their later creative productivity?",
+          "Why do some writers need to suffer before they can produce?",
+          "Can writer's block be cured, and if so, how?",
+          "Why do blocked writers often simultaneously resent and crave editorial criticism?",
+          "What distinguishes temporary creative dry spells from genuine pathological blocking?"
+        ]
+      },
+      {
+        "name": "Healthy Marriages",
+        "description": "Conditions for marital happiness and genuine love",
+        "questions": [
+          "What psychological conditions must be met for a marriage to function well?",
+          "How can one distinguish genuine love from neurotic attachment before marriage?",
+          "What role does realistic expectation play in marital happiness?",
+          "How do two people maintain individuality while achieving genuine intimacy?",
+          "What does healthy sexual adjustment in marriage actually look like?",
+          "How do people who had difficult childhoods still manage to have good marriages?",
+          "What distinguishes couples who can resolve conflict from those who cannot?",
+          "Is it possible to consciously choose a healthy partner, or is mate selection always unconscious?"
+        ]
+      },
+      {
+        "name": "Unhealthy Marriages",
+        "description": "Neurotic patterns in marital conflict and dysfunction",
+        "questions": [
+          "Why do people repeatedly choose partners who make them miserable?",
+          "What is 'injustice collecting' and how does it destroy marriages?",
+          "Why do some spouses seem to provoke the very mistreatment they complain about?",
+          "What role does unconscious guilt play in marital conflict?",
+          "Why do some people marry their psychological opposites and then resent them for being different?",
+          "What explains the person who divorces and then marries someone with identical problems?",
+          "How do unresolved childhood conflicts get replayed in adult marriages?",
+          "Why do some people sabotage good marriages?",
+          "What is the psychology of the chronically dissatisfied spouse?",
+          "Can an unhealthy marriage be repaired, or are some configurations inherently doomed?"
+        ]
+      },
+      {
+        "name": "The Fashion Industry",
+        "description": "Psychological mechanisms behind fashion and consumerism",
+        "questions": [
+          "Why do people follow fashion trends even when they recognize their arbitrariness?",
+          "What unconscious motivations drive fashion designers?",
+          "What is the psychological function of the 'new' in fashion?",
+          "Why does fashion so often involve discomfort or impracticality?",
+          "What role does aggression play in the fashion industry?",
+          "Why are people willing to pay exorbitant prices for clothing that will soon be 'out of style'?",
+          "What explains the fashion industry's particular relationship with femininity?",
+          "What is the psychology of the fashion victim?",
+          "Why do fashion trends often recycle and repeat?",
+          "What does the phenomenon of fashion reveal about human narcissism?"
+        ]
+      },
+      {
+        "name": "Career Happiness",
+        "description": "Success neurosis and professional self-sabotage",
+        "questions": [
+          "Why do talented people often sabotage their own professional success?",
+          "What is the psychology of the person who cannot accept promotion or recognition?",
+          "Why do some people unconsciously arrange to be fired or demoted?",
+          "What role does guilt over success play in career unhappiness?",
+          "Why do some people need to feel exploited by their employers?",
+          "What distinguishes healthy ambition from neurotic drivenness?",
+          "Why do some professionals chronically feel unrecognized despite objective success?",
+          "What is the relationship between one's relationship with one's father and career functioning?",
+          "Why do some people become paralyzed by choice when selecting a profession?",
+          "Can someone whose career unhappiness is neurotically determined ever achieve genuine satisfaction?"
+        ]
+      },
+      {
+        "name": "Personal Happiness",
+        "description": "The psychology of chronic unhappiness and self-defeat",
+        "questions": [
+          "Why do some people seem constitutionally unable to enjoy life?",
+          "What is the mechanism by which people transform good fortune into misery?",
+          "Why do some people experience success as dangerous?",
+          "What is the role of unconscious guilt in chronic unhappiness?",
+          "Why do some people need to manufacture crises?",
+          "What distinguishes genuine depression from characterological discontent?",
+          "Can happiness be achieved through insight, or are some people's internal structures too fixed?",
+          "What is the relationship between early childhood deprivation and adult capacity for pleasure?"
+        ]
+      },
+      {
+        "name": "Self-Destruction",
+        "description": "Psychic masochism and the unconscious drive toward failure",
+        "questions": [
+          "What is 'psychic masochism' and how does it operate?",
+          "Why would the unconscious mind seek suffering?",
+          "What is the 'mechanism of orality' and how does it lead to self-defeat?",
+          "Why do people repeat self-destructive patterns even after recognizing them?",
+          "What role does the need for punishment play in self-sabotage?",
+          "How does early frustration at the breast create templates for later self-destruction?",
+          "What is the 'triad' of mechanisms underlying neurotic behavior?",
+          "Why do some people need to feel victimized?",
+          "What is the relationship between aggression toward others and aggression toward oneself?",
+          "Why does self-destruction often masquerade as bad luck or external circumstance?"
+        ]
+      },
+      {
+        "name": "Forms of Self-Destruction",
+        "description": "How self-defeat manifests in various life domains",
+        "questions": [
+          "How does self-destruction manifest in gambling?",
+          "What are the self-destructive dynamics of addiction?",
+          "How does self-destruction appear in sexual perversions?",
+          "What is self-destructive about chronic procrastination?",
+          "How does self-destruction manifest in hypochondria?",
+          "What is self-destructive about the 'injustice collector' pattern?",
+          "How does self-destruction appear in professional failure despite talent?",
+          "What are the self-destructive aspects of certain creative blocks?",
+          "How does self-destruction manifest in chronic romantic failure?",
+          "What is the relationship between suicide and other forms of self-harm?"
+        ]
+      },
+      {
+        "name": "The Superego",
+        "description": "Formation and function of the internal critic",
+        "questions": [
+          "What is the superego and how does it form?",
+          "Why does the superego often seem crueler than any external authority?",
+          "What is the relationship between the superego and unconscious guilt?",
+          "How does the superego generate the need for punishment?",
+          "Why do some people have especially tyrannical superegos?",
+          "What role does the superego play in depression?",
+          "How does the superego relate to masochistic character structure?",
+          "Can the superego be modified in adulthood, and if so, how?",
+          "What is the relationship between early maternal care and later superego formation?"
+        ]
+      },
+      {
+        "name": "Superego Configurations",
+        "description": "Different pathological arrangements of the internal judge",
+        "questions": [
+          "What distinguishes a 'normal' superego from a pathological one?",
+          "What characterizes the superego of the masochistic character?",
+          "How does the superego function in the criminal personality?",
+          "What is the superego configuration of the neurotic versus the psychotic?",
+          "What characterizes the superego of the 'oral pessimist'?",
+          "How does the superego differ in hysteria versus obsessional neurosis?",
+          "What is the superego configuration in perversions?",
+          "How does the superego function in narcissistic personalities?",
+          "What distinguishes the superego of the self-saboteur from that of the genuinely unlucky person?"
+        ]
+      },
+      {
+        "name": "Mental Illness Types",
+        "description": "Psychoanalytic classification of psychological disorders",
+        "questions": [
+          "What distinguishes neurosis from psychosis at a structural level?",
+          "What is the specific psychology of hysteria?",
+          "What distinguishes obsessional neurosis from other conditions?",
+          "What is the structure of depressive illness?",
+          "What is the psychology of phobia?",
+          "What characterizes the perversions as a diagnostic category?",
+          "What is the psychic structure of addiction?",
+          "How does writer's block relate to other neurotic conditions?",
+          "What is the relationship between character disorders and symptom neuroses?"
+        ]
+      },
+      {
+        "name": "Determinants of Mental Illness",
+        "description": "Why different people develop different pathologies",
+        "questions": [
+          "What determines whether someone develops hysteria versus obsessional neurosis?",
+          "Why do some oral conflicts lead to depression while others lead to addiction?",
+          "What role does fixation point play in determining symptom choice?",
+          "What is the relationship between severity of early trauma and severity of later illness?",
+          "Why do similar childhood experiences produce different outcomes in different individuals?",
+          "What role does constitutional endowment play in mental illness?",
+          "How do later developmental stages modify or exacerbate earlier fixations?",
+          "What determines whether pathology is expressed as symptom or character?"
+        ]
+      },
+      {
+        "name": "Pathological Masculinity",
+        "description": "Neurotic patterns in male psychology and sexuality",
+        "questions": [
+          "What is pseudo-masculinity and how does it differ from genuine masculinity?",
+          "What drives the man who needs to dominate and humiliate women?",
+          "What is the psychology of Don Juanism?",
+          "What characterizes the man who cannot commit to one woman?",
+          "What is the inner life of the chronic philanderer?",
+          "What is the psychology of impotence?",
+          "What drives sadistic behavior toward women?",
+          "What is the psychology of the man who repeatedly chooses 'impossible' women?",
+          "What characterizes the man who fears and resents female sexuality?",
+          "What is the relationship between unconscious passivity and compensatory masculine aggression?"
+        ]
+      },
+      {
+        "name": "Pathological Femininity",
+        "description": "Neurotic patterns in female psychology and relationships",
+        "questions": [
+          "What is frigidity and what causes it?",
+          "What characterizes the woman who repeatedly chooses unsuitable men?",
+          "What is the psychology of the chronic complainer in marriage?",
+          "What drives masochistic submission in women?",
+          "What is the inner life of the woman who cannot experience sexual pleasure?",
+          "What characterizes the woman who competes destructively with men?",
+          "What is the psychology of the woman who sabotages her husband's success?",
+          "What drives women to repeatedly enter abusive relationships?",
+          "What is the relationship between maternal attitude and daughter's later sexual adjustment?"
+        ]
+      },
+      {
+        "name": "Divorce",
+        "description": "The psychology of marital dissolution and repetition",
+        "questions": [
+          "Why do some people divorce repeatedly, always for the same underlying reasons?",
+          "What role does unconscious partner selection play in divorce?",
+          "Why do some people wait until a marriage is good before destroying it?",
+          "What is the psychology of the person who provokes their spouse to leave them?",
+          "What characterizes the person who cannot tolerate intimacy once achieved?",
+          "Why do some people need to experience themselves as the victim of divorce?",
+          "What is the relationship between divorce and the repetition compulsion?",
+          "Can insight into unconscious patterns prevent repetitive divorce?",
+          "What distinguishes healthy divorce from neurotic divorce?",
+          "What is the psychology of the person who cannot complete a divorce once initiated?"
+        ]
+      },
+      {
+        "name": "Homosexuality (Historical)",
+        "description": "Historical psychoanalytic views now rejected by modern psychology",
+        "questions": [
+          "What developmental conditions did you believe contributed to homosexual orientation?",
+          "What role did you assign to the mother-child relationship in sexual development?",
+          "What did you mean by 'oral regression' in this context?",
+          "Why did you believe homosexuality represented a specific neurotic solution?",
+          "What distinguished your theoretical framework from that of other psychoanalysts of your era?",
+          "What did you see as the relationship between homosexuality and masochism?"
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "name": "Bergler Topics and Questions",
+    "description": "Psychological questions organized by topic for asking Edmund Bergler",
+    "total_questions": 171,
+    "created": "2025-12-08",
+    "topics_count": 16,
+    "note": "Bergler's views on homosexuality are included for historical/archival purposes only and have been repudiated by contemporary psychology."
+  }
+}

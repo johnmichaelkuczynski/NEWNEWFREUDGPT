@@ -1,0 +1,80 @@
+modules = ["python-3.11", "nodejs-20", "web", "postgresql-16"]
+[agent]
+expertMode = true
+integrations = ["python_anthropic_ai_integrations:1.0.0"]
+stack = "BEST_EFFORT_FALLBACK"
+
+[nix]
+channel = "stable-25_05"
+packages = ["glibcLocales", "libev", "psmisc"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "flask-app"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "longform-service"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "ingest-watcher"
+
+[[workflows.workflow]]
+name = "flask-app"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python app.py"
+waitForPort = 5000
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow]]
+name = "longform-service"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npx tsx longform/server.ts"
+waitForPort = 3001
+
+[workflows.workflow.metadata]
+outputType = "console"
+
+[[workflows.workflow]]
+name = "ingest-watcher"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python scripts/watch_ingest.py"
+
+[workflows.workflow.metadata]
+outputType = "console"
+
+[[ports]]
+localPort = 3001
+externalPort = 3001
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[[ports]]
+localPort = 7777
+externalPort = 3000
+
+[deployment]
+deploymentTarget = "autoscale"
+run = ["gunicorn", "--bind=0.0.0.0:5000", "--workers=2", "--timeout=300", "--worker-class=gevent", "app:app"]

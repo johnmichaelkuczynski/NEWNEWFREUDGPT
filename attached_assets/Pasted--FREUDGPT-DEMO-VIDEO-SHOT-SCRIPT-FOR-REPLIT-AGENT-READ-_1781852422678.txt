@@ -1,0 +1,279 @@
+# FREUDGPT — DEMO VIDEO SHOT SCRIPT (FOR REPLIT AGENT)
+
+## READ THIS FIRST — NON-NEGOTIABLE RULES
+
+1. This is a **screen recording of the real, running FreudGPT app** at `/`. It is NOT an
+   animation, NOT a slideshow, NOT stock footage, NOT narration cards, NOT a stylized promo.
+   You are operating the actual UI and capturing what actually happens on screen.
+
+2. The app is named **FreudGPT** everywhere it appears (window title, any on-screen text, the
+   exported video filename). Do not invent a different name. Do not add descriptors.
+
+3. For EVERY consultation step you must keep recording until BOTH of these are true on screen:
+   - **The Dialogue** panel (left, ~70%) has finished streaming the full answer, AND
+   - **The Archive** panel (right, ~30%) has populated with the real retrieved position
+     statements and they are LEGIBLE in the recording.
+   The Archive is the proof the app retrieves real text instead of bullshitting. If the Archive
+   is not legible in the capture, the segment FAILS and must be re-shot.
+
+4. Do not speed-ramp, blur, or cut away from The Archive, the Tractatus tree, or the Longform
+   skeleton. Those panels ARE the evidence of functionality.
+
+5. Type each prompt EXACTLY as written below. Use the EXACT thinker, mode, provider, and slider
+   settings specified. Do not improvise prompts.
+
+6. Capture at native resolution, 1080p minimum, no compression that makes panel text unreadable.
+
+---
+
+## SEGMENT 1 — SYSTEM DIAGNOSTIC (cold open, proves FreudGPT is live)
+
+- Start on the FreudGPT home screen with both panels visible.
+- Click the **🩺 DIAGNOSTIC** button in the header.
+- In the modal, click **▶ Run Full Diagnostic** (calls `POST /api/diagnostic/run`).
+- KEEP RECORDING while all 20 checks render live, grouped into three categories:
+  System (6) · AI Providers (6) · Functional (8). Each row must show a ✅ and a latency in ms.
+- Hold on the final summary card reading **PASS = 20/20** (or whatever the real number is) for
+  a full 2 seconds before cutting.
+
+---
+
+## SEGMENT 2 — THINKER SELECTION & PROFILES (proves multi-thinker corpus)
+
+- Click each PRIMARY avatar in turn — **Freud**, then **ZHI/Kuczynski**, then **Jung** — pausing
+  ~1 second on each so the per-thinker count badge is readable.
+- Then click each RELATED thinker in the header strip — **Hume**, **Nietzsche**, **Bergler**.
+- The count badges that must be visible at some point:
+  Freud 19,077 · Kuczynski 17,499 · Jung 2,910 · Nietzsche 2,838 · Bergler 1,924 · Hume 1,114.
+- Leave **ZHI/Kuczynski** selected. Open its knowledge panel popup so its domains and starter
+  questions are visible on screen. Hold 2 seconds.
+
+---
+
+## SEGMENT 3 — CONSULTATION, STANDARD MODE (the core function)
+
+SETTINGS BEFORE TYPING:
+- Active thinker: **ZHI/Kuczynski**
+- Mode dropdown: **Standard**
+- Data mode dropdown: **Classic**
+
+TYPE THIS EXACTLY into the main input ("Pose your question to the thinker…") and press Consult:
+
+    Explain Chomsky's poverty-of-stimulus argument and what it shows about a priori knowledge.
+
+WHAT THE ARCHIVE MUST SURFACE (real position text from "Chomsky's Two Contributions to
+Philosophy"). Confirm text like the following is legible in The Archive:
+
+    "If you bombarded a rock, or a chair, or a tree with those same sounds and patterns of
+    light, would it learn a language? ... No."
+
+    "The knowledge that Chomsky is talking about is not knowledge that your mind has; that
+    knowledge is your mind."
+
+CAPTURE: the retrieval event firing, tokens streaming into The Dialogue, and The Archive
+filling with the position statements above. Do not cut until The Archive is full and legible.
+
+---
+
+## SEGMENT 4 — CONSULTATION CONTROLS (sliders / toggles / provider are real)
+
+BEFORE typing the next query, on camera, visibly:
+- Drag the **answer-length** slider UP toward maximum.
+- Drag the **quotes** slider UP.
+- Toggle **enhanced** ON.
+- Toggle **popups** ON.
+- Change the provider dropdown from **ZHI 4 (DeepSeek)** to **ZHI 1 (Anthropic)** and pick a model.
+
+Active thinker stays **ZHI/Kuczynski**. TYPE THIS EXACTLY and Consult:
+
+    Give the exact composition of the proposition that Socrates is tall.
+
+WHAT MUST BE TRUE OF THE ANSWER: it must be grounded — NO placeholder padding, NO invented
+terminology. The Archive must surface real position text such as:
+
+    "Propositions consist of properties."
+
+CAPTURE: a visibly LONGER answer (the length slider working), denser close-paraphrase from the
+sources (the quotes slider working), and the right-side position-statement popups appearing at
+FULL LEGIBLE SIZE (not tiny).
+
+---
+
+## SEGMENT 5 — RAG OVER SOURCE TEXTS (Classic vs RAG)
+
+SETTINGS:
+- Active thinker: **Hume**
+- Data mode dropdown: **RAG**
+
+TYPE THIS EXACTLY and Consult:
+
+    Is empirical knowledge merely probable, and was Hume's positivism a mistake?
+
+WHAT THE ARCHIVE MUST SURFACE — verbatim source-text chunks (NOT position summaries), each shown
+with its file name + chunk index. Confirm text like the following is legible:
+
+    "Hume's positivism has led to philosophical errors."
+
+    "Empirical beliefs are not merely probable; they are analogue-logically valid."
+
+CAPTURE: The Archive must clearly look DIFFERENT from Segment 3 — it is now showing verbatim
+chunks with file+index labels, proving RAG mode pulls from full source texts.
+
+---
+
+## SEGMENT 6 — INFERENCE ENGINE (forward-chaining deduction)
+
+SETTINGS:
+- Active thinker: **ZHI/Kuczynski**
+- Mode: **Standard**
+
+TYPE THIS EXACTLY and Consult (chosen to trigger a high-confidence rule match):
+
+    Does it analytically follow from having experience that an external world exists?
+
+WHAT MUST APPEAR: a deduction chain (premises -> intermediate steps -> conclusion) generated by
+the inference engine BEFORE the prose answer. The chain should track toward real positions such
+as:
+
+    "Given experience, it analytically follows that an external world exists."
+
+    "Even in deception, there is formal knowledge of the external world."
+
+CAPTURE: the deduction chain on screen, then the prose answer generated from it. If the chain is
+viewable via `/raw_chain`, briefly show that view too.
+
+---
+
+## SEGMENT 7 — DIALOGUE MODE (short answers + intellectual pushback)
+
+SETTINGS:
+- Active thinker: **Hume**
+- Mode dropdown: **Dialogue**
+
+TYPE THIS EXACTLY and send:
+
+    Freedom requires that my choices be uncaused.
+
+WHAT THE REPLY MUST DO: be SHORT and conversational, and PUSH BACK on the premise rather than
+agreeing. It must reflect real position text such as:
+
+    "To be free is for one's choices to make a difference; it is not for one's choices not to be
+    caused to come into existence."
+
+    "A being whose choices came out of nowhere would not be more free than one whose choices were
+    rooted in its personality."
+
+CAPTURE: the short, challenging reply. Contrast with Segment 3/4 is the point — Dialogue mode has
+no long-answer floor.
+
+---
+
+## SEGMENT 8 — MEMORY MODE (Tractatus trees)
+
+- Toggle **Memory** ON.
+- Create a project: thinker = **Freud**, name it `Symptom Theory`.
+- Create a session inside it.
+- TYPE THIS EXACTLY and send (this routes to `/api/memory/ask`):
+
+    What is OCD really telling the patient, and how does it relate to paranoia?
+
+WHAT THE ANSWER MUST BE GROUNDED IN (real text from "Ask Dr K — OCD, paranoia, depression"):
+
+    "OCD is your mind's way of telling you that there is something wrong with your life."
+
+    "Paranoias are usually inverted and projected desires."
+
+- Then TYPE THIS SECOND, related question in the SAME session so the tree updates:
+
+    So is the paranoid person actually expressing a hidden wish?
+
+- Click the **🌳 Tree** button.
+
+CAPTURE: the Wittgenstein-numbered tree rendering with node tags **ASSERTS / REJECTS / ASSUMES /
+OPEN / RESOLVED** clearly visible. Then click **Download JSON** and show the export file landing.
+
+---
+
+## SEGMENT 9 — LONGFORM GENERATION (coherence skeleton)
+
+- Click **📚 LONGFORM** in the header.
+- In the modal set: thinker = **ZHI/Kuczynski**, mode = **essay**, word target = **6000**.
+- TYPE THIS EXACTLY into the prompt field and start:
+
+    Argue that the autistic person is not self-contained but pseudo-self-contained, and that
+    rigidity, not flexibility, is the mark of damage-based pseudo-independence.
+
+WHAT THE ESSAY MUST DEVELOP (real text from "Autistic People are Not Self-contained"):
+
+    "Autism is about needing people early in life and being given trauma instead. And the
+    traumatized child reacts by withdrawing into himself."
+
+    "A sign of true independence is flexibility, and rigidity is a sign of damage-based
+    pseudo-independence."
+
+CAPTURE, IN ORDER:
+1. The **skeleton event** rendering — the macro plan with distinct per-section roles.
+2. **Per-section streaming** with role tags appearing.
+3. The **cumulative word counter** visibly climbing.
+Let at least the first 2–3 sections finish on camera. Then click **Download-as-text** and show
+the file landing.
+
+---
+
+## SEGMENT 10 — CONTENT INGESTION -> SEARCHABILITY (the money shot, ONE continuous take)
+
+This segment must be a SINGLE UNBROKEN take. Do not cut between the upload and the answer.
+
+PART A — INGEST:
+- Active thinker: **Freud**.
+- Click the **📎** upload button on the chat input.
+- Upload the file: **Astrology is Psychoanalysis for Bureaucrats.txt** (calls
+  `/api/upload/document`).
+- KEEP RECORDING until the on-screen status confirms the file was extracted, embedded, and is now
+  searchable.
+
+PART B — QUERY THE JUST-INGESTED FILE (same thinker, immediately):
+- TYPE THIS EXACTLY and Consult:
+
+    What is the difference between an astrologer and a psychoanalyst?
+
+WHAT THE ARCHIVE MUST NOW SURFACE — text from the file you uploaded SECONDS AGO:
+
+    "An astrologer is somebody who helps people construct rationalizations and therefore helps
+    people believe their own lies."
+
+    "A psychoanalyst is somebody who helps people see through their own lies. Therefore,
+    bureaucrats never need psychoanalysts."
+
+CAPTURE: both halves in one continuous shot — file goes IN, its positions come OUT in The Archive
+grounding a live answer. This proves the closed ingestion loop. Do not cut between A and B.
+
+---
+
+## SEGMENT 11 — WORK READER (in-app library)
+
+- Open the knowledge panel and click a **"Read full work"** link (calls `/api/work/<work_id>`).
+- CAPTURE: the paginated full-text reader opening with a real work in archive-style typography.
+- Scroll one full page on camera so it is obviously a live reader, not a static image.
+
+---
+
+## SEGMENT 12 — DOWNLOAD / EXPORT (close)
+
+- Return to the main chat view.
+- Click the header **📥 DOWNLOAD** button.
+- CAPTURE: the `.txt` / `.json` session export generating and the file landing.
+- End on the FreudGPT home screen with both **The Dialogue** and **The Archive** visible.
+
+---
+
+## FINAL CHECK BEFORE YOU EXPORT
+
+The finished video must visibly show all 12 functions WORKING with REAL text on screen:
+diagnostic, thinker selection, standard consultation, controls, RAG, inference chain, dialogue
+mode, memory/Tractatus, longform, ingestion->search, work reader, export.
+
+If any single segment does not legibly show its panel/result completing for real, RE-SHOOT that
+segment. Length is whatever it takes. Do not pad with graphics. Do not cut corners.
+
+Export filename: FreudGPT_Demo.mp4

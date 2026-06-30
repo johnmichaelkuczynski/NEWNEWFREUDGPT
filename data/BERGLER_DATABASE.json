@@ -1,0 +1,3619 @@
+{
+  "metadata": {
+    "name": "Edmund Bergler Psychological Database",
+    "version": "v1.0",
+    "created": "2025-12-08",
+    "description": "Edmund Bergler's psychoanalytic positions. Total: 257 positions.",
+    "total_positions": 257,
+    "last_updated": "2025-12-20",
+    "works_included": [
+      "The Basic Neurosis",
+      "The Writer and Psychoanalysis",
+      "Unhappy Marriage and Divorce",
+      "Fashion and the Unconscious",
+      "The Psychology of Gambling",
+      "Money and Emotional Conflicts"
+    ],
+    "note": "Bergler's views on homosexuality (Section VIII) are included for historical/archival purposes only. These positions have been repudiated by contemporary psychology, which recognizes homosexuality as a normal variant of human sexuality."
+  },
+  "positions": [
+    {
+      "id": "BERG-ORAL-0001",
+      "position_id": "BERG-ORAL-0001",
+      "author": "Edmund Bergler",
+      "title": "All neuroses ultimately derive from disturbances in the earliest oral phase of development\u2014the infant's relationship with the mother's breast.",
+      "text_evidence": "All neuroses ultimately derive from disturbances in the earliest oral phase of development\u2014the infant's relationship with the mother's breast.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "ORAL_REGRESSION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-ORAL-0002",
+      "position_id": "BERG-ORAL-0002",
+      "author": "Edmund Bergler",
+      "title": "The infant experiences the breast as omnipotent and itself as the controller of that omnipotence; inevitable frustration shatters this illusion.",
+      "text_evidence": "The infant experiences the breast as omnipotent and itself as the controller of that omnipotence; inevitable frustration shatters this illusion.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "ORAL_REGRESSION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-ORAL-0003",
+      "position_id": "BERG-ORAL-0003",
+      "author": "Edmund Bergler",
+      "title": "This frustration produces 'oral pessimism'\u2014a fundamental conviction that the world is denying, refusing, and withholding.",
+      "text_evidence": "This frustration produces 'oral pessimism'\u2014a fundamental conviction that the world is denying, refusing, and withholding.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "ORAL_REGRESSION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-ORAL-0004",
+      "position_id": "BERG-ORAL-0004",
+      "author": "Edmund Bergler",
+      "title": "The infant responds to oral frustration with aggression toward the mother, but this aggression is immediately turned inward due to helplessness and dependency.",
+      "text_evidence": "The infant responds to oral frustration with aggression toward the mother, but this aggression is immediately turned inward due to helplessness and dependency.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "ORAL_REGRESSION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-ORAL-0005",
+      "position_id": "BERG-ORAL-0005",
+      "author": "Edmund Bergler",
+      "title": "This internalized aggression becomes the nucleus of the punishing superego.",
+      "text_evidence": "This internalized aggression becomes the nucleus of the punishing superego.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "ORAL_REGRESSION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-ORAL-0006",
+      "position_id": "BERG-ORAL-0006",
+      "author": "Edmund Bergler",
+      "title": "The 'basic neurosis' is the unconscious need to recreate and re-experience early oral disappointment\u2014to prove again and again that the world refuses.",
+      "text_evidence": "The 'basic neurosis' is the unconscious need to recreate and re-experience early oral disappointment\u2014to prove again and again that the world refuses.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "ORAL_REGRESSION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-ORAL-0007",
+      "position_id": "BERG-ORAL-0007",
+      "author": "Edmund Bergler",
+      "title": "All later developmental stages (anal, phallic, genital) are overlays on this oral foundation; apparent Oedipal conflicts often mask deeper oral injuries.",
+      "text_evidence": "All later developmental stages (anal, phallic, genital) are overlays on this oral foundation; apparent Oedipal conflicts often mask deeper oral injuries.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "ORAL_REGRESSION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MASO-0001",
+      "position_id": "BERG-MASO-0001",
+      "author": "Edmund Bergler",
+      "title": "Psychic masochism is the unconscious seeking of psychic pain, defeat, humiliation, and failure\u2014not for pleasure in pain itself, but as a solution to deeper conflicts.",
+      "text_evidence": "Psychic masochism is the unconscious seeking of psychic pain, defeat, humiliation, and failure\u2014not for pleasure in pain itself, but as a solution to deeper conflicts.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PSYCHIC_MASOCHISM"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MASO-0002",
+      "position_id": "BERG-MASO-0002",
+      "author": "Edmund Bergler",
+      "title": "Psychic masochism is distinct from conscious suffering; the masochist consciously wants success and happiness but unconsciously arranges failure and misery.",
+      "text_evidence": "Psychic masochism is distinct from conscious suffering; the masochist consciously wants success and happiness but unconsciously arranges failure and misery.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PSYCHIC_MASOCHISM"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MASO-0003",
+      "position_id": "BERG-MASO-0003",
+      "author": "Edmund Bergler",
+      "title": "The masochist does not enjoy suffering\u2014he suffers from suffering but cannot stop arranging it.",
+      "text_evidence": "The masochist does not enjoy suffering\u2014he suffers from suffering but cannot stop arranging it.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PSYCHIC_MASOCHISM"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MASO-0004",
+      "position_id": "BERG-MASO-0004",
+      "author": "Edmund Bergler",
+      "title": "Masochism represents a 'lesser evil' solution: by choosing one's own suffering, one maintains an illusion of control and avoids the greater terror of unpredictable external harm.",
+      "text_evidence": "Masochism represents a 'lesser evil' solution: by choosing one's own suffering, one maintains an illusion of control and avoids the greater terror of unpredictable external harm.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PSYCHIC_MASOCHISM"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MASO-0005",
+      "position_id": "BERG-MASO-0005",
+      "author": "Edmund Bergler",
+      "title": "Masochistic suffering also appeases the superego's demand for punishment, temporarily reducing unconscious guilt.",
+      "text_evidence": "Masochistic suffering also appeases the superego's demand for punishment, temporarily reducing unconscious guilt.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PSYCHIC_MASOCHISM"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MASO-0006",
+      "position_id": "BERG-MASO-0006",
+      "author": "Edmund Bergler",
+      "title": "Everyone has masochistic tendencies; the question is only of degree and the specific form they take.",
+      "text_evidence": "Everyone has masochistic tendencies; the question is only of degree and the specific form they take.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PSYCHIC_MASOCHISM"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MASO-0007",
+      "position_id": "BERG-MASO-0007",
+      "author": "Edmund Bergler",
+      "title": "Masochism expresses itself in all domains: love, work, creativity, money, health, and social relations.",
+      "text_evidence": "Masochism expresses itself in all domains: love, work, creativity, money, health, and social relations.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PSYCHIC_MASOCHISM"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-TRIAD-0001",
+      "position_id": "BERG-TRIAD-0001",
+      "author": "Edmund Bergler",
+      "title": "Neurotic symptoms and character traits operate through a characteristic triad of unconscious mechanisms.",
+      "text_evidence": "Neurotic symptoms and character traits operate through a characteristic triad of unconscious mechanisms.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "NEUROTIC_TRIAD"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-TRIAD-0002",
+      "position_id": "BERG-TRIAD-0002",
+      "author": "Edmund Bergler",
+      "title": "First mechanism: The unconscious ego creates or provokes a situation of refusal, rejection, or mistreatment\u2014recreating the original oral disappointment.",
+      "text_evidence": "First mechanism: The unconscious ego creates or provokes a situation of refusal, rejection, or mistreatment\u2014recreating the original oral disappointment.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "NEUROTIC_TRIAD"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-TRIAD-0003",
+      "position_id": "BERG-TRIAD-0003",
+      "author": "Edmund Bergler",
+      "title": "Second mechanism: The ego responds to this (self-created) disappointment with aggression and indignation, experiencing itself as the innocent victim of injustice.",
+      "text_evidence": "Second mechanism: The ego responds to this (self-created) disappointment with aggression and indignation, experiencing itself as the innocent victim of injustice.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "NEUROTIC_TRIAD"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-TRIAD-0004",
+      "position_id": "BERG-TRIAD-0004",
+      "author": "Edmund Bergler",
+      "title": "Third mechanism: This aggression, being directed at an internal maternal image, triggers guilt and the need for punishment, which the symptom or character pattern itself provides.",
+      "text_evidence": "Third mechanism: This aggression, being directed at an internal maternal image, triggers guilt and the need for punishment, which the symptom or character pattern itself provides.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "NEUROTIC_TRIAD"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-TRIAD-0005",
+      "position_id": "BERG-TRIAD-0005",
+      "author": "Edmund Bergler",
+      "title": "The neurotic is thus simultaneously the criminal, the victim, and the executioner\u2014all roles are played unconsciously.",
+      "text_evidence": "The neurotic is thus simultaneously the criminal, the victim, and the executioner\u2014all roles are played unconsciously.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "NEUROTIC_TRIAD"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-TRIAD-0006",
+      "position_id": "BERG-TRIAD-0006",
+      "author": "Edmund Bergler",
+      "title": "The conscious experience is only of victimization; the unconscious authorship of one's own suffering remains hidden.",
+      "text_evidence": "The conscious experience is only of victimization; the unconscious authorship of one's own suffering remains hidden.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "NEUROTIC_TRIAD"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-SUPER-0001",
+      "position_id": "BERG-SUPER-0001",
+      "author": "Edmund Bergler",
+      "title": "The superego forms primarily from internalized maternal prohibitions and the infant's own aggression turned inward.",
+      "text_evidence": "The superego forms primarily from internalized maternal prohibitions and the infant's own aggression turned inward.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "SUPEREGO"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-SUPER-0002",
+      "position_id": "BERG-SUPER-0002",
+      "author": "Edmund Bergler",
+      "title": "The superego is not a copy of external authorities but a distorted, magnified, sadistic caricature of them.",
+      "text_evidence": "The superego is not a copy of external authorities but a distorted, magnified, sadistic caricature of them.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "SUPEREGO"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-SUPER-0003",
+      "position_id": "BERG-SUPER-0003",
+      "author": "Edmund Bergler",
+      "title": "The superego's cruelty exceeds any actual parental cruelty because it incorporates the child's own projected aggression.",
+      "text_evidence": "The superego's cruelty exceeds any actual parental cruelty because it incorporates the child's own projected aggression.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "SUPEREGO"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-SUPER-0004",
+      "position_id": "BERG-SUPER-0004",
+      "author": "Edmund Bergler",
+      "title": "The superego demands punishment for unconscious wishes, not for actions\u2014one is guilty for what one unconsciously desires.",
+      "text_evidence": "The superego demands punishment for unconscious wishes, not for actions\u2014one is guilty for what one unconsciously desires.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "SUPEREGO"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-SUPER-0005",
+      "position_id": "BERG-SUPER-0005",
+      "author": "Edmund Bergler",
+      "title": "Unconscious guilt is the driving force behind most self-destructive behavior.",
+      "text_evidence": "Unconscious guilt is the driving force behind most self-destructive behavior.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "SUPEREGO"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-SUPER-0006",
+      "position_id": "BERG-SUPER-0006",
+      "author": "Edmund Bergler",
+      "title": "The superego uses internal guilt not to reform behavior but to extract suffering as tribute.",
+      "text_evidence": "The superego uses internal guilt not to reform behavior but to extract suffering as tribute.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "SUPEREGO"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-SUPER-0007",
+      "position_id": "BERG-SUPER-0007",
+      "author": "Edmund Bergler",
+      "title": "Different neurotic configurations represent different compromises with superego demands\u2014different ways of paying the 'tax' of suffering.",
+      "text_evidence": "Different neurotic configurations represent different compromises with superego demands\u2014different ways of paying the 'tax' of suffering.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "SUPEREGO"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-SUPER-0008",
+      "position_id": "BERG-SUPER-0008",
+      "author": "Edmund Bergler",
+      "title": "The 'corrupt superego' accepts disguised payments: symptom-suffering, self-sabotage, and masochistic character patterns all serve as currency.",
+      "text_evidence": "The 'corrupt superego' accepts disguised payments: symptom-suffering, self-sabotage, and masochistic character patterns all serve as currency.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "SUPEREGO"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-SUPER-0009",
+      "position_id": "BERG-SUPER-0009",
+      "author": "Edmund Bergler",
+      "title": "Some superegos can be bribed with suffering in one domain to permit pleasure in another.",
+      "text_evidence": "Some superegos can be bribed with suffering in one domain to permit pleasure in another.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "SUPEREGO"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-INJUST-0001",
+      "position_id": "BERG-INJUST-0001",
+      "author": "Edmund Bergler",
+      "title": "The 'injustice collector' is a specific character type whose entire psychic economy depends on feeling victimized.",
+      "text_evidence": "The 'injustice collector' is a specific character type whose entire psychic economy depends on feeling victimized.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "INJUSTICE_COLLECTING"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-INJUST-0002",
+      "position_id": "BERG-INJUST-0002",
+      "author": "Edmund Bergler",
+      "title": "The injustice collector unconsciously provokes mistreatment, then genuinely experiences surprise and outrage at being mistreated.",
+      "text_evidence": "The injustice collector unconsciously provokes mistreatment, then genuinely experiences surprise and outrage at being mistreated.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "INJUSTICE_COLLECTING"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-INJUST-0003",
+      "position_id": "BERG-INJUST-0003",
+      "author": "Edmund Bergler",
+      "title": "The collection of injustices serves multiple purposes: it provides masochistic satisfaction, justifies counter-aggression, and proves the original oral thesis that the world refuses.",
+      "text_evidence": "The collection of injustices serves multiple purposes: it provides masochistic satisfaction, justifies counter-aggression, and proves the original oral thesis that the world refuses.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "INJUSTICE_COLLECTING"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-INJUST-0004",
+      "position_id": "BERG-INJUST-0004",
+      "author": "Edmund Bergler",
+      "title": "Injustice collectors are drawn to situations and partners guaranteed to produce grievances.",
+      "text_evidence": "Injustice collectors are drawn to situations and partners guaranteed to produce grievances.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "INJUSTICE_COLLECTING"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-INJUST-0005",
+      "position_id": "BERG-INJUST-0005",
+      "author": "Edmund Bergler",
+      "title": "The injustice collector cannot be satisfied by fair treatment\u2014if none is available, he will manufacture mistreatment or interpret neutral events as slights.",
+      "text_evidence": "The injustice collector cannot be satisfied by fair treatment\u2014if none is available, he will manufacture mistreatment or interpret neutral events as slights.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "INJUSTICE_COLLECTING"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-INJUST-0006",
+      "position_id": "BERG-INJUST-0006",
+      "author": "Edmund Bergler",
+      "title": "In marriage, injustice collectors create a self-perpetuating cycle: they provoke, collect the grievance, then use the grievance as justification for further provocation.",
+      "text_evidence": "In marriage, injustice collectors create a self-perpetuating cycle: they provoke, collect the grievance, then use the grievance as justification for further provocation.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "INJUSTICE_COLLECTING"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-WRITER-0001",
+      "position_id": "BERG-WRITER-0001",
+      "author": "Edmund Bergler",
+      "title": "Writing involves unconscious exhibitionism\u2014the writer displays himself before an internal audience derived from early parental figures.",
+      "text_evidence": "Writing involves unconscious exhibitionism\u2014the writer displays himself before an internal audience derived from early parental figures.",
+      "domain": "CREATIVITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "WRITERS_BLOCK"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-WRITER-0002",
+      "position_id": "BERG-WRITER-0002",
+      "author": "Edmund Bergler",
+      "title": "Writer's block occurs when the superego forbids this exhibitionism, or when guilt over unconscious meanings in the work becomes overwhelming.",
+      "text_evidence": "Writer's block occurs when the superego forbids this exhibitionism, or when guilt over unconscious meanings in the work becomes overwhelming.",
+      "domain": "CREATIVITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "WRITERS_BLOCK"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-WRITER-0003",
+      "position_id": "BERG-WRITER-0003",
+      "author": "Edmund Bergler",
+      "title": "The blocked writer is not lacking ideas but is forbidden by internal authority from expressing them.",
+      "text_evidence": "The blocked writer is not lacking ideas but is forbidden by internal authority from expressing them.",
+      "domain": "CREATIVITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "WRITERS_BLOCK"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-WRITER-0004",
+      "position_id": "BERG-WRITER-0004",
+      "author": "Edmund Bergler",
+      "title": "Many writers have an unconscious equation: writing = forbidden voyeuristic and exhibitionistic gratification.",
+      "text_evidence": "Many writers have an unconscious equation: writing = forbidden voyeuristic and exhibitionistic gratification.",
+      "domain": "CREATIVITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "WRITERS_BLOCK"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-WRITER-0005",
+      "position_id": "BERG-WRITER-0005",
+      "author": "Edmund Bergler",
+      "title": "The block often intensifies after success because success increases guilt and provokes superego retaliation.",
+      "text_evidence": "The block often intensifies after success because success increases guilt and provokes superego retaliation.",
+      "domain": "CREATIVITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "WRITERS_BLOCK"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-WRITER-0006",
+      "position_id": "BERG-WRITER-0006",
+      "author": "Edmund Bergler",
+      "title": "Writer's block frequently represents identification with the 'refusing' mother: the writer refuses to 'give' his productions just as he felt mother refused to give.",
+      "text_evidence": "Writer's block frequently represents identification with the 'refusing' mother: the writer refuses to 'give' his productions just as he felt mother refused to give.",
+      "domain": "CREATIVITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "WRITERS_BLOCK"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-WRITER-0007",
+      "position_id": "BERG-WRITER-0007",
+      "author": "Edmund Bergler",
+      "title": "The blocked writer often unconsciously identifies writing with prohibited aggressive or sexual content, regardless of the work's actual subject matter.",
+      "text_evidence": "The blocked writer often unconsciously identifies writing with prohibited aggressive or sexual content, regardless of the work's actual subject matter.",
+      "domain": "CREATIVITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "WRITERS_BLOCK"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-WRITER-0008",
+      "position_id": "BERG-WRITER-0008",
+      "author": "Edmund Bergler",
+      "title": "Block can represent a work stoppage in the inner factory\u2014a strike against the internal slave-driving superego.",
+      "text_evidence": "Block can represent a work stoppage in the inner factory\u2014a strike against the internal slave-driving superego.",
+      "domain": "CREATIVITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "WRITERS_BLOCK"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-WRITER-0009",
+      "position_id": "BERG-WRITER-0009",
+      "author": "Edmund Bergler",
+      "title": "Some blocked writers can only produce under conditions of suffering or deprivation, because suffering bribes the superego into permitting creative expression.",
+      "text_evidence": "Some blocked writers can only produce under conditions of suffering or deprivation, because suffering bribes the superego into permitting creative expression.",
+      "domain": "CREATIVITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "WRITERS_BLOCK"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-WRITER-0010",
+      "position_id": "BERG-WRITER-0010",
+      "author": "Edmund Bergler",
+      "title": "Writer's block is curable through analysis because it rests on unconscious conflicts that can be made conscious.",
+      "text_evidence": "Writer's block is curable through analysis because it rests on unconscious conflicts that can be made conscious.",
+      "domain": "CREATIVITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "WRITERS_BLOCK"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MARR-0001",
+      "position_id": "BERG-MARR-0001",
+      "author": "Edmund Bergler",
+      "title": "Partner selection is never accidental; the unconscious chooses partners who will enable the repetition of early neurotic patterns.",
+      "text_evidence": "Partner selection is never accidental; the unconscious chooses partners who will enable the repetition of early neurotic patterns.",
+      "domain": "RELATIONSHIPS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "MARRIAGE"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MARR-0002",
+      "position_id": "BERG-MARR-0002",
+      "author": "Edmund Bergler",
+      "title": "People unconsciously select partners who will disappoint them in precisely the ways they were originally disappointed.",
+      "text_evidence": "People unconsciously select partners who will disappoint them in precisely the ways they were originally disappointed.",
+      "domain": "RELATIONSHIPS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "MARRIAGE"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MARR-0003",
+      "position_id": "BERG-MARR-0003",
+      "author": "Edmund Bergler",
+      "title": "Neurotic partner choice is based not on what the partner actually is but on what the neurotic unconsciously needs the partner to be.",
+      "text_evidence": "Neurotic partner choice is based not on what the partner actually is but on what the neurotic unconsciously needs the partner to be.",
+      "domain": "RELATIONSHIPS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "MARRIAGE"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MARR-0004",
+      "position_id": "BERG-MARR-0004",
+      "author": "Edmund Bergler",
+      "title": "The unhappy marriage typically involves two neurotics whose pathologies interlock\u2014each provides the other with the frustration they unconsciously require.",
+      "text_evidence": "The unhappy marriage typically involves two neurotics whose pathologies interlock\u2014each provides the other with the frustration they unconsciously require.",
+      "domain": "RELATIONSHIPS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "MARRIAGE"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MARR-0005",
+      "position_id": "BERG-MARR-0005",
+      "author": "Edmund Bergler",
+      "title": "Many marriages are unconsciously designed to fail from the beginning; the wedding is already the first step toward divorce.",
+      "text_evidence": "Many marriages are unconsciously designed to fail from the beginning; the wedding is already the first step toward divorce.",
+      "domain": "RELATIONSHIPS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "MARRIAGE"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MARR-0006",
+      "position_id": "BERG-MARR-0006",
+      "author": "Edmund Bergler",
+      "title": "The repetitive divorcer has an unconscious marital pattern that will reproduce itself regardless of the apparent differences between partners.",
+      "text_evidence": "The repetitive divorcer has an unconscious marital pattern that will reproduce itself regardless of the apparent differences between partners.",
+      "domain": "RELATIONSHIPS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "MARRIAGE"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MARR-0007",
+      "position_id": "BERG-MARR-0007",
+      "author": "Edmund Bergler",
+      "title": "Marital happiness requires that both partners have resolved, to reasonable degree, their oral-masochistic conflicts.",
+      "text_evidence": "Marital happiness requires that both partners have resolved, to reasonable degree, their oral-masochistic conflicts.",
+      "domain": "RELATIONSHIPS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "MARRIAGE"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MARR-0008",
+      "position_id": "BERG-MARR-0008",
+      "author": "Edmund Bergler",
+      "title": "Genuine love is based on object-cathexis (investment in the real other), not on narcissistic need (using the other for internal purposes).",
+      "text_evidence": "Genuine love is based on object-cathexis (investment in the real other), not on narcissistic need (using the other for internal purposes).",
+      "domain": "RELATIONSHIPS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "MARRIAGE"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MARR-0009",
+      "position_id": "BERG-MARR-0009",
+      "author": "Edmund Bergler",
+      "title": "Sexual adjustment in marriage depends less on technique than on the unconscious meanings sex carries for each partner.",
+      "text_evidence": "Sexual adjustment in marriage depends less on technique than on the unconscious meanings sex carries for each partner.",
+      "domain": "RELATIONSHIPS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "MARRIAGE"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MARR-0010",
+      "position_id": "BERG-MARR-0010",
+      "author": "Edmund Bergler",
+      "title": "Many sexual difficulties in marriage are created by one or both partners for masochistic purposes.",
+      "text_evidence": "Many sexual difficulties in marriage are created by one or both partners for masochistic purposes.",
+      "domain": "RELATIONSHIPS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "MARRIAGE"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-HIST-0001",
+      "position_id": "BERG-HIST-0001",
+      "author": "Edmund Bergler",
+      "title": "[HISTORICAL - NOW REJECTED] Bergler viewed homosexuality as a neurotic symptom rooted in oral regression and masochism.",
+      "text_evidence": "Bergler viewed homosexuality as a neurotic symptom rooted in oral regression and masochism. NOTE: This position has been repudiated by contemporary psychology, which recognizes homosexuality as a normal variant of human sexuality.",
+      "domain": "HISTORICAL_REJECTED",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "HISTORICAL"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-HIST-0002",
+      "position_id": "BERG-HIST-0002",
+      "author": "Edmund Bergler",
+      "title": "[HISTORICAL - NOW REJECTED] He believed homosexuality represented a flight from the opposite sex based on unconscious fears derived from the early maternal relationship.",
+      "text_evidence": "He believed homosexuality represented a flight from the opposite sex based on unconscious fears derived from the early maternal relationship. NOTE: This position has been repudiated by contemporary psychology.",
+      "domain": "HISTORICAL_REJECTED",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "HISTORICAL"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-HIST-0003",
+      "position_id": "BERG-HIST-0003",
+      "author": "Edmund Bergler",
+      "title": "[HISTORICAL - NOW REJECTED] He claimed homosexuality was treatable through psychoanalysis and was not innate.",
+      "text_evidence": "He claimed homosexuality was treatable through psychoanalysis and was not innate. NOTE: This position has been repudiated by contemporary psychology.",
+      "domain": "HISTORICAL_REJECTED",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "HISTORICAL"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-HIST-0004",
+      "position_id": "BERG-HIST-0004",
+      "author": "Edmund Bergler",
+      "title": "These positions on homosexuality have been repudiated by contemporary psychology, which recognizes homosexuality as a normal variant of human sexuality.",
+      "text_evidence": "These positions have been repudiated by contemporary psychology, which recognizes homosexuality as a normal variant of human sexuality.",
+      "domain": "HISTORICAL_REJECTED",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "HISTORICAL"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-FASH-0001",
+      "position_id": "BERG-FASH-0001",
+      "author": "Edmund Bergler",
+      "title": "Fashion exploits universal psychological mechanisms, particularly narcissism, exhibitionism, and masochism.",
+      "text_evidence": "Fashion exploits universal psychological mechanisms, particularly narcissism, exhibitionism, and masochism.",
+      "domain": "CULTURE",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "FASHION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-FASH-0002",
+      "position_id": "BERG-FASH-0002",
+      "author": "Edmund Bergler",
+      "title": "Fashion's constant change reflects an unconscious need for novelty that masks oral dissatisfaction\u2014nothing can satisfy permanently because the original oral wound cannot be healed by external means.",
+      "text_evidence": "Fashion's constant change reflects an unconscious need for novelty that masks oral dissatisfaction\u2014nothing can satisfy permanently because the original oral wound cannot be healed by external means.",
+      "domain": "CULTURE",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "FASHION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-FASH-0003",
+      "position_id": "BERG-FASH-0003",
+      "author": "Edmund Bergler",
+      "title": "Fashion designers often express unconscious aggression toward women through impractical, uncomfortable, or unflattering designs.",
+      "text_evidence": "Fashion designers often express unconscious aggression toward women through impractical, uncomfortable, or unflattering designs.",
+      "domain": "CULTURE",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "FASHION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-FASH-0004",
+      "position_id": "BERG-FASH-0004",
+      "author": "Edmund Bergler",
+      "title": "The fashion victim is a masochistic type who submits to the sadism of arbitrary fashion dictates.",
+      "text_evidence": "The fashion victim is a masochistic type who submits to the sadism of arbitrary fashion dictates.",
+      "domain": "CULTURE",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "FASHION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-FASH-0005",
+      "position_id": "BERG-FASH-0005",
+      "author": "Edmund Bergler",
+      "title": "Fashion involves identification with the aggressor: by embracing the latest fashion, one joins the powerful group rather than being excluded by it.",
+      "text_evidence": "Fashion involves identification with the aggressor: by embracing the latest fashion, one joins the powerful group rather than being excluded by it.",
+      "domain": "CULTURE",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "FASHION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-FASH-0006",
+      "position_id": "BERG-FASH-0006",
+      "author": "Edmund Bergler",
+      "title": "The willingness to discard last season's clothes enacts the oral drama of things once desired becoming worthless once obtained.",
+      "text_evidence": "The willingness to discard last season's clothes enacts the oral drama of things once desired becoming worthless once obtained.",
+      "domain": "CULTURE",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "FASHION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-CAREER-0001",
+      "position_id": "BERG-CAREER-0001",
+      "author": "Edmund Bergler",
+      "title": "Many professional failures result not from external obstacles but from unconscious self-sabotage.",
+      "text_evidence": "Many professional failures result not from external obstacles but from unconscious self-sabotage.",
+      "domain": "CAREER",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "CAREER"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-CAREER-0002",
+      "position_id": "BERG-CAREER-0002",
+      "author": "Edmund Bergler",
+      "title": "Success can trigger intense unconscious guilt, because success feels like triumphing over parental figures.",
+      "text_evidence": "Success can trigger intense unconscious guilt, because success feels like triumphing over parental figures.",
+      "domain": "CAREER",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "CAREER"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-CAREER-0003",
+      "position_id": "BERG-CAREER-0003",
+      "author": "Edmund Bergler",
+      "title": "The 'success neurosis' describes those who cannot tolerate success and unconsciously arrange to fail just as they are about to succeed.",
+      "text_evidence": "The 'success neurosis' describes those who cannot tolerate success and unconsciously arrange to fail just as they are about to succeed.",
+      "domain": "CAREER",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "CAREER"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-CAREER-0004",
+      "position_id": "BERG-CAREER-0004",
+      "author": "Edmund Bergler",
+      "title": "Some neurotics can only function professionally under conditions of exploitation because they need to feel victimized.",
+      "text_evidence": "Some neurotics can only function professionally under conditions of exploitation because they need to feel victimized.",
+      "domain": "CAREER",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "CAREER"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-CAREER-0005",
+      "position_id": "BERG-CAREER-0005",
+      "author": "Edmund Bergler",
+      "title": "Chronic complainers about work conditions often unconsciously select or create the conditions they complain about.",
+      "text_evidence": "Chronic complainers about work conditions often unconsciously select or create the conditions they complain about.",
+      "domain": "CAREER",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "CAREER"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-CAREER-0006",
+      "position_id": "BERG-CAREER-0006",
+      "author": "Edmund Bergler",
+      "title": "The relationship with one's boss often recapitulates the relationship with early authority figures; neurotic work problems frequently reflect unresolved parental conflicts.",
+      "text_evidence": "The relationship with one's boss often recapitulates the relationship with early authority figures; neurotic work problems frequently reflect unresolved parental conflicts.",
+      "domain": "CAREER",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "CAREER"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-CAREER-0007",
+      "position_id": "BERG-CAREER-0007",
+      "author": "Edmund Bergler",
+      "title": "Talent is no protection against neurotic self-defeat; indeed, talented people often have more elaborate means of sabotaging themselves.",
+      "text_evidence": "Talent is no protection against neurotic self-defeat; indeed, talented people often have more elaborate means of sabotaging themselves.",
+      "domain": "CAREER",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "CAREER"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-CAREER-0008",
+      "position_id": "BERG-CAREER-0008",
+      "author": "Edmund Bergler",
+      "title": "Some people can only work when they are 'paid' in suffering\u2014deprivation, poor conditions, or exploitation serve as the price that permits productivity.",
+      "text_evidence": "Some people can only work when they are 'paid' in suffering\u2014deprivation, poor conditions, or exploitation serve as the price that permits productivity.",
+      "domain": "CAREER",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "CAREER"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-GAMB-0001",
+      "position_id": "BERG-GAMB-0001",
+      "author": "Edmund Bergler",
+      "title": "The gambler is not primarily seeking money but is unconsciously staging a drama of loss, proving the thesis that the world refuses.",
+      "text_evidence": "The gambler is not primarily seeking money but is unconsciously staging a drama of loss, proving the thesis that the world refuses.",
+      "domain": "ADDICTION",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "GAMBLING_ADDICTION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-GAMB-0002",
+      "position_id": "BERG-GAMB-0002",
+      "author": "Edmund Bergler",
+      "title": "Gambling provides a pure form of masochistic pleasure: the certainty of eventual loss is the unconscious aim, not the conscious hope of winning.",
+      "text_evidence": "Gambling provides a pure form of masochistic pleasure: the certainty of eventual loss is the unconscious aim, not the conscious hope of winning.",
+      "domain": "ADDICTION",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "GAMBLING_ADDICTION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-GAMB-0003",
+      "position_id": "BERG-GAMB-0003",
+      "author": "Edmund Bergler",
+      "title": "The gambler is in rebellion against logic and reality\u2014against the 'reality principle' that represents parental authority.",
+      "text_evidence": "The gambler is in rebellion against logic and reality\u2014against the 'reality principle' that represents parental authority.",
+      "domain": "ADDICTION",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "GAMBLING_ADDICTION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-GAMB-0004",
+      "position_id": "BERG-GAMB-0004",
+      "author": "Edmund Bergler",
+      "title": "The excitement of gambling represents a manic defense against underlying depression.",
+      "text_evidence": "The excitement of gambling represents a manic defense against underlying depression.",
+      "domain": "ADDICTION",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "GAMBLING_ADDICTION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-GAMB-0005",
+      "position_id": "BERG-GAMB-0005",
+      "author": "Edmund Bergler",
+      "title": "Addiction represents oral regression to a stage where a substance replaces the mother; the addict seeks the illusion of oral fusion.",
+      "text_evidence": "Addiction represents oral regression to a stage where a substance replaces the mother; the addict seeks the illusion of oral fusion.",
+      "domain": "ADDICTION",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "GAMBLING_ADDICTION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-GAMB-0006",
+      "position_id": "BERG-GAMB-0006",
+      "author": "Edmund Bergler",
+      "title": "Addictive patterns inevitably become self-punishing, which serves the masochistic component of the underlying neurosis.",
+      "text_evidence": "Addictive patterns inevitably become self-punishing, which serves the masochistic component of the underlying neurosis.",
+      "domain": "ADDICTION",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "GAMBLING_ADDICTION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-GAMB-0007",
+      "position_id": "BERG-GAMB-0007",
+      "author": "Edmund Bergler",
+      "title": "The addict's relationship to the substance replicates the ambivalent oral relationship: desperate need combined with rage at dependency.",
+      "text_evidence": "The addict's relationship to the substance replicates the ambivalent oral relationship: desperate need combined with rage at dependency.",
+      "domain": "ADDICTION",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "GAMBLING_ADDICTION"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MASC-0001",
+      "position_id": "BERG-MASC-0001",
+      "author": "Edmund Bergler",
+      "title": "Pseudo-aggression and Don Juanism often mask underlying passivity and unconscious feminine identification.",
+      "text_evidence": "Pseudo-aggression and Don Juanism often mask underlying passivity and unconscious feminine identification.",
+      "domain": "SEXUALITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PATHOLOGICAL_MASCULINITY"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MASC-0002",
+      "position_id": "BERG-MASC-0002",
+      "author": "Edmund Bergler",
+      "title": "The compulsive seducer is not driven by sexual desire but by the need to prove masculinity he unconsciously doubts.",
+      "text_evidence": "The compulsive seducer is not driven by sexual desire but by the need to prove masculinity he unconsciously doubts.",
+      "domain": "SEXUALITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PATHOLOGICAL_MASCULINITY"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MASC-0003",
+      "position_id": "BERG-MASC-0003",
+      "author": "Edmund Bergler",
+      "title": "The man who needs to dominate women is defending against terror of women derived from the early maternal relationship.",
+      "text_evidence": "The man who needs to dominate women is defending against terror of women derived from the early maternal relationship.",
+      "domain": "SEXUALITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PATHOLOGICAL_MASCULINITY"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MASC-0004",
+      "position_id": "BERG-MASC-0004",
+      "author": "Edmund Bergler",
+      "title": "Impotence frequently results from unconscious prohibition\u2014the superego forbids sexual success, often due to incestuous meanings.",
+      "text_evidence": "Impotence frequently results from unconscious prohibition\u2014the superego forbids sexual success, often due to incestuous meanings.",
+      "domain": "SEXUALITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PATHOLOGICAL_MASCULINITY"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MASC-0005",
+      "position_id": "BERG-MASC-0005",
+      "author": "Edmund Bergler",
+      "title": "The sadistic man toward women is expressing displaced aggression originally directed at the mother.",
+      "text_evidence": "The sadistic man toward women is expressing displaced aggression originally directed at the mother.",
+      "domain": "SEXUALITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PATHOLOGICAL_MASCULINITY"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MASC-0006",
+      "position_id": "BERG-MASC-0006",
+      "author": "Edmund Bergler",
+      "title": "Men who repeatedly choose 'impossible' women are unconsciously arranging for romantic failure.",
+      "text_evidence": "Men who repeatedly choose 'impossible' women are unconsciously arranging for romantic failure.",
+      "domain": "SEXUALITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PATHOLOGICAL_MASCULINITY"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-MASC-0007",
+      "position_id": "BERG-MASC-0007",
+      "author": "Edmund Bergler",
+      "title": "Exaggerated masculinity often indicates fixation at the phallic level covering deeper oral-passive wishes.",
+      "text_evidence": "Exaggerated masculinity often indicates fixation at the phallic level covering deeper oral-passive wishes.",
+      "domain": "SEXUALITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PATHOLOGICAL_MASCULINITY"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-FEM-0001",
+      "position_id": "BERG-FEM-0001",
+      "author": "Edmund Bergler",
+      "title": "Frigidity is not a lack of capacity for pleasure but an active inhibition based on unconscious conflict.",
+      "text_evidence": "Frigidity is not a lack of capacity for pleasure but an active inhibition based on unconscious conflict.",
+      "domain": "SEXUALITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PATHOLOGICAL_FEMININITY"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-FEM-0002",
+      "position_id": "BERG-FEM-0002",
+      "author": "Edmund Bergler",
+      "title": "The frigid woman is typically punishing men (displacing aggression from father), punishing herself (superego tribute), or both.",
+      "text_evidence": "The frigid woman is typically punishing men (displacing aggression from father), punishing herself (superego tribute), or both.",
+      "domain": "SEXUALITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PATHOLOGICAL_FEMININITY"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-FEM-0003",
+      "position_id": "BERG-FEM-0003",
+      "author": "Edmund Bergler",
+      "title": "Women who choose unsuitable men are not making errors of judgment but unconscious choices guaranteeing disappointment.",
+      "text_evidence": "Women who choose unsuitable men are not making errors of judgment but unconscious choices guaranteeing disappointment.",
+      "domain": "SEXUALITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PATHOLOGICAL_FEMININITY"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-FEM-0004",
+      "position_id": "BERG-FEM-0004",
+      "author": "Edmund Bergler",
+      "title": "Masochistic submission in women often represents aggression turned inward, combined with repetition of early submission to maternal authority.",
+      "text_evidence": "Masochistic submission in women often represents aggression turned inward, combined with repetition of early submission to maternal authority.",
+      "domain": "SEXUALITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PATHOLOGICAL_FEMININITY"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-FEM-0005",
+      "position_id": "BERG-FEM-0005",
+      "author": "Edmund Bergler",
+      "title": "Competition with men sometimes represents identification with the aggressor combined with revenge for early narcissistic injuries.",
+      "text_evidence": "Competition with men sometimes represents identification with the aggressor combined with revenge for early narcissistic injuries.",
+      "domain": "SEXUALITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PATHOLOGICAL_FEMININITY"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-FEM-0006",
+      "position_id": "BERG-FEM-0006",
+      "author": "Edmund Bergler",
+      "title": "The woman who sabotages her husband's success may be expressing displaced aggression, or may need to maintain his dependency to assuage her own anxieties.",
+      "text_evidence": "The woman who sabotages her husband's success may be expressing displaced aggression, or may need to maintain his dependency to assuage her own anxieties.",
+      "domain": "SEXUALITY",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "PATHOLOGICAL_FEMININITY"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-DIAG-0001",
+      "position_id": "BERG-DIAG-0001",
+      "author": "Edmund Bergler",
+      "title": "Neurosis and psychosis differ in degree of ego damage and relationship to reality\u2014neurosis involves symptom formation while maintaining reality testing; psychosis involves ego fragmentation.",
+      "text_evidence": "Neurosis and psychosis differ in degree of ego damage and relationship to reality\u2014neurosis involves symptom formation while maintaining reality testing; psychosis involves ego fragmentation.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "DIAGNOSTIC_CATEGORIES"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-DIAG-0002",
+      "position_id": "BERG-DIAG-0002",
+      "author": "Edmund Bergler",
+      "title": "The specific form of neurosis depends on the developmental point of fixation and the specific defense mechanisms employed.",
+      "text_evidence": "The specific form of neurosis depends on the developmental point of fixation and the specific defense mechanisms employed.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "DIAGNOSTIC_CATEGORIES"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-DIAG-0003",
+      "position_id": "BERG-DIAG-0003",
+      "author": "Edmund Bergler",
+      "title": "Hysteria primarily employs repression and involves conflicts centered on genital-Oedipal themes, but with underlying oral components.",
+      "text_evidence": "Hysteria primarily employs repression and involves conflicts centered on genital-Oedipal themes, but with underlying oral components.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "DIAGNOSTIC_CATEGORIES"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-DIAG-0004",
+      "position_id": "BERG-DIAG-0004",
+      "author": "Edmund Bergler",
+      "title": "Obsessional neurosis employs isolation, undoing, and reaction formation; it appears anal but often masks oral conflicts.",
+      "text_evidence": "Obsessional neurosis employs isolation, undoing, and reaction formation; it appears anal but often masks oral conflicts.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "DIAGNOSTIC_CATEGORIES"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-DIAG-0005",
+      "position_id": "BERG-DIAG-0005",
+      "author": "Edmund Bergler",
+      "title": "Depression represents aggression turned against the self following real or imagined loss of a love object with whom one is ambivalently identified.",
+      "text_evidence": "Depression represents aggression turned against the self following real or imagined loss of a love object with whom one is ambivalently identified.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "DIAGNOSTIC_CATEGORIES"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-DIAG-0006",
+      "position_id": "BERG-DIAG-0006",
+      "author": "Edmund Bergler",
+      "title": "Perversions represent fixations at component sexual drives that failed to integrate under genital primacy.",
+      "text_evidence": "Perversions represent fixations at component sexual drives that failed to integrate under genital primacy.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "DIAGNOSTIC_CATEGORIES"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-DIAG-0007",
+      "position_id": "BERG-DIAG-0007",
+      "author": "Edmund Bergler",
+      "title": "Character neurosis is more entrenched than symptom neurosis because the pathology is experienced as part of the self rather than as a foreign symptom.",
+      "text_evidence": "Character neurosis is more entrenched than symptom neurosis because the pathology is experienced as part of the self rather than as a foreign symptom.",
+      "domain": "PSYCHOANALYSIS",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "DIAGNOSTIC_CATEGORIES"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-CURE-0001",
+      "position_id": "BERG-CURE-0001",
+      "author": "Edmund Bergler",
+      "title": "Neurosis is not destiny; unconscious conflicts made conscious lose their determining power.",
+      "text_evidence": "Neurosis is not destiny; unconscious conflicts made conscious lose their determining power.",
+      "domain": "TREATMENT",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "CURE"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-CURE-0002",
+      "position_id": "BERG-CURE-0002",
+      "author": "Edmund Bergler",
+      "title": "Analysis works by making the unconscious conscious, thereby expanding the ego's domain at the expense of the id and superego.",
+      "text_evidence": "Analysis works by making the unconscious conscious, thereby expanding the ego's domain at the expense of the id and superego.",
+      "domain": "TREATMENT",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "CURE"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-CURE-0003",
+      "position_id": "BERG-CURE-0003",
+      "author": "Edmund Bergler",
+      "title": "The patient's resistance to cure is itself a manifestation of the neurosis\u2014part of him clings to his suffering.",
+      "text_evidence": "The patient's resistance to cure is itself a manifestation of the neurosis\u2014part of him clings to his suffering.",
+      "domain": "TREATMENT",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "CURE"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-CURE-0004",
+      "position_id": "BERG-CURE-0004",
+      "author": "Edmund Bergler",
+      "title": "Genuine cure requires not just intellectual insight but emotional working-through of unconscious conflicts.",
+      "text_evidence": "Genuine cure requires not just intellectual insight but emotional working-through of unconscious conflicts.",
+      "domain": "TREATMENT",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "CURE"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-CURE-0005",
+      "position_id": "BERG-CURE-0005",
+      "author": "Edmund Bergler",
+      "title": "Many patients seek not cure but more effective neurosis\u2014a version of their pathology that works better.",
+      "text_evidence": "Many patients seek not cure but more effective neurosis\u2014a version of their pathology that works better.",
+      "domain": "TREATMENT",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "CURE"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-CURE-0006",
+      "position_id": "BERG-CURE-0006",
+      "author": "Edmund Bergler",
+      "title": "Short-term interventions cannot address character neurosis, which requires extended analytic work.",
+      "text_evidence": "Short-term interventions cannot address character neurosis, which requires extended analytic work.",
+      "domain": "TREATMENT",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "CURE"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-CURE-0007",
+      "position_id": "BERG-CURE-0007",
+      "author": "Edmund Bergler",
+      "title": "The goal of treatment is not happiness but freedom from neurotic compulsion\u2014what one does with that freedom is one's own affair.",
+      "text_evidence": "The goal of treatment is not happiness but freedom from neurotic compulsion\u2014what one does with that freedom is one's own affair.",
+      "domain": "TREATMENT",
+      "work_id": "WORK-BERG",
+      "work_title": "Bergler Positions Database",
+      "source": [
+        "CURE"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0001",
+      "position_id": "BERG-150-0001",
+      "author": "Edmund Bergler",
+      "title": "The pre-Oedipal oral phase (0-18 months) is more fundamental to neurosis than the Oedipal phase (3-5...",
+      "text_evidence": "The pre-Oedipal oral phase (0-18 months) is more fundamental to neurosis than the Oedipal phase (3-5 years).",
+      "domain": "FOUNDATIONAL_METAPSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "foundational_metapsychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0002",
+      "position_id": "BERG-150-0002",
+      "author": "Edmund Bergler",
+      "title": "There is only one \"basic neurosis\"\u2014repressed masochistic attachment to the fantasied earliest \"bad m...",
+      "text_evidence": "There is only one \"basic neurosis\"\u2014repressed masochistic attachment to the fantasied earliest \"bad mother.\"",
+      "domain": "FOUNDATIONAL_METAPSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "foundational_metapsychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0003",
+      "position_id": "BERG-150-0003",
+      "author": "Edmund Bergler",
+      "title": "Psychic masochism is the unconscious pursuit of \"pleasure in displeasure.\"",
+      "text_evidence": "Psychic masochism is the unconscious pursuit of \"pleasure in displeasure.\"",
+      "domain": "FOUNDATIONAL_METAPSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "foundational_metapsychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0004",
+      "position_id": "BERG-150-0004",
+      "author": "Edmund Bergler",
+      "title": "Psychic masochism constitutes \"the life-blood of neurosis\" and is in fact the basic neurosis.",
+      "text_evidence": "Psychic masochism constitutes \"the life-blood of neurosis\" and is in fact the basic neurosis.",
+      "domain": "FOUNDATIONAL_METAPSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "foundational_metapsychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0005",
+      "position_id": "BERG-150-0005",
+      "author": "Edmund Bergler",
+      "title": "Neurotic equals psychic masochist\u2014every neurotic is fundamentally a psychic masochist.",
+      "text_evidence": "Neurotic equals psychic masochist\u2014every neurotic is fundamentally a psychic masochist.",
+      "domain": "FOUNDATIONAL_METAPSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "foundational_metapsychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0006",
+      "position_id": "BERG-150-0006",
+      "author": "Edmund Bergler",
+      "title": "The superego is the \"real master of the personality.\"",
+      "text_evidence": "The superego is the \"real master of the personality.\"",
+      "domain": "FOUNDATIONAL_METAPSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "foundational_metapsychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0007",
+      "position_id": "BERG-150-0007",
+      "author": "Edmund Bergler",
+      "title": "The superego operates as \"torture for torture's sake.\"",
+      "text_evidence": "The superego operates as \"torture for torture's sake.\"",
+      "domain": "FOUNDATIONAL_METAPSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "foundational_metapsychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0008",
+      "position_id": "BERG-150-0008",
+      "author": "Edmund Bergler",
+      "title": "The punitive part of the superego (Daimonion) uses the ego ideal to torture the ego.",
+      "text_evidence": "The punitive part of the superego (Daimonion) uses the ego ideal to torture the ego.",
+      "domain": "FOUNDATIONAL_METAPSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "foundational_metapsychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0009",
+      "position_id": "BERG-150-0009",
+      "author": "Edmund Bergler",
+      "title": "Punishment itself becomes masochized\u2014the neurotic derives unconscious pleasure from being punished.",
+      "text_evidence": "Punishment itself becomes masochized\u2014the neurotic derives unconscious pleasure from being punished.",
+      "domain": "FOUNDATIONAL_METAPSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "foundational_metapsychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0010",
+      "position_id": "BERG-150-0010",
+      "author": "Edmund Bergler",
+      "title": "Infantile megalomania and infantile omnipotence are of prime importance in the reduction of anxiety.",
+      "text_evidence": "Infantile megalomania and infantile omnipotence are of prime importance in the reduction of anxiety.",
+      "domain": "FOUNDATIONAL_METAPSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "foundational_metapsychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0011",
+      "position_id": "BERG-150-0011",
+      "author": "Edmund Bergler",
+      "title": "Man's inhumanity to man is equaled only by man's inhumanity to himself.",
+      "text_evidence": "Man's inhumanity to man is equaled only by man's inhumanity to himself.",
+      "domain": "FOUNDATIONAL_METAPSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "foundational_metapsychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0012",
+      "position_id": "BERG-150-0012",
+      "author": "Edmund Bergler",
+      "title": "People are heavily defended against realization of the darkest aspects of human nature\u2014their emotion...",
+      "text_evidence": "People are heavily defended against realization of the darkest aspects of human nature\u2014their emotional addiction to unresolved negative emotions.",
+      "domain": "FOUNDATIONAL_METAPSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "foundational_metapsychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0013",
+      "position_id": "BERG-150-0013",
+      "author": "Edmund Bergler",
+      "title": "The infant's first important emotional relationship is with the mother (breast/bottle) during the or...",
+      "text_evidence": "The infant's first important emotional relationship is with the mother (breast/bottle) during the oral stage.",
+      "domain": "FOUNDATIONAL_METAPSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "foundational_metapsychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0014",
+      "position_id": "BERG-150-0014",
+      "author": "Edmund Bergler",
+      "title": "Later neuroses \"reformulating\" oral masochistic material represent \"rescue stations.\"",
+      "text_evidence": "Later neuroses \"reformulating\" oral masochistic material represent \"rescue stations.\"",
+      "domain": "FOUNDATIONAL_METAPSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "foundational_metapsychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0015",
+      "position_id": "BERG-150-0015",
+      "author": "Edmund Bergler",
+      "title": "Neurotics cling to and repeat misery, which in itself indicates psychic masochism.",
+      "text_evidence": "Neurotics cling to and repeat misery, which in itself indicates psychic masochism.",
+      "domain": "FOUNDATIONAL_METAPSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "foundational_metapsychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0016",
+      "position_id": "BERG-150-0016",
+      "author": "Edmund Bergler",
+      "title": "The \"mechanism of orality\" is paradigmatic for the masochistic character.",
+      "text_evidence": "The \"mechanism of orality\" is paradigmatic for the masochistic character.",
+      "domain": "MECHANISM_OF_ORALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "mechanism_of_orality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0017",
+      "position_id": "BERG-150-0017",
+      "author": "Edmund Bergler",
+      "title": "The mechanism of orality consists of a three-act triad operating unconsciously.",
+      "text_evidence": "The mechanism of orality consists of a three-act triad operating unconsciously.",
+      "domain": "MECHANISM_OF_ORALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "mechanism_of_orality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0018",
+      "position_id": "BERG-150-0018",
+      "author": "Edmund Bergler",
+      "title": "Act 1: Through provocative behavior, a situation is brought about in which some substitute of the pr...",
+      "text_evidence": "Act 1: Through provocative behavior, a situation is brought about in which some substitute of the pre-Oedipal mother is \"refusing.\"",
+      "domain": "MECHANISM_OF_ORALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "mechanism_of_orality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0019",
+      "position_id": "BERG-150-0019",
+      "author": "Edmund Bergler",
+      "title": "Act 2: Not realizing they manufacture disappointment, neurotics become aggressive in \"righteous indi...",
+      "text_evidence": "Act 2: Not realizing they manufacture disappointment, neurotics become aggressive in \"righteous indignation\" and seemingly in self-defense.",
+      "domain": "MECHANISM_OF_ORALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "mechanism_of_orality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0020",
+      "position_id": "BERG-150-0020",
+      "author": "Edmund Bergler",
+      "title": "Act 3: They indulge in endless self-pity, unconsciously enjoying psychic masochism.",
+      "text_evidence": "Act 3: They indulge in endless self-pity, unconsciously enjoying psychic masochism.",
+      "domain": "MECHANISM_OF_ORALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "mechanism_of_orality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0021",
+      "position_id": "BERG-150-0021",
+      "author": "Edmund Bergler",
+      "title": "Neurotics repress completely the fact of their own initial provocation that began the sequence.",
+      "text_evidence": "Neurotics repress completely the fact of their own initial provocation that began the sequence.",
+      "domain": "MECHANISM_OF_ORALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "mechanism_of_orality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0022",
+      "position_id": "BERG-150-0022",
+      "author": "Edmund Bergler",
+      "title": "Neurotics repress the masochistic enjoyment of self-pity.",
+      "text_evidence": "Neurotics repress the masochistic enjoyment of self-pity.",
+      "domain": "MECHANISM_OF_ORALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "mechanism_of_orality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0023",
+      "position_id": "BERG-150-0023",
+      "author": "Edmund Bergler",
+      "title": "The ego-strengthening illusion of \"aggression\" is maintained while the decisive masochistic substruc...",
+      "text_evidence": "The ego-strengthening illusion of \"aggression\" is maintained while the decisive masochistic substructure remains hidden.",
+      "domain": "MECHANISM_OF_ORALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "mechanism_of_orality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0024",
+      "position_id": "BERG-150-0024",
+      "author": "Edmund Bergler",
+      "title": "Psychic masochism unconsciously \"sugarcoats\" and \"neutralizes\" pain.",
+      "text_evidence": "Psychic masochism unconsciously \"sugarcoats\" and \"neutralizes\" pain.",
+      "domain": "MECHANISM_OF_ORALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "mechanism_of_orality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0025",
+      "position_id": "BERG-150-0025",
+      "author": "Edmund Bergler",
+      "title": "Consciously, pain remains and is felt in symptoms and personality distortions.",
+      "text_evidence": "Consciously, pain remains and is felt in symptoms and personality distortions.",
+      "domain": "MECHANISM_OF_ORALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "mechanism_of_orality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0026",
+      "position_id": "BERG-150-0026",
+      "author": "Edmund Bergler",
+      "title": "Psychic masochists unconsciously want refusal, rejection, humiliation, and defeat.",
+      "text_evidence": "Psychic masochists unconsciously want refusal, rejection, humiliation, and defeat.",
+      "domain": "MECHANISM_OF_ORALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "mechanism_of_orality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0027",
+      "position_id": "BERG-150-0027",
+      "author": "Edmund Bergler",
+      "title": "The genuine \"wish to get\" of infancy is now a defense in the adult neurotic.",
+      "text_evidence": "The genuine \"wish to get\" of infancy is now a defense in the adult neurotic.",
+      "domain": "MECHANISM_OF_ORALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "mechanism_of_orality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0028",
+      "position_id": "BERG-150-0028",
+      "author": "Edmund Bergler",
+      "title": "Those who operate by the mechanism of orality are \"injustice collectors.\"",
+      "text_evidence": "Those who operate by the mechanism of orality are \"injustice collectors.\"",
+      "domain": "MECHANISM_OF_ORALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "mechanism_of_orality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0029",
+      "position_id": "BERG-150-0029",
+      "author": "Edmund Bergler",
+      "title": "A person who unconsciously runs after disappointment cannot be consciously happy.",
+      "text_evidence": "A person who unconsciously runs after disappointment cannot be consciously happy.",
+      "domain": "MECHANISM_OF_ORALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "mechanism_of_orality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0030",
+      "position_id": "BERG-150-0030",
+      "author": "Edmund Bergler",
+      "title": "Neurotics cast others as the \"bad, refusing mother.\"",
+      "text_evidence": "Neurotics cast others as the \"bad, refusing mother.\"",
+      "domain": "MECHANISM_OF_ORALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "mechanism_of_orality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0031",
+      "position_id": "BERG-150-0031",
+      "author": "Edmund Bergler",
+      "title": "Neurotic symptoms and traits have a five-layer structure.",
+      "text_evidence": "Neurotic symptoms and traits have a five-layer structure.",
+      "domain": "NEUROTIC_SYMPTOM_STRUCTURE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "neurotic_symptom_structure"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0032",
+      "position_id": "BERG-150-0032",
+      "author": "Edmund Bergler",
+      "title": "Psychic masochism is disguised from the superego by two defensive alibis.",
+      "text_evidence": "Psychic masochism is disguised from the superego by two defensive alibis.",
+      "domain": "NEUROTIC_SYMPTOM_STRUCTURE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "neurotic_symptom_structure"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0033",
+      "position_id": "BERG-150-0033",
+      "author": "Edmund Bergler",
+      "title": "In the normal person, the fifth layer is antimasochistic.",
+      "text_evidence": "In the normal person, the fifth layer is antimasochistic.",
+      "domain": "NEUROTIC_SYMPTOM_STRUCTURE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "neurotic_symptom_structure"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0034",
+      "position_id": "BERG-150-0034",
+      "author": "Edmund Bergler",
+      "title": "In neurosis, the final layer \"smuggles in\" masochism in self-damaging symptoms.",
+      "text_evidence": "In neurosis, the final layer \"smuggles in\" masochism in self-damaging symptoms.",
+      "domain": "NEUROTIC_SYMPTOM_STRUCTURE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "neurotic_symptom_structure"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0035",
+      "position_id": "BERG-150-0035",
+      "author": "Edmund Bergler",
+      "title": "Neurotics cannot be helped unless their psychic masochism is analyzed.",
+      "text_evidence": "Neurotics cannot be helped unless their psychic masochism is analyzed.",
+      "domain": "NEUROTIC_SYMPTOM_STRUCTURE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "neurotic_symptom_structure"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0036",
+      "position_id": "BERG-150-0036",
+      "author": "Edmund Bergler",
+      "title": "Every clinical entity incorporates a unique \"specific additional factor\" on top of the basic mechani...",
+      "text_evidence": "Every clinical entity incorporates a unique \"specific additional factor\" on top of the basic mechanism.",
+      "domain": "NEUROTIC_SYMPTOM_STRUCTURE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "neurotic_symptom_structure"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0037",
+      "position_id": "BERG-150-0037",
+      "author": "Edmund Bergler",
+      "title": "Neurotics shift the blame outside, mostly to parents\u2014this is the \"basic fallacy.\"",
+      "text_evidence": "Neurotics shift the blame outside, mostly to parents\u2014this is the \"basic fallacy.\"",
+      "domain": "BASIC_FALLACY_PSEUDOAGGRESSION",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "basic_fallacy_pseudoaggression"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0038",
+      "position_id": "BERG-150-0038",
+      "author": "Edmund Bergler",
+      "title": "The basic fallacy must be shown to be a fallacy for treatment to succeed.",
+      "text_evidence": "The basic fallacy must be shown to be a fallacy for treatment to succeed.",
+      "domain": "BASIC_FALLACY_PSEUDOAGGRESSION",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "basic_fallacy_pseudoaggression"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0039",
+      "position_id": "BERG-150-0039",
+      "author": "Edmund Bergler",
+      "title": "All neurotic aggression is \"pseudoaggression.\"",
+      "text_evidence": "All neurotic aggression is \"pseudoaggression.\"",
+      "domain": "BASIC_FALLACY_PSEUDOAGGRESSION",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "basic_fallacy_pseudoaggression"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0040",
+      "position_id": "BERG-150-0040",
+      "author": "Edmund Bergler",
+      "title": "Pseudoaggression promotes self-damage rather than genuine assertion.",
+      "text_evidence": "Pseudoaggression promotes self-damage rather than genuine assertion.",
+      "domain": "BASIC_FALLACY_PSEUDOAGGRESSION",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "basic_fallacy_pseudoaggression"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0041",
+      "position_id": "BERG-150-0041",
+      "author": "Edmund Bergler",
+      "title": "Neurotic aggression serves masochistic purposes while appearing defensive.",
+      "text_evidence": "Neurotic aggression serves masochistic purposes while appearing defensive.",
+      "domain": "BASIC_FALLACY_PSEUDOAGGRESSION",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "basic_fallacy_pseudoaggression"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0042",
+      "position_id": "BERG-150-0042",
+      "author": "Edmund Bergler",
+      "title": "The neurotic believes he is fighting back when in fact he is engineering his own defeat.",
+      "text_evidence": "The neurotic believes he is fighting back when in fact he is engineering his own defeat.",
+      "domain": "BASIC_FALLACY_PSEUDOAGGRESSION",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "basic_fallacy_pseudoaggression"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0043",
+      "position_id": "BERG-150-0043",
+      "author": "Edmund Bergler",
+      "title": "The superego requires constant appeasement.",
+      "text_evidence": "The superego requires constant appeasement.",
+      "domain": "SUPEREGO_THEORY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Superego (1952)",
+      "source": [
+        "superego_theory"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0044",
+      "position_id": "BERG-150-0044",
+      "author": "Edmund Bergler",
+      "title": "Psychic masochism constitutes the most dangerous countermeasure of the unconscious ego against the s...",
+      "text_evidence": "Psychic masochism constitutes the most dangerous countermeasure of the unconscious ego against the superego's tyranny.",
+      "domain": "SUPEREGO_THEORY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Superego (1952)",
+      "source": [
+        "superego_theory"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0045",
+      "position_id": "BERG-150-0045",
+      "author": "Edmund Bergler",
+      "title": "Inner guilt drives repetitive self-damaging behavior.",
+      "text_evidence": "Inner guilt drives repetitive self-damaging behavior.",
+      "domain": "SUPEREGO_THEORY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Superego (1952)",
+      "source": [
+        "superego_theory"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0046",
+      "position_id": "BERG-150-0046",
+      "author": "Edmund Bergler",
+      "title": "The \"inner conscience\" (superego) constantly accuses the ego.",
+      "text_evidence": "The \"inner conscience\" (superego) constantly accuses the ego.",
+      "domain": "SUPEREGO_THEORY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Superego (1952)",
+      "source": [
+        "superego_theory"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0047",
+      "position_id": "BERG-150-0047",
+      "author": "Edmund Bergler",
+      "title": "The unconscious ego defends against superego reproaches through various mechanisms.",
+      "text_evidence": "The unconscious ego defends against superego reproaches through various mechanisms.",
+      "domain": "SUPEREGO_THEORY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Superego (1952)",
+      "source": [
+        "superego_theory"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0048",
+      "position_id": "BERG-150-0048",
+      "author": "Edmund Bergler",
+      "title": "When superego attacks are mild (\"raids\"), neurotic symptoms may be transitory.",
+      "text_evidence": "When superego attacks are mild (\"raids\"), neurotic symptoms may be transitory.",
+      "domain": "SUPEREGO_THEORY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Superego (1952)",
+      "source": [
+        "superego_theory"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0049",
+      "position_id": "BERG-150-0049",
+      "author": "Edmund Bergler",
+      "title": "Neurotic symptoms have a \"pseudo-moral connotation\"\u2014ironization of teachings to prop up each symptom...",
+      "text_evidence": "Neurotic symptoms have a \"pseudo-moral connotation\"\u2014ironization of teachings to prop up each symptom.",
+      "domain": "SUPEREGO_THEORY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Superego (1952)",
+      "source": [
+        "superego_theory"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0050",
+      "position_id": "BERG-150-0050",
+      "author": "Edmund Bergler",
+      "title": "The battle of the conscience is the central drama of neurotic life.",
+      "text_evidence": "The battle of the conscience is the central drama of neurotic life.",
+      "domain": "SUPEREGO_THEORY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Superego (1952)",
+      "source": [
+        "superego_theory"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0051",
+      "position_id": "BERG-150-0051",
+      "author": "Edmund Bergler",
+      "title": "Writer's block is a clinical condition rooted in oral masochism.",
+      "text_evidence": "Writer's block is a clinical condition rooted in oral masochism.",
+      "domain": "CREATIVITY_WRITERS_BLOCK",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Writer and Psychoanalysis (1949)",
+      "source": [
+        "creativity_writers_block"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0052",
+      "position_id": "BERG-150-0052",
+      "author": "Edmund Bergler",
+      "title": "Writer's block was coined as a term in 1947.",
+      "text_evidence": "Writer's block was coined as a term in 1947.",
+      "domain": "CREATIVITY_WRITERS_BLOCK",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Writer and Psychoanalysis (1949)",
+      "source": [
+        "creativity_writers_block"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0053",
+      "position_id": "BERG-150-0053",
+      "author": "Edmund Bergler",
+      "title": "Writers are fortunate in that they are able to treat their neurosis every day by writing.",
+      "text_evidence": "Writers are fortunate in that they are able to treat their neurosis every day by writing.",
+      "domain": "CREATIVITY_WRITERS_BLOCK",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Writer and Psychoanalysis (1949)",
+      "source": [
+        "creativity_writers_block"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0054",
+      "position_id": "BERG-150-0054",
+      "author": "Edmund Bergler",
+      "title": "As soon as the writer is blocked, this is catastrophic because the writer will start to go to pieces...",
+      "text_evidence": "As soon as the writer is blocked, this is catastrophic because the writer will start to go to pieces.",
+      "domain": "CREATIVITY_WRITERS_BLOCK",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Writer and Psychoanalysis (1949)",
+      "source": [
+        "creativity_writers_block"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0055",
+      "position_id": "BERG-150-0055",
+      "author": "Edmund Bergler",
+      "title": "Many a person cannot bear the thought of being completely controlled by the unconscious.",
+      "text_evidence": "Many a person cannot bear the thought of being completely controlled by the unconscious.",
+      "domain": "CREATIVITY_WRITERS_BLOCK",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Writer and Psychoanalysis (1949)",
+      "source": [
+        "creativity_writers_block"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0056",
+      "position_id": "BERG-150-0056",
+      "author": "Edmund Bergler",
+      "title": "The productive writer eliminates, intrapsychically, the mother\u2014autarchically giving himself ideas an...",
+      "text_evidence": "The productive writer eliminates, intrapsychically, the mother\u2014autarchically giving himself ideas and words (milk).",
+      "domain": "CREATIVITY_WRITERS_BLOCK",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Writer and Psychoanalysis (1949)",
+      "source": [
+        "creativity_writers_block"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0057",
+      "position_id": "BERG-150-0057",
+      "author": "Edmund Bergler",
+      "title": "The successful writer sets a \"magic gesture\" into motion\u2014dramatizing how he allegedly wanted to be t...",
+      "text_evidence": "The successful writer sets a \"magic gesture\" into motion\u2014dramatizing how he allegedly wanted to be treated.",
+      "domain": "CREATIVITY_WRITERS_BLOCK",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Writer and Psychoanalysis (1949)",
+      "source": [
+        "creativity_writers_block"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0058",
+      "position_id": "BERG-150-0058",
+      "author": "Edmund Bergler",
+      "title": "The unproductive, neurotically inhibited writer exhausts his psychic energy in the creation of his u...",
+      "text_evidence": "The unproductive, neurotically inhibited writer exhausts his psychic energy in the creation of his unconscious alibi of pseudo-aggression (\"I refuse\").",
+      "domain": "CREATIVITY_WRITERS_BLOCK",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Writer and Psychoanalysis (1949)",
+      "source": [
+        "creativity_writers_block"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0059",
+      "position_id": "BERG-150-0059",
+      "author": "Edmund Bergler",
+      "title": "The inhibited writer retains the unconscious masochistic wish to be refused.",
+      "text_evidence": "The inhibited writer retains the unconscious masochistic wish to be refused.",
+      "domain": "CREATIVITY_WRITERS_BLOCK",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Writer and Psychoanalysis (1949)",
+      "source": [
+        "creativity_writers_block"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0060",
+      "position_id": "BERG-150-0060",
+      "author": "Edmund Bergler",
+      "title": "When the writer cannot convince his superego of the \"harmlessness\" of his imagination, he has no ide...",
+      "text_evidence": "When the writer cannot convince his superego of the \"harmlessness\" of his imagination, he has no ideas at all.",
+      "domain": "CREATIVITY_WRITERS_BLOCK",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Writer and Psychoanalysis (1949)",
+      "source": [
+        "creativity_writers_block"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0061",
+      "position_id": "BERG-150-0061",
+      "author": "Edmund Bergler",
+      "title": "If the writer clears the imagination hurdle but cannot obtain approval of his exhibitionism in \"writ...",
+      "text_evidence": "If the writer clears the imagination hurdle but cannot obtain approval of his exhibitionism in \"writing it down,\" he cannot write.",
+      "domain": "CREATIVITY_WRITERS_BLOCK",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Writer and Psychoanalysis (1949)",
+      "source": [
+        "creativity_writers_block"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0062",
+      "position_id": "BERG-150-0062",
+      "author": "Edmund Bergler",
+      "title": "Creative writing involves unconscious autarchic provision of maternal nurturance to oneself.",
+      "text_evidence": "Creative writing involves unconscious autarchic provision of maternal nurturance to oneself.",
+      "domain": "CREATIVITY_WRITERS_BLOCK",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Writer and Psychoanalysis (1949)",
+      "source": [
+        "creativity_writers_block"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0063",
+      "position_id": "BERG-150-0063",
+      "author": "Edmund Bergler",
+      "title": "All gamblers gamble because of psychic masochism.",
+      "text_evidence": "All gamblers gamble because of psychic masochism.",
+      "domain": "GAMBLING_PSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Psychology of Gambling (1957)",
+      "source": [
+        "gambling_psychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0064",
+      "position_id": "BERG-150-0064",
+      "author": "Edmund Bergler",
+      "title": "The gambler has an unconscious wish to lose.",
+      "text_evidence": "The gambler has an unconscious wish to lose.",
+      "domain": "GAMBLING_PSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Psychology of Gambling (1957)",
+      "source": [
+        "gambling_psychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0065",
+      "position_id": "BERG-150-0065",
+      "author": "Edmund Bergler",
+      "title": "Losing is necessary to establish the cruelty of fate for the gambler.",
+      "text_evidence": "Losing is necessary to establish the cruelty of fate for the gambler.",
+      "domain": "GAMBLING_PSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Psychology of Gambling (1957)",
+      "source": [
+        "gambling_psychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0066",
+      "position_id": "BERG-150-0066",
+      "author": "Edmund Bergler",
+      "title": "Gambling involves the re-creation of the infantile conflict with the refusing mother.",
+      "text_evidence": "Gambling involves the re-creation of the infantile conflict with the refusing mother.",
+      "domain": "GAMBLING_PSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Psychology of Gambling (1957)",
+      "source": [
+        "gambling_psychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0067",
+      "position_id": "BERG-150-0067",
+      "author": "Edmund Bergler",
+      "title": "The mysterious thrill in gambling is connected to unconscious masochistic enjoyment.",
+      "text_evidence": "The mysterious thrill in gambling is connected to unconscious masochistic enjoyment.",
+      "domain": "GAMBLING_PSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Psychology of Gambling (1957)",
+      "source": [
+        "gambling_psychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0068",
+      "position_id": "BERG-150-0068",
+      "author": "Edmund Bergler",
+      "title": "Gamblers experience a feeling of uncanniness connected to omnipotence fantasies.",
+      "text_evidence": "Gamblers experience a feeling of uncanniness connected to omnipotence fantasies.",
+      "domain": "GAMBLING_PSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Psychology of Gambling (1957)",
+      "source": [
+        "gambling_psychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0069",
+      "position_id": "BERG-150-0069",
+      "author": "Edmund Bergler",
+      "title": "There is inner identity between games of \"chance\" and games of \"reasoning.\"",
+      "text_evidence": "There is inner identity between games of \"chance\" and games of \"reasoning.\"",
+      "domain": "GAMBLING_PSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Psychology of Gambling (1957)",
+      "source": [
+        "gambling_psychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0070",
+      "position_id": "BERG-150-0070",
+      "author": "Edmund Bergler",
+      "title": "Speculators (big and small) operate on similar psychological dynamics as other gamblers.",
+      "text_evidence": "Speculators (big and small) operate on similar psychological dynamics as other gamblers.",
+      "domain": "GAMBLING_PSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Psychology of Gambling (1957)",
+      "source": [
+        "gambling_psychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0071",
+      "position_id": "BERG-150-0071",
+      "author": "Edmund Bergler",
+      "title": "There exists a typology of gamblers based on their specific masochistic configurations.",
+      "text_evidence": "There exists a typology of gamblers based on their specific masochistic configurations.",
+      "domain": "GAMBLING_PSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Psychology of Gambling (1957)",
+      "source": [
+        "gambling_psychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0072",
+      "position_id": "BERG-150-0072",
+      "author": "Edmund Bergler",
+      "title": "Pathological gambling shows clinical complexity involving multiple neurotic layers.",
+      "text_evidence": "Pathological gambling shows clinical complexity involving multiple neurotic layers.",
+      "domain": "GAMBLING_PSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Psychology of Gambling (1957)",
+      "source": [
+        "gambling_psychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0073",
+      "position_id": "BERG-150-0073",
+      "author": "Edmund Bergler",
+      "title": "Superstition and systems in gambling serve defensive functions.",
+      "text_evidence": "Superstition and systems in gambling serve defensive functions.",
+      "domain": "GAMBLING_PSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Psychology of Gambling (1957)",
+      "source": [
+        "gambling_psychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0074",
+      "position_id": "BERG-150-0074",
+      "author": "Edmund Bergler",
+      "title": "Gambling is objectively a losing proposition that satisfies masochistic needs.",
+      "text_evidence": "Gambling is objectively a losing proposition that satisfies masochistic needs.",
+      "domain": "GAMBLING_PSYCHOLOGY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Psychology of Gambling (1957)",
+      "source": [
+        "gambling_psychology"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0075",
+      "position_id": "BERG-150-0075",
+      "author": "Edmund Bergler",
+      "title": "Divorce is only a neurotic solution applied to neurotic persons.",
+      "text_evidence": "Divorce is only a neurotic solution applied to neurotic persons.",
+      "domain": "MARRIAGE_SEXUALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Unhappy Marriage and Divorce; Counterfeit-Sex (1958)",
+      "source": [
+        "marriage_sexuality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0076",
+      "position_id": "BERG-150-0076",
+      "author": "Edmund Bergler",
+      "title": "Changing the external factors of one's marriage cannot alter the inner conflict.",
+      "text_evidence": "Changing the external factors of one's marriage cannot alter the inner conflict.",
+      "domain": "MARRIAGE_SEXUALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Unhappy Marriage and Divorce; Counterfeit-Sex (1958)",
+      "source": [
+        "marriage_sexuality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0077",
+      "position_id": "BERG-150-0077",
+      "author": "Edmund Bergler",
+      "title": "Unhappy marriages result from neurotic mate selection based on the mechanism of orality.",
+      "text_evidence": "Unhappy marriages result from neurotic mate selection based on the mechanism of orality.",
+      "domain": "MARRIAGE_SEXUALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Unhappy Marriage and Divorce; Counterfeit-Sex (1958)",
+      "source": [
+        "marriage_sexuality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0078",
+      "position_id": "BERG-150-0078",
+      "author": "Edmund Bergler",
+      "title": "Neurotic marriages involve partners unconsciously seeking to repeat infantile conflicts.",
+      "text_evidence": "Neurotic marriages involve partners unconsciously seeking to repeat infantile conflicts.",
+      "domain": "MARRIAGE_SEXUALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Unhappy Marriage and Divorce; Counterfeit-Sex (1958)",
+      "source": [
+        "marriage_sexuality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0079",
+      "position_id": "BERG-150-0079",
+      "author": "Edmund Bergler",
+      "title": "Tender love has unconscious connotations that are completely disregarded by purely biological approa...",
+      "text_evidence": "Tender love has unconscious connotations that are completely disregarded by purely biological approaches.",
+      "domain": "MARRIAGE_SEXUALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Unhappy Marriage and Divorce; Counterfeit-Sex (1958)",
+      "source": [
+        "marriage_sexuality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0080",
+      "position_id": "BERG-150-0080",
+      "author": "Edmund Bergler",
+      "title": "Frigidity in women is a manifestation of oral masochistic regression.",
+      "text_evidence": "Frigidity in women is a manifestation of oral masochistic regression.",
+      "domain": "MARRIAGE_SEXUALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Unhappy Marriage and Divorce; Counterfeit-Sex (1958)",
+      "source": [
+        "marriage_sexuality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0081",
+      "position_id": "BERG-150-0081",
+      "author": "Edmund Bergler",
+      "title": "Psychic impotence in men is rooted in pre-Oedipal conflicts.",
+      "text_evidence": "Psychic impotence in men is rooted in pre-Oedipal conflicts.",
+      "domain": "MARRIAGE_SEXUALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Unhappy Marriage and Divorce; Counterfeit-Sex (1958)",
+      "source": [
+        "marriage_sexuality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0082",
+      "position_id": "BERG-150-0082",
+      "author": "Edmund Bergler",
+      "title": "Premature ejaculation is the most frequent form of psychogenic potency disturbance.",
+      "text_evidence": "Premature ejaculation is the most frequent form of psychogenic potency disturbance.",
+      "domain": "MARRIAGE_SEXUALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Unhappy Marriage and Divorce; Counterfeit-Sex (1958)",
+      "source": [
+        "marriage_sexuality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0083",
+      "position_id": "BERG-150-0083",
+      "author": "Edmund Bergler",
+      "title": "Vaginal orgasm exists contrary to Kinsey's denial.",
+      "text_evidence": "Vaginal orgasm exists contrary to Kinsey's denial.",
+      "domain": "MARRIAGE_SEXUALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Unhappy Marriage and Divorce; Counterfeit-Sex (1958)",
+      "source": [
+        "marriage_sexuality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0084",
+      "position_id": "BERG-150-0084",
+      "author": "Edmund Bergler",
+      "title": "\"Counterfeit-sex\" describes sexual behaviors that are neurotic substitutes for genuine sexuality.",
+      "text_evidence": "\"Counterfeit-sex\" describes sexual behaviors that are neurotic substitutes for genuine sexuality.",
+      "domain": "MARRIAGE_SEXUALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Unhappy Marriage and Divorce; Counterfeit-Sex (1958)",
+      "source": [
+        "marriage_sexuality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0085",
+      "position_id": "BERG-150-0085",
+      "author": "Edmund Bergler",
+      "title": "Neurotic women often choose termagants (difficult partners) to repeat masochistic patterns.",
+      "text_evidence": "Neurotic women often choose termagants (difficult partners) to repeat masochistic patterns.",
+      "domain": "MARRIAGE_SEXUALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Unhappy Marriage and Divorce; Counterfeit-Sex (1958)",
+      "source": [
+        "marriage_sexuality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0086",
+      "position_id": "BERG-150-0086",
+      "author": "Edmund Bergler",
+      "title": "The \"allure of the forbidden\" operates in neurotic sexual patterns.",
+      "text_evidence": "The \"allure of the forbidden\" operates in neurotic sexual patterns.",
+      "domain": "MARRIAGE_SEXUALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Unhappy Marriage and Divorce; Counterfeit-Sex (1958)",
+      "source": [
+        "marriage_sexuality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0087",
+      "position_id": "BERG-150-0087",
+      "author": "Edmund Bergler",
+      "title": "Romantic love and sexual love have distinct psychoanalytic meanings.",
+      "text_evidence": "Romantic love and sexual love have distinct psychoanalytic meanings.",
+      "domain": "MARRIAGE_SEXUALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Unhappy Marriage and Divorce; Counterfeit-Sex (1958)",
+      "source": [
+        "marriage_sexuality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0088",
+      "position_id": "BERG-150-0088",
+      "author": "Edmund Bergler",
+      "title": "Monogamy and its difficulties reflect underlying oral conflicts.",
+      "text_evidence": "Monogamy and its difficulties reflect underlying oral conflicts.",
+      "domain": "MARRIAGE_SEXUALITY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Unhappy Marriage and Divorce; Counterfeit-Sex (1958)",
+      "source": [
+        "marriage_sexuality"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0089",
+      "position_id": "BERG-150-0089",
+      "author": "Edmund Bergler",
+      "title": "The revolt of the middle-aged man is a specific clinical syndrome.",
+      "text_evidence": "The revolt of the middle-aged man is a specific clinical syndrome.",
+      "domain": "MIDDLE_AGE_REVOLT",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Revolt of the Middle-Aged Man (1954)",
+      "source": [
+        "middle_age_revolt"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0090",
+      "position_id": "BERG-150-0090",
+      "author": "Edmund Bergler",
+      "title": "Middle-age rebellion originates in unresolved oral conflicts reactivated at midlife.",
+      "text_evidence": "Middle-age rebellion originates in unresolved oral conflicts reactivated at midlife.",
+      "domain": "MIDDLE_AGE_REVOLT",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Revolt of the Middle-Aged Man (1954)",
+      "source": [
+        "middle_age_revolt"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0091",
+      "position_id": "BERG-150-0091",
+      "author": "Edmund Bergler",
+      "title": "The middle-aged rebel unconsciously seeks to recreate infantile disappointments.",
+      "text_evidence": "The middle-aged rebel unconsciously seeks to recreate infantile disappointments.",
+      "domain": "MIDDLE_AGE_REVOLT",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Revolt of the Middle-Aged Man (1954)",
+      "source": [
+        "middle_age_revolt"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0092",
+      "position_id": "BERG-150-0092",
+      "author": "Edmund Bergler",
+      "title": "The rebel's wife plays a role in the masochistic drama.",
+      "text_evidence": "The rebel's wife plays a role in the masochistic drama.",
+      "domain": "MIDDLE_AGE_REVOLT",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Revolt of the Middle-Aged Man (1954)",
+      "source": [
+        "middle_age_revolt"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0093",
+      "position_id": "BERG-150-0093",
+      "author": "Edmund Bergler",
+      "title": "Children serve as judges in the middle-age revolt scenario.",
+      "text_evidence": "Children serve as judges in the middle-age revolt scenario.",
+      "domain": "MIDDLE_AGE_REVOLT",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Revolt of the Middle-Aged Man (1954)",
+      "source": [
+        "middle_age_revolt"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0094",
+      "position_id": "BERG-150-0094",
+      "author": "Edmund Bergler",
+      "title": "Resignation is not the way out of the middle-age crisis.",
+      "text_evidence": "Resignation is not the way out of the middle-age crisis.",
+      "domain": "MIDDLE_AGE_REVOLT",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Revolt of the Middle-Aged Man (1954)",
+      "source": [
+        "middle_age_revolt"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0095",
+      "position_id": "BERG-150-0095",
+      "author": "Edmund Bergler",
+      "title": "The \"second adolescence\" of middle age is a defensive configuration.",
+      "text_evidence": "The \"second adolescence\" of middle age is a defensive configuration.",
+      "domain": "MIDDLE_AGE_REVOLT",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Revolt of the Middle-Aged Man (1954)",
+      "source": [
+        "middle_age_revolt"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0096",
+      "position_id": "BERG-150-0096",
+      "author": "Edmund Bergler",
+      "title": "Depressed mood in middle age relates to masochistic patterns.",
+      "text_evidence": "Depressed mood in middle age relates to masochistic patterns.",
+      "domain": "MIDDLE_AGE_REVOLT",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Revolt of the Middle-Aged Man (1954)",
+      "source": [
+        "middle_age_revolt"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0097",
+      "position_id": "BERG-150-0097",
+      "author": "Edmund Bergler",
+      "title": "The m\u00e9nage \u00e0 trois fantasy often emerges in middle-age revolt.",
+      "text_evidence": "The m\u00e9nage \u00e0 trois fantasy often emerges in middle-age revolt.",
+      "domain": "MIDDLE_AGE_REVOLT",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Revolt of the Middle-Aged Man (1954)",
+      "source": [
+        "middle_age_revolt"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0098",
+      "position_id": "BERG-150-0098",
+      "author": "Edmund Bergler",
+      "title": "Injustice collectors are unconscious masochists who nurse resentments.",
+      "text_evidence": "Injustice collectors are unconscious masochists who nurse resentments.",
+      "domain": "INJUSTICE_COLLECTORS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "injustice_collectors"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0099",
+      "position_id": "BERG-150-0099",
+      "author": "Edmund Bergler",
+      "title": "Injustice collectors unconsciously provoke the very mistreatment they complain about.",
+      "text_evidence": "Injustice collectors unconsciously provoke the very mistreatment they complain about.",
+      "domain": "INJUSTICE_COLLECTORS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "injustice_collectors"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0100",
+      "position_id": "BERG-150-0100",
+      "author": "Edmund Bergler",
+      "title": "The injustice collector maintains an enormous cache of grievances going back years.",
+      "text_evidence": "The injustice collector maintains an enormous cache of grievances going back years.",
+      "domain": "INJUSTICE_COLLECTORS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "injustice_collectors"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0101",
+      "position_id": "BERG-150-0101",
+      "author": "Edmund Bergler",
+      "title": "Injustice collectors unconsciously enjoy self-pity.",
+      "text_evidence": "Injustice collectors unconsciously enjoy self-pity.",
+      "domain": "INJUSTICE_COLLECTORS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "injustice_collectors"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0102",
+      "position_id": "BERG-150-0102",
+      "author": "Edmund Bergler",
+      "title": "Injustice collectors believe they want normal pleasure but run after disappointment.",
+      "text_evidence": "Injustice collectors believe they want normal pleasure but run after disappointment.",
+      "domain": "INJUSTICE_COLLECTORS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "injustice_collectors"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0103",
+      "position_id": "BERG-150-0103",
+      "author": "Edmund Bergler",
+      "title": "The injustice collector's versions of events are often skewed or completely misinterpreted.",
+      "text_evidence": "The injustice collector's versions of events are often skewed or completely misinterpreted.",
+      "domain": "INJUSTICE_COLLECTORS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "injustice_collectors"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0104",
+      "position_id": "BERG-150-0104",
+      "author": "Edmund Bergler",
+      "title": "Injustice collecting serves to validate the masochistic attachment to the bad mother.",
+      "text_evidence": "Injustice collecting serves to validate the masochistic attachment to the bad mother.",
+      "domain": "INJUSTICE_COLLECTORS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "The Basic Neurosis (1949)",
+      "source": [
+        "injustice_collectors"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0105",
+      "position_id": "BERG-150-0105",
+      "author": "Edmund Bergler",
+      "title": "Boredom (\"alysosis\") is a neurotic disease, not merely a mood state.",
+      "text_evidence": "Boredom (\"alysosis\") is a neurotic disease, not merely a mood state.",
+      "domain": "SPECIFIC_NEUROTIC_CONDITIONS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "specific_neurotic_conditions"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0106",
+      "position_id": "BERG-150-0106",
+      "author": "Edmund Bergler",
+      "title": "Boredom is closely associated in a triad with scopophilia (voyeurism) and psychic masochism.",
+      "text_evidence": "Boredom is closely associated in a triad with scopophilia (voyeurism) and psychic masochism.",
+      "domain": "SPECIFIC_NEUROTIC_CONDITIONS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "specific_neurotic_conditions"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0107",
+      "position_id": "BERG-150-0107",
+      "author": "Edmund Bergler",
+      "title": "Boredom represents an unsuccessful defense mechanism against inner conscience reproaches.",
+      "text_evidence": "Boredom represents an unsuccessful defense mechanism against inner conscience reproaches.",
+      "domain": "SPECIFIC_NEUROTIC_CONDITIONS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "specific_neurotic_conditions"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0108",
+      "position_id": "BERG-150-0108",
+      "author": "Edmund Bergler",
+      "title": "The prognosis is unfavorable in untreated boredom, which may result in suicide.",
+      "text_evidence": "The prognosis is unfavorable in untreated boredom, which may result in suicide.",
+      "domain": "SPECIFIC_NEUROTIC_CONDITIONS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "specific_neurotic_conditions"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0109",
+      "position_id": "BERG-150-0109",
+      "author": "Edmund Bergler",
+      "title": "Boredom is progressive and never self-limited.",
+      "text_evidence": "Boredom is progressive and never self-limited.",
+      "domain": "SPECIFIC_NEUROTIC_CONDITIONS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "specific_neurotic_conditions"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0110",
+      "position_id": "BERG-150-0110",
+      "author": "Edmund Bergler",
+      "title": "Erythrophobia (pathological blushing) is a manifestation of oral regression.",
+      "text_evidence": "Erythrophobia (pathological blushing) is a manifestation of oral regression.",
+      "domain": "SPECIFIC_NEUROTIC_CONDITIONS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "specific_neurotic_conditions"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0111",
+      "position_id": "BERG-150-0111",
+      "author": "Edmund Bergler",
+      "title": "Logorrhoea (compulsive talking) serves defensive functions against masochistic guilt.",
+      "text_evidence": "Logorrhoea (compulsive talking) serves defensive functions against masochistic guilt.",
+      "domain": "SPECIFIC_NEUROTIC_CONDITIONS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "specific_neurotic_conditions"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0112",
+      "position_id": "BERG-150-0112",
+      "author": "Edmund Bergler",
+      "title": "Kleptomania involves the mechanism of orality.",
+      "text_evidence": "Kleptomania involves the mechanism of orality.",
+      "domain": "SPECIFIC_NEUROTIC_CONDITIONS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "specific_neurotic_conditions"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0113",
+      "position_id": "BERG-150-0113",
+      "author": "Edmund Bergler",
+      "title": "The impostor syndrome has oral masochistic roots.",
+      "text_evidence": "The impostor syndrome has oral masochistic roots.",
+      "domain": "SPECIFIC_NEUROTIC_CONDITIONS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "specific_neurotic_conditions"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0114",
+      "position_id": "BERG-150-0114",
+      "author": "Edmund Bergler",
+      "title": "Hypocrisy has specific implications in neurosis and criminal psychopathology.",
+      "text_evidence": "Hypocrisy has specific implications in neurosis and criminal psychopathology.",
+      "domain": "SPECIFIC_NEUROTIC_CONDITIONS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "specific_neurotic_conditions"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0115",
+      "position_id": "BERG-150-0115",
+      "author": "Edmund Bergler",
+      "title": "Cynicism is a mechanism deducible from oral masochistic theory.",
+      "text_evidence": "Cynicism is a mechanism deducible from oral masochistic theory.",
+      "domain": "SPECIFIC_NEUROTIC_CONDITIONS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "specific_neurotic_conditions"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0116",
+      "position_id": "BERG-150-0116",
+      "author": "Edmund Bergler",
+      "title": "\"Criminosis\" describes criminal behavior rooted in masochistic self-damage.",
+      "text_evidence": "\"Criminosis\" describes criminal behavior rooted in masochistic self-damage.",
+      "domain": "SPECIFIC_NEUROTIC_CONDITIONS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "specific_neurotic_conditions"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0117",
+      "position_id": "BERG-150-0117",
+      "author": "Edmund Bergler",
+      "title": "There exist 22 distinct visual neuroses.",
+      "text_evidence": "There exist 22 distinct visual neuroses.",
+      "domain": "SPECIFIC_NEUROTIC_CONDITIONS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "specific_neurotic_conditions"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0118",
+      "position_id": "BERG-150-0118",
+      "author": "Edmund Bergler",
+      "title": "Psychogenic aspermia (inability to ejaculate) has oral masochistic origins.",
+      "text_evidence": "Psychogenic aspermia (inability to ejaculate) has oral masochistic origins.",
+      "domain": "SPECIFIC_NEUROTIC_CONDITIONS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "specific_neurotic_conditions"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0119",
+      "position_id": "BERG-150-0119",
+      "author": "Edmund Bergler",
+      "title": "Alcoholism is treatable as an oral regression condition.",
+      "text_evidence": "Alcoholism is treatable as an oral regression condition.",
+      "domain": "SPECIFIC_NEUROTIC_CONDITIONS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "specific_neurotic_conditions"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0120",
+      "position_id": "BERG-150-0120",
+      "author": "Edmund Bergler",
+      "title": "Hypochondria serves masochistic defensive purposes.",
+      "text_evidence": "Hypochondria serves masochistic defensive purposes.",
+      "domain": "SPECIFIC_NEUROTIC_CONDITIONS",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "specific_neurotic_conditions"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0121",
+      "position_id": "BERG-150-0121",
+      "author": "Edmund Bergler",
+      "title": "Fashion involves unconscious motivations related to fear and defense.",
+      "text_evidence": "Fashion involves unconscious motivations related to fear and defense.",
+      "domain": "FASHION_CULTURE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Fashion and the Unconscious (1953)",
+      "source": [
+        "fashion_culture"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0122",
+      "position_id": "BERG-150-0122",
+      "author": "Edmund Bergler",
+      "title": "Clothes are a masculine invention despite being associated with women.",
+      "text_evidence": "Clothes are a masculine invention despite being associated with women.",
+      "domain": "FASHION_CULTURE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Fashion and the Unconscious (1953)",
+      "source": [
+        "fashion_culture"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0123",
+      "position_id": "BERG-150-0123",
+      "author": "Edmund Bergler",
+      "title": "Fashion contains paradoxes and contradictions of the \"improved skin.\"",
+      "text_evidence": "Fashion contains paradoxes and contradictions of the \"improved skin.\"",
+      "domain": "FASHION_CULTURE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Fashion and the Unconscious (1953)",
+      "source": [
+        "fashion_culture"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0124",
+      "position_id": "BERG-150-0124",
+      "author": "Edmund Bergler",
+      "title": "There are seven ingredients of haute couture related to unconscious dynamics.",
+      "text_evidence": "There are seven ingredients of haute couture related to unconscious dynamics.",
+      "domain": "FASHION_CULTURE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Fashion and the Unconscious (1953)",
+      "source": [
+        "fashion_culture"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0125",
+      "position_id": "BERG-150-0125",
+      "author": "Edmund Bergler",
+      "title": "Dresses relate to three types of reputation.",
+      "text_evidence": "Dresses relate to three types of reputation.",
+      "domain": "FASHION_CULTURE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Fashion and the Unconscious (1953)",
+      "source": [
+        "fashion_culture"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0126",
+      "position_id": "BERG-150-0126",
+      "author": "Edmund Bergler",
+      "title": "Clothes, children of man's fear, become independent cultural phenomena.",
+      "text_evidence": "Clothes, children of man's fear, become independent cultural phenomena.",
+      "domain": "FASHION_CULTURE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Fashion and the Unconscious (1953)",
+      "source": [
+        "fashion_culture"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0127",
+      "position_id": "BERG-150-0127",
+      "author": "Edmund Bergler",
+      "title": "Some women have \"sartorial anti-talents\" based on unconscious conflicts.",
+      "text_evidence": "Some women have \"sartorial anti-talents\" based on unconscious conflicts.",
+      "domain": "FASHION_CULTURE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Fashion and the Unconscious (1953)",
+      "source": [
+        "fashion_culture"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0128",
+      "position_id": "BERG-150-0128",
+      "author": "Edmund Bergler",
+      "title": "Laughter and the sense of humor have specific psychoanalytic meanings.",
+      "text_evidence": "Laughter and the sense of humor have specific psychoanalytic meanings.",
+      "domain": "HUMOR_LAUGHTER",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Laughter and the Sense of Humor (1956)",
+      "source": [
+        "humor_laughter"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0129",
+      "position_id": "BERG-150-0129",
+      "author": "Edmund Bergler",
+      "title": "Humor involves complex dynamics of aggression and masochism.",
+      "text_evidence": "Humor involves complex dynamics of aggression and masochism.",
+      "domain": "HUMOR_LAUGHTER",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Laughter and the Sense of Humor (1956)",
+      "source": [
+        "humor_laughter"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0130",
+      "position_id": "BERG-150-0130",
+      "author": "Edmund Bergler",
+      "title": "The psychology of humor relates to superego dynamics.",
+      "text_evidence": "The psychology of humor relates to superego dynamics.",
+      "domain": "HUMOR_LAUGHTER",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Laughter and the Sense of Humor (1956)",
+      "source": [
+        "humor_laughter"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0131",
+      "position_id": "BERG-150-0131",
+      "author": "Edmund Bergler",
+      "title": "Therapists should talk at length to patients to counteract their projection of \"bad refusing mother....",
+      "text_evidence": "Therapists should talk at length to patients to counteract their projection of \"bad refusing mother.\"",
+      "domain": "CLINICAL_TECHNIQUE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "clinical_technique"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0132",
+      "position_id": "BERG-150-0132",
+      "author": "Edmund Bergler",
+      "title": "More active analyzing is needed to unearth and interpret all repressed masochistic data.",
+      "text_evidence": "More active analyzing is needed to unearth and interpret all repressed masochistic data.",
+      "domain": "CLINICAL_TECHNIQUE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "clinical_technique"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0133",
+      "position_id": "BERG-150-0133",
+      "author": "Edmund Bergler",
+      "title": "Repetitions must be identified and interpreted systematically.",
+      "text_evidence": "Repetitions must be identified and interpreted systematically.",
+      "domain": "CLINICAL_TECHNIQUE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "clinical_technique"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0134",
+      "position_id": "BERG-150-0134",
+      "author": "Edmund Bergler",
+      "title": "The transference relationship involves projection of the bad mother onto the analyst.",
+      "text_evidence": "The transference relationship involves projection of the bad mother onto the analyst.",
+      "domain": "CLINICAL_TECHNIQUE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "clinical_technique"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0135",
+      "position_id": "BERG-150-0135",
+      "author": "Edmund Bergler",
+      "title": "Working through requires addressing the basic masochistic attachment.",
+      "text_evidence": "Working through requires addressing the basic masochistic attachment.",
+      "domain": "CLINICAL_TECHNIQUE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "clinical_technique"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0136",
+      "position_id": "BERG-150-0136",
+      "author": "Edmund Bergler",
+      "title": "Neurotics who want to change can be cured; those who don't remain \"incurable.\"",
+      "text_evidence": "Neurotics who want to change can be cured; those who don't remain \"incurable.\"",
+      "domain": "CLINICAL_TECHNIQUE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "clinical_technique"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0137",
+      "position_id": "BERG-150-0137",
+      "author": "Edmund Bergler",
+      "title": "There are curable and incurable neurotics based on their willingness to analyze psychic masochism.",
+      "text_evidence": "There are curable and incurable neurotics based on their willingness to analyze psychic masochism.",
+      "domain": "CLINICAL_TECHNIQUE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "clinical_technique"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0138",
+      "position_id": "BERG-150-0138",
+      "author": "Edmund Bergler",
+      "title": "\"Malignant\" psychic masochism differs from ordinary neurotic masochism.",
+      "text_evidence": "\"Malignant\" psychic masochism differs from ordinary neurotic masochism.",
+      "domain": "CLINICAL_TECHNIQUE",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Curable and Incurable Neurotics (1961)",
+      "source": [
+        "clinical_technique"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0139",
+      "position_id": "BERG-150-0139",
+      "author": "Edmund Bergler",
+      "title": "Parents are not guilty of their children's neuroses in the simple causal way commonly believed.",
+      "text_evidence": "Parents are not guilty of their children's neuroses in the simple causal way commonly believed.",
+      "domain": "PARENTS_CHILDREN",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Parents Not Guilty (1964)",
+      "source": [
+        "parents_children"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0140",
+      "position_id": "BERG-150-0140",
+      "author": "Edmund Bergler",
+      "title": "The child's subjective interpretation of maternal behavior creates the \"bad mother\" imago.",
+      "text_evidence": "The child's subjective interpretation of maternal behavior creates the \"bad mother\" imago.",
+      "domain": "PARENTS_CHILDREN",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Parents Not Guilty (1964)",
+      "source": [
+        "parents_children"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0141",
+      "position_id": "BERG-150-0141",
+      "author": "Edmund Bergler",
+      "title": "The fantasied bad mother may differ substantially from the actual mother's behavior.",
+      "text_evidence": "The fantasied bad mother may differ substantially from the actual mother's behavior.",
+      "domain": "PARENTS_CHILDREN",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Parents Not Guilty (1964)",
+      "source": [
+        "parents_children"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0142",
+      "position_id": "BERG-150-0142",
+      "author": "Edmund Bergler",
+      "title": "Children's neuroses involve the same oral masochistic dynamics as adult neuroses.",
+      "text_evidence": "Children's neuroses involve the same oral masochistic dynamics as adult neuroses.",
+      "domain": "PARENTS_CHILDREN",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Parents Not Guilty (1964)",
+      "source": [
+        "parents_children"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0143",
+      "position_id": "BERG-150-0143",
+      "author": "Edmund Bergler",
+      "title": "Kinsey's research avoids with 100 percent completeness any concession to the existence of the dynami...",
+      "text_evidence": "Kinsey's research avoids with 100 percent completeness any concession to the existence of the dynamic unconscious.",
+      "domain": "CRITIQUE_OF_KINSEY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Counterfeit-Sex (1958)",
+      "source": [
+        "critique_of_kinsey"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0144",
+      "position_id": "BERG-150-0144",
+      "author": "Edmund Bergler",
+      "title": "The Kinsey scale is based on flawed assumptions.",
+      "text_evidence": "The Kinsey scale is based on flawed assumptions.",
+      "domain": "CRITIQUE_OF_KINSEY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Counterfeit-Sex (1958)",
+      "source": [
+        "critique_of_kinsey"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0145",
+      "position_id": "BERG-150-0145",
+      "author": "Edmund Bergler",
+      "title": "Kinsey's biological one-sidedness ignores psychodynamic factors.",
+      "text_evidence": "Kinsey's biological one-sidedness ignores psychodynamic factors.",
+      "domain": "CRITIQUE_OF_KINSEY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Counterfeit-Sex (1958)",
+      "source": [
+        "critique_of_kinsey"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0146",
+      "position_id": "BERG-150-0146",
+      "author": "Edmund Bergler",
+      "title": "The \"taxonomic approach\" fails to recognize the unconscious dimension of human sexuality.",
+      "text_evidence": "The \"taxonomic approach\" fails to recognize the unconscious dimension of human sexuality.",
+      "domain": "CRITIQUE_OF_KINSEY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Counterfeit-Sex (1958)",
+      "source": [
+        "critique_of_kinsey"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0147",
+      "position_id": "BERG-150-0147",
+      "author": "Edmund Bergler",
+      "title": "Kinsey's dismissal of premature ejaculation as a disorder is unjustified.",
+      "text_evidence": "Kinsey's dismissal of premature ejaculation as a disorder is unjustified.",
+      "domain": "CRITIQUE_OF_KINSEY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Counterfeit-Sex (1958)",
+      "source": [
+        "critique_of_kinsey"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0148",
+      "position_id": "BERG-150-0148",
+      "author": "Edmund Bergler",
+      "title": "Early puberty is an antedated defense expressed organically, not merely biological.",
+      "text_evidence": "Early puberty is an antedated defense expressed organically, not merely biological.",
+      "domain": "CRITIQUE_OF_KINSEY",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Counterfeit-Sex (1958)",
+      "source": [
+        "critique_of_kinsey"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0149",
+      "position_id": "BERG-150-0149",
+      "author": "Edmund Bergler",
+      "title": "Derogatory remarks about Freudian psychoanalysis are mainly based on ignorance or resistance, or bot...",
+      "text_evidence": "Derogatory remarks about Freudian psychoanalysis are mainly based on ignorance or resistance, or both.",
+      "domain": "GENERAL_THEORETICAL",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Various Works",
+      "source": [
+        "general_theoretical"
+      ],
+      "year": null
+    },
+    {
+      "id": "BERG-150-0150",
+      "position_id": "BERG-150-0150",
+      "author": "Edmund Bergler",
+      "title": "The oral phase is the most determining factor in the development of multiple psychological condition...",
+      "text_evidence": "The oral phase is the most determining factor in the development of multiple psychological conditions, extending Freud's later insights about pre-Oedipal development.",
+      "domain": "GENERAL_THEORETICAL",
+      "work_id": "WORK-BERGLER",
+      "work_title": "Various Works",
+      "source": [
+        "general_theoretical"
+      ],
+      "year": null
+    }
+  ]
+}

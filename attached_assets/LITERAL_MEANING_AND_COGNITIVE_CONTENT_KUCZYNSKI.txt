@@ -1,0 +1,100 @@
+Literal Meaning and Cognitive Content
+J-M. Kuczynski 
+
+Chapter 0  Introduction 
+Chapter 1  An outline of Volume I  
+Chapter 2  Meaning versus Reference 
+Chapter 3 The Concept of Logical Equivalence 
+Chapter 4  What if Quantifiers denote Functions? 
+Chapter 5  Why sentences refer to propositions: a preliminary argument 
+Chapter 6 What do sentence-tokens refer to? 
+Chapter 7 Black's Principle and Church-Black Debate 
+Chapter 8 Are all terms referring terms? 
+Chapter 9  The confusions underlying the sense-reference distinction 
+Chapter 10 The causal theory  
+Chapter 11  Are all terms referring terms? 
+Chapter 12 Refining our position  
+Chapter 13 Frege on indirect discourse and compositionality 
+Chapter 14  Opacity revisited 
+Chapter 15 Our semantics 
+Chapter 16 Truth as Instantiatedness and the Unity of the Proposition 
+Chapter 17 Introduction 
+Chapter 18 Extensionality and cognitive content 
+Chapter 19 Externalism and self-knowledge 
+Chapter 20 Literal versus communicated meaning 
+Chapter 21 Uniquely individuating descriptions and the problem of incomplete knowledge 
+Chapter 22 Program-causes and the Jackson-Pettit Attempt to Save Externalism 
+Chapter 23 Externalism and the Veil of Perception  
+Chapter 24  Empty names 
+Chapter 25 Fictitious names 
+Chapter 26 Anaphoric reference and the referential-attributive distinction 
+Chapter 27 Definite descriptions revisited 
+Chapter 28 Can reference be reduced to quantification?
+
+VIEWS REJECTED:
+
+(i) Some expressions have both meaning and reference. "The inventor of bifocals" has the same reference as "the first post-master general". But those expressions differ in meaning (or "sense"). 
+
+(ii) An expression can be meaningful without referring to anything. Words like "or", "not", and "and" do not refer to anything. But they are obviously significant. The same is true of morphemes like "-s" and "-ed".
+
+(iii) The meaning of a sentence is a proposition. Consider the sentence "snow is white". The meaning of this sentence is identical with the referent of the expression "the proposition that snow is white". 
+
+VIEWS ESTABLISHED:
+
+(i*) No entity has both meaning and reference. Reference is a property of spatio-temporal entities (expression tokens). Sense is a property of platonic entities (expression types). 
+
+(ii*) First of all, the term "reference" is ambiguous. On one disambiguation, tokens of "or", "if", and the like do refer, no less than tokens of "Plato" and "Socrates". Given a correct conception of reference, the difference between "categorematic" and "syncategorematic" entities collapses. Expressions that seem not to refer to anything – e.g. case-markers, sentence-connectives – refer to higher-order functions.
+
+(iii*) Sentence-types do not have propositions for the meanings, and neither do sentence-tokens. The meaning of a sentence-token is a certain kind of function involving, but not identical with, a proposition. The meaning of a sentence-type is a function involving, but not identical with, the kind of function just mentioned. 
+
+(iv) Sentences refer to truth-values. 
+
+(v) Sentences don't refer to anything. 
+
+(iv*) Sentence-types do not refer to anything: indeed, no expression-type refers. Reference is a property of expression-tokens. Sentence-tokens do not refer to truth-values. 
+
+(v*) Sentence-tokens do refer. They refer to their meanings. (Very roughly, the meaning of a sentence-token is a proposition; less roughly, it is a certain kind of function involving a proposition.)
+
+THE SLINGSHOT ARGUMENT:
+
+The misunderstandings that dominate contemporary philosophy of language have crystallized in an argument known as the "Slingshot". The Slingshot "proves" things that are obviously not true (e.g. that your car is identical with my computer). So we must look for errors in it. These are not hard to find. Once these errors are exposed, it becomes necessary to rethink and reconstruct many semantic orthodoxies.
+
+The Slingshot "proves" things that aren't true. The Slingshot proves, for example, that your car is identical with Mozart's favorite wig. The Slingshot doesn't just prove that sentences refer to truth-values.
+
+Even the thesis that sentences refer to truth-values is one that must be rejected, as it conflicts with any viable conception of reference. 
+
+So instead of accepting the Slingshot, we should look for errors in it. It contains several quite profound errors. There is no way to fix it so that it doesn't contain those errors.
+
+SENTENCE REFERENCE:
+
+What do sentences refer to? The short answer is: they refer to propositions. But there are a few reasons why the short answer isn't quite true, even though it is close.
+
+First, sentence-types don't refer to anything: it is sentence-tokens that refer. Second, while a sentence-token does refer to a proposition, that is not all it refers to. A sentence-token refers to a function of a special kind: one that involves, but is not identical with, a proposition. 
+
+Propositions are themselves plausibly analyzed as functions of a certain kind: functions from worlds to truth-values. 
+
+Not only must we distinguish between tokens and types: we must distinguish between sentence-tokens that have force and those that do not.
+
+FORCELESS AND FORCED SENTENCE-TOKENS:
+
+Consider the occurrence of "Mozart wrote music" in a token of "if Mozart wrote music, then somebody wrote music". That occurrence does not have any kind of force. The same is true of corresponding occurrence in "necessarily, Mozart wrote music". 
+
+In general, when a sentence-token is a proper part of another sentence-token, it doesn't have any kind of force. I will refer to sentence-tokens not having force as forceless. 
+
+Forceless sentence-tokens refer to propositions. Consider an arbitrary token of "necessarily, Mozart wrote music". The occurrence of "Mozart wrote music" picks out a proposition, and the "necessarily" picks out a property of propositions. It is just like a token of "Brutus snores" except that, instead of one expression referring to a person and another referring to a bodily function, we have one expression referring to a proposition and another to a modal status. 
+
+Some sentence-tokens do have force. As a whole, that token has force. Let us refer to such tokens as "forced". What do "forced" sentence-tokens refer to? The short answer is: they refer to propositions – just like their forceless counter-parts. 
+
+But the short answer isn't quite right. The referent of a forced sentence-token is a function involving a proposition, but is not identical with a proposition. So the referent of a forced sentence-token is a function involving a function.
+
+The meaning of a sentence-type is also a function. But this kind of function is entirely different from the kind that is the referent of a sentence-token. 
+
+TYPE-REFERENCE VERSUS TOKEN-REFERENCE:
+
+Given some uncontroversial principles – principles that are acceptable to Slingshot-friends and foes alike - it is clear that sentence-types don't refer to anything. They no more refer than the type "you" refers. 
+
+The sentence-type "I am tired" has a meaning; but its meaning is not a proposition. Its meaning is a function from contexts of utterance to propositions. The meaning of such a token is a proposition. 
+
+Actually, the meaning of such a token is not just a proposition; more is involved. But for the moment, let us say that the thing meant by a sentence-token is a proposition.
+
+Sentences containing indexicals have a "two-dimensional" structure. There is what indexical sentence-types mean (functions that assign propositions to sentence-tokens). And there is what indexical sentence-tokens mean (propositions). So, uncontroversially, some sentences have a two-dimensional structure.

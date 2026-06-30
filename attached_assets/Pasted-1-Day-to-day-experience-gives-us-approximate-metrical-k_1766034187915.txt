@@ -1,0 +1,53 @@
+1. "Day-to-day experience gives us approximate metrical knowledge, on the basis of which we can identify correlations on the basis of which we can obtain hitherto unobtainable metrical data."
+
+2. "If it is to be known how two such events compare in respect of duration, one must know of some periodic process (some event-sequence, each of whose members is of the same type as its successor: e.g. the round-trips made by a beam of light between two mirrors, rotations of the earth or of a cesium atom, somebody's heartbeat) that occurred during each event and, further, one must know how many installments of that processes occurred during each."
+
+3. "Conventionalism is false."
+
+4. "An extensive magnitude is one such that the degree to which a given object has that magnitude exceeds the degree to any given one of its parts has that magnitude."
+
+5. "A consequence---actually, the very essence of Special Relativity---is that there is no optical test by means of which one determine whether or not one is moving." Given any two lengths, there are intermediate lengths."
+
+2. "There are therefore no minimal units of length."
+
+3. "The essence of measurement is comparison with respect to a standard."
+
+4. "There is no way to determine an object’s length except in terms of the length of some other object."
+
+5. "Length is a scalar quantity." 1. "Given any two lengths, there are intermediate lengths."
+
+2. "There are therefore no minimal units of length."
+
+3. "The essence of measurement is comparison with respect to a standard."
+
+4. "There is no way to determine an object’s length except in terms of the length of some other object."
+
+5. "Length is a scalar quantity."
+
+6. "Day-to-day experience gives us approximate metrical knowledge, on the basis of which we can identify correlations on the basis of which we can obtain hitherto unobtainable metrical data."
+
+7. "If it is to be known how two such events compare in respect of duration, one must know of some periodic process (some event-sequence, each of whose members is of the same type as its successor: e.g. the round-trips made by a beam of light between two mirrors, rotations of the earth or of a cesium atom, somebody's heartbeat) that occurred during each event and, further, one must know how many installments of that processes occurred during each."
+
+8. "Conventionalism is false."
+
+9. "An extensive magnitude is one such that the degree to which a given object has that magnitude exceeds the degree to any given one of its parts has that magnitude."
+
+10. "A consequence---actually, the very essence of Special Relativity---is that there is no optical test by means of which one determine whether or not one is moving." 1. "Given any two lengths, there are intermediate lengths."
+
+2. "There are therefore no minimal units of length."
+
+3. "The essence of measurement is comparison with respect to a standard."
+
+4. "There is no way to determine an object’s length except in terms of the length of some other object."
+
+5. "Length is a scalar quantity."
+
+6. "Day-to-day experience gives us approximate metrical knowledge, on the basis of which we can identify correlations on the basis of which we can obtain hitherto unobtainable metrical data."
+
+7. "If it is to be known how two such events compare in respect of duration, one must know of some periodic process (some event-sequence, each of whose members is of the same type as its successor: e.g. the round-trips made by a beam of light between two mirrors, rotations of the earth or of a cesium atom, somebody's heartbeat) that occurred during each event and, further, one must know how many installments of that processes occurred during each."
+
+8. "Conventionalism is false."
+
+9. "An extensive magnitude is one such that the degree to which a given object has that magnitude exceeds the degree to any given one of its parts has that magnitude."
+
+10. "A consequence---actually, the very essence of Special Relativity---is that there is no optical test by means of which one determine whether or not one is moving."

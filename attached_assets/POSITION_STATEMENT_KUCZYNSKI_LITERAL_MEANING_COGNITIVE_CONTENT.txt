@@ -1,0 +1,352 @@
+POSITION STATEMENTS: KUCZYNSKI - LITERAL MEANING AND COGNITIVE CONTENT
+Complete Philosophical Positions Extracted from J-M. Kuczynski's Work
+
+CHAPTER 0: INTRODUCTION - FUNDAMENTAL SEMANTIC POSITIONS
+
+1. No entity has both meaning and reference. Reference is a property of spatio-temporal entities (expression tokens). Sense is a property of platonic entities (expression types).
+
+2. The term "reference" is ambiguous. On one disambiguation, tokens of "or", "if", and the like do refer, no less than tokens of "Plato" and "Socrates".
+
+3. Given a correct conception of reference, the difference between "categorematic" and "syncategorematic" entities collapses.
+
+4. Expressions that seem not to refer to anything (case-markers, sentence-connectives) refer to higher-order functions.
+
+5. Sentence-types do not have propositions for their meanings, and neither do sentence-tokens.
+
+6. The meaning of a sentence-token is a certain kind of function involving, but not identical with, a proposition.
+
+7. The meaning of a sentence-type is a function involving, but not identical with, the kind of function that is the meaning of a sentence-token.
+
+8. Sentence-types do not refer to anything: indeed, no expression-type refers. Reference is a property of expression-tokens.
+
+9. Sentence-tokens do not refer to truth-values.
+
+10. Sentence-tokens do refer. They refer to their meanings.
+
+11. Very roughly, the meaning of a sentence-token is a proposition; less roughly, it is a certain kind of function involving a proposition.
+
+CHAPTER 1: OUTLINE OF VOLUME I - THE SLINGSHOT ARGUMENT
+
+12. The Slingshot argument "proves" things that are obviously not true (e.g. that your car is identical with my computer).
+
+13. The Slingshot contains several quite profound errors. There is no way to fix it so that it doesn't contain those errors.
+
+14. The thesis that sentences refer to truth-values must be rejected, as it conflicts with any viable conception of reference.
+
+15. Sentences refer to propositions, but this short answer isn't quite true, even though it is close.
+
+16. It is sentence-tokens that refer, not sentence-types.
+
+17. While a sentence-token does refer to a proposition, that is not all it refers to. A sentence-token refers to a function of a special kind: one that involves, but is not identical with, a proposition.
+
+18. Propositions are plausibly analyzed as functions of a certain kind: functions from worlds to truth-values.
+
+FORCELESS AND FORCED SENTENCE-TOKENS
+
+19. When a sentence-token is a proper part of another sentence-token, it doesn't have any kind of force.
+
+20. Sentence-tokens not having force are called "forceless."
+
+21. Forceless sentence-tokens refer to propositions.
+
+22. The occurrence of "Mozart wrote music" in "necessarily, Mozart wrote music" picks out a proposition, and the "necessarily" picks out a property of propositions.
+
+23. Sentence-tokens with force are called "forced."
+
+24. The referent of a forced sentence-token is a function involving a proposition, but is not identical with a proposition.
+
+25. The referent of a forced sentence-token is a function involving a function.
+
+26. The meaning of a sentence-type is a function entirely different from the kind that is the referent of a sentence-token.
+
+TYPE-REFERENCE VERSUS TOKEN-REFERENCE
+
+27. Sentence-types don't refer to anything. They no more refer than the type "you" refers.
+
+28. The sentence-type "I am tired" has a meaning; but its meaning is not a proposition. Its meaning is a function from contexts of utterance to propositions.
+
+29. Sentences containing indexicals have a "two-dimensional" structure.
+
+30. What indexical sentence-types mean are functions that assign propositions to sentence-tokens.
+
+31. What indexical sentence-tokens mean are propositions.
+
+CHAPTER 2: MEANING VERSUS REFERENCE
+
+32. The distinction between meaning and reference is fundamental to understanding language.
+
+33. "The inventor of bifocals" and "the first post-master general" have the same reference but differ in meaning (or "sense").
+
+34. Reference is a relation between expression-tokens and objects in the world.
+
+35. Meaning (sense) is a property of expression-types, not tokens.
+
+CHAPTER 3: LOGICAL EQUIVALENCE
+
+36. Two sentences are logically equivalent if and only if they are true in exactly the same possible worlds.
+
+37. Logical equivalence is not the same as synonymy.
+
+38. Logically equivalent sentences may differ in cognitive content.
+
+CHAPTER 4: QUANTIFIERS AS FUNCTIONS
+
+39. Quantifiers can be understood as denoting functions.
+
+40. The universal quantifier denotes a function that takes a property and returns true if all objects have that property.
+
+41. The existential quantifier denotes a function that takes a property and returns true if at least one object has that property.
+
+CHAPTER 5: WHY SENTENCES REFER TO PROPOSITIONS
+
+42. Sentences refer to propositions, not truth-values.
+
+43. If sentences referred to truth-values, then all true sentences would refer to the same thing.
+
+44. This would make substitution of co-referring expressions in belief contexts always truth-preserving, which it is not.
+
+CHAPTER 6: WHAT DO SENTENCE-TOKENS REFER TO?
+
+45. Sentence-tokens refer to structured propositions.
+
+46. The referent of a sentence-token includes information about its force (assertive, interrogative, imperative).
+
+47. The proposition referred to by a sentence-token is determined by the context of utterance.
+
+CHAPTER 7: BLACK'S PRINCIPLE AND CHURCH-BLACK DEBATE
+
+48. Black's Principle states that co-referring expressions can be substituted salva veritate.
+
+49. The Church-Black debate concerns whether this principle holds in all contexts.
+
+50. Intensional contexts are counterexamples to unrestricted substitutivity.
+
+CHAPTER 8-11: REFERRING TERMS
+
+51. All meaningful expressions are referring terms in some sense.
+
+52. Even logical connectives refer to functions.
+
+53. The distinction between categorematic and syncategorematic terms is not fundamental.
+
+CHAPTER 9: CONFUSIONS IN SENSE-REFERENCE DISTINCTION
+
+54. Frege's sense-reference distinction conflates several different distinctions.
+
+55. The distinction between type and token is confused with the distinction between sense and reference.
+
+56. Reference is a property of tokens; sense is a property of types.
+
+CHAPTER 10: THE CAUSAL THEORY OF REFERENCE
+
+57. The causal theory of reference holds that reference is determined by causal chains.
+
+58. This theory faces problems with abstract objects and fictional entities.
+
+59. The causal theory cannot account for descriptive names.
+
+CHAPTER 12: REFINING THE POSITION
+
+60. Reference is fundamentally a relation between tokens and objects.
+
+61. Meaning is fundamentally a property of types.
+
+62. The two should not be conflated.
+
+CHAPTER 13: FREGE ON INDIRECT DISCOURSE
+
+63. In indirect discourse, expressions refer to their customary senses.
+
+64. This creates a hierarchy of senses.
+
+65. The compositionality principle must be modified for intensional contexts.
+
+CHAPTER 14: OPACITY REVISITED
+
+66. Opacity occurs when substitution of co-referring expressions fails to preserve truth.
+
+67. This happens in belief contexts, modal contexts, and other intensional contexts.
+
+68. Opacity is explained by the distinction between reference and sense.
+
+CHAPTER 15: OUR SEMANTICS
+
+69. A complete semantics must distinguish between tokens and types.
+
+70. A complete semantics must account for both extensional and intensional contexts.
+
+71. Propositions are the primary bearers of truth and falsity.
+
+CHAPTER 16: TRUTH AS INSTANTIATEDNESS AND THE UNITY OF THE PROPOSITION
+
+72. Truth consists in the instantiation of properties.
+
+73. A proposition is true when the properties it involves are instantiated.
+
+74. The unity of the proposition is explained by the structured nature of propositions.
+
+75. Propositions are not mere aggregates of their constituents.
+
+76. The unity of the proposition comes from the way constituents are combined.
+
+77. Propositions are sets of properties, and they are true when instantiated.
+
+78. For the proposition "Smith punches Jones" to be true, there must be a situation instantiating all the properties in the set.
+
+79. Propositions neatly decompose into their constituents (e.g., Smith, the relation of punching, and Jones).
+
+80. In a state of affairs, events are "adjectival" on participants; in propositions, constituents occur in purity.
+
+CHAPTER 17-28: VOLUME II - EXTERNALISM AND COGNITIVE CONTENT
+
+CHAPTER 18: EXTENSIONALITY AND COGNITIVE CONTENT
+
+81. Cognitive content is not purely extensional.
+
+82. Two expressions with the same extension may differ in cognitive content.
+
+83. Cognitive content determines what a speaker knows or believes.
+
+CHAPTER 19: EXTERNALISM AND SELF-KNOWLEDGE
+
+84. Externalism holds that mental content is partly determined by factors external to the mind.
+
+85. This creates problems for self-knowledge.
+
+86. If mental content is externally determined, how can we have privileged access to our own thoughts?
+
+CHAPTER 20: LITERAL VERSUS COMMUNICATED MEANING
+
+87. Literal meaning is what a sentence says.
+
+88. Communicated meaning is what a speaker conveys by uttering a sentence.
+
+89. These often diverge in ordinary discourse.
+
+90. Grice's distinction between saying and implicating captures this difference.
+
+CHAPTER 21: UNIQUELY INDIVIDUATING DESCRIPTIONS
+
+91. A uniquely individuating description picks out exactly one object.
+
+92. Knowledge of such descriptions is required for genuine singular thought.
+
+93. The problem of incomplete knowledge arises when we lack such descriptions.
+
+CHAPTER 22: PROGRAM-CAUSES AND JACKSON-PETTIT
+
+94. Jackson and Pettit distinguish between program causes and process causes.
+
+95. This distinction is meant to save externalism about mental content.
+
+96. However, the distinction does not succeed in saving externalism.
+
+CHAPTER 23: EXTERNALISM AND THE VEIL OF PERCEPTION
+
+97. Externalism faces a problem analogous to the veil of perception.
+
+98. If content is externally determined, we cannot know our own contents directly.
+
+99. This undermines the motivation for externalism.
+
+CHAPTER 24: EMPTY NAMES
+
+100. Empty names are names that fail to refer.
+
+101. Sentences containing empty names can still be meaningful.
+
+102. The meaning of such sentences is a proposition that is neither true nor false, or a gappy proposition.
+
+CHAPTER 25: FICTITIOUS NAMES
+
+103. Fictitious names are names that refer to fictional entities.
+
+104. Fictional entities exist in a different mode than ordinary objects.
+
+105. Sentences about fictional entities can be true or false within the fiction.
+
+CHAPTER 26: ANAPHORIC REFERENCE
+
+106. Anaphoric pronouns can function either as bound variables or as referring terms.
+
+107. The referential-attributive distinction applies to anaphoric pronouns.
+
+108. Context determines which reading is intended.
+
+CHAPTER 27: DEFINITE DESCRIPTIONS REVISITED
+
+109. Definite descriptions can be used referentially or attributively.
+
+110. On the attributive use, the description contributes to the proposition expressed.
+
+111. On the referential use, the description merely serves to identify the referent.
+
+CHAPTER 28: CAN REFERENCE BE REDUCED TO QUANTIFICATION?
+
+112. Reference cannot be reduced to quantification.
+
+113. Singular reference is a primitive semantic relation.
+
+114. Attempts to eliminate singular terms in favor of quantifiers fail.
+
+ADDITIONAL CORE POSITIONS FROM THE UNITY OF THE PROPOSITION
+
+115. The unity of the proposition consists in the structured integration of its constituents such that they form a truth-evaluable whole, not merely a list of disconnected elements.
+
+116. Consider the proposition that Smith punches Jones; its unity arises not from a mere aggregation of Smith, Jones, and the punching relation, but from their specific relational embedding.
+
+117. The punching relation binds the individuals in a way that yields a complete thought capable of being true or false.
+
+118. Propositions achieve unity through their decomposition into properties and relations that are asymmetrically combined.
+
+119. In the proposition "the plant is green," the unity emerges because greenness is predicated of the plant, forming a set where truth consists in the instantiation of all members.
+
+120. Lewis stated that "a proposition is a 'property of a world,'" where truth is the world having certain properties.
+
+121. For the proposition "Smith punches Jones" to be unified, it decomposes into constituents like the property of being identical with Smith, the property of being identical with Jones, and the relation of punching.
+
+122. In a state of affairs where Smith punches Jones, the act is "adjectival" on Smith, inseparable and constituted by subsidiary events.
+
+123. In propositions, each constituent occurs in purity, linked yet distinct.
+
+124. Analytic propositions reveal unity through their necessary structure, where constituents are bound by modal asymmetries.
+
+125. Take "Hesperus is Phosphorus"; its literal meaning is a singular proposition of the form x=y, which is analytic because "any genuine identity claim holds necessarily, if it holds at all."
+
+126. What is conveyed is a contingent, descriptively rich existence-claim accessed through a posteriori information.
+
+127. Molecular propositions maintain unity by building on atomic ones, incorporating relational richness without fracturing.
+
+128. For "Smith punches Jones and Jones falls," unity requires not just listing the atomic parts but integrating them via logical connectives.
+
+129. This set-theoretic view resolves unity without invoking dubious entities like propositional guises.
+
+130. In Pierre's beliefs about London, he assents to "Londres est jolie" and "London is not pretty" without contradiction because the propositions are unified differently.
+
+131. Unity falters in pseudo-statements lacking defined terms, reducing them to forms without propositional wholeness.
+
+132. "The universe is a perfect unity" appears meaningless until "perfect unity" is specified, at which point it becomes a true proposition with unified structure.
+
+133. Singular propositions achieve unity by supervening on general ones, allowing acquaintance with their structure despite external constituents.
+
+134. A singular proposition like "that rock exists" unifies via a general descriptive proposition comprising universals.
+
+135. The truth of any singular proposition supervenes on that of some purely general proposition.
+
+136. Knowing "the inventor of bifocals is wise" unifies around properties like inventiveness and wisdom.
+
+137. For modal necessities, unity ensures analytic truths convey information via asymmetric access.
+
+138. "Triangles have three sides" is necessarily true because it has for its meaning a necessarily true proposition.
+
+139. Anti-propositionalists falter here, forced into linguistic reductionism.
+
+140. Incoherent concepts like an all-knowing being disrupt unity by entangling incompatible properties.
+
+141. The concept of an all-knowing being is incoherent, failing to form a truth-evaluable whole.
+
+142. The unity of the proposition lies in its set-theoretic structure, where properties cohere through instantiation demands.
+
+143. This enables truth-evaluation and distinguishes propositions from mere aggregates or states of affairs.
+
+144. In CTM (Computational Theory of Mind), a machine's "thought" unifies via causal-computational structures that mirror propositional unity.
