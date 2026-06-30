@@ -192,6 +192,8 @@ nietzsche_engine = get_nietzsche_engine()
 bergler_engine = get_bergler_engine()
 print("Inference engines configured (lazy-loaded on first use)")
 
+DATABASE_URL = os.environ.get('DATABASE_URL')
+
 anthropic_client = None
 openai_client = None
 deepseek_client = None
